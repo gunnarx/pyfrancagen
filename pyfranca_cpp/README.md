@@ -1,27 +1,30 @@
-= Prerequisites
+# Prerequisites
 
 * clang-format must be installed for post-processing of generated C/C++ code.
-If clangformat cannot be called then there is no friendly message - you
+If clang-format cannot be called then there is no friendly message - you
 will get a complaint and trace from python.
 
-* pyfranca and jinja2 (included as submodules here for convenience)
+* pyfranca and jinja2
 
-= Documentation
+# Documentation
 
 * Generated results are stored in src_gen/
 
-= BUGS
+# BUGS
 
 * Quite a few probably.  This is a first attempt.
-* When a .fidl file imports another .fidl file this is not translated to
-  #includes in C/C++ generation.  Instead all types that are needed end up
-  being generated in the main types file.
-* However, included files are generated, so for the most part there are no
-  missing types to be able to compile a single .cpp file.
-* Obviously advanced imports where only parts of another file are included
-  are also not considered.
+* When a .fidl file imports another .fidl file there's an attempt to create
+  necessary #include statements.   It's not really guaranteed to work in
+  all cases (yet).
+* Also I suspect types might be generated multiple times in multiple files,
+  since each file is treated individually and not tracking each other.
+  Might be a lot to do here...
+* I've successfully compiled some of the skeleton classes, so resolving
+  all types worked in those cases at least.  But report when it's buggy.
+* Obviously advanced Franca import statements where only parts of another
+  file are included are also not considered.
 
-== TODO list
+# TODO list
 
 * Built-in Franca types are translated using a global typedef file
   franca_types.h.  Of course some might prefer the code generator translates
