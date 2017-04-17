@@ -1,0 +1,6 @@
+[submodule "pyfranca"]
+	path = pyfranca
+	url = https://github.com/gunnarx/pyfranca
+[submodule "jinja"]
+	path = jinja
+	url = https://github.com/pallets/jinja

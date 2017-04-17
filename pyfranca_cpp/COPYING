@@ -1,0 +1,11 @@
+License Information
+
+For now....  A work in progress so it might change.
+
+Incorporated submodules:
+- pyfranca - please see original project: https://github.com/zayfod/pyfranca
+- jinja/   - please see original project: https://github.com/pallets/jinja
+
+This project:
+- pyfranca_cpp  - (C) 2017, Gunnar Andersson. License: MPLv2 
+https://www.mozilla.org/en-US/MPL/2.0/

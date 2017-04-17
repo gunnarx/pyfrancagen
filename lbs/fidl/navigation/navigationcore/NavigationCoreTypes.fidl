@@ -1,0 +1,77 @@
+// SPDX-License-Identifier: MPL-2.0
+// Copyright (C) 2014, PCA Peugeot Citro�n, XS Embedded GmbH, TomTom International B.V., Continental Automotive GmbH, BMW Car IT GmbH,  Alpine Electronics R&D Europe GmbH, AISIN AW CO., LTD.,  Neusoft Technology Solutions GmbH, Jaguar Land Rover Limited, Visteon Corporation, Elektrobit Automotive GmbH
+// This Source Code Form is subject to the terms of the
+// Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with
+// this file, you can obtain one at http://mozilla.org/MPL/2.0/.
+
+package org.genivi.navigation.navigationcore
+import org.genivi.CommonTypes.* from "../../CommonTypes.fidl"
+import org.genivi.navigation.NavigationTypes.* from "../NavigationTypes.fidl"
+
+typeCollection NavigationCoreTypes {
+	version {
+		major 4 
+		minor 0
+	}
+
+ 	enumeration TimeStampedEnum extends BasicEnum { 
+		TIMESTAMP	= 16
+	}
+
+	enumeration GeoLocalizedEnum extends TimeStampedEnum { 
+		LATITUDE	= 160 //value of type Double, that expresses the latitude in format %3.6f. Range[-90:+90]. Example: 48.70901
+		LONGITUDE	= 161 //value of type Double, that expresses the longitude in format %3.6f. Range[-180:+180]. Example: 9.167898
+		ALTITUDE	= 162 //value of type Int32, that expresses the altitude in meters
+	}	
+	enumeration RoadShieldAffixType {
+		NONE           = 700
+		NORTH          = 701
+		EAST           = 702
+		SOUTH          = 703
+		WEST           = 704
+		ALTERNATE      = 705
+		BYPASS         = 706
+		BUSINESS_LOOP  = 707
+		BUSINESS_ROUTE = 708
+		BUSINESS_SPUR  = 709
+		EXTENDED       = 710
+		COLLECTOR      = 711
+		EXPRESS        = 712
+	}
+
+	<**
+		@description : This struct describes information about the 'affix', which is a small sign which may be attached to 
+			the main road sign. Usually this will be something like 'northbound'. In most cases the affixContent is just 
+			a textual representation of the type, and can be ignored, but it could be used to build a string representation 
+			of the road sign, if desired.
+	**>
+	struct RoadShieldAffix {
+		<** @description : Type of the affix. **>
+		RoadShieldAffixType affixType
+
+		<** @description :  The textual representation of the affix type. **>
+		String affixContent
+	}
+
+	<**
+		@description : A road shield is the way in which a road number is graphically represented on road signs. For
+			example, A-roads in the Netherlands are displayed in white lettering on a red background, while E-roads 
+			are shown as white letters on a green background. 
+	**>
+	struct RoadShield {
+		<** @description : The text of a road number as displayed on a road shield. For example, for a motorway in Germany 
+				with the numbers "A40" and "E34", the values are "40" and "E34". This shows that the 'A' is not shown on 
+				the shield, but the 'E' is shown. **>
+		String roadNumber
+
+		<** @description : A road shield can have zero or more affixes. **>
+		RoadShieldAffix[] affixes
+
+		<** @description : For every road shield a number of icons may be available. There may be icons for high and low 
+				density screens, and/or icons with different widths for different text lengths. Such a collection of icons 
+				is called an icon set. Opaque data referring to an icon set for the RoadShield. An empty string indicates 
+				that no icon set is available. **>
+		String iconSetId
+	}
+	
+}

@@ -1,0 +1,184 @@
+// SPDX-License-Identifier: MPL-2.0
+// Copyright (C) 2016, PCA Peugeot Citro�n, XS Embedded GmbH, TomTom International B.V., Continental Automotive GmbH, BMW Car IT GmbH,  Alpine Electronics R&D Europe GmbH, AISIN AW CO., LTD.,  Neusoft Technology Solutions GmbH, Jaguar Land Rover Limited, Visteon Corporation, Elektrobit Automotive GmbH, Delphi Deutschland GmbH
+// This Source Code Form is subject to the terms of the
+// Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with
+// this file, you can obtain one at http://mozilla.org/MPL/2.0/.
+
+package org.genivi.navigation.mapviewer
+
+import org.genivi.CommonTypes.* from "../../CommonTypes.fidl"
+import org.genivi.navigation.NavigationTypes.* from "../NavigationTypes.fidl"
+
+
+<** @description : This interface offers methods that implement the map viewer configuration functionality of a navigation system.**>
+interface Configuration {
+	version {
+		major 4 
+		minor 0
+	}
+		<**	@description : This method returns the API version .**>
+	method getVersion {
+		out {
+			<** @description: .**>
+			Version ^version				
+		}	
+	}		
+    <** @description: Settings**>
+    enumeration Settings extends BasicEnum {
+        UNITS_OF_MEASUREMENT 	= 48 
+        LOCALE 					= 37
+        TIME_FORMAT 			= 3
+        COORDINATES_FORMAT 		= 6
+    }
+
+    <** @description: Units of measurement**>
+    enumeration UnitsOfMeasurementAttribute extends BasicEnum {
+        LENGTH 	= 49 
+    }
+
+	enumeration UnitsOfMeasurementValue {
+		METER		= 50
+		MILE		= 51
+		KM			= 52
+		YARD		= 53
+		FOOT		= 54
+	}
+
+	array UnitsOfMeasurementListValue of UnitsOfMeasurementValue 
+
+	map UnitsOfMeasurement {
+		UnitsOfMeasurementAttribute to UnitsOfMeasurementValue
+	}
+
+	map UnitsOfMeasurementList {
+		UnitsOfMeasurementAttribute to UnitsOfMeasurementListValue
+	}
+
+	enumeration CoordinatesFormat {
+		INVALID		= 0
+		<** @description:DEGREES format = d.dÂº**>
+		DEGREES     = 7
+        <** @description:MINUTES format = dÂºm.m'**>		
+		MINUTES		= 8
+        <** @description:SECONDS format = dÂºm's"**>
+		SECONDS		= 9
+	}
+	
+	<**	@description : Set the current language set. If the language is not supported, the default details will be returned in the native language.**>
+	method setLocale {
+		in {
+			<** @description : the language to be used. ISO 639-3 language code (lower case)**>
+			String languageCode				
+			<** @description : the country specific variant for the language to be used. ISO 3166-1 alpha 3 country code (upper case)**>
+			String countryCode				
+			<** @description : the script specific variant for the language to be used. ISO 15924 alpha 4 script code (upper case)**>
+			String scriptCode				
+		}	
+	}	
+
+	<**	@description : Get the current language set .**>
+	method getLocale {
+		out {
+			<** @description : the language used. ISO 639-3 language code (lower case)**>
+			String languageCode				
+			<** @description : the country specific variant for the language used. ISO 3166-1 alpha 3 country code (upper case)**>
+			String countryCode				
+			<** @description : the script specific variant for the language used. ISO 15924 alpha 4 script code (upper case)**>
+			String scriptCode				
+		}	
+	}	
+
+	<**	@description : Get the supported set of locales .**>
+	method getSupportedLocales {
+		out {
+			<** @description : array[struct(languageCode,countryCode,scriptCode)]**>
+			Locale[] localeList				
+		}	
+	}	
+
+	<**	@description : Set the time format.**>
+	method setTimeFormat {
+		in {
+			<** @description : timeFormat = enum(INVALID,12H,24H, ... ). **>
+			TimeFormat format				
+		}	
+	}	
+
+	<**	@description : Get the current time format .**>
+	method getTimeFormat {
+		out {
+			<** @description : timeFormat = enum(INVALID,12H,24H, ... ). **>
+			TimeFormat format				
+		}	
+	}	
+
+	<**	@description : Get the supported set of time format .**>
+	method getSupportedTimeFormats {
+		out {
+			<** @description : timeFormatList = array[timeFormat] .**>
+			TimeFormat[] timeFormatList				
+		}	
+	}	
+
+	<**	@description : Set the coordinates format.**>
+	method setCoordinatesFormat {
+		in {
+			<** @description : coordinatesFormat = enum(INVALID,DEGREES,MINUTES,SECONDS, ... )**>
+			CoordinatesFormat coordinatesFormat				
+		}	
+	}	
+
+	<**	@description : Get the coordinates format .**>
+	method getCoordinatesFormat {
+		out {
+			<** @description : coordinatesFormat = enum(INVALID,DEGREES,MINUTES,SECONDS, ... )**>
+			CoordinatesFormat coordinatesFormat				
+		}	
+	}	
+
+	<**	@description : Get the supported set of coordinates format .**>
+	method getSupportedCoordinatesFormat {
+		out {
+			<** @description : array[struct(languageCode,countryCode,scriptCode)]**>
+			CoordinatesFormat[] coordinatesFormatList				
+		}	
+	}	
+
+	<**	@description : Set the units of measurement .**>
+	method setUnitsOfMeasurement {
+		in {
+			<** @description : unitsOfMeasurement = unitsOfMeasurement**>
+			UnitsOfMeasurement unitsOfMeasurement				
+		}	
+	}	
+
+	<**	@description : Get the units of measurement .**>
+	method getUnitsOfMeasurement {
+		out {
+			<** @description : unitsOfMeasurement = unitsOfMeasurement**>
+			UnitsOfMeasurement unitsOfMeasurement				
+		}	
+	}	
+
+	<**	@description : Get the supported set of units of measurement .**>
+	method getSupportedUnitsOfMeasurement {
+		out {
+			<** @description : unitsOfMeasurementList = array[unitsOfMeasurement]**>
+			UnitsOfMeasurementList unitsOfMeasurementList				
+		}	
+	}	
+
+	<**
+		@description : ConfigurationChanged = This signal is sent to the clients when one or more configuration settings changes
+	**>
+	broadcast configurationChanged {
+		out {
+
+			<**
+				@description : changedSettings = array[setting]
+			**>
+			Settings[] changedSettings
+		}
+	}
+	
+}

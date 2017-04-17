@@ -1,0 +1,378 @@
+// SPDX-License-Identifier: MPL-2.0
+// Copyright (C) 2014, PCA Peugeot Citro�n, XS Embedded GmbH, TomTom International B.V., Continental Automotive GmbH, BMW Car IT GmbH,  Alpine Electronics R&D Europe GmbH, AISIN AW CO., LTD.,  Neusoft Technology Solutions GmbH, Jaguar Land Rover Limited, Visteon Corporation, Elektrobit Automotive GmbH
+// This Source Code Form is subject to the terms of the
+// Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with
+// this file, you can obtain one at http://mozilla.org/MPL/2.0/.
+
+package org.genivi.navigation.navigationcore
+
+import org.genivi.CommonTypes.* from "../../CommonTypes.fidl"
+import org.genivi.navigation.NavigationTypes.* from "../NavigationTypes.fidl"
+import org.genivi.navigation.navigationcore.NavigationCoreTypes.* from "NavigationCoreTypes.fidl"
+
+<**
+	@description : MapMatchedPosition = This interface offers functions to retrieve the map matched position and to simulate positioning
+**>
+
+interface MapMatchedPosition {
+	version {
+		major 4 
+		minor 0
+	}
+
+	enumeration PositionItemKey extends PositionStatus { //Base 0x00a0
+		HEADING				= 163
+		SPEED				= 164
+		CLIMB				= 165
+	}
+	
+	enumeration AddressItemKey  extends TimeStampedEnum {
+		TIMEZONE_OFFSET		= 17
+		DAYLIGHT_OFFSET		= 18
+		COUNTRY				= 166 //Base 0x00a0
+		STATE				= 167
+		CITY				= 168
+		STREET				= 170
+		HOUSENUMBER			= 171
+		CROSSING			= 172
+		DISTRICT			= 173
+		PHONENUMBER			= 174
+		POINAME				= 175
+		TOWNCENTER			= 176
+		LOCATION_INPUT		= 177
+		FULL_ADDRESS		= 178
+		COUNTRYCODE			= 179
+		HOUSENAME			= 180
+		POSTAL_CODE			= 181
+		ROAD_NUMBER			= 334
+		MATCH_TYPE			= 240
+		ROADSHIELDS			= 182
+	}
+		
+	enumeration PositionStatus extends GeoLocalizedEnum { //Base 0x00e0
+		GNSS_FIX_STATUS		= 224
+		DR_STATUS			= 225
+		MM_STATUS			= 226
+		SIMULATION_MODE		= 227		
+	}
+	
+	enumeration MatchMode { //Base 0x00f0
+		MATCH_TYPE			= 240
+		ON_ROAD				= 241
+		OFF_ROAD			= 242
+		ON_FERRY			= 243
+		IN_TUNNEL			= 244
+		ON_CARPARK			= 245
+	}		
+		
+	 enumeration GnnsFixStatus extends BasicEnum { //Base 0x0100
+	 	NO_FIX				= 256
+	 	TIME_FIX			= 257
+	 	FIX_2D				= 258 //2D_FIX is prohibited 
+	 	FIX_3D				= 259
+	}
+		
+	enumeration PositionOnSegmentKey extends TimeStampedEnum { //Base 0x0110
+		SEGMENT_ID				= 272
+		DIRECTION_ON_SEGMENT	= 274
+		DISTANCE_ON_SEGMENT		= 275
+	}
+	
+	enumeration SimulationStatus extends BasicEnum { //Base 0x0220
+		SIMULATION_STATUS_NO_SIMULATION		= 544
+		SIMULATION_STATUS_RUNNING			= 545
+		SIMULATION_STATUS_PAUSED			= 546
+		SIMULATION_STATUS_FIXED_POSITION	= 547
+	}
+	
+	union PositionItemValue {
+		Timestamp timestamp
+		Boolean status
+		GnnsFixStatus fix
+		Double doubleValue
+		Int32 intValue
+	}	
+		
+	map PositionItemDict {
+		PositionItemKey to PositionItemValue
+	}
+	
+	union AddressItemValue {
+		String addressField
+		Int16 offset
+		Timestamp timestamp
+		MatchMode matchMode
+		RoadShield[] roadShields
+	}
+	
+	map AddressItemDict {
+		AddressItemKey to AddressItemValue
+	}
+	
+	union PositionOnSegmentValue {
+		Boolean directionOnSegment
+		Double distanceOnSegment //to be fixed, use of DistanceInMeters preferred ?
+		ByteBuffer segment
+		Timestamp timestamp
+	}
+	
+	map PositionOnSegmentDict {
+		PositionOnSegmentKey to PositionOnSegmentValue
+	}
+	
+	union PositionStatusValue {
+		Boolean statusValue
+		GnnsFixStatus fixStatus
+		Timestamp timestamp
+	}
+	
+	map PositionStatusDict {
+		PositionStatus to PositionStatusValue
+	}
+
+	<**
+		@description : getVersion = This method returns the API version implemented by the server application
+	**>
+	method getVersion {
+		out {
+			Version ^version
+		}
+	}
+
+	<**
+		@description : setSimulationMode = This method activates or deactivates the simulation mode
+	**>
+	method setSimulationMode {
+		in {
+
+			<**
+				@description : sessionHandle = Session handle. Range[0x0:0x7fffffff]. 0x0 is reserved as an invalid handle value
+			**>
+			Handle sessionHandle
+
+			<**
+				@description : activate = flag. TRUE means that the simulation mode is activated.
+			**>
+			Boolean activate
+		}
+	}
+
+	<**
+		@description : getSimulationStatus = This method retrieves the simulation status
+	**>
+	method getSimulationStatus {
+		out {
+
+			<**
+				@description : simulationStatus = enum(SIMULATION_STATUS_NO_SIMULATION, SIMULATION_STATUS_RUNNING, SIMULATION_STATUS_PAUSED, SIMULATION_STATUS_FIXED_POSITION)
+			**>
+			SimulationStatus simulationStatus
+		}
+	}
+
+	method setSimulationSpeed {
+		in {
+
+			<**
+				@description : sessionHandle = Session handle. Range[0x0:0x7fffffff]. 0x0 is reserved as an invalid handle value
+			**>
+			Handle sessionHandle
+
+			<**
+				@description : speedFactor = speed factor
+			**>
+			UInt8 speedFactor
+		}
+	}
+
+	<**
+		@description : getSimulationSpeed = returns the speed factor for the simulation mode
+	**>
+	method getSimulationSpeed {
+		out {
+
+			<**
+				@description : speedFactor = speed factor
+			**>
+			UInt8 speedFactor
+		}
+	}
+
+	<**
+		@description : startSimulation = This method starts, or resumes, a Follow Active Route simulation
+	**>
+	method startSimulation {
+		in {
+
+			<**
+				@description : sessionHandle = Session handle. Range[0x0:0x7fffffff]. 0x0 is reserved as an invalid handle value
+			**>
+			Handle sessionHandle
+		}
+	}
+
+	<**
+		@description : pauseSimulation = This method freezes the current location
+	**>
+	method pauseSimulation {
+		in {
+
+			<**
+				@description : sessionHandle = Session handle. Range[0x0:0x7fffffff]. 0x0 is reserved as an invalid handle value
+			**>
+			Handle sessionHandle
+		}
+	}
+
+	<**
+		@description : getPosition = This method returns the current position
+	**>
+	method getPosition {
+		in {
+			PositionItemKey[] valuesToReturn
+		}
+		out {
+			PositionItemDict position
+		}
+		error {
+			OK
+			MAPMATCHEDPOSITION_ERROR_NOPOSITION //no position is available
+		}
+	}
+
+	<**
+		@description : setPosition = This method sets the position to a specific location
+	**>
+	method setPosition {
+		in {
+
+			<**
+				@description : sessionHandle = Session handle. Range[0x0:0x7fffffff]. 0x0 is reserved as an invalid handle value
+			**>
+			Handle sessionHandle
+			
+			PositionItemDict position
+		}
+	}
+
+	<**
+		@description : getCurrentAddress = This method returns the current address
+	**>
+	method getCurrentAddress {
+		in {
+			AddressItemKey[] valuesToReturn
+		}
+		out {
+			AddressItemDict address
+		}
+		error {
+			OK
+			MAPMATCHEDPOSITION_ERROR_NOMAP //no map is available
+			MAPMATCHEDPOSITION_ERROR_OUTOFKNOWNMAP //the vehicle is located in a position outside of the known map
+		}
+	}
+
+	<**
+		@description : positionOnSegment = This method returns the vehicle position on a route segment
+	**>
+	method getPositionOnSegment {
+		in {
+			PositionOnSegmentKey [] valuesToReturn
+		}
+		out {
+			PositionOnSegmentDict positionOnSegment
+		}
+	}
+
+	<**
+		@description : getStatus = This method returns the current status
+	**>
+	method getStatus {
+		in {
+			PositionStatus [] valuesToReturn
+		}
+		out {
+			PositionStatusDict status
+		}
+	}
+
+	<**
+		@description : simulationStatusChanged = This signal is emitted when the Simulation Status has changed
+	**>
+	broadcast simulationStatusChanged selective {
+		out {
+
+			<**
+				@description : simulationStatus = enum(SIMULATION_STATUS_NO_SIMULATION, SIMULATION_STATUS_RUNNING, SIMULATION_STATUS_PAUSED, SIMULATION_STATUS_FIXED_POSITION)
+			**>
+			SimulationStatus simulationStatus
+		}
+	}
+
+	<**
+		@description : simulationSpeedChanged = This signal is emitted when the simulation speed factor has changed
+	**>
+	broadcast simulationSpeedChanged selective {
+		out {
+
+			<**
+				@description : speedFactor = speed factor
+			**>
+			UInt8 speedFactor
+		}
+	}
+
+	<**
+		@description : positionUpdate = This signal is called to notify a client application of a position change. The update frequency is implementation specific. The maximal allowed frequency is 10Hz
+	**>
+	broadcast positionUpdate {
+		out {
+			PositionItemKey [] changedValues
+		}
+	}
+
+	<**
+		@description : addressUpdate = This signal is called to notify a client application that the current address changed
+	**>
+	broadcast addressUpdate {
+		out {
+			AddressItemKey[] changedValues
+		}
+	}
+
+	<**
+		@description : positionOnSegmentUpdate = This signal is called to notify the client that the vehicle position on the route segment changed
+	**>
+	broadcast positionOnSegmentUpdate {
+		out {
+			PositionOnSegmentKey[] changedValues
+		}
+	}
+
+	<**
+		@description : statusUpdate = This signal is emitted to notifiy a client application that the current status changed
+	**>
+	broadcast statusUpdate {
+		out {
+			PositionStatus [] changedValues
+		}
+	}
+
+	<**
+		@description : offroadPositionChanged = This signal is emitted when the heading and the distance to the closest point on the road network changes
+	**>
+	broadcast offRoadPositionChanged {
+		out {
+
+			<**
+				@description : distance = distance in meters to the closest point on the road network
+			**>
+			UInt32 distance
+
+			<**
+				@description : direction = direction in degrees relatively to the closest point on the road network. Range [0:360]
+			**>
+			Int32 direction
+		}
+	}
+}

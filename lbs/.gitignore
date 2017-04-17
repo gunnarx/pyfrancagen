@@ -1,0 +1,5 @@
+src_gen/*.h
+src_gen/*.cpp
+src_gen/html
+src_gen/xml
+src_gen/latex

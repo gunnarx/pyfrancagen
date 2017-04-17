@@ -1,0 +1,710 @@
+// SPDX-License-Identifier: MPL-2.0
+// Copyright (C) 2014, PCA Peugeot Citro¿n, XS Embedded GmbH, TomTom International B.V., Continental Automotive GmbH, BMW Car IT GmbH,  Alpine Electronics R&D Europe GmbH, AISIN AW CO., LTD.,  Neusoft Technology Solutions GmbH, Jaguar Land Rover Limited, Visteon Corporation, Elektrobit Automotive GmbH
+// This Source Code Form is subject to the terms of the
+// Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with
+// this file, you can obtain one at http://mozilla.org/MPL/2.0/.
+
+package org.genivi.navigation.poiservice
+
+import org.genivi.CommonTypes.* from "../../CommonTypes.fidl"
+import org.genivi.navigation.NavigationTypes.* from "../NavigationTypes.fidl"
+
+typeCollection POIServiceTypes {
+	version {
+		 major 2 
+		 minor 0 
+	}
+	
+   <** @description:Unique ID for a POI results**>
+    typedef POI_ID is UInt32
+    
+    <** @description:Unique ID for a POI Icon Resource**>
+    typedef ResourceID is UInt32
+    
+    <** @description:Unique ID for an attribute**>
+    typedef AttributeID is UInt32
+ 
+    typedef ContentAccessModuleID is UInt8
+    
+      <** @description: Set of CategoryID**>
+    enumeration CategoryIDSet extends BasicEnum { 
+		AIRPORT   			= 1
+		SPORTING   			= 2
+		FERRY_TERMINAL   	= 3
+		ENTERTAINMENT   	= 4
+		HOTEL_MOTEL   		= 5
+		RESTAURANT   		= 6
+		PARKING   			= 7
+		FUEL_STATION   		= 8
+		SERVICE_AREA   		= 9
+		CAR_REPAIR_SHOP   	= 10
+		CAR_DEALER   		= 11
+		CAR_RENTAL_AGENCY   = 12
+		MEDICAL   			= 13
+		SHOPPING   			= 14
+		BUSINESS_AREA   	= 15
+		LANDMARK   			= 16
+		FLASH_RADAR   		= 17
+		POI_TRUCK   		= 18
+		SANCTUARY   		= 19
+		TOLLBOOTH   		= 20
+		KIOSK   			= 21
+		WATER_CLOSET   		= 22
+		BANK_AND_FINANCIAL 	= 23
+		TRAVEL   			= 24
+		TOURIST   			= 25
+		PUBLIC_BUILDING   	= 26
+		RAILWAY_STATION   	= 27
+		DESTINATION_FLAG	= 204
+		FAVORITE 			= 205
+		FAVORITE_HOME		= 206
+		FAVORITE_ADDRESSBOOK = 207
+		USER_IMPORT			= 208
+		USER_CONTACT		= 209
+		MOTORWAY_EXIT		= 210
+		ALL_CATEGORIES		= 65535
+     }
+
+ 	enumeration StandardCategory {
+ 		NOT_STANDARD_CATEGORY
+		//////////////////////////////////////////////
+		// Group: Vehicles
+		//////////////////////////////////////////////
+		
+		VEHICLE_REPAIR                = 1
+		PETROL_STATION                = 2
+		
+		// Electric Vehicle Station (EVS)
+		// An EV charging station, also called electric recharging point, charging
+		// point, EVSE (Electric Vehicle Supply Equipment), and EVCE (Electric
+		// Vehicle Charging Equipment), supplies electricity for the recharging of
+		// electric vehicles and other plug-in vehicles (including plug-in hybrids).
+		EVS_CHARGING_STATION           = 3
+		
+		CONTROLLED_ACCESS_INTERSECTION = 4
+		CONTROLLED_ACCESS_ENTRY_EXIT   = 5
+		
+		// Smart IC - Controlled Access roads where no cache payments
+		// are available. Only Electronic (ETC) payments are available.
+		// These roads are e.g. in Japan and Korea.
+		CONTROLLED_ACCESS_SMART_IC    = 6
+		
+		RENT_A_CAR                    = 7
+		CAR_WASH                      = 8
+		CAR_DEALERSHIP                = 9
+		MOTOR_CYCLE_DEALERSHIP        = 10 
+		TRUCK_DEALERSHIP              = 11
+		PARKING_GARAGE                = 12
+		OPEN_PARKING                  = 13 
+		
+		// A service located along freeways offering one or more recreational
+		// facilities or service functions to the car driver.
+		REST_AREA                     = 14
+		
+		ROAD_ASSISTANCE               = 15
+		CAMPING                       = 16
+		CARAVAN_SITE                  = 17
+		COACH_AND_LORRY_PARKING       = 18
+		
+		// Motoring Organization Office
+		// A national club or subscription based organisation offering services
+		// and facilities for motorists.
+		MOTORING_ORG_OFFICE          = 19
+		
+		// Car Shipping Terminal
+		// A location where cars may be loaded onto ferries for car shipping
+		// services.
+		CAR_SHIPPING_TERMINAL        = 20
+		
+		
+		//////////////////////////////////////////////
+		// Group: Lodging
+		//////////////////////////////////////////////
+		
+		HOTEL_MOTEL                 = 21
+		
+		//////////////////////////////////////////////
+		// Group: Food & Drinks
+		//////////////////////////////////////////////
+		
+		// Restaurant
+		// Any establishment offering meals for payment including sit down meals or
+		// fast food take-aways. Hotels or a Public Houses may be included in this
+		// Feature.
+		RESTAURANT                 = 22
+		
+		// Fast food
+		// Any establishment offering fast food take-away meals for payment.
+		FAST_FOOD                  = 23
+		
+		// Coffee shop
+		// An establishment which serves mainly coffee or tea.
+		COFFEE_SHOP                 = 24
+		
+		// Bar or Pub
+		// An establishment serving alcoholic beverages, providing seating, and may
+		// serve food.
+		BAR_OR_PUB                  = 25
+		
+		
+		//////////////////////////////////////////////
+		// Group: Culture
+		//////////////////////////////////////////////
+		
+		CINEMA                     = 26
+		MUSEUM                     = 27
+		THEATRE                    = 28
+		LIBRARY                    = 29
+		
+		
+		//////////////////////////////////////////////
+		// Group: Health
+		//////////////////////////////////////////////
+		
+		// Hospital / Polyclinic
+		HOSPITAL                   = 30
+		
+		// Physician
+		// Licensed medical practitioner which provides services related to
+		// restoring human health.
+		PHYSICIAN                  = 31
+		
+		// Dentist
+		// Licensed medical practitioner which provides services related to dental
+		// treatment.
+		DENTIST                    = 32
+		
+		PHARMACY                   = 33
+		
+		// Veterinarian
+		// Licensed medical practitioner which provides services related to
+		// medical treatment of animals.
+		VETERINARIAN_SERVICE        = 34
+		
+		
+		//////////////////////////////////////////////
+		// Group: Public Buildings
+		//////////////////////////////////////////////
+		
+		POLICE_STATION              = 35
+		POST_OFFICE                 = 36
+		CITY_HALL                   = 37
+		EMBASSY                     = 38
+		COURT_HOUSE                 = 39
+		
+		// Government Office
+		// An office for local, regional or national government activities.
+		GOVERNMENT_OFFICE           = 40
+		
+		// Community Centre
+		// Facilities and activities for the benefit of the local community only.
+		// They typically cater to special interest groups such as youth, elderly,
+		// or handicapped.
+		COMMUNITY_CENTER            = 41
+		
+		
+		//////////////////////////////////////////////
+		// Group: Shopping
+		//////////////////////////////////////////////
+		
+		SHOPPING_CENTER             = 42
+		
+		// Store
+		// A business establishment where usually diversified goods are kept for
+		// retail sale (e.g. Bookstore, Grocery Store, Conveniency store, Clothing
+		// store, etc.)
+		STORE                      = 43
+		
+		
+		//////////////////////////////////////////////
+		// Group: Finance
+		//////////////////////////////////////////////
+		
+		BANK                       = 44
+		ATM                        = 45
+		CURRENCY_EXCHANGE          = 46
+		
+		
+		//////////////////////////////////////////////
+		// Group: Tourism
+		//////////////////////////////////////////////
+		
+		TOURIST_OFFICE              = 47
+		TRAVEL_AGENCY               = 48
+		
+		
+		//////////////////////////////////////////////
+		// Group: Sights
+		//////////////////////////////////////////////
+		
+		TOURIST_ATTRACTION          = 49
+		HISTORICAL_MONUMENT         = 50
+		NATIONAL_PARK               = 51
+		
+		// City Center
+		// This Position which adequately describes a central activity point of a
+		// settlement or Administrative Area. It will typically be the town hall,
+		// central train station or other central activity centre (i.e. church or
+		// pedestrian District.)
+		CITY_CENTER                 = 52
+		
+		// Hamlet
+		// A Hamlet is a very small village, typically without a church. In some
+		// countries, these Hamlets are well known locations and are used by
+		// inhabitants to refer to their home address.
+		HAMLET                     = 53
+		
+		
+		//////////////////////////////////////////////
+		// Group: Entertainment & Fun
+		//////////////////////////////////////////////
+		
+		ZOO                        = 54
+		AMUSEMENT_PARK             = 55
+		
+		// Going Out Places
+		// Places where people visit when they "go out": clubs, shows, casinos,
+		// parties, etc.
+		GOING_OUT                   = 56
+		
+		
+		//////////////////////////////////////////////
+		// Group: Sports
+		//////////////////////////////////////////////
+		
+		STADIUM                    = 57
+		
+		// Sports Center
+		// An indoor sports facility or an outdoor location where any sport such as
+		// golf, riding, sailing etc. may be enjoyed.
+		SPORTS_CENTER              = 58
+		
+		RECREATION                 = 59
+		SKI_RESORT                 = 60
+		SWIMMING_POOL              = 61
+		GOLF_COURSE                = 62
+		
+		
+		//////////////////////////////////////////////
+		// Group: Water Transport
+		//////////////////////////////////////////////
+		
+		FERRY_TERMINAL              = 63
+		
+		// Marina
+		// An area with docking and service facility for pleasure craft. See also
+		// HARBOUR
+		MARINA                     = 64
+		
+		// Harbour
+		// A portion of a sea, a lake, or other large body of water, either
+		// land-locked or artificially protected so as to be a place of safety for
+		// vessels in stormy weather. See also MARINA.
+		HARBOUR                    = 65
+		
+		
+		//////////////////////////////////////////////
+		// Group: Business
+		//////////////////////////////////////////////
+		
+		// Business Facility
+		// Location where the main activities of a particular business activity are
+		// concentrated.
+		BUSINESS_FACILITY            = 66
+		
+		// Exhibition or Conference Center
+		EXHIBITION_CONFERENCE_CENTER = 67
+		
+		
+		//////////////////////////////////////////////
+		// Group: Passenger Transport
+		//////////////////////////////////////////////
+		
+		RAILWAY_STATION             = 68
+		
+		// Public transit stop
+		// Public Transit Stop is a point where passengers can board a public
+		// transport vehicle.
+		PUBLIC_TRANSIT_STOP          = 69
+		
+		// Park and ride
+		// A parking facility that is designated as a Park & Ride, a facility where
+		// people leave their vehicles to join a carpool/bus/etc.
+		PARK_AND_RIDE                = 70
+		
+		AIRPORT                      = 71
+		
+		// Airline Access
+		// An airline's check-in area (if there is more than one terminal) at the
+		// airport.
+		AIRLINE_ACCESS              = 72
+		
+		// Taxi stand
+		// Designated queueing, loading and unloading area for taxis, usually in
+		// city centres and buildings with a high volume of pedestrians.
+		TAXI_STAND                  = 73
+		
+		//////////////////////////////////////////////
+		// Group: Emergency Categories
+		//////////////////////////////////////////////
+		
+		EMERGENCY_CALL_STATION       = 74
+		EMERGENCY_MEDICAL_SERVICE    = 75
+		FIRST_AID_POST               = 76
+		FIRE_BRIGADE                 = 77
+		
+		//////////////////////////////////////////////
+		// Group: Other
+		//////////////////////////////////////////////
+		
+		PLACE_OF_WORSHIP            = 78
+		
+		// School, University, or College
+		EDUCATION                   = 79
+		
+		CUSTOMS                     = 80
+		FRONTIER_CROSSING           = 81
+		TOLL_LOCATION               = 82
+		
+		// Public restroom
+		// Room equipped with toilets and lavatories for public use.
+		PUBLIC_RESTROOM             = 83
+		PUBLIC_PHONE                = 84
+		KINDERGARTEN                = 85
+		MOUNTAIN_PASS_SUMMIT        = 86
+		
+		// Speed Camera
+		// Roadside camera, triggered by a speeding vehicle, that takes a photograph
+		// of that vehicle and records its speed
+		SPEED_CAMERA                = 87
+		 		
+ 	}
+
+     <** @description: Type of Attribute**>
+    enumeration AttributeType { 
+    	STRING		= 500
+        INTEGER		= 501
+        COORDINATES	= 502
+        BOOLEAN		= 503
+    }
+
+   <** @description: Current state of the search**>
+    enumeration SearchStatusState extends BasicEnum {
+        NOT_STARTED		= 510
+        SEARCHING		= 511
+        FINISHED		= 512
+    }
+    
+    <** @description: Type of Operator**>
+    enumeration OperatorType extends BasicEnum  { 
+        MORE_THAN		= 520
+        LESS_THAN		= 521
+        EQUAL			= 522
+    }
+
+    <** @description: Reason of update**>
+    enumeration SortOption { 
+        SORT_DEFAULT		= 560
+        SORT_BY_DISTANCE	= 561
+        SORT_BY_TIME		= 562
+        ATTRIBUTE_CUSTOM	= 563
+    }
+
+    <** @description: Reason of update**>
+    enumeration RouteStatus { 
+        OFF_ROUTE		= 600
+        ON_ROUTE		= 601
+        INSIDE_CORRIDOR	= 602
+    }
+
+    <** @description: Reason of update**>
+    enumeration UpdateReason { 
+        ADDED			= 700
+        REMOVED			= 701
+        ATTR_ADDED		= 702
+        ATTR_MODIFIED	= 703
+        ATTR_REMOVED  	= 704
+    }
+
+    <** @description: Configuration changed**>
+    enumeration ConfigurationChangedReason {
+        LOCALES
+    }
+
+    <** @description: Settings**>
+    enumeration Settings {
+        INVALID 				= 0
+        UNITS_OF_MEASUREMENT 	= 48 
+        LOCALE 					= 37
+        TIME_FORMAT 			= 3
+        COORDINATES_FORMAT 		= 6
+    }
+
+    <** @description: Different types of resources for icons**>
+    union Icon {
+        ResourceID[] id
+        String url
+    }
+    
+    <** @description: Different type of media**>
+    union Media {
+        ResourceID[] id
+        String url
+    }
+    
+
+  <** @description: values for attribute. **>
+    union AttributeValue {
+        Int32 intValue
+        String stringValue
+        Boolean boolValue
+    }
+    	
+	<**	@description:**>
+	struct Details {
+		<**	@description : list of parent categories unique id.**>
+		CategoryID[] parentsId
+		<**	@description : visual icons set.**>
+		Icon icons
+		<**	@description : name.**>
+		String name
+		<**	@description : short category description (optional).**>
+		String shortDesc
+		<**	@description : media associated (html web site, audio, video, ...) (optional).**>
+		Media media
+	}
+	
+	<** @description:**>			
+	struct Operator {
+        <** @description : enum(INVALID,MORE_THAN,LESS_THAN,EQUAL, ....).**>
+        OperatorType type
+        <** @description : localized display name.**>
+        String name
+        <** @description : value to use if this comparator is selected.**>
+        AttributeValue value
+	}
+	
+	
+	<**	@description: Describes an attribte which is associcated to an category. Use more than one operator to specify choice options i.e. differtent accpeted credid cards 
+	used in categor details and update category**>
+	struct CategoryAttribute {
+        <** @description : id of attribute .**>
+        AttributeID id
+        <** @description : localized display name.**>
+        String name
+        <** @description : enum(INVALID,STRING,INTEGER,COORDINATES ...).**>
+        AttributeType type
+		<**	@description:**>
+		Operator[] operators
+	}
+	
+	
+	<** @description:**>			
+	struct CategorySortOption {
+		<**	@description : enum(SORT_DEFAULT,SORT_BY_DISTANCE,SORT_BY_TIME,ATTRIBUTE_CUSTOM, ... ).**>
+		CategoryID id
+		<**	@description : localized name to be displayed by application.**>
+		String name
+	}
+	
+	
+	<** @description:**>			
+	struct CAMCategory {
+		<**	@description : struct(list of parents_id, icons, name, short_desc, media).**>
+		Details details
+		<**	@description : array[struct(name, type, array[struct(operator_id, operator_name)])].**>
+		CategoryAttribute[] attributeList
+		<**	@description : array[struct(id, name)].**>
+		CategorySortOption[] sortOptions
+	}
+	
+	
+ 	<** @description:**>			
+	struct CAMCategoryUpdate {
+ 		<**	@description : enum(INVALID,ALL_CATEGORIES,AIRPORT,RESTAURANT,HOTEL,GAZ_STATION,CAR_PARK, ...). Note: A POI category is a unique ID. It could be a predefined category or a custom one defined by a POI plug-in **>			
+		CategoryID id	
+		<**	@description : array[struct(name, type, array[struct(operator_id, operator_name)])].**>
+		CategoryAttribute[] attributeList
+		<**	@description : array[struct(id, name)].**>
+		CategorySortOption[] sortOptions
+	}
+	
+
+	
+  	<** @description: Attribute associated to an POI used in addPOI and POI Search Result(both CAM and Service)**>			
+    struct PoiAttribute
+    {
+		<** @description:attribute unique id (see data model)**>			
+        AttributeID id
+ 		<** @description:enum(INVALID,STRING,INTEGER,COORDINATES ...)**>			
+        AttributeType type
+		<** @description:The value depends on the attribute specifications and type**>			
+        AttributeValue value
+    }
+	
+
+ 	
+	<** @description:**>			
+    struct CategoryAndRadius
+    {
+ 		<**	@description : enum(INVALID,ALL_CATEGORIES,AIRPORT,RESTAURANT,HOTEL,GAZ_STATION,CAR_PARK, ...). Note: A POI category is a unique ID. It could be a predefined category or a custom one defined by a POI plug-in **>			
+        CategoryID id
+ 		<**	@description : activation or search radius around the position (in 10 meters) for the category. If value is 0 (zero), the default radius (defined for a category) is applied.**>
+        UInt32 radius
+    }
+	
+	
+  	<** @description:**>			
+    struct PoiDetails
+    {
+		<** @description:POI id**>			
+        POI_ID id
+		<** @description:POI name**>			
+        String name
+        <** @description:POI location.**>           
+        Coordinate3D location
+    }
+	
+ 	
+ 	<** @description:**>			
+    struct SearchResultDetails
+    {
+  		<** @description: struct(id,name,latitude,longitude,altitude).**>			
+        PoiDetails details
+  		<** @description: array[unique_id].**>			
+        CategoryID[] categories
+   		<** @description: array[struct(name,type,value)].**>			
+        PoiAttribute[] attributeList
+    }
+
+ 	<** @description:**>			
+    struct SearchResult
+    {
+		<** @description:POI id**>			
+        POI_ID id
+		<** @description:distance in meters to poi from center of the search or from vehicle if search along**>			
+        UInt32 distance
+		<** @description:enum(OFF_ROUTE,ON_ROUTE,INSIDE_CORRIDOR, ... )**>			
+        RouteStatus routeStatus
+		<** @description:List of attributes requested. It could be empty**>			
+        PoiAttribute[] attributeList
+    }
+
+	
+  	<** @description:**>			
+    struct PoiCAMDetails 
+    {
+ 		<** @description:POI unique id as known by the content access module. This id will be used by POI service to request POI details.**>			
+        POI_ID sourceId
+  		<** @description:POI name.**>			
+        String name
+  		<** @description:POI category unique id.**>			
+        CategoryID category
+ 		<** @description:POI location.**>			
+        Coordinate3D location
+ 		<** @description:distance in meters to poi from center of the search.**>			
+        UInt16 distance
+ 		<** @description:List of attributes requested. It could be empty.**>			
+        PoiAttribute[] attributeList
+    }
+	
+ 	
+  	<** @description: used in setAttributes and CAM startPOISearch**>			
+    struct AttributeDetails
+    {
+        <** @description : id of attribute .**>
+        AttributeID id
+        <** @description : enum(INVALID,ALL_CATEGORIES,AIRPORT,RESTAURANT,HOTEL,GAZ_STATION,CAR_PARK, ...). Note: A POI category is a unique ID. It could be a predefined category or a custom one defined by a POI plug-in **>         
+        CategoryID categoryId 
+        <** @description : enum(INVALID,STRING,INTEGER,COORDINATES ...).**>
+        AttributeType type
+        <** @description : value or partial value. The value depends on the attribute specifications and type.**>
+        AttributeValue value
+        <** @description : enum(INVALID,MORE_THAN,LESS_THAN,EQUAL, ....).**>
+        OperatorType oper
+        <** @description : true if the attribute is mandatory for the search and false for optional.**>
+        Boolean mandatory
+    }
+
+  	<** @description: Detailed descripton of a category**>			
+    struct CategoryDetails
+    {
+ 		<**	@description : Category unique id.**>
+        CategoryID uniqueId
+
+ 		<**	@description : Identifier for the POI Standard Category that describes the semantic meaning of the POI Category. 
+ 				NOT_STANDARD_CATEGORY should be used if the category doesn't belong to any standard category or if it is unknown. **>
+        StandardCategory standardCategoryId                
+ 		<**	@description : list of parent categories unique id.**>
+        CategoryID[] parentsId
+ 		<**	@description : visual icons set.**>
+        Icon icons
+ 		<**	@description : name.**>
+        String name
+ 		<**	@description : true if the category is a pre-defined one (top level), false for customized categories created by plug-in.**>
+        Boolean topLevel
+ 		<**	@description : short category description (optional).**>
+        String description
+ 		<**	@description : media associated (html web site, audio, video, ...) (optional).**>
+        Media media
+    }
+
+ 	<** @description: Detailed description of a category including attributes and sort options**>			
+    struct Category
+    {
+		<**	@description : struct(unique_id, list of parents_id, icons, name, top_level, short_desc, media).**>
+        CategoryDetails details
+		<**	@description : array[struct(name, type, array[struct(operator_id, operator_name)].**>
+        CategoryAttribute[] attributeList
+ 		<**	@description : array[struct(id, name)].**>
+        CategorySortOption[] sortOptions
+    }
+
+	<** @description: Pair of catgory and description of level**>			
+    struct CategoryAndLevel
+    {
+ 		<**	@description : Category unique id.**>
+        CategoryID uniqueId
+ 		<**	@description : true if the category is a pre-defined one (top level), false for customized categories created by plug-in.**>
+        Boolean topLevel
+    }
+
+	<** @description: pair of category and name **>			
+    struct CategoryAndName
+    {
+ 		<**	@description : Category unique id.**>
+        CategoryID uniqueId
+ 		<**	@description : name.**>
+        String name
+ 		<**	@description : true if the category is a pre-defined one (top level), false for customized categories created by plug-in.**>
+        Boolean topLevel
+    }
+    
+	<** @description: pair of category and reson for update**>			
+	struct CategoryAndReason
+	{
+ 		<**	@description : Category unique id.**>
+        CategoryID unique_id
+        <** @description : enum(ADDED,REMOVED,ATTR_ADDED,ATTR_MODIFIED,ATTR_REMOVED, ... ) .**>
+    	UpdateReason reason
+	}
+	<** @description: pair of category and the this category is available**>			
+	struct CategoryAndStatus
+	{
+ 		<**	@description : Category unique id.**>
+        CategoryID uniqueId
+        <** @description : true if the category is available .**>
+    	Boolean status
+	}
+
+ 	<** @description:**>			
+    struct PoiAddedDetails
+    {
+		<** @description:POI name**>			
+        String name
+        <** @description:POI location.**>           
+        Coordinate3D location
+   		<** @description: array[struct(id,type,value)].**>			
+        PoiAttribute[] attributeList
+    }
+}
