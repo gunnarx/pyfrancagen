@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['categories',['categories',['../structSearchResultDetails.html#ab36a08e6d9060a53d2033b17dc1b2642',1,'SearchResultDetails']]],
+  ['category',['category',['../structPoiCAMDetails.html#a83ba24ee9fc634ea2fa31b3ce43eef0c',1,'PoiCAMDetails']]],
+  ['categorycode',['categoryCode',['../structPOI.html#a704d50f064f550ef9d4d207ed013a4d9',1,'POI::categoryCode()'],['../structPOICategory.html#ac6b465f67d4d34ea0ca5b3d01e8a4ed6',1,'POICategory::categoryCode()']]],
+  ['categoryid',['categoryId',['../structAttributeDetails.html#a56753a298ff43c96848a18af6f395a67',1,'AttributeDetails']]],
+  ['categoryname',['categoryName',['../structPOICategory.html#abc7e97751536208b2fe970475d29c70f',1,'POICategory']]],
+  ['center',['center',['../structCircle.html#a6ebddb9c2c20fada3aec73933e8be51f',1,'Circle']]],
+  ['circle',['circle',['../unionShape.html#ac92b3a8db8c863d033c4b03e253e642d',1,'Shape']]],
+  ['clientapp',['clientApp',['../structSession.html#a79f6e799ce7f3114f843b0fb8b4637d3',1,'Session']]],
+  ['closeststreetname',['closestStreetName',['../structMapCodeDetails.html#a9ed8970058754fa26e47852432602323',1,'MapCodeDetails::closestStreetName()'],['../structCoordinatesDetails.html#a417b63e9e4d7b4eb696455789f7044d1',1,'CoordinatesDetails::closestStreetName()']]],
+  ['coordinate',['coordinate',['../structPOI.html#ab3477130eac0ffbbebd6289dfec34a23',1,'POI::coordinate()'],['../structAddress.html#ab9f0fde48870aa88a0916fe97daad7ea',1,'Address::coordinate()'],['../structCustomElement.html#a5993aebf41602f423d1abb00024c8bf4',1,'CustomElement::coordinate()']]],
+  ['coordinate3dvalue',['coordinate3DValue',['../unionManeuverDataValue.html#a78ac4ffa0fbb91dc8896658a28995e58',1,'ManeuverDataValue::coordinate3DValue()'],['../unionAddressValue.html#a872c4ab580e73f3ba23b6c64302898cb',1,'AddressValue::coordinate3DValue()']]],
+  ['coordinatesdetails',['coordinatesDetails',['../unionAddressDetails.html#ac4c701a0c210feb2890b0139a016215c',1,'AddressDetails']]],
+  ['coordinatevalue',['coordinateValue',['../unionWayPointItem.html#a91db6fc66ac3a30e2eee047c6434d6de',1,'WayPointItem']]],
+  ['corridorlength',['corridorLength',['../structRouteCorridor.html#aa3ca1ec3e686caa88fda5487bc10e540',1,'RouteCorridor']]],
+  ['corridorwidth',['corridorWidth',['../structRouteCorridor.html#a2f05478f8d603559c2e50e607f732246',1,'RouteCorridor']]],
+  ['countrycode',['countryCode',['../structPOI.html#ac0a9be8b7f5aa1a76e0d2fc243aef4d1',1,'POI::countryCode()'],['../structAddress.html#aac1c66f9ead47ca37037064e70062418',1,'Address::countryCode()'],['../structLocale.html#aa6e157541713e3dec6a8589465412207',1,'Locale::countryCode()']]],
+  ['countrycodeaftermaneuver',['countryCodeAfterManeuver',['../structManeuver.html#a9631763d21e61ad0bf1dceee5393f4d9',1,'Maneuver']]]
+];

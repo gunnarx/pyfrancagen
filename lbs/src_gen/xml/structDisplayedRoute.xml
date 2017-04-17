@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structDisplayedRoute" kind="struct" language="C++" prot="public">
+    <compoundname>DisplayedRoute</compoundname>
+    <includes refid="MapViewerControl_8types_8h" local="no">MapViewerControl.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structDisplayedRoute_1a6338e9870736bdfdf5f94a3240c56767" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+        <definition>Handle DisplayedRoute::routeHandle</definition>
+        <argsstring></argsstring>
+        <name>routeHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="55" column="1" bodyfile="MapViewerControl.types.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDisplayedRoute_1af1edf9df66ee43156e51cfa43614182f" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+        <definition>Boolean DisplayedRoute::highlighted</definition>
+        <argsstring></argsstring>
+        <name>highlighted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="56" column="1" bodyfile="MapViewerControl.types.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MapViewerControl.types.h" line="54" column="1" bodyfile="MapViewerControl.types.h" bodystart="54" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structDisplayedRoute_1af1edf9df66ee43156e51cfa43614182f" prot="public" virt="non-virtual"><scope>DisplayedRoute</scope><name>highlighted</name></member>
+      <member refid="structDisplayedRoute_1a6338e9870736bdfdf5f94a3240c56767" prot="public" virt="non-virtual"><scope>DisplayedRoute</scope><name>routeHandle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

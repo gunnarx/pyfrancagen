@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structMapCodeDetails" kind="struct" language="C++" prot="public">
+    <compoundname>MapCodeDetails</compoundname>
+    <includes refid="FreeTextSearch_8types_8h" local="no">FreeTextSearch.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMapCodeDetails_1a9ed8970058754fa26e47852432602323" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString MapCodeDetails::closestStreetName</definition>
+        <argsstring></argsstring>
+        <name>closestStreetName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="47" column="1" bodyfile="FreeTextSearch.types.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FreeTextSearch.types.h" line="46" column="1" bodyfile="FreeTextSearch.types.h" bodystart="46" bodyend="48"/>
+    <listofallmembers>
+      <member refid="structMapCodeDetails_1a9ed8970058754fa26e47852432602323" prot="public" virt="non-virtual"><scope>MapCodeDetails</scope><name>closestStreetName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

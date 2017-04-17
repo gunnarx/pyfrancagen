@@ -1,0 +1,746 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classRouting" kind="class" language="C++" prot="public">
+    <compoundname>Routing</compoundname>
+    <includes refid="Routing_8h" local="no">Routing.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRouting_1a441089a77e1d396dd82bf23f2523949f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Routing::Routing</definition>
+        <argsstring>()</argsstring>
+        <name>Routing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="25" column="1" bodyfile="Routing.cpp" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1ae0e1703bc5de5f869a69398e2c2e26f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Routing::Routing</definition>
+        <argsstring>(const Routing &amp;c)</argsstring>
+        <name>Routing</name>
+        <param>
+          <type>const <ref refid="classRouting" kindref="compound">Routing</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="26" column="1" bodyfile="Routing.cpp" bodystart="23" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1af9dc4c393787f554147edf0b8649363a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classRouting" kindref="compound">Routing</ref> &amp;</type>
+        <definition>Routing &amp; Routing::operator=</definition>
+        <argsstring>(const Routing &amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classRouting" kindref="compound">Routing</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="27" column="1" bodyfile="Routing.cpp" bodystart="26" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a53fba92a5bae29fa140d93d8fb7367f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Routing::~Routing</definition>
+        <argsstring>()</argsstring>
+        <name>~Routing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="28" column="1" bodyfile="Routing.cpp" bodystart="29" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a829487ac7cf80704c0dfc6c4305f7780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getVersion</definition>
+        <argsstring>(Version &amp;interfaceversion)</argsstring>
+        <name>getVersion</name>
+        <param>
+          <type><ref refid="structVersion" kindref="compound">Version</ref> &amp;</type>
+          <declname>interfaceversion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="30" column="1" bodyfile="Routing.cpp" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a3c7570fc7e689c07fc33314ba27b5fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::createRoute</definition>
+        <argsstring>(Handle sessionHandle, Handle &amp;routeHandle)</argsstring>
+        <name>createRoute</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref> &amp;</type>
+          <declname>routeHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="32" column="1" bodyfile="Routing.cpp" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1ae0b0f9fc336f0e16f713eeb9f5ca5799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::deleteRoute</definition>
+        <argsstring>(Handle sessionHandle, Handle routeHandle)</argsstring>
+        <name>deleteRoute</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="34" column="1" bodyfile="Routing.cpp" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a235eb60f25a429807e1ea5803e812dfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::setCostModel</definition>
+        <argsstring>(Handle sessionHandle, Handle routeHandle, CostModel costModel)</argsstring>
+        <name>setCostModel</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6" kindref="member">CostModel</ref></type>
+          <declname>costModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="36" column="1" bodyfile="Routing.cpp" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1aed4b06665b34c3ca8997e627571b64f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getCostModel</definition>
+        <argsstring>(Handle routeHandle, CostModel &amp;costModel)</argsstring>
+        <name>getCostModel</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6" kindref="member">CostModel</ref> &amp;</type>
+          <declname>costModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="39" column="1" bodyfile="Routing.cpp" bodystart="57" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1ac66d90654b30616414d469524f4b11ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getSupportedCostModels</definition>
+        <argsstring>(std::vector&lt; CostModel &gt; &amp;costModelsList)</argsstring>
+        <name>getSupportedCostModels</name>
+        <param>
+          <type>std::vector&lt; <ref refid="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6" kindref="member">CostModel</ref> &gt; &amp;</type>
+          <declname>costModelsList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="41" column="1" bodyfile="Routing.cpp" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a7c9275fff4f5f98f07ed652239ed3b25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::setRoutePreferences</definition>
+        <argsstring>(Handle sessionHandle, Handle routeHandle, String countryCode, std::vector&lt; RoadPreference &gt; roadPreferenceList, std::vector&lt; ConditionPreference &gt; conditionPreferenceList)</argsstring>
+        <name>setRoutePreferences</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>countryCode</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structRoadPreference" kindref="compound">RoadPreference</ref> &gt;</type>
+          <declname>roadPreferenceList</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structConditionPreference" kindref="compound">ConditionPreference</ref> &gt;</type>
+          <declname>conditionPreferenceList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="44" column="1" bodyfile="Routing.cpp" bodystart="69" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1acfd94a60f572b87ba120eae5c06e152b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getRoutePreferences</definition>
+        <argsstring>(Handle routeHandle, String countryCode, std::vector&lt; RoadPreference &gt; &amp;roadPreferenceList, std::vector&lt; ConditionPreference &gt; &amp;conditionPreferenceList)</argsstring>
+        <name>getRoutePreferences</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>countryCode</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structRoadPreference" kindref="compound">RoadPreference</ref> &gt; &amp;</type>
+          <declname>roadPreferenceList</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structConditionPreference" kindref="compound">ConditionPreference</ref> &gt; &amp;</type>
+          <declname>conditionPreferenceList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="49" column="1" bodyfile="Routing.cpp" bodystart="78" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a71f317f15bbe70ccc5f7267d65b6875e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getSupportedRoutePreferences</definition>
+        <argsstring>(std::vector&lt; RoadPreference &gt; &amp;routePreferencesList, std::vector&lt; ConditionPreference &gt; &amp;conditionPreferenceList)</argsstring>
+        <name>getSupportedRoutePreferences</name>
+        <param>
+          <type>std::vector&lt; <ref refid="structRoadPreference" kindref="compound">RoadPreference</ref> &gt; &amp;</type>
+          <declname>routePreferencesList</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structConditionPreference" kindref="compound">ConditionPreference</ref> &gt; &amp;</type>
+          <declname>conditionPreferenceList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="54" column="1" bodyfile="Routing.cpp" bodystart="87" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a5e15533d0834ec06d315ef6dd88b1550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::setRouteSchedule</definition>
+        <argsstring>(Handle sessionHandle, Handle routeHandle, RouteSchedule routeSchedule)</argsstring>
+        <name>setRouteSchedule</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="Routing_8types_8h_1a0d7b7d1bb4321f171f86fc4d65be4049" kindref="member">RouteSchedule</ref></type>
+          <declname>routeSchedule</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="58" column="1" bodyfile="Routing.cpp" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1ad8b791793d5c2e22afa5c6ca68d29a47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getRouteSchedule</definition>
+        <argsstring>(Handle routeHandle, std::vector&lt; Schedule &gt; valuesToReturn, RouteSchedule &amp;routeSchedule)</argsstring>
+        <name>getRouteSchedule</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333c" kindref="member">Schedule</ref> &gt;</type>
+          <declname>valuesToReturn</declname>
+        </param>
+        <param>
+          <type><ref refid="Routing_8types_8h_1a0d7b7d1bb4321f171f86fc4d65be4049" kindref="member">RouteSchedule</ref> &amp;</type>
+          <declname>routeSchedule</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="61" column="1" bodyfile="Routing.cpp" bodystart="102" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a64b4a195c87358b25dee87aa5f0fb0a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::setTransportationMeans</definition>
+        <argsstring>(Handle sessionHandle, Handle routeHandle, std::vector&lt; TransportationMeans &gt; transportationMeansList)</argsstring>
+        <name>setTransportationMeans</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8" kindref="member">TransportationMeans</ref> &gt;</type>
+          <declname>transportationMeansList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="65" column="1" bodyfile="Routing.cpp" bodystart="110" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1adec2365bb440b5a2f76322cfe009863e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getTransportationMeans</definition>
+        <argsstring>(Handle routeHandle, std::vector&lt; TransportationMeans &gt; &amp;transportationMeansList)</argsstring>
+        <name>getTransportationMeans</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8" kindref="member">TransportationMeans</ref> &gt; &amp;</type>
+          <declname>transportationMeansList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="69" column="1" bodyfile="Routing.cpp" bodystart="118" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1aca589e8a8c084e8cabce03e990aaee97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getSupportedTransportationMeans</definition>
+        <argsstring>(std::vector&lt; TransportationMeans &gt; &amp;transportationMeansList)</argsstring>
+        <name>getSupportedTransportationMeans</name>
+        <param>
+          <type>std::vector&lt; <ref refid="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8" kindref="member">TransportationMeans</ref> &gt; &amp;</type>
+          <declname>transportationMeansList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="73" column="1" bodyfile="Routing.cpp" bodystart="126" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a43a7d0c476041ba13112853b5f317822" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::setExcludedAreas</definition>
+        <argsstring>(Handle sessionHandle, Handle routeHandle, std::vector&lt; Polygon &gt; excludedAreas)</argsstring>
+        <name>setExcludedAreas</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="NavigationTypes_8types_8h_1a9ab6330f04f680fc77a6b1b782af0313" kindref="member">Polygon</ref> &gt;</type>
+          <declname>excludedAreas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="76" column="1" bodyfile="Routing.cpp" bodystart="133" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a4c0d08c5de25c16b3f6b84ffdffe21ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getExcludedAreas</definition>
+        <argsstring>(Handle routeHandle, std::vector&lt; Polygon &gt; &amp;excludedAreas)</argsstring>
+        <name>getExcludedAreas</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="NavigationTypes_8types_8h_1a9ab6330f04f680fc77a6b1b782af0313" kindref="member">Polygon</ref> &gt; &amp;</type>
+          <declname>excludedAreas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="79" column="1" bodyfile="Routing.cpp" bodystart="140" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a62392dff8b20a47090258825e4b3de4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::setWaypoints</definition>
+        <argsstring>(Handle sessionHandle, Handle routeHandle, Boolean startFromCurrentPosition, std::vector&lt; WayPoint &gt; waypointsList)</argsstring>
+        <name>setWaypoints</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+          <declname>startFromCurrentPosition</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="Routing_8types_8h_1a3770e44afcd6b61ecebcf024990a6bf9" kindref="member">WayPoint</ref> &gt;</type>
+          <declname>waypointsList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="82" column="1" bodyfile="Routing.cpp" bodystart="147" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a30aa5f122492b74533629b9bcd8ae937" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getWaypoints</definition>
+        <argsstring>(Handle routeHandle, Boolean &amp;startFromCurrentPosition, std::vector&lt; WayPoint &gt; &amp;waypointsList)</argsstring>
+        <name>getWaypoints</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref> &amp;</type>
+          <declname>startFromCurrentPosition</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="Routing_8types_8h_1a3770e44afcd6b61ecebcf024990a6bf9" kindref="member">WayPoint</ref> &gt; &amp;</type>
+          <declname>waypointsList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="86" column="1" bodyfile="Routing.cpp" bodystart="155" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1ac3a3c5f3e6cacbf61e6b9c4bc00be270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::calculateRoute</definition>
+        <argsstring>(Handle sessionHandle, Handle routeHandle)</argsstring>
+        <name>calculateRoute</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="89" column="1" bodyfile="Routing.cpp" bodystart="163" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a8245468e6b68be435529df30278f2918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::cancelRouteCalculation</definition>
+        <argsstring>(Handle sessionHandle, Handle routeHandle)</argsstring>
+        <name>cancelRouteCalculation</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="91" column="1" bodyfile="Routing.cpp" bodystart="169" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a79198b51565e3d3aa4f09f4a37e15571" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::calculateAlternativeRoutes</definition>
+        <argsstring>(Handle sessionHandle, Handle calculatedRoute, UInt16 numberOfAlternativeRoutes, std::vector&lt; Handle &gt; &amp;alternativeRoutesList)</argsstring>
+        <name>calculateAlternativeRoutes</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>calculatedRoute</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+          <declname>numberOfAlternativeRoutes</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref> &gt; &amp;</type>
+          <declname>alternativeRoutesList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="93" column="1" bodyfile="Routing.cpp" bodystart="175" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a91d2711be2968efdc52f0fddd4ee83b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getRouteSegments</definition>
+        <argsstring>(Handle routeHandle, Int16 detailLevel, std::vector&lt; RouteSegmentType &gt; valuesToReturn, UInt32 numberOfSegments, UInt32 offset, UInt32 &amp;totalNumberOfSegments, std::vector&lt; RouteSegment &gt; &amp;routeSegments)</argsstring>
+        <name>getRouteSegments</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref></type>
+          <declname>detailLevel</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4" kindref="member">RouteSegmentType</ref> &gt;</type>
+          <declname>valuesToReturn</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+          <declname>numberOfSegments</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref> &amp;</type>
+          <declname>totalNumberOfSegments</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="Routing_8types_8h_1a8dfe867ef1c8bc22349520e151109fcc" kindref="member">RouteSegment</ref> &gt; &amp;</type>
+          <declname>routeSegments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="97" column="1" bodyfile="Routing.cpp" bodystart="184" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a1f6297e8839167a01a61c04048817eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getRouteOverview</definition>
+        <argsstring>(Handle routeHandle, std::vector&lt; RouteOverviewType &gt; valuesToReturn, RouteOverview &amp;routeOverview)</argsstring>
+        <name>getRouteOverview</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="Routing_8types_8h_1af6b50dbca773530ac29961c508ea341a" kindref="member">RouteOverviewType</ref> &gt;</type>
+          <declname>valuesToReturn</declname>
+        </param>
+        <param>
+          <type><ref refid="Routing_8types_8h_1a95cef2a037f61b1b42f7818c11933ca9" kindref="member">RouteOverview</ref> &amp;</type>
+          <declname>routeOverview</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="103" column="1" bodyfile="Routing.cpp" bodystart="194" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1af6fa8cb7f1ad6fbceab6337d29bad35d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getRouteBoundingBox</definition>
+        <argsstring>(Handle routeHandle, Rectangle &amp;boundingBox)</argsstring>
+        <name>getRouteBoundingBox</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structRectangle" kindref="compound">Rectangle</ref> &amp;</type>
+          <declname>boundingBox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="107" column="1" bodyfile="Routing.cpp" bodystart="202" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a1dac30d19b7393b0f309b9c4a2a705b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getAllRoutes</definition>
+        <argsstring>(std::vector&lt; Handle &gt; &amp;routesList)</argsstring>
+        <name>getAllRoutes</name>
+        <param>
+          <type>std::vector&lt; <ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref> &gt; &amp;</type>
+          <declname>routesList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="109" column="1" bodyfile="Routing.cpp" bodystart="208" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a21fa7edc1c941c109ab34dff8c850ac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::setBlockedRouteStretches</definition>
+        <argsstring>(Handle sessionHandle, Handle routeHandle, std::vector&lt; BlockedRouteElement &gt; blockParameters)</argsstring>
+        <name>setBlockedRouteStretches</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structBlockedRouteElement" kindref="compound">BlockedRouteElement</ref> &gt;</type>
+          <declname>blockParameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="112" column="1" bodyfile="Routing.cpp" bodystart="214" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classRouting_1a47651fdbbb5c68fc33534c9a24975415" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Routing::getBlockedRouteStretches</definition>
+        <argsstring>(Handle routeHandle, std::vector&lt; BlockedRouteElement &gt; &amp;blockParameters)</argsstring>
+        <name>getBlockedRouteStretches</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structBlockedRouteElement" kindref="compound">BlockedRouteElement</ref> &gt; &amp;</type>
+          <declname>blockParameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.h" line="116" column="1" bodyfile="Routing.cpp" bodystart="222" bodyend="227"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Routing.h" line="23" column="1" bodyfile="Routing.h" bodystart="23" bodyend="121"/>
+    <listofallmembers>
+      <member refid="classRouting_1a79198b51565e3d3aa4f09f4a37e15571" prot="public" virt="non-virtual"><scope>Routing</scope><name>calculateAlternativeRoutes</name></member>
+      <member refid="classRouting_1ac3a3c5f3e6cacbf61e6b9c4bc00be270" prot="public" virt="non-virtual"><scope>Routing</scope><name>calculateRoute</name></member>
+      <member refid="classRouting_1a8245468e6b68be435529df30278f2918" prot="public" virt="non-virtual"><scope>Routing</scope><name>cancelRouteCalculation</name></member>
+      <member refid="classRouting_1a3c7570fc7e689c07fc33314ba27b5fc9" prot="public" virt="non-virtual"><scope>Routing</scope><name>createRoute</name></member>
+      <member refid="classRouting_1ae0b0f9fc336f0e16f713eeb9f5ca5799" prot="public" virt="non-virtual"><scope>Routing</scope><name>deleteRoute</name></member>
+      <member refid="classRouting_1a1dac30d19b7393b0f309b9c4a2a705b9" prot="public" virt="non-virtual"><scope>Routing</scope><name>getAllRoutes</name></member>
+      <member refid="classRouting_1a47651fdbbb5c68fc33534c9a24975415" prot="public" virt="non-virtual"><scope>Routing</scope><name>getBlockedRouteStretches</name></member>
+      <member refid="classRouting_1aed4b06665b34c3ca8997e627571b64f1" prot="public" virt="non-virtual"><scope>Routing</scope><name>getCostModel</name></member>
+      <member refid="classRouting_1a4c0d08c5de25c16b3f6b84ffdffe21ba" prot="public" virt="non-virtual"><scope>Routing</scope><name>getExcludedAreas</name></member>
+      <member refid="classRouting_1af6fa8cb7f1ad6fbceab6337d29bad35d" prot="public" virt="non-virtual"><scope>Routing</scope><name>getRouteBoundingBox</name></member>
+      <member refid="classRouting_1a1f6297e8839167a01a61c04048817eb0" prot="public" virt="non-virtual"><scope>Routing</scope><name>getRouteOverview</name></member>
+      <member refid="classRouting_1acfd94a60f572b87ba120eae5c06e152b" prot="public" virt="non-virtual"><scope>Routing</scope><name>getRoutePreferences</name></member>
+      <member refid="classRouting_1ad8b791793d5c2e22afa5c6ca68d29a47" prot="public" virt="non-virtual"><scope>Routing</scope><name>getRouteSchedule</name></member>
+      <member refid="classRouting_1a91d2711be2968efdc52f0fddd4ee83b2" prot="public" virt="non-virtual"><scope>Routing</scope><name>getRouteSegments</name></member>
+      <member refid="classRouting_1ac66d90654b30616414d469524f4b11ce" prot="public" virt="non-virtual"><scope>Routing</scope><name>getSupportedCostModels</name></member>
+      <member refid="classRouting_1a71f317f15bbe70ccc5f7267d65b6875e" prot="public" virt="non-virtual"><scope>Routing</scope><name>getSupportedRoutePreferences</name></member>
+      <member refid="classRouting_1aca589e8a8c084e8cabce03e990aaee97" prot="public" virt="non-virtual"><scope>Routing</scope><name>getSupportedTransportationMeans</name></member>
+      <member refid="classRouting_1adec2365bb440b5a2f76322cfe009863e" prot="public" virt="non-virtual"><scope>Routing</scope><name>getTransportationMeans</name></member>
+      <member refid="classRouting_1a829487ac7cf80704c0dfc6c4305f7780" prot="public" virt="non-virtual"><scope>Routing</scope><name>getVersion</name></member>
+      <member refid="classRouting_1a30aa5f122492b74533629b9bcd8ae937" prot="public" virt="non-virtual"><scope>Routing</scope><name>getWaypoints</name></member>
+      <member refid="classRouting_1af9dc4c393787f554147edf0b8649363a" prot="public" virt="non-virtual"><scope>Routing</scope><name>operator=</name></member>
+      <member refid="classRouting_1a441089a77e1d396dd82bf23f2523949f" prot="public" virt="non-virtual"><scope>Routing</scope><name>Routing</name></member>
+      <member refid="classRouting_1ae0e1703bc5de5f869a69398e2c2e26f9" prot="public" virt="non-virtual"><scope>Routing</scope><name>Routing</name></member>
+      <member refid="classRouting_1a21fa7edc1c941c109ab34dff8c850ac3" prot="public" virt="non-virtual"><scope>Routing</scope><name>setBlockedRouteStretches</name></member>
+      <member refid="classRouting_1a235eb60f25a429807e1ea5803e812dfd" prot="public" virt="non-virtual"><scope>Routing</scope><name>setCostModel</name></member>
+      <member refid="classRouting_1a43a7d0c476041ba13112853b5f317822" prot="public" virt="non-virtual"><scope>Routing</scope><name>setExcludedAreas</name></member>
+      <member refid="classRouting_1a7c9275fff4f5f98f07ed652239ed3b25" prot="public" virt="non-virtual"><scope>Routing</scope><name>setRoutePreferences</name></member>
+      <member refid="classRouting_1a5e15533d0834ec06d315ef6dd88b1550" prot="public" virt="non-virtual"><scope>Routing</scope><name>setRouteSchedule</name></member>
+      <member refid="classRouting_1a64b4a195c87358b25dee87aa5f0fb0a1" prot="public" virt="non-virtual"><scope>Routing</scope><name>setTransportationMeans</name></member>
+      <member refid="classRouting_1a62392dff8b20a47090258825e4b3de4f" prot="public" virt="non-virtual"><scope>Routing</scope><name>setWaypoints</name></member>
+      <member refid="classRouting_1a53fba92a5bae29fa140d93d8fb7367f1" prot="public" virt="non-virtual"><scope>Routing</scope><name>~Routing</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

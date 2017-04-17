@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classPOIContentAccessModule" kind="class" language="C++" prot="public">
+    <compoundname>POIContentAccessModule</compoundname>
+    <includes refid="POIContentAccessModule_8h" local="no">POIContentAccessModule.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPOIContentAccessModule_1af2ddc631eb09423f4723c8dfe55160cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POIContentAccessModule::POIContentAccessModule</definition>
+        <argsstring>()</argsstring>
+        <name>POIContentAccessModule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="25" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1a7f338151995ea8fa928475c40c3ba10a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POIContentAccessModule::POIContentAccessModule</definition>
+        <argsstring>(const POIContentAccessModule &amp;c)</argsstring>
+        <name>POIContentAccessModule</name>
+        <param>
+          <type>const <ref refid="classPOIContentAccessModule" kindref="compound">POIContentAccessModule</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="26" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1ac3a0db8ff8835548dba6b97d953fa541" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classPOIContentAccessModule" kindref="compound">POIContentAccessModule</ref> &amp;</type>
+        <definition>POIContentAccessModule &amp; POIContentAccessModule::operator=</definition>
+        <argsstring>(const POIContentAccessModule &amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classPOIContentAccessModule" kindref="compound">POIContentAccessModule</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="27" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="28" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1a30c6f8354c4500efacb244267bf9137d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POIContentAccessModule::~POIContentAccessModule</definition>
+        <argsstring>()</argsstring>
+        <name>~POIContentAccessModule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="28" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="31" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1a6c780d81f7b3a10f49f09e40cc47a44c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::getVersion</definition>
+        <argsstring>(Version &amp;interfaceversion)</argsstring>
+        <name>getVersion</name>
+        <param>
+          <type><ref refid="structVersion" kindref="compound">Version</ref> &amp;</type>
+          <declname>interfaceversion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="30" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1ab9bd4b2cb614fea507535c35fc869cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::setLocale</definition>
+        <argsstring>(String languageCode, String countryCode, String scriptCode)</argsstring>
+        <name>setLocale</name>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>languageCode</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>countryCode</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>scriptCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="32" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1a090f0c5d3f013fe7b522a13359eb9a74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::getLocale</definition>
+        <argsstring>(String &amp;languageCode, String &amp;countryCode, String &amp;scriptCode)</argsstring>
+        <name>getLocale</name>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref> &amp;</type>
+          <declname>languageCode</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref> &amp;</type>
+          <declname>countryCode</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref> &amp;</type>
+          <declname>scriptCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="34" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1abe5b7a1a29fa160059d069921dc3120e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::getSupportedLocales</definition>
+        <argsstring>(std::vector&lt; Locale &gt; &amp;localeList)</argsstring>
+        <name>getSupportedLocales</name>
+        <param>
+          <type>std::vector&lt; <ref refid="structLocale" kindref="compound">Locale</ref> &gt; &amp;</type>
+          <declname>localeList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="36" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1aa43bc8d91fd43bd2dfd32f752d8f8287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::getAvailableCategories</definition>
+        <argsstring>(std::vector&lt; CategoryAndName &gt; &amp;categories)</argsstring>
+        <name>getAvailableCategories</name>
+        <param>
+          <type>std::vector&lt; <ref refid="structCategoryAndName" kindref="compound">CategoryAndName</ref> &gt; &amp;</type>
+          <declname>categories</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="38" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1aaa4eac71b90e5c6095a45bf5301042e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::getRootCategory</definition>
+        <argsstring>(CategoryID &amp;category)</argsstring>
+        <name>getRootCategory</name>
+        <param>
+          <type><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref> &amp;</type>
+          <declname>category</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="40" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1ab2aec0a416c36fd03bfe2e0a65e24a82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::getChildrenCategories</definition>
+        <argsstring>(CategoryID category, std::vector&lt; CategoryAndLevel &gt; &amp;categories)</argsstring>
+        <name>getChildrenCategories</name>
+        <param>
+          <type><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref></type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structCategoryAndLevel" kindref="compound">CategoryAndLevel</ref> &gt; &amp;</type>
+          <declname>categories</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="42" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="74" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1addb7397e50b7723de3903c55e18eb86a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::getParentCategories</definition>
+        <argsstring>(CategoryID category, std::vector&lt; CategoryAndLevel &gt; &amp;categories)</argsstring>
+        <name>getParentCategories</name>
+        <param>
+          <type><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref></type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structCategoryAndLevel" kindref="compound">CategoryAndLevel</ref> &gt; &amp;</type>
+          <declname>categories</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="45" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="81" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1a48682234e876f2356885ed0a5221ff42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::createCategory</definition>
+        <argsstring>(CAMCategory category, CategoryID &amp;unique_id)</argsstring>
+        <name>createCategory</name>
+        <param>
+          <type><ref refid="structCAMCategory" kindref="compound">CAMCategory</ref></type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref> &amp;</type>
+          <declname>unique_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="48" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="88" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1aca098d0301bb8bb1b58970057cca6404" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::removeCategories</definition>
+        <argsstring>(std::vector&lt; CategoryID &gt; categories)</argsstring>
+        <name>removeCategories</name>
+        <param>
+          <type>std::vector&lt; <ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref> &gt;</type>
+          <declname>categories</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="50" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1a2ff3c77ab00bb73a446c67cbc1198500" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::addPOIs</definition>
+        <argsstring>(CategoryID unique_id, std::vector&lt; PoiAddedDetails &gt; poiList)</argsstring>
+        <name>addPOIs</name>
+        <param>
+          <type><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref></type>
+          <declname>unique_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structPoiAddedDetails" kindref="compound">PoiAddedDetails</ref> &gt;</type>
+          <declname>poiList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="52" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="102" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1a21659cc925d62864d3a64b7fca0fb46c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::removePOIs</definition>
+        <argsstring>(std::vector&lt; POI_ID &gt; ids)</argsstring>
+        <name>removePOIs</name>
+        <param>
+          <type>std::vector&lt; <ref refid="POIServiceTypes_8types_8h_1a400a3573b04df4d01d041cfd0bbad662" kindref="member">POI_ID</ref> &gt;</type>
+          <declname>ids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="54" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="109" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1ae60d0b65b28e1692b4e5cb8a5421e483" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::poiSearchStarted</definition>
+        <argsstring>(Handle poiSearchHandle, UInt16 maxSize, Coordinate3D location, std::vector&lt; CategoryAndRadius &gt; poiCategories, std::vector&lt; AttributeDetails &gt; poiAttributes, String inputString, SortOption sortOption)</argsstring>
+        <name>poiSearchStarted</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>poiSearchHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+          <declname>maxSize</declname>
+        </param>
+        <param>
+          <type><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref></type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structCategoryAndRadius" kindref="compound">CategoryAndRadius</ref> &gt;</type>
+          <declname>poiCategories</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structAttributeDetails" kindref="compound">AttributeDetails</ref> &gt;</type>
+          <declname>poiAttributes</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>inputString</declname>
+        </param>
+        <param>
+          <type><ref refid="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45" kindref="member">SortOption</ref></type>
+          <declname>sortOption</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="56" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="115" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1a70ff4c7dfd2ede57235b9764c0ef685d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::poiSearchCanceled</definition>
+        <argsstring>(Handle poiSearchHandle)</argsstring>
+        <name>poiSearchCanceled</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>poiSearchHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="62" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="125" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1aaac9cd753b4ce8798171378c61e3e1bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::resultListRequested</definition>
+        <argsstring>(ContentAccessModuleID camId, Handle poiSearchHandle, std::vector&lt; AttributeID &gt; attributeList, SearchStatusState &amp;statusValue, UInt16 &amp;resultListSize, std::vector&lt; PoiCAMDetails &gt; &amp;resultList)</argsstring>
+        <name>resultListRequested</name>
+        <param>
+          <type><ref refid="POIServiceTypes_8types_8h_1adbb520676cd0cc0192743965b5bde46f" kindref="member">ContentAccessModuleID</ref></type>
+          <declname>camId</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>poiSearchHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="POIServiceTypes_8types_8h_1a63fb569c36bb85fc79bbf5f2771a8543" kindref="member">AttributeID</ref> &gt;</type>
+          <declname>attributeList</declname>
+        </param>
+        <param>
+          <type><ref refid="POIServiceTypes_8types_8h_1a86e0a32751e485aae220c36666b2ad4f" kindref="member">SearchStatusState</ref> &amp;</type>
+          <declname>statusValue</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref> &amp;</type>
+          <declname>resultListSize</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structPoiCAMDetails" kindref="compound">PoiCAMDetails</ref> &gt; &amp;</type>
+          <declname>resultList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="64" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="131" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIContentAccessModule_1a430c8acb59865fdff1cacf34741036da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIContentAccessModule::poiDetailsRequested</definition>
+        <argsstring>(std::vector&lt; POI_ID &gt; source_id, std::vector&lt; SearchResultDetails &gt; &amp;results)</argsstring>
+        <name>poiDetailsRequested</name>
+        <param>
+          <type>std::vector&lt; <ref refid="POIServiceTypes_8types_8h_1a400a3573b04df4d01d041cfd0bbad662" kindref="member">POI_ID</ref> &gt;</type>
+          <declname>source_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structSearchResultDetails" kindref="compound">SearchResultDetails</ref> &gt; &amp;</type>
+          <declname>results</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIContentAccessModule.h" line="70" column="1" bodyfile="POIContentAccessModule.cpp" bodystart="140" bodyend="145"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="POIContentAccessModule.h" line="23" column="1" bodyfile="POIContentAccessModule.h" bodystart="23" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classPOIContentAccessModule_1a2ff3c77ab00bb73a446c67cbc1198500" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>addPOIs</name></member>
+      <member refid="classPOIContentAccessModule_1a48682234e876f2356885ed0a5221ff42" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>createCategory</name></member>
+      <member refid="classPOIContentAccessModule_1aa43bc8d91fd43bd2dfd32f752d8f8287" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>getAvailableCategories</name></member>
+      <member refid="classPOIContentAccessModule_1ab2aec0a416c36fd03bfe2e0a65e24a82" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>getChildrenCategories</name></member>
+      <member refid="classPOIContentAccessModule_1a090f0c5d3f013fe7b522a13359eb9a74" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>getLocale</name></member>
+      <member refid="classPOIContentAccessModule_1addb7397e50b7723de3903c55e18eb86a" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>getParentCategories</name></member>
+      <member refid="classPOIContentAccessModule_1aaa4eac71b90e5c6095a45bf5301042e6" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>getRootCategory</name></member>
+      <member refid="classPOIContentAccessModule_1abe5b7a1a29fa160059d069921dc3120e" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>getSupportedLocales</name></member>
+      <member refid="classPOIContentAccessModule_1a6c780d81f7b3a10f49f09e40cc47a44c" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>getVersion</name></member>
+      <member refid="classPOIContentAccessModule_1ac3a0db8ff8835548dba6b97d953fa541" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>operator=</name></member>
+      <member refid="classPOIContentAccessModule_1af2ddc631eb09423f4723c8dfe55160cf" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>POIContentAccessModule</name></member>
+      <member refid="classPOIContentAccessModule_1a7f338151995ea8fa928475c40c3ba10a" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>POIContentAccessModule</name></member>
+      <member refid="classPOIContentAccessModule_1a430c8acb59865fdff1cacf34741036da" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>poiDetailsRequested</name></member>
+      <member refid="classPOIContentAccessModule_1a70ff4c7dfd2ede57235b9764c0ef685d" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>poiSearchCanceled</name></member>
+      <member refid="classPOIContentAccessModule_1ae60d0b65b28e1692b4e5cb8a5421e483" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>poiSearchStarted</name></member>
+      <member refid="classPOIContentAccessModule_1aca098d0301bb8bb1b58970057cca6404" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>removeCategories</name></member>
+      <member refid="classPOIContentAccessModule_1a21659cc925d62864d3a64b7fca0fb46c" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>removePOIs</name></member>
+      <member refid="classPOIContentAccessModule_1aaac9cd753b4ce8798171378c61e3e1bf" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>resultListRequested</name></member>
+      <member refid="classPOIContentAccessModule_1ab9bd4b2cb614fea507535c35fc869cf8" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>setLocale</name></member>
+      <member refid="classPOIContentAccessModule_1a30c6f8354c4500efacb244267bf9137d" prot="public" virt="non-virtual"><scope>POIContentAccessModule</scope><name>~POIContentAccessModule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

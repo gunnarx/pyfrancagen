@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Configuration_8cpp" kind="file" language="C++">
+    <compoundname>Configuration.cpp</compoundname>
+    <includes refid="Configuration_8h" local="yes">Configuration.h</includes>
+    <incdepgraph>
+      <node id="46">
+        <label>Configuration.h</label>
+        <link refid="Configuration_8h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>stdint.h</label>
+      </node>
+      <node id="52">
+        <label>string</label>
+      </node>
+      <node id="51">
+        <label>map</label>
+      </node>
+      <node id="47">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>vector</label>
+      </node>
+      <node id="53">
+        <label>Configuration.types.h</label>
+        <link refid="Configuration_8types_8h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>Configuration.cpp</label>
+        <link refid="Configuration_8cpp"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Configuration_8h" kindref="compound">Configuration.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Constructors,<sp/>etc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="classConfiguration_1a779947337bf652f0e773cb29f37f14ba" kindref="member">Configuration::Configuration</ref>()<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>TODO,<sp/>or<sp/>use<sp/>implicit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="classConfiguration_1a779947337bf652f0e773cb29f37f14ba" kindref="member">Configuration::Configuration</ref>(</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classConfiguration" kindref="compound">Configuration</ref><sp/>&amp;x)<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>TODO,<sp/>or<sp/>use<sp/>implicit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="classConfiguration" kindref="compound">Configuration</ref><sp/>&amp;<ref refid="classConfiguration_1ae175f8761454f62f31846a7619a865e4" kindref="member">Configuration::</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><ref refid="classConfiguration_1ae175f8761454f62f31846a7619a865e4" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classConfiguration" kindref="compound">Configuration</ref><sp/>&amp;x)<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>TODO,<sp/>or<sp/>use<sp/>implicit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><ref refid="classConfiguration_1a0dd0fa189e239f4c9a036303f641441e" kindref="member">Configuration::~Configuration</ref>()<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>TODO,<sp/>or<sp/>use<sp/>implicit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a2eaae2317a15ef79ff9aabf0be88781a" kindref="member">Configuration::getVersion</ref>(<ref refid="structVersion" kindref="compound">Version</ref><sp/>&amp;interfaceversion)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>getVersion<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1aecca1cbb8130e6ec9c9c2fdbdbab721b" kindref="member">Configuration::setLocale</ref>(<ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>languageCode,<sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>countryCode,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>scriptCode)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>setLocale<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a0b5c6a7cca39091dd9a7135e6ac061f7" kindref="member">Configuration::getLocale</ref>(<ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>&amp;languageCode,<sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>&amp;countryCode,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>&amp;scriptCode)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>getLocale<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a8f31975aec900971f4289cf04acf975c" kindref="member">Configuration::getSupportedLocales</ref>(std::vector&lt;Locale&gt;<sp/>&amp;localeList)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>getSupportedLocales<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1ac8037d471b68e268fb996c16e7cd2ac8" kindref="member">Configuration::setTimeFormat</ref>(<ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" kindref="member">TimeFormat</ref><sp/>format)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>setTimeFormat<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a25a00cd33600fb3f38b819f4547c4a04" kindref="member">Configuration::getTimeFormat</ref>(<ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" kindref="member">TimeFormat</ref><sp/>&amp;format)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>getTimeFormat<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a2e2cc701f0b26cbe57169a893489608d" kindref="member">Configuration::getSupportedTimeFormats</ref>(</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;TimeFormat&gt;<sp/>&amp;timeFormatList)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>getSupportedTimeFormats<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a761026e2afe77880783b42629a8fcee3" kindref="member">Configuration::setCoordinatesFormat</ref>(<ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85" kindref="member">CoordinatesFormat</ref><sp/>coordinatesFormat)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>setCoordinatesFormat<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a31e6198960772695a5701c5f68c03692" kindref="member">Configuration::getCoordinatesFormat</ref>(<ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85" kindref="member">CoordinatesFormat</ref><sp/>&amp;coordinatesFormat)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>getCoordinatesFormat<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a042feb4b1e50fe641f26959581442152" kindref="member">Configuration::getSupportedCoordinatesFormat</ref>(</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;CoordinatesFormat&gt;<sp/>&amp;coordinatesFormatList)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>getSupportedCoordinatesFormat<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1acd1288f528b3e2de2ae41e5e1654625d" kindref="member">Configuration::setUnitsOfMeasurement</ref>(</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Configuration_8types_8h_1a1031c81fe968f821429abf89b45277fa" kindref="member">UnitsOfMeasurement</ref><sp/>unitsOfMeasurement)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>setUnitsOfMeasurement<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1aaa38c635ad91ea00f987df47cc39ae0d" kindref="member">Configuration::getUnitsOfMeasurement</ref>(</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Configuration_8types_8h_1a1031c81fe968f821429abf89b45277fa" kindref="member">UnitsOfMeasurement</ref><sp/>&amp;unitsOfMeasurement)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>getUnitsOfMeasurement<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a43ab4e9b91fa322d0dc5b347974c058f" kindref="member">Configuration::getSupportedUnitsOfMeasurement</ref>(</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Configuration_8types_8h_1a4e8a73e8f770a3f01c6b610059735ec6" kindref="member">UnitsOfMeasurementList</ref><sp/>&amp;unitsOfMeasurementList)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>getSupportedUnitsOfMeasurement<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Configuration.cpp"/>
+  </compounddef>
+</doxygen>

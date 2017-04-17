@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['name',['name',['../structCustomElement.html#a5d5d9f394f11da81770261ec01e3bbf1',1,'CustomElement::name()'],['../structCategorySortOption.html#add3867932d546e132c05879543cf1bb8',1,'CategorySortOption::name()'],['../structPoiDetails.html#ab8cb7948a15f3115438d1343303312a5',1,'PoiDetails::name()'],['../structCategoryAndName.html#a09986679670bd4bb78347700112951bc',1,'CategoryAndName::name()'],['../structPoiAddedDetails.html#a3cc3ee377dd31e9e11a42a3dad120b62',1,'PoiAddedDetails::name()'],['../structDetails.html#acc2a2efc349939c690ce60ea10113ebf',1,'Details::name()'],['../structOperator.html#a25ad4ce86a4f28e5b18021e063fdc5a9',1,'Operator::name()'],['../structCategoryAttribute.html#adfb910cbe1e6e4e7a8315a6a5c5dc7e2',1,'CategoryAttribute::name()'],['../structCategoryDetails.html#a1f858ba62b342a2466a345a07dbaf9eb',1,'CategoryDetails::name()'],['../structPoiCAMDetails.html#a0ea8ec1d49a50fa08a33250e7a52a30b',1,'PoiCAMDetails::name()']]],
+  ['national_5fpark',['NATIONAL_PARK',['../POIServiceTypes_8types_8h.html#a157631a2ef5aa2c9a71abb3d8a5722dba3f6e7f4c0c33e19c338a82d835003f3e',1,'POIServiceTypes.types.h']]],
+  ['navigationcoretypes_2etypes_2eh',['NavigationCoreTypes.types.h',['../NavigationCoreTypes_8types_8h.html',1,'']]],
+  ['navigationtypes_2etypes_2eh',['NavigationTypes.types.h',['../NavigationTypes_8types_8h.html',1,'']]],
+  ['nearaddresssuggestions',['nearAddressSuggestions',['../structPOICategory.html#af1c43e6a6904bcdf3514f1788ec75073',1,'POICategory']]],
+  ['no_5ffix',['NO_FIX',['../MapMatchedPosition_8types_8h.html#a21f812c26a39fb9f4b5290e7debeffddaa80630704b93114ed9e817a3f53f59c7',1,'MapMatchedPosition.types.h']]],
+  ['no_5fplaces',['NO_PLACES',['../FreeTextSearch_8types_8h.html#a376fa30c4128d7fa2be6308c9b441175afb1465ee6f42a909a805d5b9aac47852',1,'FreeTextSearch.types.h']]],
+  ['no_5fpoi_5fcategory_5fassumptions',['NO_POI_CATEGORY_ASSUMPTIONS',['../FreeTextSearch_8types_8h.html#a376fa30c4128d7fa2be6308c9b441175ac392008c7727e836377bbf7f26104c8e',1,'FreeTextSearch.types.h']]],
+  ['no_5fpolitical_5fdivisions',['NO_POLITICAL_DIVISIONS',['../FreeTextSearch_8types_8h.html#a376fa30c4128d7fa2be6308c9b441175a8ccadcaa45c4d41ebe1e62adbaaf6e8b',1,'FreeTextSearch.types.h']]],
+  ['no_5fposition',['NO_POSITION',['../Routing_8types_8h.html#a1b929ccb5d81a6ec5776c85f020f345bafc7dbc82a9918b59581658b86a318f19',1,'Routing.types.h']]],
+  ['no_5fstreets',['NO_STREETS',['../FreeTextSearch_8types_8h.html#a376fa30c4128d7fa2be6308c9b441175ab4e03287b286dde20c53fdaa9d591c9d',1,'FreeTextSearch.types.h']]],
+  ['none',['NONE',['../NavigationCoreTypes_8types_8h.html#ab01a50d5c4439aa84b868de3fa40533cab50339a10e1de285ac99d4c3990b8693',1,'NavigationCoreTypes.types.h']]],
+  ['north',['NORTH',['../NavigationCoreTypes_8types_8h.html#ab01a50d5c4439aa84b868de3fa40533ca2bf8f791695c70efa9c14e6f1c326403',1,'NavigationCoreTypes.types.h']]],
+  ['not_5favailable',['NOT_AVAILABLE',['../Guidance_8types_8h.html#a8c0137d7160ad71b6ed265c53c99ed00ad07995fa8f4a3a019d134fcbfca4669a',1,'NOT_AVAILABLE():&#160;Guidance.types.h'],['../NavigationTypes_8types_8h.html#aa68bfc8983f200bfbae62a07dd04ebf0ad07995fa8f4a3a019d134fcbfca4669a',1,'NOT_AVAILABLE():&#160;NavigationTypes.types.h']]],
+  ['not_5fstandard_5fcategory',['NOT_STANDARD_CATEGORY',['../POIServiceTypes_8types_8h.html#a157631a2ef5aa2c9a71abb3d8a5722dba7c8ee4d2041cac4c7014a3f132f06fa9',1,'POIServiceTypes.types.h']]],
+  ['not_5fstarted',['NOT_STARTED',['../POIServiceTypes_8types_8h.html#a86e0a32751e485aae220c36666b2ad4fa06972acc3aafeb3a65dbd996c8dedc73',1,'POIServiceTypes.types.h']]],
+  ['number',['number',['../structWaypointStruct.html#a4a8bbeda4e00622ef3fa77b059fd9e6f',1,'WaypointStruct']]]
+];

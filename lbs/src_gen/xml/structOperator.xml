@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structOperator" kind="struct" language="C++" prot="public">
+    <compoundname>Operator</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structOperator_1a5442cdbf992150a59edf6924157eb237" prot="public" static="no" mutable="no">
+        <type><ref refid="POIServiceTypes_8types_8h_1a6a02b2d1d62293b20242e3dcfbdd0117" kindref="member">OperatorType</ref></type>
+        <definition>OperatorType Operator::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="252" column="1" bodyfile="POIServiceTypes.types.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structOperator_1a25ad4ce86a4f28e5b18021e063fdc5a9" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Operator::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="253" column="1" bodyfile="POIServiceTypes.types.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structOperator_1a7a9fc4aba87d5ed5282602764acec994" prot="public" static="no" mutable="no">
+        <type><ref refid="unionAttributeValue" kindref="compound">AttributeValue</ref></type>
+        <definition>AttributeValue Operator::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="254" column="1" bodyfile="POIServiceTypes.types.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="130">
+        <label>Operator</label>
+        <link refid="structOperator"/>
+        <childnode refid="131" relation="usage">
+          <edgelabel>value</edgelabel>
+        </childnode>
+      </node>
+      <node id="131">
+        <label>AttributeValue</label>
+        <link refid="unionAttributeValue"/>
+      </node>
+    </collaborationgraph>
+    <location file="POIServiceTypes.types.h" line="251" column="1" bodyfile="POIServiceTypes.types.h" bodystart="251" bodyend="255"/>
+    <listofallmembers>
+      <member refid="structOperator_1a25ad4ce86a4f28e5b18021e063fdc5a9" prot="public" virt="non-virtual"><scope>Operator</scope><name>name</name></member>
+      <member refid="structOperator_1a5442cdbf992150a59edf6924157eb237" prot="public" virt="non-virtual"><scope>Operator</scope><name>type</name></member>
+      <member refid="structOperator_1a7a9fc4aba87d5ed5282602764acec994" prot="public" virt="non-virtual"><scope>Operator</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

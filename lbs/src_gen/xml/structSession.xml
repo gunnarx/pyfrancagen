@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structSession" kind="class" language="C++" prot="public">
+    <compoundname>Session</compoundname>
+    <includes refid="NavigationTypes_8types_8h" local="no">NavigationTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSession_1a1dd8a1528a59e15192eba6320f9904ad" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+        <definition>Handle Session::sessionHandle</definition>
+        <argsstring></argsstring>
+        <name>sessionHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="84" column="1" bodyfile="NavigationTypes.types.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSession_1a79f6e799ce7f3114f843b0fb8b4637d3" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Session::clientApp</definition>
+        <argsstring></argsstring>
+        <name>clientApp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="85" column="1" bodyfile="NavigationTypes.types.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structSession_1ad92ef09b872c9227e38a6efdd4d8a837" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Session::Session</definition>
+        <argsstring>()</argsstring>
+        <name>Session</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Session.h" line="24" column="1" bodyfile="Session.cpp" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structSession_1af138fc53cabb2827cca4ed80010ae68f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Session::Session</definition>
+        <argsstring>(const Session &amp;c)</argsstring>
+        <name>Session</name>
+        <param>
+          <type>const <ref refid="structSession" kindref="compound">Session</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Session.h" line="25" column="1" bodyfile="Session.cpp" bodystart="23" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structSession_1a8f08c2277d1067c071546b307fbc72f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structSession" kindref="compound">Session</ref> &amp;</type>
+        <definition>Session &amp; Session::operator=</definition>
+        <argsstring>(const Session &amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="structSession" kindref="compound">Session</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Session.h" line="26" column="1" bodyfile="Session.cpp" bodystart="26" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structSession_1a8753bb9dee966b7d39abc9b7237cd665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Session::~Session</definition>
+        <argsstring>()</argsstring>
+        <name>~Session</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Session.h" line="27" column="1" bodyfile="Session.cpp" bodystart="29" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="structSession_1a729d31ed1be920ba55588ef7c9ebfad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Session::getVersion</definition>
+        <argsstring>(Version &amp;interfaceversion)</argsstring>
+        <name>getVersion</name>
+        <param>
+          <type><ref refid="structVersion" kindref="compound">Version</ref> &amp;</type>
+          <declname>interfaceversion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Session.h" line="29" column="1" bodyfile="Session.cpp" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="structSession_1a325126cd7b466395ab1b8edd1643529c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Session::createSession</definition>
+        <argsstring>(String clientApp, Handle &amp;sessionHandle)</argsstring>
+        <name>createSession</name>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>clientApp</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref> &amp;</type>
+          <declname>sessionHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Session.h" line="31" column="1" bodyfile="Session.cpp" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="structSession_1a9c9caa54f9bdfcaba76444f3e8f101a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Session::deleteSession</definition>
+        <argsstring>(Handle sessionHandle)</argsstring>
+        <name>deleteSession</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Session.h" line="33" column="1" bodyfile="Session.cpp" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="structSession_1aa4bd0f94bc6aab50c0036aaab4680e3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Session::getSessionStatus</definition>
+        <argsstring>(Handle sessionHandle, SessionStatus &amp;sessionStatus)</argsstring>
+        <name>getSessionStatus</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1aa68bfc8983f200bfbae62a07dd04ebf0" kindref="member">SessionStatus</ref> &amp;</type>
+          <declname>sessionStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Session.h" line="35" column="1" bodyfile="Session.cpp" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="structSession_1ae482db9d6864566f76a0ac0287c0d034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Session::getAllSessions</definition>
+        <argsstring>(std::vector&lt; Session &gt; &amp;sessionsList)</argsstring>
+        <name>getAllSessions</name>
+        <param>
+          <type>std::vector&lt; <ref refid="structSession" kindref="compound">Session</ref> &gt; &amp;</type>
+          <declname>sessionsList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Session.h" line="37" column="1" bodyfile="Session.cpp" bodystart="57" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NavigationTypes.types.h" line="83" column="1" bodyfile="NavigationTypes.types.h" bodystart="83" bodyend="86"/>
+    <listofallmembers>
+      <member refid="structSession_1a79f6e799ce7f3114f843b0fb8b4637d3" prot="public" virt="non-virtual"><scope>Session</scope><name>clientApp</name></member>
+      <member refid="structSession_1a325126cd7b466395ab1b8edd1643529c" prot="public" virt="non-virtual"><scope>Session</scope><name>createSession</name></member>
+      <member refid="structSession_1a9c9caa54f9bdfcaba76444f3e8f101a0" prot="public" virt="non-virtual"><scope>Session</scope><name>deleteSession</name></member>
+      <member refid="structSession_1ae482db9d6864566f76a0ac0287c0d034" prot="public" virt="non-virtual"><scope>Session</scope><name>getAllSessions</name></member>
+      <member refid="structSession_1aa4bd0f94bc6aab50c0036aaab4680e3f" prot="public" virt="non-virtual"><scope>Session</scope><name>getSessionStatus</name></member>
+      <member refid="structSession_1a729d31ed1be920ba55588ef7c9ebfad9" prot="public" virt="non-virtual"><scope>Session</scope><name>getVersion</name></member>
+      <member refid="structSession_1a8f08c2277d1067c071546b307fbc72f5" prot="public" virt="non-virtual"><scope>Session</scope><name>operator=</name></member>
+      <member refid="structSession_1ad92ef09b872c9227e38a6efdd4d8a837" prot="public" virt="non-virtual"><scope>Session</scope><name>Session</name></member>
+      <member refid="structSession_1af138fc53cabb2827cca4ed80010ae68f" prot="public" virt="non-virtual"><scope>Session</scope><name>Session</name></member>
+      <member refid="structSession_1a1dd8a1528a59e15192eba6320f9904ad" prot="public" virt="non-virtual"><scope>Session</scope><name>sessionHandle</name></member>
+      <member refid="structSession_1a8753bb9dee966b7d39abc9b7237cd665" prot="public" virt="non-virtual"><scope>Session</scope><name>~Session</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

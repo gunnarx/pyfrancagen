@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="POISearch_8types_8h" kind="file" language="C++">
+    <compoundname>POISearch.types.h</compoundname>
+    <includes refid="CommonTypes_8types_8h" local="yes">CommonTypes.types.h</includes>
+    <includes refid="NavigationTypes_8types_8h" local="yes">NavigationTypes.types.h</includes>
+    <includes refid="POIServiceTypes_8types_8h" local="yes">POIServiceTypes.types.h</includes>
+    <includes refid="franca__types_8h" local="yes">franca_types.h</includes>
+    <includedby refid="POISearch_8h" local="yes">POISearch.h</includedby>
+    <incdepgraph>
+      <node id="496">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="491" relation="include">
+        </childnode>
+      </node>
+      <node id="492">
+        <label>stdint.h</label>
+      </node>
+      <node id="495">
+        <label>string</label>
+      </node>
+      <node id="497">
+        <label>POIServiceTypes.types.h</label>
+        <link refid="POIServiceTypes_8types_8h"/>
+        <childnode refid="490" relation="include">
+        </childnode>
+        <childnode refid="497" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+      </node>
+      <node id="494">
+        <label>map</label>
+      </node>
+      <node id="490">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="491" relation="include">
+        </childnode>
+      </node>
+      <node id="489">
+        <label>POISearch.types.h</label>
+        <link refid="POISearch_8types_8h"/>
+        <childnode refid="490" relation="include">
+        </childnode>
+        <childnode refid="496" relation="include">
+        </childnode>
+        <childnode refid="497" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+      </node>
+      <node id="493">
+        <label>vector</label>
+      </node>
+      <node id="491">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="492" relation="include">
+        </childnode>
+        <childnode refid="493" relation="include">
+        </childnode>
+        <childnode refid="494" relation="include">
+        </childnode>
+        <childnode refid="495" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="499">
+        <label>POISearch.h</label>
+        <link refid="POISearch_8h"/>
+        <childnode refid="500" relation="include">
+        </childnode>
+      </node>
+      <node id="498">
+        <label>POISearch.types.h</label>
+        <link refid="POISearch_8types_8h"/>
+        <childnode refid="499" relation="include">
+        </childnode>
+      </node>
+      <node id="500">
+        <label>POISearch.cpp</label>
+        <link refid="POISearch_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="CommonTypes_8types_8h" kindref="compound">CommonTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationTypes_8types_8h" kindref="compound">NavigationTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="POIServiceTypes_8types_8h" kindref="compound">POIServiceTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="franca__types_8h" kindref="compound">franca_types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="POISearch.types.h"/>
+  </compounddef>
+</doxygen>

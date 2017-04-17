@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="MapMatchedPosition_8h" kind="file" language="C++">
+    <compoundname>MapMatchedPosition.h</compoundname>
+    <includes refid="CommonTypes_8types_8h" local="yes">CommonTypes.types.h</includes>
+    <includes refid="MapMatchedPosition_8types_8h" local="yes">MapMatchedPosition.types.h</includes>
+    <includes refid="NavigationCoreTypes_8types_8h" local="yes">NavigationCoreTypes.types.h</includes>
+    <includes refid="NavigationTypes_8types_8h" local="yes">NavigationTypes.types.h</includes>
+    <includedby refid="MapMatchedPosition_8cpp" local="yes">MapMatchedPosition.cpp</includedby>
+    <incdepgraph>
+      <node id="249">
+        <label>NavigationCoreTypes.types.h</label>
+        <link refid="NavigationCoreTypes_8types_8h"/>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="243" relation="include">
+        </childnode>
+      </node>
+      <node id="244">
+        <label>stdint.h</label>
+      </node>
+      <node id="247">
+        <label>string</label>
+      </node>
+      <node id="246">
+        <label>map</label>
+      </node>
+      <node id="242">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="243" relation="include">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>vector</label>
+      </node>
+      <node id="241">
+        <label>MapMatchedPosition.h</label>
+        <link refid="MapMatchedPosition_8h"/>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+      </node>
+      <node id="248">
+        <label>MapMatchedPosition.types.h</label>
+        <link refid="MapMatchedPosition_8types_8h"/>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="252">
+        <label>MapMatchedPosition.cpp</label>
+        <link refid="MapMatchedPosition_8cpp"/>
+      </node>
+      <node id="251">
+        <label>MapMatchedPosition.h</label>
+        <link refid="MapMatchedPosition_8h"/>
+        <childnode refid="252" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMapMatchedPosition" prot="public">MapMatchedPosition</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="CommonTypes_8types_8h" kindref="compound">CommonTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MapMatchedPosition_8types_8h" kindref="compound">MapMatchedPosition.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationCoreTypes_8types_8h" kindref="compound">NavigationCoreTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationTypes_8types_8h" kindref="compound">NavigationTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classMapMatchedPosition" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMapMatchedPosition" kindref="compound">MapMatchedPosition</ref><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><ref refid="classMapMatchedPosition_1a1c59a8ba03232071c236a41466368224" kindref="member">MapMatchedPosition</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><ref refid="classMapMatchedPosition_1a1c59a8ba03232071c236a41466368224" kindref="member">MapMatchedPosition</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition" kindref="compound">MapMatchedPosition</ref><sp/>&amp;c);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><ref refid="classMapMatchedPosition" kindref="compound">MapMatchedPosition</ref><sp/>&amp;<ref refid="classMapMatchedPosition_1aaee948734e1e405d088baf91f0718880" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition" kindref="compound">MapMatchedPosition</ref><sp/>&amp;c);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><ref refid="classMapMatchedPosition_1ae9824585d0478be17ec28d37fcf06386" kindref="member">~MapMatchedPosition</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition_1a4513f07e2baed01574765a0ebf714ac2" kindref="member">getVersion</ref>(<ref refid="structVersion" kindref="compound">Version</ref><sp/>&amp;interfaceversion);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition_1af5119330abb6b320b8ef449bbe32605e" kindref="member">setSimulationMode</ref>(<ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/>sessionHandle,<sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/>activate);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition_1ac6f55acad27c2087190c6077c81936ad" kindref="member">getSimulationStatus</ref>(<ref refid="MapMatchedPosition_8types_8h_1aaf5876738450df4bb9d08a5ec8a8dbe2" kindref="member">SimulationStatus</ref><sp/>&amp;simulationStatus);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition_1a8d21b2b3fa50c9d39510d6b58001d502" kindref="member">setSimulationSpeed</ref>(<ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/>sessionHandle,<sp/><ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref><sp/>speedFactor);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition_1afaddac5996d036f34299210de3a06893" kindref="member">getSimulationSpeed</ref>(<ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref><sp/>&amp;speedFactor);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition_1a8853d8a33f19fe093ade3e1003bcbf6c" kindref="member">startSimulation</ref>(<ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/>sessionHandle);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition_1a528051d4f667a2506eff1dfb281cf3b7" kindref="member">pauseSimulation</ref>(<ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/>sessionHandle);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition_1a23f62159811cfb22dd67117d195d5437" kindref="member">getPosition</ref>(std::vector&lt;PositionItemKey&gt;<sp/>valuesToReturn,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1ad3a297befff1d89bc8b6d68d8bb41ec9" kindref="member">PositionItemDict</ref><sp/>&amp;position);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition_1a5cbd371994fcade56422004299b3356a" kindref="member">setPosition</ref>(<ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/>sessionHandle,<sp/><ref refid="MapMatchedPosition_8types_8h_1ad3a297befff1d89bc8b6d68d8bb41ec9" kindref="member">PositionItemDict</ref><sp/>position);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition_1a58e32c7963c7e98745f351ae350f96aa" kindref="member">getCurrentAddress</ref>(std::vector&lt;AddressItemKey&gt;<sp/>valuesToReturn,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a538ccc2323455d9cba291ad11efbe3ce" kindref="member">AddressItemDict</ref><sp/>&amp;address);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition_1a8bc4ecd9c7dfa5912ae0dd1335a660a1" kindref="member">getPositionOnSegment</ref>(std::vector&lt;PositionOnSegmentKey&gt;<sp/>valuesToReturn,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a2a4e535fceabb3c671ac01f5e978b4e0" kindref="member">PositionOnSegmentDict</ref><sp/>&amp;positionOnSegment);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMapMatchedPosition_1aa4374ac895b2398c7fb9ea9ca5c37ba1" kindref="member">getStatus</ref>(std::vector&lt;PositionStatus&gt;<sp/>valuesToReturn,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a445964d81c645fc3fdfbcde127a5a85e" kindref="member">PositionStatusDict</ref><sp/>&amp;status);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>none</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="MapMatchedPosition.h"/>
+  </compounddef>
+</doxygen>

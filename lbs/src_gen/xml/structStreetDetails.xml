@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structStreetDetails" kind="struct" language="C++" prot="public">
+    <compoundname>StreetDetails</compoundname>
+    <includes refid="FreeTextSearch_8types_8h" local="no">FreeTextSearch.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structStreetDetails_1adce4b685d2548069e359cf1808689c77" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString StreetDetails::streetName</definition>
+        <argsstring></argsstring>
+        <name>streetName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="89" column="1" bodyfile="FreeTextSearch.types.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStreetDetails_1a38003145a4188f84b9e3f835d8bf95d0" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString StreetDetails::houseNumber</definition>
+        <argsstring></argsstring>
+        <name>houseNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="90" column="1" bodyfile="FreeTextSearch.types.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStreetDetails_1a3a513a4c19c9ddb36ff39553d5a2164b" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString StreetDetails::houseNumberFromInput</definition>
+        <argsstring></argsstring>
+        <name>houseNumberFromInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="91" column="1" bodyfile="FreeTextSearch.types.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FreeTextSearch.types.h" line="88" column="1" bodyfile="FreeTextSearch.types.h" bodystart="88" bodyend="92"/>
+    <listofallmembers>
+      <member refid="structStreetDetails_1a38003145a4188f84b9e3f835d8bf95d0" prot="public" virt="non-virtual"><scope>StreetDetails</scope><name>houseNumber</name></member>
+      <member refid="structStreetDetails_1a3a513a4c19c9ddb36ff39553d5a2164b" prot="public" virt="non-virtual"><scope>StreetDetails</scope><name>houseNumberFromInput</name></member>
+      <member refid="structStreetDetails_1adce4b685d2548069e359cf1808689c77" prot="public" virt="non-virtual"><scope>StreetDetails</scope><name>streetName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

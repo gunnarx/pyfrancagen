@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structSelectedMapElement" kind="struct" language="C++" prot="public">
+    <compoundname>SelectedMapElement</compoundname>
+    <includes refid="MapViewerControl_8types_8h" local="no">MapViewerControl.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSelectedMapElement_1a7a5b5e3944251e6734f6cdf70e12e8f5" prot="public" static="no" mutable="no">
+        <type><ref refid="MapViewerControl_8types_8h_1aa9fd45894632661538a02981ea2bc053" kindref="member">SelectableMapType</ref></type>
+        <definition>SelectableMapType SelectedMapElement::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="272" column="1" bodyfile="MapViewerControl.types.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSelectedMapElement_1a5ed5aea08f69629e08ebf33f4bc3342f" prot="public" static="no" mutable="no">
+        <type><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref></type>
+        <definition>Coordinate2D SelectedMapElement::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="273" column="1" bodyfile="MapViewerControl.types.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSelectedMapElement_1aa2b707b346d951fa90855976963168e4" prot="public" static="no" mutable="no">
+        <type><ref refid="unionElementValue" kindref="compound">ElementValue</ref></type>
+        <definition>ElementValue SelectedMapElement::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="274" column="1" bodyfile="MapViewerControl.types.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="198">
+        <label>Coordinate2D</label>
+        <link refid="structCoordinate2D"/>
+      </node>
+      <node id="200">
+        <label>CustomElement</label>
+        <link refid="structCustomElement"/>
+        <childnode refid="201" relation="usage">
+          <edgelabel>elem4</edgelabel>
+        </childnode>
+        <childnode refid="198" relation="usage">
+          <edgelabel>coordinate</edgelabel>
+        </childnode>
+      </node>
+      <node id="202">
+        <label>WayPointValue</label>
+        <link refid="structWayPointValue"/>
+      </node>
+      <node id="201">
+        <label>AnchorPoint</label>
+        <link refid="structAnchorPoint"/>
+      </node>
+      <node id="197">
+        <label>SelectedMapElement</label>
+        <link refid="structSelectedMapElement"/>
+        <childnode refid="198" relation="usage">
+          <edgelabel>position</edgelabel>
+        </childnode>
+        <childnode refid="199" relation="usage">
+          <edgelabel>value</edgelabel>
+        </childnode>
+      </node>
+      <node id="199">
+        <label>ElementValue</label>
+        <link refid="unionElementValue"/>
+        <childnode refid="200" relation="usage">
+          <edgelabel>element</edgelabel>
+        </childnode>
+        <childnode refid="202" relation="usage">
+          <edgelabel>wayPointValue</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MapViewerControl.types.h" line="271" column="1" bodyfile="MapViewerControl.types.h" bodystart="271" bodyend="275"/>
+    <listofallmembers>
+      <member refid="structSelectedMapElement_1a5ed5aea08f69629e08ebf33f4bc3342f" prot="public" virt="non-virtual"><scope>SelectedMapElement</scope><name>position</name></member>
+      <member refid="structSelectedMapElement_1a7a5b5e3944251e6734f6cdf70e12e8f5" prot="public" virt="non-virtual"><scope>SelectedMapElement</scope><name>type</name></member>
+      <member refid="structSelectedMapElement_1aa2b707b346d951fa90855976963168e4" prot="public" virt="non-virtual"><scope>SelectedMapElement</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

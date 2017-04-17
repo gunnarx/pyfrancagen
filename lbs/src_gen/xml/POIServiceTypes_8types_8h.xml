@@ -1,0 +1,1975 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="POIServiceTypes_8types_8h" kind="file" language="C++">
+    <compoundname>POIServiceTypes.types.h</compoundname>
+    <includes refid="CommonTypes_8types_8h" local="yes">CommonTypes.types.h</includes>
+    <includes refid="POIServiceTypes_8types_8h" local="yes">POIServiceTypes.types.h</includes>
+    <includes refid="franca__types_8h" local="yes">franca_types.h</includes>
+    <includedby refid="POIConfiguration_8types_8h" local="yes">POIConfiguration.types.h</includedby>
+    <includedby refid="POIServiceTypes_8types_8h" local="yes">POIServiceTypes.types.h</includedby>
+    <includedby refid="POIConfiguration_8h" local="yes">POIConfiguration.h</includedby>
+    <includedby refid="POIContentAccess_8types_8h" local="yes">POIContentAccess.types.h</includedby>
+    <includedby refid="POIContentAccess_8h" local="yes">POIContentAccess.h</includedby>
+    <includedby refid="POIContentAccessModule_8types_8h" local="yes">POIContentAccessModule.types.h</includedby>
+    <includedby refid="POIContentAccessModule_8h" local="yes">POIContentAccessModule.h</includedby>
+    <includedby refid="POISearch_8types_8h" local="yes">POISearch.types.h</includedby>
+    <includedby refid="POISearch_8h" local="yes">POISearch.h</includedby>
+    <incdepgraph>
+      <node id="504">
+        <label>stdint.h</label>
+      </node>
+      <node id="507">
+        <label>string</label>
+      </node>
+      <node id="501">
+        <label>POIServiceTypes.types.h</label>
+        <link refid="POIServiceTypes_8types_8h"/>
+        <childnode refid="502" relation="include">
+        </childnode>
+        <childnode refid="501" relation="include">
+        </childnode>
+        <childnode refid="503" relation="include">
+        </childnode>
+      </node>
+      <node id="506">
+        <label>map</label>
+      </node>
+      <node id="502">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="503" relation="include">
+        </childnode>
+      </node>
+      <node id="505">
+        <label>vector</label>
+      </node>
+      <node id="503">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="504" relation="include">
+        </childnode>
+        <childnode refid="505" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+        <childnode refid="507" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="514">
+        <label>POIContentAccess.cpp</label>
+        <link refid="POIContentAccess_8cpp"/>
+      </node>
+      <node id="510">
+        <label>POIConfiguration.h</label>
+        <link refid="POIConfiguration_8h"/>
+        <childnode refid="511" relation="include">
+        </childnode>
+      </node>
+      <node id="508">
+        <label>POIServiceTypes.types.h</label>
+        <link refid="POIServiceTypes_8types_8h"/>
+        <childnode refid="509" relation="include">
+        </childnode>
+        <childnode refid="508" relation="include">
+        </childnode>
+        <childnode refid="510" relation="include">
+        </childnode>
+        <childnode refid="512" relation="include">
+        </childnode>
+        <childnode refid="513" relation="include">
+        </childnode>
+        <childnode refid="515" relation="include">
+        </childnode>
+        <childnode refid="516" relation="include">
+        </childnode>
+        <childnode refid="518" relation="include">
+        </childnode>
+        <childnode refid="519" relation="include">
+        </childnode>
+      </node>
+      <node id="515">
+        <label>POIContentAccessModule.types.h</label>
+        <link refid="POIContentAccessModule_8types_8h"/>
+        <childnode refid="516" relation="include">
+        </childnode>
+      </node>
+      <node id="519">
+        <label>POISearch.h</label>
+        <link refid="POISearch_8h"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+      </node>
+      <node id="509">
+        <label>POIConfiguration.types.h</label>
+        <link refid="POIConfiguration_8types_8h"/>
+        <childnode refid="510" relation="include">
+        </childnode>
+      </node>
+      <node id="518">
+        <label>POISearch.types.h</label>
+        <link refid="POISearch_8types_8h"/>
+        <childnode refid="519" relation="include">
+        </childnode>
+      </node>
+      <node id="516">
+        <label>POIContentAccessModule.h</label>
+        <link refid="POIContentAccessModule_8h"/>
+        <childnode refid="517" relation="include">
+        </childnode>
+      </node>
+      <node id="520">
+        <label>POISearch.cpp</label>
+        <link refid="POISearch_8cpp"/>
+      </node>
+      <node id="512">
+        <label>POIContentAccess.types.h</label>
+        <link refid="POIContentAccess_8types_8h"/>
+        <childnode refid="513" relation="include">
+        </childnode>
+      </node>
+      <node id="513">
+        <label>POIContentAccess.h</label>
+        <link refid="POIContentAccess_8h"/>
+        <childnode refid="514" relation="include">
+        </childnode>
+      </node>
+      <node id="517">
+        <label>POIContentAccessModule.cpp</label>
+        <link refid="POIContentAccessModule_8cpp"/>
+      </node>
+      <node id="511">
+        <label>POIConfiguration.cpp</label>
+        <link refid="POIConfiguration_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="unionAttributeValue" prot="public">AttributeValue</innerclass>
+    <innerclass refid="structCategorySortOption" prot="public">CategorySortOption</innerclass>
+    <innerclass refid="unionMedia" prot="public">Media</innerclass>
+    <innerclass refid="structCategoryAndRadius" prot="public">CategoryAndRadius</innerclass>
+    <innerclass refid="structPoiDetails" prot="public">PoiDetails</innerclass>
+    <innerclass refid="structPoiAttribute" prot="public">PoiAttribute</innerclass>
+    <innerclass refid="structAttributeDetails" prot="public">AttributeDetails</innerclass>
+    <innerclass refid="unionIcon" prot="public">Icon</innerclass>
+    <innerclass refid="structCategoryAndLevel" prot="public">CategoryAndLevel</innerclass>
+    <innerclass refid="structCategoryAndName" prot="public">CategoryAndName</innerclass>
+    <innerclass refid="structCategoryAndStatus" prot="public">CategoryAndStatus</innerclass>
+    <innerclass refid="structPoiAddedDetails" prot="public">PoiAddedDetails</innerclass>
+    <innerclass refid="structDetails" prot="public">Details</innerclass>
+    <innerclass refid="structOperator" prot="public">Operator</innerclass>
+    <innerclass refid="structCategoryAttribute" prot="public">CategoryAttribute</innerclass>
+    <innerclass refid="structCategoryDetails" prot="public">CategoryDetails</innerclass>
+    <innerclass refid="structCAMCategory" prot="public">CAMCategory</innerclass>
+    <innerclass refid="structCAMCategoryUpdate" prot="public">CAMCategoryUpdate</innerclass>
+    <innerclass refid="structSearchResult" prot="public">SearchResult</innerclass>
+    <innerclass refid="structCategoryAndReason" prot="public">CategoryAndReason</innerclass>
+    <innerclass refid="structSearchResultDetails" prot="public">SearchResultDetails</innerclass>
+    <innerclass refid="structCategory" prot="public">Category</innerclass>
+    <innerclass refid="structPoiCAMDetails" prot="public">PoiCAMDetails</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="POIServiceTypes_8types_8h_1a6a02b2d1d62293b20242e3dcfbdd0117" prot="public" static="no">
+        <name>OperatorType</name>
+        <enumvalue id="POIServiceTypes_8types_8h_1a6a02b2d1d62293b20242e3dcfbdd0117aa2b96a297452fbeb06acbf7e03330587" prot="public">
+          <name>MORE_THAN</name>
+          <initializer>= 520</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a6a02b2d1d62293b20242e3dcfbdd0117aa327176a0a845c117bdfadec134a95e9" prot="public">
+          <name>LESS_THAN</name>
+          <initializer>= 521</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a6a02b2d1d62293b20242e3dcfbdd0117a969f331a87d8c958473c32b4d0e61a44" prot="public">
+          <name>EQUAL</name>
+          <initializer>= 522</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="34" column="1" bodyfile="POIServiceTypes.types.h" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2" prot="public" static="no">
+        <name>AttributeType</name>
+        <enumvalue id="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2a63b588d5559f64f89a416e656880b949" prot="public">
+          <name>STRING</name>
+          <initializer>= 500</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2a5d5cd46919fa987731fb2edefe0f2a0c" prot="public">
+          <name>INTEGER</name>
+          <initializer>= 501</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2a07a0deb070c05721913446dffa0d003d" prot="public">
+          <name>COORDINATES</name>
+          <initializer>= 502</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2ac48d5da12d702e73d6966069f2687376" prot="public">
+          <name>BOOLEAN</name>
+          <initializer>= 503</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="54" column="1" bodyfile="POIServiceTypes.types.h" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIServiceTypes_8types_8h_1a2502aed4307441828cacb3cf03def5de" prot="public" static="no">
+        <name>RouteStatus</name>
+        <enumvalue id="POIServiceTypes_8types_8h_1a2502aed4307441828cacb3cf03def5dea387b60732c91b06750496722751c9f8a" prot="public">
+          <name>OFF_ROUTE</name>
+          <initializer>= 600</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a2502aed4307441828cacb3cf03def5deab04f0a82aef79a00e54a67dc52ab8bdd" prot="public">
+          <name>ON_ROUTE</name>
+          <initializer>= 601</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a2502aed4307441828cacb3cf03def5dead6e70179ed953639301a10e66eb53a35" prot="public">
+          <name>INSIDE_CORRIDOR</name>
+          <initializer>= 602</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="82" column="1" bodyfile="POIServiceTypes.types.h" bodystart="82" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722db" prot="public" static="no">
+        <name>StandardCategory</name>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba7c8ee4d2041cac4c7014a3f132f06fa9" prot="public">
+          <name>NOT_STANDARD_CATEGORY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba810c2da9235d09117584b5f94349872b" prot="public">
+          <name>VEHICLE_REPAIR</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaf644b1c8a30bf768886a45a5096cd054" prot="public">
+          <name>PETROL_STATION</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac50872b7ed5f98e4343805f82b7e8b29" prot="public">
+          <name>EVS_CHARGING_STATION</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba546b13709a6dbe9924afce0e74ae4aff" prot="public">
+          <name>CONTROLLED_ACCESS_INTERSECTION</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba5a2f5d7fa0b9f7948869a8604bcbd8d4" prot="public">
+          <name>CONTROLLED_ACCESS_ENTRY_EXIT</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac2571747438187c4aa7386be590a8f89" prot="public">
+          <name>CONTROLLED_ACCESS_SMART_IC</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba67453b279ca98c6b4c58317dada7e094" prot="public">
+          <name>RENT_A_CAR</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac481e1b070fc4cf83929dd990e3700f6" prot="public">
+          <name>CAR_WASH</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba492f601cf92ae98678ed1ae97ace415b" prot="public">
+          <name>CAR_DEALERSHIP</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba2bc8f691abed50004f3bbfee867da8ce" prot="public">
+          <name>MOTOR_CYCLE_DEALERSHIP</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaed71a1c4362b70ebd337aafd28bbac16" prot="public">
+          <name>TRUCK_DEALERSHIP</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba2eb6acea304c8d2cf028b8506662b3cb" prot="public">
+          <name>PARKING_GARAGE</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba1c3efceafd494107d9b72cf3cd9a88df" prot="public">
+          <name>OPEN_PARKING</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba2f0f26ea65edda468bf707e2a71d243f" prot="public">
+          <name>REST_AREA</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbae7d5ffa76f6aeb7601399b5923916ae4" prot="public">
+          <name>ROAD_ASSISTANCE</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba0cb2e2a8fd069d80f7659ecdb6a1bffe" prot="public">
+          <name>CAMPING</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba83f1eff8c1dba41f88c1ad468ebf3a64" prot="public">
+          <name>CARAVAN_SITE</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba3e1ccfebadb588ce4b790d1d38aa32aa" prot="public">
+          <name>COACH_AND_LORRY_PARKING</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbacc765a9d974ad6c56b5f40800961e83f" prot="public">
+          <name>MOTORING_ORG_OFFICE</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba9dc9fce792d43432bb8bfdd4e0fdc59f" prot="public">
+          <name>CAR_SHIPPING_TERMINAL</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba65a8671732811b0d8a94ee1453197d6f" prot="public">
+          <name>HOTEL_MOTEL</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbab0dfbb297192e37153f16adfc7fe5de7" prot="public">
+          <name>RESTAURANT</name>
+          <initializer>= 22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba68523cfc295cea224ac2079797d373b3" prot="public">
+          <name>FAST_FOOD</name>
+          <initializer>= 23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba688228fd1b01ee58e725d10f04ca2756" prot="public">
+          <name>COFFEE_SHOP</name>
+          <initializer>= 24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaa93c9695b7cda3612353c2cdc36532a7" prot="public">
+          <name>BAR_OR_PUB</name>
+          <initializer>= 25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba7891e151cc4427459b6239975d4546f7" prot="public">
+          <name>CINEMA</name>
+          <initializer>= 26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbad36bf6032a16eafdf9a57a1e9bba18d7" prot="public">
+          <name>MUSEUM</name>
+          <initializer>= 27</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac12f7db42fb0e55befb491662b8fb06e" prot="public">
+          <name>THEATRE</name>
+          <initializer>= 28</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbacb0a59495dfabbf78b33afa5ea3aa341" prot="public">
+          <name>LIBRARY</name>
+          <initializer>= 29</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbad96a51cff3f6844393ead2e5215e5c5d" prot="public">
+          <name>HOSPITAL</name>
+          <initializer>= 30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba422b42407e8b1ded82451c2cda6ff250" prot="public">
+          <name>PHYSICIAN</name>
+          <initializer>= 31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbad279e9604a129f48f5ff39dc6bee6546" prot="public">
+          <name>DENTIST</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba21b7e27aa98057b6c3b0f2dd866e0a89" prot="public">
+          <name>PHARMACY</name>
+          <initializer>= 33</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba32b3c1479fdc66f6774e93c408a97dfd" prot="public">
+          <name>VETERINARIAN_SERVICE</name>
+          <initializer>= 34</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba15af2297a39a8c878a9e4244ce689970" prot="public">
+          <name>POLICE_STATION</name>
+          <initializer>= 35</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba44a505bf43558a9c93ad8de9807c5aab" prot="public">
+          <name>POST_OFFICE</name>
+          <initializer>= 36</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba5d6a5a8ad45cafc4c6f26b0f19c2aab4" prot="public">
+          <name>CITY_HALL</name>
+          <initializer>= 37</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbae4778e2c81aa4a616fb27ac5d579eba5" prot="public">
+          <name>EMBASSY</name>
+          <initializer>= 38</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba9e81a8a081585dd11f675c7496c245a4" prot="public">
+          <name>COURT_HOUSE</name>
+          <initializer>= 39</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac8e88b1e3e10b0f9d0f86ed98c74e1a5" prot="public">
+          <name>GOVERNMENT_OFFICE</name>
+          <initializer>= 40</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba96b731f4da881ca3f35835512c1177b2" prot="public">
+          <name>COMMUNITY_CENTER</name>
+          <initializer>= 41</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac59509909bd6ac8ad86cdac304329317" prot="public">
+          <name>SHOPPING_CENTER</name>
+          <initializer>= 42</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba3cfba54f6873dfd55b0b09d32910b20e" prot="public">
+          <name>STORE</name>
+          <initializer>= 43</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba702ccd4c4de96dda2108bed873989158" prot="public">
+          <name>BANK</name>
+          <initializer>= 44</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba292f535a3b6fe8853df2f03c8ed890a1" prot="public">
+          <name>ATM</name>
+          <initializer>= 45</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba559809bfda8a90c52aeb0f17740fa9d0" prot="public">
+          <name>CURRENCY_EXCHANGE</name>
+          <initializer>= 46</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba4bd595e4f0cd42c79c300f085541f748" prot="public">
+          <name>TOURIST_OFFICE</name>
+          <initializer>= 47</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac26974aff6be880319c6889a17d37b01" prot="public">
+          <name>TRAVEL_AGENCY</name>
+          <initializer>= 48</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba2c4c649aaf6f39bbfcc26426280178aa" prot="public">
+          <name>TOURIST_ATTRACTION</name>
+          <initializer>= 49</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbab1452fe8d2f0bcbbeb898a35f4c77be0" prot="public">
+          <name>HISTORICAL_MONUMENT</name>
+          <initializer>= 50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba3f6e7f4c0c33e19c338a82d835003f3e" prot="public">
+          <name>NATIONAL_PARK</name>
+          <initializer>= 51</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbab3bc2ac835da59d30a23dd41a00dbd46" prot="public">
+          <name>CITY_CENTER</name>
+          <initializer>= 52</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbacbfc71fa1b9acb8ee7d05e561f875fc1" prot="public">
+          <name>HAMLET</name>
+          <initializer>= 53</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba95df9f9e6bf51fbc5b525db5f0537436" prot="public">
+          <name>ZOO</name>
+          <initializer>= 54</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaf3fb69b0924c07a153b59830ac985416" prot="public">
+          <name>AMUSEMENT_PARK</name>
+          <initializer>= 55</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba213dce5773e8401f4b1a75941bbd5779" prot="public">
+          <name>GOING_OUT</name>
+          <initializer>= 56</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba8df129806ec688f8b8b1fc536438ed8b" prot="public">
+          <name>STADIUM</name>
+          <initializer>= 57</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba04db8c0224d1aee4a51ab86f57df24fb" prot="public">
+          <name>SPORTS_CENTER</name>
+          <initializer>= 58</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba837191301303da569127510508dceb64" prot="public">
+          <name>RECREATION</name>
+          <initializer>= 59</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba3562e76a3c1251a2f6ff58d51151fb72" prot="public">
+          <name>SKI_RESORT</name>
+          <initializer>= 60</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba9c87407545ff648587a776157e12d138" prot="public">
+          <name>SWIMMING_POOL</name>
+          <initializer>= 61</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaf2640ac8c28210a53ee0714f2141a566" prot="public">
+          <name>GOLF_COURSE</name>
+          <initializer>= 62</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba5308b4ae58b3a3e2bb429213731ca770" prot="public">
+          <name>FERRY_TERMINAL</name>
+          <initializer>= 63</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbab6efc9e97b889a05cd446fd333fd3459" prot="public">
+          <name>MARINA</name>
+          <initializer>= 64</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba3d477ecb2f4cfe75a1370419e10cdad4" prot="public">
+          <name>HARBOUR</name>
+          <initializer>= 65</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba441947a22e29c59b3b970bc8a0212212" prot="public">
+          <name>BUSINESS_FACILITY</name>
+          <initializer>= 66</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba03b7cd0564cd7a9d50c98cf4ccbf9e96" prot="public">
+          <name>EXHIBITION_CONFERENCE_CENTER</name>
+          <initializer>= 67</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba897f300cf33e85590704140fa9297306" prot="public">
+          <name>RAILWAY_STATION</name>
+          <initializer>= 68</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaae05cc885326cf9ccd7bf599774d78fd" prot="public">
+          <name>PUBLIC_TRANSIT_STOP</name>
+          <initializer>= 69</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba7d1763c059b370ef8ed25368dcf9e696" prot="public">
+          <name>PARK_AND_RIDE</name>
+          <initializer>= 70</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba00179dc54b90f459e87b0f3d53f95187" prot="public">
+          <name>AIRPORT</name>
+          <initializer>= 71</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba532e93b2b5151adc2df6db294481d24d" prot="public">
+          <name>AIRLINE_ACCESS</name>
+          <initializer>= 72</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba2a34f556ec7db8b96f69671ad0ef72da" prot="public">
+          <name>TAXI_STAND</name>
+          <initializer>= 73</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbafb7d00e8d93da96e511746313483c5be" prot="public">
+          <name>EMERGENCY_CALL_STATION</name>
+          <initializer>= 74</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaa232e2649619afd2b47680b1db7ae1f8" prot="public">
+          <name>EMERGENCY_MEDICAL_SERVICE</name>
+          <initializer>= 75</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba24229bad9f7698085a3bff138c5c120d" prot="public">
+          <name>FIRST_AID_POST</name>
+          <initializer>= 76</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba04626a633d63209b059a8ae1b899e85e" prot="public">
+          <name>FIRE_BRIGADE</name>
+          <initializer>= 77</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba9317129170c0236e19a32ec0fbdcd366" prot="public">
+          <name>PLACE_OF_WORSHIP</name>
+          <initializer>= 78</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba97039bd4f74e6d82eb57abe0178e6938" prot="public">
+          <name>EDUCATION</name>
+          <initializer>= 79</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba5648e8d8c9b4a38442daa2c551c5aad7" prot="public">
+          <name>CUSTOMS</name>
+          <initializer>= 80</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba2e101e3859ff662a625daf33575cb734" prot="public">
+          <name>FRONTIER_CROSSING</name>
+          <initializer>= 81</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba8b34f69690f8bcc0bb34b2ccb8565900" prot="public">
+          <name>TOLL_LOCATION</name>
+          <initializer>= 82</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbae654218887dcf9d9eba46cc870801e12" prot="public">
+          <name>PUBLIC_RESTROOM</name>
+          <initializer>= 83</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba8ed1b9b3365fe6c7aeb50d9458c8396b" prot="public">
+          <name>PUBLIC_PHONE</name>
+          <initializer>= 84</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba99454f04f25b50bbf9f5f404bf90304c" prot="public">
+          <name>KINDERGARTEN</name>
+          <initializer>= 85</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba0bcccbd65004ec554ab1bcdb3b418033" prot="public">
+          <name>MOUNTAIN_PASS_SUMMIT</name>
+          <initializer>= 86</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba1f8fb01bb2135834b41ee55798501e50" prot="public">
+          <name>SPEED_CAMERA</name>
+          <initializer>= 87</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="107" column="1" bodyfile="POIServiceTypes.types.h" bodystart="107" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651ba" prot="public" static="no">
+        <name>UpdateReason</name>
+        <enumvalue id="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651baa55771bcb939a8afbf4d119d6e0099317" prot="public">
+          <name>ADDED</name>
+          <initializer>= 700</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651baab3461745d64b12346503b2980e436db5" prot="public">
+          <name>REMOVED</name>
+          <initializer>= 701</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651baaa73aa78fc35d947d74875bf33f4dd6b3" prot="public">
+          <name>ATTR_ADDED</name>
+          <initializer>= 702</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651baa2b49d108bda4130e76034fafd163f493" prot="public">
+          <name>ATTR_MODIFIED</name>
+          <initializer>= 703</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651baaad6fe46bf524fb9459319295b8e95a9b" prot="public">
+          <name>ATTR_REMOVED</name>
+          <initializer>= 704</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="219" column="1" bodyfile="POIServiceTypes.types.h" bodystart="219" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1" prot="public" static="no">
+        <name>CategoryIDSet</name>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a00179dc54b90f459e87b0f3d53f95187" prot="public">
+          <name>AIRPORT</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a4b3839f27611cfdc9d6d8dc18f2dadc1" prot="public">
+          <name>SPORTING</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a5308b4ae58b3a3e2bb429213731ca770" prot="public">
+          <name>FERRY_TERMINAL</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a30745c1ec37b7320355b5b1750b98f84" prot="public">
+          <name>ENTERTAINMENT</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a65a8671732811b0d8a94ee1453197d6f" prot="public">
+          <name>HOTEL_MOTEL</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1ab0dfbb297192e37153f16adfc7fe5de7" prot="public">
+          <name>RESTAURANT</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1ab1e1c47120e5bf1a41614bc7f95a80db" prot="public">
+          <name>PARKING</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a27c7eae9ada8a7110ecc40fb6742a3f4" prot="public">
+          <name>FUEL_STATION</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a09f448877f54b75fb940f87b17f65351" prot="public">
+          <name>SERVICE_AREA</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a80939c06f225224ee8ad76d0726396f6" prot="public">
+          <name>CAR_REPAIR_SHOP</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a767ef94055a3f3113f3e3327785918fa" prot="public">
+          <name>CAR_DEALER</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a094931cb5ef7ffa319de51c4d9f8ead7" prot="public">
+          <name>CAR_RENTAL_AGENCY</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1aea68388b0642cfd18735a4a166494310" prot="public">
+          <name>MEDICAL</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1abc2b872c7d3221edd3266972ce0e93f7" prot="public">
+          <name>SHOPPING</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a9a7139abdc87d2f3acb05061abeef43a" prot="public">
+          <name>BUSINESS_AREA</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1ada0100dab39349825d3307f72050b72d" prot="public">
+          <name>LANDMARK</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1ae988f664a059f4bc3254b3ff52cea28c" prot="public">
+          <name>FLASH_RADAR</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1ae8616e470151877fe18bdab134bcff20" prot="public">
+          <name>POI_TRUCK</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a53a3e59ff3228205b025111e440514ba" prot="public">
+          <name>SANCTUARY</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1aba7d044e46f9cac06b7e23f6a58d8547" prot="public">
+          <name>TOLLBOOTH</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a225d1a31d94e4c0f223f74a5eb859cbe" prot="public">
+          <name>KIOSK</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a2733015fac7c3018e313f5e1a88eebab" prot="public">
+          <name>WATER_CLOSET</name>
+          <initializer>= 22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a8381edaeb8ed67b97599709c48f9f177" prot="public">
+          <name>BANK_AND_FINANCIAL</name>
+          <initializer>= 23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1aa38b1ae01450414fd4fe9e206602989a" prot="public">
+          <name>TRAVEL</name>
+          <initializer>= 24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1abd80065543ad85b9a010e1565bae3a75" prot="public">
+          <name>TOURIST</name>
+          <initializer>= 25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a8c04d568895a0069851dfe2c153e9d1b" prot="public">
+          <name>PUBLIC_BUILDING</name>
+          <initializer>= 26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a897f300cf33e85590704140fa9297306" prot="public">
+          <name>RAILWAY_STATION</name>
+          <initializer>= 27</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1aec3856a323d04264562479a5052a5b09" prot="public">
+          <name>DESTINATION_FLAG</name>
+          <initializer>= 204</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a39946cd74c5a09296f76740ad067c460" prot="public">
+          <name>FAVORITE</name>
+          <initializer>= 205</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a26a8a68698bdd77233cd842d2c400da7" prot="public">
+          <name>FAVORITE_HOME</name>
+          <initializer>= 206</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1ac2ed7ac075d28323e42d76b394c5871c" prot="public">
+          <name>FAVORITE_ADDRESSBOOK</name>
+          <initializer>= 207</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a36130027b91b8ad494d333ca860d5df2" prot="public">
+          <name>USER_IMPORT</name>
+          <initializer>= 208</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a87aa89e1ac09210ec90c937261ece821" prot="public">
+          <name>USER_CONTACT</name>
+          <initializer>= 209</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a07d448f428b230bc269a8604291701f8" prot="public">
+          <name>MOTORWAY_EXIT</name>
+          <initializer>= 210</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a167d1431b6c959ea77a8e0dd38ba3c10" prot="public">
+          <name>ALL_CATEGORIES</name>
+          <initializer>= 65535</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="266" column="1" bodyfile="POIServiceTypes.types.h" bodystart="266" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIServiceTypes_8types_8h_1a86e0a32751e485aae220c36666b2ad4f" prot="public" static="no">
+        <name>SearchStatusState</name>
+        <enumvalue id="POIServiceTypes_8types_8h_1a86e0a32751e485aae220c36666b2ad4fa06972acc3aafeb3a65dbd996c8dedc73" prot="public">
+          <name>NOT_STARTED</name>
+          <initializer>= 510</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a86e0a32751e485aae220c36666b2ad4fadb46ca6757195ce8c1f015c9781d869e" prot="public">
+          <name>SEARCHING</name>
+          <initializer>= 511</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1a86e0a32751e485aae220c36666b2ad4fa2c616b2713e2e0aed04b4c4752c88133" prot="public">
+          <name>FINISHED</name>
+          <initializer>= 512</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="325" column="1" bodyfile="POIServiceTypes.types.h" bodystart="325" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45" prot="public" static="no">
+        <name>SortOption</name>
+        <enumvalue id="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45aebfbcbacfc8be1a32705e30e3a57d5c1" prot="public">
+          <name>SORT_DEFAULT</name>
+          <initializer>= 560</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45a67a241f2a36737fa9fd80b3775b84b2a" prot="public">
+          <name>SORT_BY_DISTANCE</name>
+          <initializer>= 561</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45a1f20401123f883a133d46747ef12a8ce" prot="public">
+          <name>SORT_BY_TIME</name>
+          <initializer>= 562</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45aeebd7425fe1f33a007f961c282fb9055" prot="public">
+          <name>ATTRIBUTE_CUSTOM</name>
+          <initializer>= 563</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="340" column="1" bodyfile="POIServiceTypes.types.h" bodystart="340" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIServiceTypes_8types_8h_1a96a0fb400255d0a35d79278d2fa83d36" prot="public" static="no">
+        <name>ConfigurationChangedReason</name>
+        <enumvalue id="POIServiceTypes_8types_8h_1a96a0fb400255d0a35d79278d2fa83d36a1ac80ba1abdbdc7db9624be51fe42a96" prot="public">
+          <name>LOCALES</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="363" column="1" bodyfile="POIServiceTypes.types.h" bodystart="363" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIServiceTypes_8types_8h_1add3c793dad9f47bc87861b43af7038d1" prot="public" static="no">
+        <name>Settings</name>
+        <enumvalue id="POIServiceTypes_8types_8h_1add3c793dad9f47bc87861b43af7038d1a5d7b806981e321f7da2704d1a3b4eeba" prot="public">
+          <name>UNITS_OF_MEASUREMENT</name>
+          <initializer>= 48</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1add3c793dad9f47bc87861b43af7038d1a175d5afd5eed05a9553f94bbecd80a19" prot="public">
+          <name>LOCALE</name>
+          <initializer>= 37</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1add3c793dad9f47bc87861b43af7038d1ac00f893330094ebace8d0ab719024c77" prot="public">
+          <name>TIME_FORMAT</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1add3c793dad9f47bc87861b43af7038d1aabcad5c74299c02faadfc41f10e303d3" prot="public">
+          <name>COORDINATES_FORMAT</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1add3c793dad9f47bc87861b43af7038d1accc0377a8afbf50e7094f5c23a8af223" prot="public">
+          <name>INVALID</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1add3c793dad9f47bc87861b43af7038d1a5d7b806981e321f7da2704d1a3b4eeba" prot="public">
+          <name>UNITS_OF_MEASUREMENT</name>
+          <initializer>= 48</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1add3c793dad9f47bc87861b43af7038d1a175d5afd5eed05a9553f94bbecd80a19" prot="public">
+          <name>LOCALE</name>
+          <initializer>= 37</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1add3c793dad9f47bc87861b43af7038d1ac00f893330094ebace8d0ab719024c77" prot="public">
+          <name>TIME_FORMAT</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIServiceTypes_8types_8h_1add3c793dad9f47bc87861b43af7038d1aabcad5c74299c02faadfc41f10e303d3" prot="public">
+          <name>COORDINATES_FORMAT</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="369" column="1" bodyfile="POIServiceTypes.types.h" bodystart="369" bodyend="376"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="POIServiceTypes_8types_8h_1a4a374f421101678d2bcb3caf99f9f173" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>typedef UInt32 ResourceID</definition>
+        <argsstring></argsstring>
+        <name>ResourceID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="24" column="1" bodyfile="POIServiceTypes.types.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="POIServiceTypes_8types_8h_1a63fb569c36bb85fc79bbf5f2771a8543" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>typedef UInt32 AttributeID</definition>
+        <argsstring></argsstring>
+        <name>AttributeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="63" column="1" bodyfile="POIServiceTypes.types.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="POIServiceTypes_8types_8h_1a400a3573b04df4d01d041cfd0bbad662" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>typedef UInt32 POI_ID</definition>
+        <argsstring></argsstring>
+        <name>POI_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="72" column="1" bodyfile="POIServiceTypes.types.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="POIServiceTypes_8types_8h_1adbb520676cd0cc0192743965b5bde46f" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref></type>
+        <definition>typedef UInt8 ContentAccessModuleID</definition>
+        <argsstring></argsstring>
+        <name>ContentAccessModuleID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="403" column="1" bodyfile="POIServiceTypes.types.h" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="CommonTypes_8types_8h" kindref="compound">CommonTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="POIServiceTypes_8types_8h" kindref="compound">POIServiceTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="franca__types_8h" kindref="compound">franca_types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#0<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="POIServiceTypes_8types_8h_1a4a374f421101678d2bcb3caf99f9f173" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="POIServiceTypes_8types_8h_1a4a374f421101678d2bcb3caf99f9f173" kindref="member">ResourceID</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#1<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="unionAttributeValue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionAttributeValue" kindref="compound">AttributeValue</ref><sp/>{</highlight></codeline>
+<codeline lineno="28" refid="unionAttributeValue_1aba9f4dac322ceb809838723ee17bdb49" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref><sp/><ref refid="unionAttributeValue_1aba9f4dac322ceb809838723ee17bdb49" kindref="member">intValue</ref>;</highlight></codeline>
+<codeline lineno="29" refid="unionAttributeValue_1a5f94c3961713fe2cb5003c7fae5b320d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="unionAttributeValue_1a5f94c3961713fe2cb5003c7fae5b320d" kindref="member">stringValue</ref>;</highlight></codeline>
+<codeline lineno="30" refid="unionAttributeValue_1a7eaa5edbad83f9f70437d6e24a71c561" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="unionAttributeValue_1a7eaa5edbad83f9f70437d6e24a71c561" kindref="member">boolValue</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#2<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="POIServiceTypes_8types_8h_1a6a02b2d1d62293b20242e3dcfbdd0117" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="POIServiceTypes_8types_8h_1a6a02b2d1d62293b20242e3dcfbdd0117" kindref="member">OperatorType</ref><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a6a02b2d1d62293b20242e3dcfbdd0117aa2b96a297452fbeb06acbf7e03330587" kindref="member">MORE_THAN</ref><sp/>=<sp/>520,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a6a02b2d1d62293b20242e3dcfbdd0117aa327176a0a845c117bdfadec134a95e9" kindref="member">LESS_THAN</ref><sp/>=<sp/>521,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a6a02b2d1d62293b20242e3dcfbdd0117a969f331a87d8c958473c32b4d0e61a44" kindref="member">EQUAL</ref><sp/>=<sp/>522,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#3<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="structCategorySortOption" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCategorySortOption" kindref="compound">CategorySortOption</ref><sp/>{</highlight></codeline>
+<codeline lineno="43" refid="structCategorySortOption_1a46837bb41b9157da9bd1a5ad3202507a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/><ref refid="structCategorySortOption_1a46837bb41b9157da9bd1a5ad3202507a" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="44" refid="structCategorySortOption_1add3867932d546e132c05879543cf1bb8" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structCategorySortOption_1add3867932d546e132c05879543cf1bb8" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#4<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="unionMedia" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionMedia" kindref="compound">Media</ref><sp/>{</highlight></codeline>
+<codeline lineno="49" refid="unionMedia_1a99c6ed6cb6b3424b3993eaec913d9b8c" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;ResourceID&gt;<sp/><ref refid="unionMedia_1a99c6ed6cb6b3424b3993eaec913d9b8c" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="50" refid="unionMedia_1a35cc50c602feafad22306d346083df12" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="unionMedia_1a35cc50c602feafad22306d346083df12" kindref="member">url</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#5<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2" kindref="member">AttributeType</ref><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2a63b588d5559f64f89a416e656880b949" kindref="member">STRING</ref><sp/>=<sp/>500,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2a5d5cd46919fa987731fb2edefe0f2a0c" kindref="member">INTEGER</ref><sp/>=<sp/>501,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2a07a0deb070c05721913446dffa0d003d" kindref="member">COORDINATES</ref><sp/>=<sp/>502,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2ac48d5da12d702e73d6966069f2687376" kindref="member">BOOLEAN</ref><sp/>=<sp/>503,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#6<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="POIServiceTypes_8types_8h_1a63fb569c36bb85fc79bbf5f2771a8543" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="POIServiceTypes_8types_8h_1a63fb569c36bb85fc79bbf5f2771a8543" kindref="member">AttributeID</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#7<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="structCategoryAndRadius" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCategoryAndRadius" kindref="compound">CategoryAndRadius</ref><sp/>{</highlight></codeline>
+<codeline lineno="67" refid="structCategoryAndRadius_1adb383987b8f2469a5962276dbe71f754" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/><ref refid="structCategoryAndRadius_1adb383987b8f2469a5962276dbe71f754" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="68" refid="structCategoryAndRadius_1a5c7b916f07915e7c5f303c2771e5a1d7" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="structCategoryAndRadius_1a5c7b916f07915e7c5f303c2771e5a1d7" kindref="member">radius</ref>;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#8<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="POIServiceTypes_8types_8h_1a400a3573b04df4d01d041cfd0bbad662" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="POIServiceTypes_8types_8h_1a400a3573b04df4d01d041cfd0bbad662" kindref="member">POI_ID</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#9<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="structPoiDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structPoiDetails" kindref="compound">PoiDetails</ref><sp/>{</highlight></codeline>
+<codeline lineno="76" refid="structPoiDetails_1af5979a9ba9603e62114532409b12af4d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a400a3573b04df4d01d041cfd0bbad662" kindref="member">POI_ID</ref><sp/><ref refid="structPoiDetails_1af5979a9ba9603e62114532409b12af4d" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="77" refid="structPoiDetails_1ab8cb7948a15f3115438d1343303312a5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structPoiDetails_1ab8cb7948a15f3115438d1343303312a5" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="78" refid="structPoiDetails_1afe63f70bef3293c7c5a2cbaa59491526" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref><sp/><ref refid="structPoiDetails_1afe63f70bef3293c7c5a2cbaa59491526" kindref="member">location</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#10<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="POIServiceTypes_8types_8h_1a2502aed4307441828cacb3cf03def5de" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="POIServiceTypes_8types_8h_1a2502aed4307441828cacb3cf03def5de" kindref="member">RouteStatus</ref><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a75d29f14a607cef5ab6e4f7641b78a24a387b60732c91b06750496722751c9f8a" kindref="member">OFF_ROUTE</ref><sp/>=<sp/>600,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a2502aed4307441828cacb3cf03def5deab04f0a82aef79a00e54a67dc52ab8bdd" kindref="member">ON_ROUTE</ref><sp/>=<sp/>601,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a2502aed4307441828cacb3cf03def5dead6e70179ed953639301a10e66eb53a35" kindref="member">INSIDE_CORRIDOR</ref><sp/>=<sp/>602,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#11<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="structPoiAttribute" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structPoiAttribute" kindref="compound">PoiAttribute</ref><sp/>{</highlight></codeline>
+<codeline lineno="91" refid="structPoiAttribute_1a77ad07764488c4bf4ee89224d778230e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a63fb569c36bb85fc79bbf5f2771a8543" kindref="member">AttributeID</ref><sp/><ref refid="structPoiAttribute_1a77ad07764488c4bf4ee89224d778230e" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="92" refid="structPoiAttribute_1aec4708f823dedde1942773c2a4500c79" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2" kindref="member">AttributeType</ref><sp/><ref refid="structPoiAttribute_1aec4708f823dedde1942773c2a4500c79" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="93" refid="structPoiAttribute_1a23eb507f2fed667af3e511e513f58da0" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="unionAttributeValue" kindref="compound">AttributeValue</ref><sp/><ref refid="structPoiAttribute_1a23eb507f2fed667af3e511e513f58da0" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#12<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="structAttributeDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAttributeDetails" kindref="compound">AttributeDetails</ref><sp/>{</highlight></codeline>
+<codeline lineno="98" refid="structAttributeDetails_1a0ea4d57df3d551b3632111fec55a72b9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a63fb569c36bb85fc79bbf5f2771a8543" kindref="member">AttributeID</ref><sp/><ref refid="structAttributeDetails_1a0ea4d57df3d551b3632111fec55a72b9" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="99" refid="structAttributeDetails_1a56753a298ff43c96848a18af6f395a67" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/><ref refid="structAttributeDetails_1a56753a298ff43c96848a18af6f395a67" kindref="member">categoryId</ref>;</highlight></codeline>
+<codeline lineno="100" refid="structAttributeDetails_1a0e897e2d12d029a68e77ebf03d8c867c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2" kindref="member">AttributeType</ref><sp/><ref refid="structAttributeDetails_1a0e897e2d12d029a68e77ebf03d8c867c" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="101" refid="structAttributeDetails_1a413ac302a55486decca3b34a29c493d5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="unionAttributeValue" kindref="compound">AttributeValue</ref><sp/><ref refid="structAttributeDetails_1a413ac302a55486decca3b34a29c493d5" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="102" refid="structAttributeDetails_1a52fac3d1a5ba12115afb5c31e14cf425" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a6a02b2d1d62293b20242e3dcfbdd0117" kindref="member">OperatorType</ref><sp/><ref refid="structAttributeDetails_1a52fac3d1a5ba12115afb5c31e14cf425" kindref="member">oper</ref>;</highlight></codeline>
+<codeline lineno="103" refid="structAttributeDetails_1a2587b708cfecdfea68424fe55f1e3b5b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="structAttributeDetails_1a2587b708cfecdfea68424fe55f1e3b5b" kindref="member">mandatory</ref>;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#13<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722db" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722db" kindref="member">StandardCategory</ref><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba7c8ee4d2041cac4c7014a3f132f06fa9" kindref="member">NOT_STANDARD_CATEGORY</ref>,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba810c2da9235d09117584b5f94349872b" kindref="member">VEHICLE_REPAIR</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaf644b1c8a30bf768886a45a5096cd054" kindref="member">PETROL_STATION</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac50872b7ed5f98e4343805f82b7e8b29" kindref="member">EVS_CHARGING_STATION</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba546b13709a6dbe9924afce0e74ae4aff" kindref="member">CONTROLLED_ACCESS_INTERSECTION</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba5a2f5d7fa0b9f7948869a8604bcbd8d4" kindref="member">CONTROLLED_ACCESS_ENTRY_EXIT</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac2571747438187c4aa7386be590a8f89" kindref="member">CONTROLLED_ACCESS_SMART_IC</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba67453b279ca98c6b4c58317dada7e094" kindref="member">RENT_A_CAR</ref><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac481e1b070fc4cf83929dd990e3700f6" kindref="member">CAR_WASH</ref><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba492f601cf92ae98678ed1ae97ace415b" kindref="member">CAR_DEALERSHIP</ref><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba2bc8f691abed50004f3bbfee867da8ce" kindref="member">MOTOR_CYCLE_DEALERSHIP</ref><sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaed71a1c4362b70ebd337aafd28bbac16" kindref="member">TRUCK_DEALERSHIP</ref><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba2eb6acea304c8d2cf028b8506662b3cb" kindref="member">PARKING_GARAGE</ref><sp/>=<sp/>12,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba1c3efceafd494107d9b72cf3cd9a88df" kindref="member">OPEN_PARKING</ref><sp/>=<sp/>13,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba2f0f26ea65edda468bf707e2a71d243f" kindref="member">REST_AREA</ref><sp/>=<sp/>14,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbae7d5ffa76f6aeb7601399b5923916ae4" kindref="member">ROAD_ASSISTANCE</ref><sp/>=<sp/>15,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba0cb2e2a8fd069d80f7659ecdb6a1bffe" kindref="member">CAMPING</ref><sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba83f1eff8c1dba41f88c1ad468ebf3a64" kindref="member">CARAVAN_SITE</ref><sp/>=<sp/>17,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba3e1ccfebadb588ce4b790d1d38aa32aa" kindref="member">COACH_AND_LORRY_PARKING</ref><sp/>=<sp/>18,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbacc765a9d974ad6c56b5f40800961e83f" kindref="member">MOTORING_ORG_OFFICE</ref><sp/>=<sp/>19,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba9dc9fce792d43432bb8bfdd4e0fdc59f" kindref="member">CAR_SHIPPING_TERMINAL</ref><sp/>=<sp/>20,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba65a8671732811b0d8a94ee1453197d6f" kindref="member">HOTEL_MOTEL</ref><sp/>=<sp/>21,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbab0dfbb297192e37153f16adfc7fe5de7" kindref="member">RESTAURANT</ref><sp/>=<sp/>22,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba68523cfc295cea224ac2079797d373b3" kindref="member">FAST_FOOD</ref><sp/>=<sp/>23,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba688228fd1b01ee58e725d10f04ca2756" kindref="member">COFFEE_SHOP</ref><sp/>=<sp/>24,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaa93c9695b7cda3612353c2cdc36532a7" kindref="member">BAR_OR_PUB</ref><sp/>=<sp/>25,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba7891e151cc4427459b6239975d4546f7" kindref="member">CINEMA</ref><sp/>=<sp/>26,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbad36bf6032a16eafdf9a57a1e9bba18d7" kindref="member">MUSEUM</ref><sp/>=<sp/>27,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac12f7db42fb0e55befb491662b8fb06e" kindref="member">THEATRE</ref><sp/>=<sp/>28,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbacb0a59495dfabbf78b33afa5ea3aa341" kindref="member">LIBRARY</ref><sp/>=<sp/>29,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbad96a51cff3f6844393ead2e5215e5c5d" kindref="member">HOSPITAL</ref><sp/>=<sp/>30,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba422b42407e8b1ded82451c2cda6ff250" kindref="member">PHYSICIAN</ref><sp/>=<sp/>31,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbad279e9604a129f48f5ff39dc6bee6546" kindref="member">DENTIST</ref><sp/>=<sp/>32,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba21b7e27aa98057b6c3b0f2dd866e0a89" kindref="member">PHARMACY</ref><sp/>=<sp/>33,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba32b3c1479fdc66f6774e93c408a97dfd" kindref="member">VETERINARIAN_SERVICE</ref><sp/>=<sp/>34,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba15af2297a39a8c878a9e4244ce689970" kindref="member">POLICE_STATION</ref><sp/>=<sp/>35,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba44a505bf43558a9c93ad8de9807c5aab" kindref="member">POST_OFFICE</ref><sp/>=<sp/>36,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba5d6a5a8ad45cafc4c6f26b0f19c2aab4" kindref="member">CITY_HALL</ref><sp/>=<sp/>37,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbae4778e2c81aa4a616fb27ac5d579eba5" kindref="member">EMBASSY</ref><sp/>=<sp/>38,</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba9e81a8a081585dd11f675c7496c245a4" kindref="member">COURT_HOUSE</ref><sp/>=<sp/>39,</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac8e88b1e3e10b0f9d0f86ed98c74e1a5" kindref="member">GOVERNMENT_OFFICE</ref><sp/>=<sp/>40,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba96b731f4da881ca3f35835512c1177b2" kindref="member">COMMUNITY_CENTER</ref><sp/>=<sp/>41,</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac59509909bd6ac8ad86cdac304329317" kindref="member">SHOPPING_CENTER</ref><sp/>=<sp/>42,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba3cfba54f6873dfd55b0b09d32910b20e" kindref="member">STORE</ref><sp/>=<sp/>43,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba702ccd4c4de96dda2108bed873989158" kindref="member">BANK</ref><sp/>=<sp/>44,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba292f535a3b6fe8853df2f03c8ed890a1" kindref="member">ATM</ref><sp/>=<sp/>45,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba559809bfda8a90c52aeb0f17740fa9d0" kindref="member">CURRENCY_EXCHANGE</ref><sp/>=<sp/>46,</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba4bd595e4f0cd42c79c300f085541f748" kindref="member">TOURIST_OFFICE</ref><sp/>=<sp/>47,</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbac26974aff6be880319c6889a17d37b01" kindref="member">TRAVEL_AGENCY</ref><sp/>=<sp/>48,</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba2c4c649aaf6f39bbfcc26426280178aa" kindref="member">TOURIST_ATTRACTION</ref><sp/>=<sp/>49,</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbab1452fe8d2f0bcbbeb898a35f4c77be0" kindref="member">HISTORICAL_MONUMENT</ref><sp/>=<sp/>50,</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba3f6e7f4c0c33e19c338a82d835003f3e" kindref="member">NATIONAL_PARK</ref><sp/>=<sp/>51,</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbab3bc2ac835da59d30a23dd41a00dbd46" kindref="member">CITY_CENTER</ref><sp/>=<sp/>52,</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbacbfc71fa1b9acb8ee7d05e561f875fc1" kindref="member">HAMLET</ref><sp/>=<sp/>53,</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba95df9f9e6bf51fbc5b525db5f0537436" kindref="member">ZOO</ref><sp/>=<sp/>54,</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaf3fb69b0924c07a153b59830ac985416" kindref="member">AMUSEMENT_PARK</ref><sp/>=<sp/>55,</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba213dce5773e8401f4b1a75941bbd5779" kindref="member">GOING_OUT</ref><sp/>=<sp/>56,</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba8df129806ec688f8b8b1fc536438ed8b" kindref="member">STADIUM</ref><sp/>=<sp/>57,</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba04db8c0224d1aee4a51ab86f57df24fb" kindref="member">SPORTS_CENTER</ref><sp/>=<sp/>58,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba837191301303da569127510508dceb64" kindref="member">RECREATION</ref><sp/>=<sp/>59,</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba3562e76a3c1251a2f6ff58d51151fb72" kindref="member">SKI_RESORT</ref><sp/>=<sp/>60,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba9c87407545ff648587a776157e12d138" kindref="member">SWIMMING_POOL</ref><sp/>=<sp/>61,</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaf2640ac8c28210a53ee0714f2141a566" kindref="member">GOLF_COURSE</ref><sp/>=<sp/>62,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba5308b4ae58b3a3e2bb429213731ca770" kindref="member">FERRY_TERMINAL</ref><sp/>=<sp/>63,</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbab6efc9e97b889a05cd446fd333fd3459" kindref="member">MARINA</ref><sp/>=<sp/>64,</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba3d477ecb2f4cfe75a1370419e10cdad4" kindref="member">HARBOUR</ref><sp/>=<sp/>65,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba441947a22e29c59b3b970bc8a0212212" kindref="member">BUSINESS_FACILITY</ref><sp/>=<sp/>66,</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba03b7cd0564cd7a9d50c98cf4ccbf9e96" kindref="member">EXHIBITION_CONFERENCE_CENTER</ref><sp/>=<sp/>67,</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba897f300cf33e85590704140fa9297306" kindref="member">RAILWAY_STATION</ref><sp/>=<sp/>68,</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaae05cc885326cf9ccd7bf599774d78fd" kindref="member">PUBLIC_TRANSIT_STOP</ref><sp/>=<sp/>69,</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba7d1763c059b370ef8ed25368dcf9e696" kindref="member">PARK_AND_RIDE</ref><sp/>=<sp/>70,</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba00179dc54b90f459e87b0f3d53f95187" kindref="member">AIRPORT</ref><sp/>=<sp/>71,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba532e93b2b5151adc2df6db294481d24d" kindref="member">AIRLINE_ACCESS</ref><sp/>=<sp/>72,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba2a34f556ec7db8b96f69671ad0ef72da" kindref="member">TAXI_STAND</ref><sp/>=<sp/>73,</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbafb7d00e8d93da96e511746313483c5be" kindref="member">EMERGENCY_CALL_STATION</ref><sp/>=<sp/>74,</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbaa232e2649619afd2b47680b1db7ae1f8" kindref="member">EMERGENCY_MEDICAL_SERVICE</ref><sp/>=<sp/>75,</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba24229bad9f7698085a3bff138c5c120d" kindref="member">FIRST_AID_POST</ref><sp/>=<sp/>76,</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba04626a633d63209b059a8ae1b899e85e" kindref="member">FIRE_BRIGADE</ref><sp/>=<sp/>77,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba9317129170c0236e19a32ec0fbdcd366" kindref="member">PLACE_OF_WORSHIP</ref><sp/>=<sp/>78,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba97039bd4f74e6d82eb57abe0178e6938" kindref="member">EDUCATION</ref><sp/>=<sp/>79,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba5648e8d8c9b4a38442daa2c551c5aad7" kindref="member">CUSTOMS</ref><sp/>=<sp/>80,</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba2e101e3859ff662a625daf33575cb734" kindref="member">FRONTIER_CROSSING</ref><sp/>=<sp/>81,</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba8b34f69690f8bcc0bb34b2ccb8565900" kindref="member">TOLL_LOCATION</ref><sp/>=<sp/>82,</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbae654218887dcf9d9eba46cc870801e12" kindref="member">PUBLIC_RESTROOM</ref><sp/>=<sp/>83,</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba8ed1b9b3365fe6c7aeb50d9458c8396b" kindref="member">PUBLIC_PHONE</ref><sp/>=<sp/>84,</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba99454f04f25b50bbf9f5f404bf90304c" kindref="member">KINDERGARTEN</ref><sp/>=<sp/>85,</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba0bcccbd65004ec554ab1bcdb3b418033" kindref="member">MOUNTAIN_PASS_SUMMIT</ref><sp/>=<sp/>86,</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba1f8fb01bb2135834b41ee55798501e50" kindref="member">SPEED_CAMERA</ref><sp/>=<sp/>87,</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#14<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="unionIcon" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionIcon" kindref="compound">Icon</ref><sp/>{</highlight></codeline>
+<codeline lineno="201" refid="unionIcon_1a736e77d415a5242aa24572fff0465cea" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;ResourceID&gt;<sp/><ref refid="unionIcon_1a736e77d415a5242aa24572fff0465cea" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="202" refid="unionIcon_1aa1e659cc7832fb5237fb7224988c84c0" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="unionIcon_1aa1e659cc7832fb5237fb7224988c84c0" kindref="member">url</ref>;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#15<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="structCategoryAndLevel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCategoryAndLevel" kindref="compound">CategoryAndLevel</ref><sp/>{</highlight></codeline>
+<codeline lineno="207" refid="structCategoryAndLevel_1a4764e7d681c024e83461657dc8dd729c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/><ref refid="structCategoryAndLevel_1a4764e7d681c024e83461657dc8dd729c" kindref="member">uniqueId</ref>;</highlight></codeline>
+<codeline lineno="208" refid="structCategoryAndLevel_1aeaaaef046f5254a4b5c9b1000578b14c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="structCategoryAndLevel_1aeaaaef046f5254a4b5c9b1000578b14c" kindref="member">topLevel</ref>;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#16<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="structCategoryAndName" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCategoryAndName" kindref="compound">CategoryAndName</ref><sp/>{</highlight></codeline>
+<codeline lineno="213" refid="structCategoryAndName_1a963027dc8d146f03e3bf43303e64c8d9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/><ref refid="structCategoryAndName_1a963027dc8d146f03e3bf43303e64c8d9" kindref="member">uniqueId</ref>;</highlight></codeline>
+<codeline lineno="214" refid="structCategoryAndName_1a09986679670bd4bb78347700112951bc" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structCategoryAndName_1a09986679670bd4bb78347700112951bc" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="215" refid="structCategoryAndName_1aed3476144eb77e8b90d8aba775b77667" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="structCategoryAndName_1aed3476144eb77e8b90d8aba775b77667" kindref="member">topLevel</ref>;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#17<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651ba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651ba" kindref="member">UpdateReason</ref><sp/>{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651baa55771bcb939a8afbf4d119d6e0099317" kindref="member">ADDED</ref><sp/>=<sp/>700,</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651baab3461745d64b12346503b2980e436db5" kindref="member">REMOVED</ref><sp/>=<sp/>701,</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651baaa73aa78fc35d947d74875bf33f4dd6b3" kindref="member">ATTR_ADDED</ref><sp/>=<sp/>702,</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651baa2b49d108bda4130e76034fafd163f493" kindref="member">ATTR_MODIFIED</ref><sp/>=<sp/>703,</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651baaad6fe46bf524fb9459319295b8e95a9b" kindref="member">ATTR_REMOVED</ref><sp/>=<sp/>704,</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#18<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="structCategoryAndStatus" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCategoryAndStatus" kindref="compound">CategoryAndStatus</ref><sp/>{</highlight></codeline>
+<codeline lineno="230" refid="structCategoryAndStatus_1ad31f3414f0ed2f39be237336dc6224fd" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/><ref refid="structCategoryAndStatus_1ad31f3414f0ed2f39be237336dc6224fd" kindref="member">uniqueId</ref>;</highlight></codeline>
+<codeline lineno="231" refid="structCategoryAndStatus_1a20fbd9e88d5c608c08f7c00cce337f9f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="structCategoryAndStatus_1a20fbd9e88d5c608c08f7c00cce337f9f" kindref="member">status</ref>;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#19<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="structPoiAddedDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structPoiAddedDetails" kindref="compound">PoiAddedDetails</ref><sp/>{</highlight></codeline>
+<codeline lineno="236" refid="structPoiAddedDetails_1a3cc3ee377dd31e9e11a42a3dad120b62" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structPoiAddedDetails_1a3cc3ee377dd31e9e11a42a3dad120b62" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="237" refid="structPoiAddedDetails_1aa67c663cc8aa5c63275f453b3db3fa1a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref><sp/><ref refid="structPoiAddedDetails_1aa67c663cc8aa5c63275f453b3db3fa1a" kindref="member">location</ref>;</highlight></codeline>
+<codeline lineno="238" refid="structPoiAddedDetails_1a36206efe58086032378273932de9bf52" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;PoiAttribute&gt;<sp/><ref refid="structPoiAddedDetails_1a36206efe58086032378273932de9bf52" kindref="member">attributeList</ref>;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#20<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="structDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structDetails" kindref="compound">Details</ref><sp/>{</highlight></codeline>
+<codeline lineno="243" refid="structDetails_1a2e1956d1d10c27fccf16e0b8d0325796" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;CategoryID&gt;<sp/><ref refid="structDetails_1a2e1956d1d10c27fccf16e0b8d0325796" kindref="member">parentsId</ref>;</highlight></codeline>
+<codeline lineno="244" refid="structDetails_1a1a967110ed26ddaa908164719383dc8c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="unionIcon" kindref="compound">Icon</ref><sp/><ref refid="structDetails_1a1a967110ed26ddaa908164719383dc8c" kindref="member">icons</ref>;</highlight></codeline>
+<codeline lineno="245" refid="structDetails_1acc2a2efc349939c690ce60ea10113ebf" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structDetails_1acc2a2efc349939c690ce60ea10113ebf" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="246" refid="structDetails_1a6de2ee5184312998d91d4aff9007f44d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structDetails_1a6de2ee5184312998d91d4aff9007f44d" kindref="member">shortDesc</ref>;</highlight></codeline>
+<codeline lineno="247" refid="structDetails_1a63d411108a2a0b12ccbda0deaa5fd343" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="unionMedia" kindref="compound">Media</ref><sp/><ref refid="structDetails_1a63d411108a2a0b12ccbda0deaa5fd343" kindref="member">media</ref>;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#21<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="structOperator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structOperator" kindref="compound">Operator</ref><sp/>{</highlight></codeline>
+<codeline lineno="252" refid="structOperator_1a5442cdbf992150a59edf6924157eb237" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a6a02b2d1d62293b20242e3dcfbdd0117" kindref="member">OperatorType</ref><sp/><ref refid="structOperator_1a5442cdbf992150a59edf6924157eb237" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="253" refid="structOperator_1a25ad4ce86a4f28e5b18021e063fdc5a9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structOperator_1a25ad4ce86a4f28e5b18021e063fdc5a9" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="254" refid="structOperator_1a7a9fc4aba87d5ed5282602764acec994" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="unionAttributeValue" kindref="compound">AttributeValue</ref><sp/><ref refid="structOperator_1a7a9fc4aba87d5ed5282602764acec994" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#22<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="structCategoryAttribute" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCategoryAttribute" kindref="compound">CategoryAttribute</ref><sp/>{</highlight></codeline>
+<codeline lineno="259" refid="structCategoryAttribute_1a7b6f49c38f6cf9328efb2aebf7fab83b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a63fb569c36bb85fc79bbf5f2771a8543" kindref="member">AttributeID</ref><sp/><ref refid="structCategoryAttribute_1a7b6f49c38f6cf9328efb2aebf7fab83b" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="260" refid="structCategoryAttribute_1adfb910cbe1e6e4e7a8315a6a5c5dc7e2" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structCategoryAttribute_1adfb910cbe1e6e4e7a8315a6a5c5dc7e2" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="261" refid="structCategoryAttribute_1a7e32cd287788786bc1824351ad208216" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2" kindref="member">AttributeType</ref><sp/><ref refid="structCategoryAttribute_1a7e32cd287788786bc1824351ad208216" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="262" refid="structCategoryAttribute_1a7258945eba3ba39fa19465434e94c42f" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;Operator&gt;<sp/><ref refid="structCategoryAttribute_1a7258945eba3ba39fa19465434e94c42f" kindref="member">operators</ref>;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#23<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1" kindref="member">CategoryIDSet</ref><sp/>{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba00179dc54b90f459e87b0f3d53f95187" kindref="member">AIRPORT</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a4b3839f27611cfdc9d6d8dc18f2dadc1" kindref="member">SPORTING</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba5308b4ae58b3a3e2bb429213731ca770" kindref="member">FERRY_TERMINAL</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a30745c1ec37b7320355b5b1750b98f84" kindref="member">ENTERTAINMENT</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba65a8671732811b0d8a94ee1453197d6f" kindref="member">HOTEL_MOTEL</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dbab0dfbb297192e37153f16adfc7fe5de7" kindref="member">RESTAURANT</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1ab1e1c47120e5bf1a41614bc7f95a80db" kindref="member">PARKING</ref><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a27c7eae9ada8a7110ecc40fb6742a3f4" kindref="member">FUEL_STATION</ref><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a09f448877f54b75fb940f87b17f65351" kindref="member">SERVICE_AREA</ref><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a80939c06f225224ee8ad76d0726396f6" kindref="member">CAR_REPAIR_SHOP</ref><sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a767ef94055a3f3113f3e3327785918fa" kindref="member">CAR_DEALER</ref><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a094931cb5ef7ffa319de51c4d9f8ead7" kindref="member">CAR_RENTAL_AGENCY</ref><sp/>=<sp/>12,</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1aea68388b0642cfd18735a4a166494310" kindref="member">MEDICAL</ref><sp/>=<sp/>13,</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1abc2b872c7d3221edd3266972ce0e93f7" kindref="member">SHOPPING</ref><sp/>=<sp/>14,</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a9a7139abdc87d2f3acb05061abeef43a" kindref="member">BUSINESS_AREA</ref><sp/>=<sp/>15,</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1ada0100dab39349825d3307f72050b72d" kindref="member">LANDMARK</ref><sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1ae988f664a059f4bc3254b3ff52cea28c" kindref="member">FLASH_RADAR</ref><sp/>=<sp/>17,</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1ae8616e470151877fe18bdab134bcff20" kindref="member">POI_TRUCK</ref><sp/>=<sp/>18,</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a53a3e59ff3228205b025111e440514ba" kindref="member">SANCTUARY</ref><sp/>=<sp/>19,</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1aba7d044e46f9cac06b7e23f6a58d8547" kindref="member">TOLLBOOTH</ref><sp/>=<sp/>20,</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a225d1a31d94e4c0f223f74a5eb859cbe" kindref="member">KIOSK</ref><sp/>=<sp/>21,</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a2733015fac7c3018e313f5e1a88eebab" kindref="member">WATER_CLOSET</ref><sp/>=<sp/>22,</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a8381edaeb8ed67b97599709c48f9f177" kindref="member">BANK_AND_FINANCIAL</ref><sp/>=<sp/>23,</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1aa38b1ae01450414fd4fe9e206602989a" kindref="member">TRAVEL</ref><sp/>=<sp/>24,</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1abd80065543ad85b9a010e1565bae3a75" kindref="member">TOURIST</ref><sp/>=<sp/>25,</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a8c04d568895a0069851dfe2c153e9d1b" kindref="member">PUBLIC_BUILDING</ref><sp/>=<sp/>26,</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722dba897f300cf33e85590704140fa9297306" kindref="member">RAILWAY_STATION</ref><sp/>=<sp/>27,</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1aec3856a323d04264562479a5052a5b09" kindref="member">DESTINATION_FLAG</ref><sp/>=<sp/>204,</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a39946cd74c5a09296f76740ad067c460" kindref="member">FAVORITE</ref><sp/>=<sp/>205,</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a26a8a68698bdd77233cd842d2c400da7" kindref="member">FAVORITE_HOME</ref><sp/>=<sp/>206,</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1ac2ed7ac075d28323e42d76b394c5871c" kindref="member">FAVORITE_ADDRESSBOOK</ref><sp/>=<sp/>207,</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a36130027b91b8ad494d333ca860d5df2" kindref="member">USER_IMPORT</ref><sp/>=<sp/>208,</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a87aa89e1ac09210ec90c937261ece821" kindref="member">USER_CONTACT</ref><sp/>=<sp/>209,</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a07d448f428b230bc269a8604291701f8" kindref="member">MOTORWAY_EXIT</ref><sp/>=<sp/>210,</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1af6b02cf14a13447f859be060841e85a1a167d1431b6c959ea77a8e0dd38ba3c10" kindref="member">ALL_CATEGORIES</ref><sp/>=<sp/>65535,</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#24<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="structCategoryDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCategoryDetails" kindref="compound">CategoryDetails</ref><sp/>{</highlight></codeline>
+<codeline lineno="307" refid="structCategoryDetails_1a1251e0985804511551e3f9bfbdd47d4e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/><ref refid="structCategoryDetails_1a1251e0985804511551e3f9bfbdd47d4e" kindref="member">uniqueId</ref>;</highlight></codeline>
+<codeline lineno="308" refid="structCategoryDetails_1a898bc6021d271e27acb2a83f285e8221" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722db" kindref="member">StandardCategory</ref><sp/><ref refid="structCategoryDetails_1a898bc6021d271e27acb2a83f285e8221" kindref="member">standardCategoryId</ref>;</highlight></codeline>
+<codeline lineno="309" refid="structCategoryDetails_1af170c0d34b81f3761ff076e03e712c90" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;CategoryID&gt;<sp/><ref refid="structCategoryDetails_1af170c0d34b81f3761ff076e03e712c90" kindref="member">parentsId</ref>;</highlight></codeline>
+<codeline lineno="310" refid="structCategoryDetails_1a973cc7fb16f2e0e1c1fbcf3d5cab02c3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="unionIcon" kindref="compound">Icon</ref><sp/><ref refid="structCategoryDetails_1a973cc7fb16f2e0e1c1fbcf3d5cab02c3" kindref="member">icons</ref>;</highlight></codeline>
+<codeline lineno="311" refid="structCategoryDetails_1a1f858ba62b342a2466a345a07dbaf9eb" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structCategoryDetails_1a1f858ba62b342a2466a345a07dbaf9eb" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="312" refid="structCategoryDetails_1aa8d17c59afb1a4e98a634405e9f118cb" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="structCategoryDetails_1aa8d17c59afb1a4e98a634405e9f118cb" kindref="member">topLevel</ref>;</highlight></codeline>
+<codeline lineno="313" refid="structCategoryDetails_1a84f0fa2316e491efb5bbe50b5acf6e53" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structCategoryDetails_1a84f0fa2316e491efb5bbe50b5acf6e53" kindref="member">description</ref>;</highlight></codeline>
+<codeline lineno="314" refid="structCategoryDetails_1aa506dffa08f24ba96c0e135a1f74c297" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="unionMedia" kindref="compound">Media</ref><sp/><ref refid="structCategoryDetails_1aa506dffa08f24ba96c0e135a1f74c297" kindref="member">media</ref>;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#25<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="structCAMCategory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCAMCategory" kindref="compound">CAMCategory</ref><sp/>{</highlight></codeline>
+<codeline lineno="319" refid="structCAMCategory_1aa026c6144ded03ef28826f9ad247be3c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structDetails" kindref="compound">Details</ref><sp/><ref refid="structCAMCategory_1aa026c6144ded03ef28826f9ad247be3c" kindref="member">details</ref>;</highlight></codeline>
+<codeline lineno="320" refid="structCAMCategory_1aff833385e46e0b7234e35ae64d0c146c" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;CategoryAttribute&gt;<sp/><ref refid="structCAMCategory_1aff833385e46e0b7234e35ae64d0c146c" kindref="member">attributeList</ref>;</highlight></codeline>
+<codeline lineno="321" refid="structCAMCategory_1a816abea7e6849ef85b93f227bde193eb" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;CategorySortOption&gt;<sp/><ref refid="structCAMCategory_1a816abea7e6849ef85b93f227bde193eb" kindref="member">sortOptions</ref>;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#26<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="325" refid="POIServiceTypes_8types_8h_1a86e0a32751e485aae220c36666b2ad4f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="POIServiceTypes_8types_8h_1a86e0a32751e485aae220c36666b2ad4f" kindref="member">SearchStatusState</ref><sp/>{</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a86e0a32751e485aae220c36666b2ad4fa06972acc3aafeb3a65dbd996c8dedc73" kindref="member">NOT_STARTED</ref><sp/>=<sp/>510,</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a366b21ffe1b22f34ec2fa8f101b979f3adb46ca6757195ce8c1f015c9781d869e" kindref="member">SEARCHING</ref><sp/>=<sp/>511,</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a366b21ffe1b22f34ec2fa8f101b979f3a2c616b2713e2e0aed04b4c4752c88133" kindref="member">FINISHED</ref><sp/>=<sp/>512,</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#27<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333" refid="structCAMCategoryUpdate" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCAMCategoryUpdate" kindref="compound">CAMCategoryUpdate</ref><sp/>{</highlight></codeline>
+<codeline lineno="334" refid="structCAMCategoryUpdate_1a381689ccc5dde9aa9cfa2ea3d8feb1f4" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/><ref refid="structCAMCategoryUpdate_1a381689ccc5dde9aa9cfa2ea3d8feb1f4" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="335" refid="structCAMCategoryUpdate_1af94782e73822c51716e23e78971cbd11" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;CategoryAttribute&gt;<sp/><ref refid="structCAMCategoryUpdate_1af94782e73822c51716e23e78971cbd11" kindref="member">attributeList</ref>;</highlight></codeline>
+<codeline lineno="336" refid="structCAMCategoryUpdate_1ad0670cd1f627809f6825b1552e2e373c" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;CategorySortOption&gt;<sp/><ref refid="structCAMCategoryUpdate_1ad0670cd1f627809f6825b1552e2e373c" kindref="member">sortOptions</ref>;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#28<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="340" refid="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45" kindref="member">SortOption</ref><sp/>{</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45aebfbcbacfc8be1a32705e30e3a57d5c1" kindref="member">SORT_DEFAULT</ref><sp/>=<sp/>560,</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45a67a241f2a36737fa9fd80b3775b84b2a" kindref="member">SORT_BY_DISTANCE</ref><sp/>=<sp/>561,</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45a1f20401123f883a133d46747ef12a8ce" kindref="member">SORT_BY_TIME</ref><sp/>=<sp/>562,</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45aeebd7425fe1f33a007f961c282fb9055" kindref="member">ATTRIBUTE_CUSTOM</ref><sp/>=<sp/>563,</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#29<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="349" refid="structSearchResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structSearchResult" kindref="compound">SearchResult</ref><sp/>{</highlight></codeline>
+<codeline lineno="350" refid="structSearchResult_1ae9903f51ef5503f5f9662aa050b90477" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a400a3573b04df4d01d041cfd0bbad662" kindref="member">POI_ID</ref><sp/><ref refid="structSearchResult_1ae9903f51ef5503f5f9662aa050b90477" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="351" refid="structSearchResult_1ac6390b9125682b536f2e4c3f6981a451" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="structSearchResult_1ac6390b9125682b536f2e4c3f6981a451" kindref="member">distance</ref>;</highlight></codeline>
+<codeline lineno="352" refid="structSearchResult_1a2d507ad87384c52992956d99f40cc22e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a2502aed4307441828cacb3cf03def5de" kindref="member">RouteStatus</ref><sp/><ref refid="structSearchResult_1a2d507ad87384c52992956d99f40cc22e" kindref="member">routeStatus</ref>;</highlight></codeline>
+<codeline lineno="353" refid="structSearchResult_1aafb5ccca814a27399d72c0eb3c41dd6d" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;PoiAttribute&gt;<sp/><ref refid="structSearchResult_1aafb5ccca814a27399d72c0eb3c41dd6d" kindref="member">attributeList</ref>;</highlight></codeline>
+<codeline lineno="354"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#30<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="357" refid="structCategoryAndReason" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCategoryAndReason" kindref="compound">CategoryAndReason</ref><sp/>{</highlight></codeline>
+<codeline lineno="358" refid="structCategoryAndReason_1a53a35d1b76716bcdf47ffc9dabacb2a4" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/><ref refid="structCategoryAndReason_1a53a35d1b76716bcdf47ffc9dabacb2a4" kindref="member">unique_id</ref>;</highlight></codeline>
+<codeline lineno="359" refid="structCategoryAndReason_1a6de793bdabc0427c3f162b6092a3aaff" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a1873e097e146ea161799113ba50651ba" kindref="member">UpdateReason</ref><sp/><ref refid="structCategoryAndReason_1a6de793bdabc0427c3f162b6092a3aaff" kindref="member">reason</ref>;</highlight></codeline>
+<codeline lineno="360"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#31<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363" refid="POIServiceTypes_8types_8h_1a96a0fb400255d0a35d79278d2fa83d36" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="POIServiceTypes_8types_8h_1a96a0fb400255d0a35d79278d2fa83d36" kindref="member">ConfigurationChangedReason</ref><sp/>{</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a96a0fb400255d0a35d79278d2fa83d36a1ac80ba1abdbdc7db9624be51fe42a96" kindref="member">LOCALES</ref>,</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#32<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="369" refid="POIServiceTypes_8types_8h_1add3c793dad9f47bc87861b43af7038d1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Configuration_8types_8h_1add3c793dad9f47bc87861b43af7038d1" kindref="member">Settings</ref><sp/>{</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85accc0377a8afbf50e7094f5c23a8af223" kindref="member">INVALID</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1add3c793dad9f47bc87861b43af7038d1a5d7b806981e321f7da2704d1a3b4eeba" kindref="member">UNITS_OF_MEASUREMENT</ref><sp/>=<sp/>48,</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1add3c793dad9f47bc87861b43af7038d1a175d5afd5eed05a9553f94bbecd80a19" kindref="member">LOCALE</ref><sp/>=<sp/>37,</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1add3c793dad9f47bc87861b43af7038d1ac00f893330094ebace8d0ab719024c77" kindref="member">TIME_FORMAT</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1add3c793dad9f47bc87861b43af7038d1aabcad5c74299c02faadfc41f10e303d3" kindref="member">COORDINATES_FORMAT</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#33<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="379" refid="structSearchResultDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structSearchResultDetails" kindref="compound">SearchResultDetails</ref><sp/>{</highlight></codeline>
+<codeline lineno="380" refid="structSearchResultDetails_1a2893bc9c8ea9e9b2efc15d50fa4310ad" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structPoiDetails" kindref="compound">PoiDetails</ref><sp/><ref refid="structSearchResultDetails_1a2893bc9c8ea9e9b2efc15d50fa4310ad" kindref="member">details</ref>;</highlight></codeline>
+<codeline lineno="381" refid="structSearchResultDetails_1ab36a08e6d9060a53d2033b17dc1b2642" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;CategoryID&gt;<sp/><ref refid="structSearchResultDetails_1ab36a08e6d9060a53d2033b17dc1b2642" kindref="member">categories</ref>;</highlight></codeline>
+<codeline lineno="382" refid="structSearchResultDetails_1a286256437bcaf76f76b53fa241103475" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;PoiAttribute&gt;<sp/><ref refid="structSearchResultDetails_1a286256437bcaf76f76b53fa241103475" kindref="member">attributeList</ref>;</highlight></codeline>
+<codeline lineno="383"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#34<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="386" refid="structCategory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCategory" kindref="compound">Category</ref><sp/>{</highlight></codeline>
+<codeline lineno="387" refid="structCategory_1aef6281ea3d4614eb94bfbbee9c70b76a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structCategoryDetails" kindref="compound">CategoryDetails</ref><sp/><ref refid="structCategory_1aef6281ea3d4614eb94bfbbee9c70b76a" kindref="member">details</ref>;</highlight></codeline>
+<codeline lineno="388" refid="structCategory_1accd88a33a5fa13716e14cfb497927a56" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;CategoryAttribute&gt;<sp/><ref refid="structCategory_1accd88a33a5fa13716e14cfb497927a56" kindref="member">attributeList</ref>;</highlight></codeline>
+<codeline lineno="389" refid="structCategory_1a5644a12893760744ca786825fa11d536" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;CategorySortOption&gt;<sp/><ref refid="structCategory_1a5644a12893760744ca786825fa11d536" kindref="member">sortOptions</ref>;</highlight></codeline>
+<codeline lineno="390"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#35<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="393" refid="structPoiCAMDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structPoiCAMDetails" kindref="compound">PoiCAMDetails</ref><sp/>{</highlight></codeline>
+<codeline lineno="394" refid="structPoiCAMDetails_1a887524edf208b3137bd74d21e7cad20b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a400a3573b04df4d01d041cfd0bbad662" kindref="member">POI_ID</ref><sp/><ref refid="structPoiCAMDetails_1a887524edf208b3137bd74d21e7cad20b" kindref="member">sourceId</ref>;</highlight></codeline>
+<codeline lineno="395" refid="structPoiCAMDetails_1a0ea8ec1d49a50fa08a33250e7a52a30b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structPoiCAMDetails_1a0ea8ec1d49a50fa08a33250e7a52a30b" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="396" refid="structPoiCAMDetails_1a83ba24ee9fc634ea2fa31b3ce43eef0c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/><ref refid="structPoiCAMDetails_1a83ba24ee9fc634ea2fa31b3ce43eef0c" kindref="member">category</ref>;</highlight></codeline>
+<codeline lineno="397" refid="structPoiCAMDetails_1af9d1d43bcbc69f01639af60a005eac99" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref><sp/><ref refid="structPoiCAMDetails_1af9d1d43bcbc69f01639af60a005eac99" kindref="member">location</ref>;</highlight></codeline>
+<codeline lineno="398" refid="structPoiCAMDetails_1a2fff71de1928774df1bd6004d5fd6752" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref><sp/><ref refid="structPoiCAMDetails_1a2fff71de1928774df1bd6004d5fd6752" kindref="member">distance</ref>;</highlight></codeline>
+<codeline lineno="399" refid="structPoiCAMDetails_1a797c8cf945f02a4d49fe50af1827ceba" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;PoiAttribute&gt;<sp/><ref refid="structPoiCAMDetails_1a797c8cf945f02a4d49fe50af1827ceba" kindref="member">attributeList</ref>;</highlight></codeline>
+<codeline lineno="400"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight></codeline>
+<codeline lineno="402"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#36<sp/>from<sp/>POIServiceTypes<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="403" refid="POIServiceTypes_8types_8h_1adbb520676cd0cc0192743965b5bde46f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref><sp/><ref refid="POIServiceTypes_8types_8h_1adbb520676cd0cc0192743965b5bde46f" kindref="member">ContentAccessModuleID</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="POIServiceTypes.types.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structRectangle" kind="struct" language="C++" prot="public">
+    <compoundname>Rectangle</compoundname>
+    <includes refid="NavigationTypes_8types_8h" local="no">NavigationTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structRectangle_1a0e95a3ecf9a48863af610a4cbe2392da" prot="public" static="no" mutable="no">
+        <type><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref></type>
+        <definition>Coordinate2D Rectangle::topLeft</definition>
+        <argsstring></argsstring>
+        <name>topLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="34" column="1" bodyfile="NavigationTypes.types.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRectangle_1a0e916f9334cfb5959a8cece8d4fc68dc" prot="public" static="no" mutable="no">
+        <type><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref></type>
+        <definition>Coordinate2D Rectangle::bottomRight</definition>
+        <argsstring></argsstring>
+        <name>bottomRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="35" column="1" bodyfile="NavigationTypes.types.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="175">
+        <label>Coordinate2D</label>
+        <link refid="structCoordinate2D"/>
+      </node>
+      <node id="174">
+        <label>Rectangle</label>
+        <link refid="structRectangle"/>
+        <childnode refid="175" relation="usage">
+          <edgelabel>bottomRight</edgelabel>
+          <edgelabel>topLeft</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="NavigationTypes.types.h" line="33" column="1" bodyfile="NavigationTypes.types.h" bodystart="33" bodyend="36"/>
+    <listofallmembers>
+      <member refid="structRectangle_1a0e916f9334cfb5959a8cece8d4fc68dc" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>bottomRight</name></member>
+      <member refid="structRectangle_1a0e95a3ecf9a48863af610a4cbe2392da" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>topLeft</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

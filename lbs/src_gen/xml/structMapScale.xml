@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structMapScale" kind="struct" language="C++" prot="public">
+    <compoundname>MapScale</compoundname>
+    <includes refid="MapViewerControl_8types_8h" local="no">MapViewerControl.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMapScale_1ac9ceeffc62818a8edb6985b83dd6184e" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 MapScale::scaleId</definition>
+        <argsstring></argsstring>
+        <name>scaleId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="256" column="1" bodyfile="MapViewerControl.types.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMapScale_1aa64fd718b7c84b57ba3e0901b2980241" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 MapScale::scaleValue</definition>
+        <argsstring></argsstring>
+        <name>scaleValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="257" column="1" bodyfile="MapViewerControl.types.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMapScale_1a9d14f193fcaf7f76b31cf43d14b2b1bd" prot="public" static="no" mutable="no">
+        <type><ref refid="MapViewerControl_8types_8h_1a3525487f1af14402c85ac11dd139b2a7" kindref="member">MapScaleUnit</ref></type>
+        <definition>MapScaleUnit MapScale::unit</definition>
+        <argsstring></argsstring>
+        <name>unit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="258" column="1" bodyfile="MapViewerControl.types.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMapScale_1acee22bcc10a23a0f4ef6fa8b09a278ec" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>UInt32 MapScale::millimetersPerPixel</definition>
+        <argsstring></argsstring>
+        <name>millimetersPerPixel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="259" column="1" bodyfile="MapViewerControl.types.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MapViewerControl.types.h" line="255" column="1" bodyfile="MapViewerControl.types.h" bodystart="255" bodyend="260"/>
+    <listofallmembers>
+      <member refid="structMapScale_1acee22bcc10a23a0f4ef6fa8b09a278ec" prot="public" virt="non-virtual"><scope>MapScale</scope><name>millimetersPerPixel</name></member>
+      <member refid="structMapScale_1ac9ceeffc62818a8edb6985b83dd6184e" prot="public" virt="non-virtual"><scope>MapScale</scope><name>scaleId</name></member>
+      <member refid="structMapScale_1aa64fd718b7c84b57ba3e0901b2980241" prot="public" virt="non-virtual"><scope>MapScale</scope><name>scaleValue</name></member>
+      <member refid="structMapScale_1a9d14f193fcaf7f76b31cf43d14b2b1bd" prot="public" virt="non-virtual"><scope>MapScale</scope><name>unit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

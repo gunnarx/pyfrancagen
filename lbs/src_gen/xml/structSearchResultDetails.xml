@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structSearchResultDetails" kind="struct" language="C++" prot="public">
+    <compoundname>SearchResultDetails</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSearchResultDetails_1a2893bc9c8ea9e9b2efc15d50fa4310ad" prot="public" static="no" mutable="no">
+        <type><ref refid="structPoiDetails" kindref="compound">PoiDetails</ref></type>
+        <definition>PoiDetails SearchResultDetails::details</definition>
+        <argsstring></argsstring>
+        <name>details</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="380" column="1" bodyfile="POIServiceTypes.types.h" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSearchResultDetails_1ab36a08e6d9060a53d2033b17dc1b2642" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref> &gt;</type>
+        <definition>std::vector&lt;CategoryID&gt; SearchResultDetails::categories</definition>
+        <argsstring></argsstring>
+        <name>categories</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="381" column="1" bodyfile="POIServiceTypes.types.h" bodystart="381" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSearchResultDetails_1a286256437bcaf76f76b53fa241103475" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structPoiAttribute" kindref="compound">PoiAttribute</ref> &gt;</type>
+        <definition>std::vector&lt;PoiAttribute&gt; SearchResultDetails::attributeList</definition>
+        <argsstring></argsstring>
+        <name>attributeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="382" column="1" bodyfile="POIServiceTypes.types.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="193">
+        <label>SearchResultDetails</label>
+        <link refid="structSearchResultDetails"/>
+        <childnode refid="194" relation="usage">
+          <edgelabel>details</edgelabel>
+        </childnode>
+      </node>
+      <node id="195">
+        <label>Coordinate3D</label>
+        <link refid="structCoordinate3D"/>
+      </node>
+      <node id="194">
+        <label>PoiDetails</label>
+        <link refid="structPoiDetails"/>
+        <childnode refid="195" relation="usage">
+          <edgelabel>location</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="POIServiceTypes.types.h" line="379" column="1" bodyfile="POIServiceTypes.types.h" bodystart="379" bodyend="383"/>
+    <listofallmembers>
+      <member refid="structSearchResultDetails_1a286256437bcaf76f76b53fa241103475" prot="public" virt="non-virtual"><scope>SearchResultDetails</scope><name>attributeList</name></member>
+      <member refid="structSearchResultDetails_1ab36a08e6d9060a53d2033b17dc1b2642" prot="public" virt="non-virtual"><scope>SearchResultDetails</scope><name>categories</name></member>
+      <member refid="structSearchResultDetails_1a2893bc9c8ea9e9b2efc15d50fa4310ad" prot="public" virt="non-virtual"><scope>SearchResultDetails</scope><name>details</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structDimension" kind="struct" language="C++" prot="public">
+    <compoundname>Dimension</compoundname>
+    <includes refid="MapViewerControl_8types_8h" local="no">MapViewerControl.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structDimension_1ad290201db592b4074ccd3b6fd692562a" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 Dimension::horizontalSize</definition>
+        <argsstring></argsstring>
+        <name>horizontalSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="25" column="1" bodyfile="MapViewerControl.types.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDimension_1a37d4744fdc7a22ed9f34aeb43e03e5b7" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 Dimension::verticalSize</definition>
+        <argsstring></argsstring>
+        <name>verticalSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="26" column="1" bodyfile="MapViewerControl.types.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MapViewerControl.types.h" line="24" column="1" bodyfile="MapViewerControl.types.h" bodystart="24" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structDimension_1ad290201db592b4074ccd3b6fd692562a" prot="public" virt="non-virtual"><scope>Dimension</scope><name>horizontalSize</name></member>
+      <member refid="structDimension_1a37d4744fdc7a22ed9f34aeb43e03e5b7" prot="public" virt="non-virtual"><scope>Dimension</scope><name>verticalSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

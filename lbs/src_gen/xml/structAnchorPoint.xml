@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structAnchorPoint" kind="struct" language="C++" prot="public">
+    <compoundname>AnchorPoint</compoundname>
+    <includes refid="MapViewerControl_8types_8h" local="no">MapViewerControl.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAnchorPoint_1aaa3b1d61499e216aa35f6f2c0bf391d7" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref></type>
+        <definition>Int16 AnchorPoint::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="69" column="1" bodyfile="MapViewerControl.types.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAnchorPoint_1a681f9952ce3c45ebb81f24cc60360f90" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref></type>
+        <definition>Int16 AnchorPoint::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="70" column="1" bodyfile="MapViewerControl.types.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MapViewerControl.types.h" line="68" column="1" bodyfile="MapViewerControl.types.h" bodystart="68" bodyend="71"/>
+    <listofallmembers>
+      <member refid="structAnchorPoint_1aaa3b1d61499e216aa35f6f2c0bf391d7" prot="public" virt="non-virtual"><scope>AnchorPoint</scope><name>x</name></member>
+      <member refid="structAnchorPoint_1a681f9952ce3c45ebb81f24cc60360f90" prot="public" virt="non-virtual"><scope>AnchorPoint</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

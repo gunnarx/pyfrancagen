@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="POIContentAccessModule_8h" kind="file" language="C++">
+    <compoundname>POIContentAccessModule.h</compoundname>
+    <includes refid="CommonTypes_8types_8h" local="yes">CommonTypes.types.h</includes>
+    <includes refid="NavigationTypes_8types_8h" local="yes">NavigationTypes.types.h</includes>
+    <includes refid="POIContentAccessModule_8types_8h" local="yes">POIContentAccessModule.types.h</includes>
+    <includes refid="POIServiceTypes_8types_8h" local="yes">POIServiceTypes.types.h</includes>
+    <includedby refid="POIContentAccessModule_8cpp" local="yes">POIContentAccessModule.cpp</includedby>
+    <incdepgraph>
+      <node id="448">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="443" relation="include">
+        </childnode>
+      </node>
+      <node id="444">
+        <label>stdint.h</label>
+      </node>
+      <node id="447">
+        <label>string</label>
+      </node>
+      <node id="450">
+        <label>POIServiceTypes.types.h</label>
+        <link refid="POIServiceTypes_8types_8h"/>
+        <childnode refid="442" relation="include">
+        </childnode>
+        <childnode refid="450" relation="include">
+        </childnode>
+        <childnode refid="443" relation="include">
+        </childnode>
+      </node>
+      <node id="449">
+        <label>POIContentAccessModule.types.h</label>
+        <link refid="POIContentAccessModule_8types_8h"/>
+        <childnode refid="442" relation="include">
+        </childnode>
+        <childnode refid="448" relation="include">
+        </childnode>
+        <childnode refid="450" relation="include">
+        </childnode>
+        <childnode refid="443" relation="include">
+        </childnode>
+      </node>
+      <node id="446">
+        <label>map</label>
+      </node>
+      <node id="442">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="443" relation="include">
+        </childnode>
+      </node>
+      <node id="441">
+        <label>POIContentAccessModule.h</label>
+        <link refid="POIContentAccessModule_8h"/>
+        <childnode refid="442" relation="include">
+        </childnode>
+        <childnode refid="448" relation="include">
+        </childnode>
+        <childnode refid="449" relation="include">
+        </childnode>
+        <childnode refid="450" relation="include">
+        </childnode>
+      </node>
+      <node id="445">
+        <label>vector</label>
+      </node>
+      <node id="443">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="444" relation="include">
+        </childnode>
+        <childnode refid="445" relation="include">
+        </childnode>
+        <childnode refid="446" relation="include">
+        </childnode>
+        <childnode refid="447" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="451">
+        <label>POIContentAccessModule.h</label>
+        <link refid="POIContentAccessModule_8h"/>
+        <childnode refid="452" relation="include">
+        </childnode>
+      </node>
+      <node id="452">
+        <label>POIContentAccessModule.cpp</label>
+        <link refid="POIContentAccessModule_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classPOIContentAccessModule" prot="public">POIContentAccessModule</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="CommonTypes_8types_8h" kindref="compound">CommonTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationTypes_8types_8h" kindref="compound">NavigationTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="POIContentAccessModule_8types_8h" kindref="compound">POIContentAccessModule.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="POIServiceTypes_8types_8h" kindref="compound">POIServiceTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classPOIContentAccessModule" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classPOIContentAccessModule" kindref="compound">POIContentAccessModule</ref><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><ref refid="classPOIContentAccessModule_1af2ddc631eb09423f4723c8dfe55160cf" kindref="member">POIContentAccessModule</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><ref refid="classPOIContentAccessModule_1af2ddc631eb09423f4723c8dfe55160cf" kindref="member">POIContentAccessModule</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule" kindref="compound">POIContentAccessModule</ref><sp/>&amp;c);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><ref refid="classPOIContentAccessModule" kindref="compound">POIContentAccessModule</ref><sp/>&amp;<ref refid="classPOIContentAccessModule_1ac3a0db8ff8835548dba6b97d953fa541" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule" kindref="compound">POIContentAccessModule</ref><sp/>&amp;c);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><ref refid="classPOIContentAccessModule_1a30c6f8354c4500efacb244267bf9137d" kindref="member">~POIContentAccessModule</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1a6c780d81f7b3a10f49f09e40cc47a44c" kindref="member">getVersion</ref>(<ref refid="structVersion" kindref="compound">Version</ref><sp/>&amp;interfaceversion);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1ab9bd4b2cb614fea507535c35fc869cf8" kindref="member">setLocale</ref>(<ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>languageCode,<sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>countryCode,<sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>scriptCode);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1a090f0c5d3f013fe7b522a13359eb9a74" kindref="member">getLocale</ref>(<ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>&amp;languageCode,<sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>&amp;countryCode,<sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>&amp;scriptCode);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1abe5b7a1a29fa160059d069921dc3120e" kindref="member">getSupportedLocales</ref>(std::vector&lt;Locale&gt;<sp/>&amp;localeList);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1aa43bc8d91fd43bd2dfd32f752d8f8287" kindref="member">getAvailableCategories</ref>(std::vector&lt;CategoryAndName&gt;<sp/>&amp;categories);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1aaa4eac71b90e5c6095a45bf5301042e6" kindref="member">getRootCategory</ref>(<ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/>&amp;category);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1ab2aec0a416c36fd03bfe2e0a65e24a82" kindref="member">getChildrenCategories</ref>(<ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/>category,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;CategoryAndLevel&gt;<sp/>&amp;categories);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1addb7397e50b7723de3903c55e18eb86a" kindref="member">getParentCategories</ref>(<ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/>category,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;CategoryAndLevel&gt;<sp/>&amp;categories);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1a48682234e876f2356885ed0a5221ff42" kindref="member">createCategory</ref>(<ref refid="structCAMCategory" kindref="compound">CAMCategory</ref><sp/>category,<sp/><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/>&amp;unique_id);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1aca098d0301bb8bb1b58970057cca6404" kindref="member">removeCategories</ref>(std::vector&lt;CategoryID&gt;<sp/>categories);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1a2ff3c77ab00bb73a446c67cbc1198500" kindref="member">addPOIs</ref>(<ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref><sp/>unique_id,<sp/>std::vector&lt;PoiAddedDetails&gt;<sp/>poiList);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1a21659cc925d62864d3a64b7fca0fb46c" kindref="member">removePOIs</ref>(std::vector&lt;POI_ID&gt;<sp/>ids);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1ae60d0b65b28e1692b4e5cb8a5421e483" kindref="member">poiSearchStarted</ref>(<ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/>poiSearchHandle,<sp/><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref><sp/>maxSize,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref><sp/>location,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;CategoryAndRadius&gt;<sp/>poiCategories,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;AttributeDetails&gt;<sp/>poiAttributes,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>inputString,<sp/><ref refid="POIServiceTypes_8types_8h_1ad07a5f4660c80da8d36c3f0f55302e45" kindref="member">SortOption</ref><sp/>sortOption);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1a70ff4c7dfd2ede57235b9764c0ef685d" kindref="member">poiSearchCanceled</ref>(<ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/>poiSearchHandle);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1aaac9cd753b4ce8798171378c61e3e1bf" kindref="member">resultListRequested</ref>(<ref refid="POIServiceTypes_8types_8h_1adbb520676cd0cc0192743965b5bde46f" kindref="member">ContentAccessModuleID</ref><sp/>camId,<sp/><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/>poiSearchHandle,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;AttributeID&gt;<sp/>attributeList,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="POIServiceTypes_8types_8h_1a86e0a32751e485aae220c36666b2ad4f" kindref="member">SearchStatusState</ref><sp/>&amp;statusValue,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref><sp/>&amp;resultListSize,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;PoiCAMDetails&gt;<sp/>&amp;resultList);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPOIContentAccessModule_1a430c8acb59865fdff1cacf34741036da" kindref="member">poiDetailsRequested</ref>(std::vector&lt;POI_ID&gt;<sp/>source_id,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;SearchResultDetails&gt;<sp/>&amp;results);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>none</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="POIContentAccessModule.h"/>
+  </compounddef>
+</doxygen>

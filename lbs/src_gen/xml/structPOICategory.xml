@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structPOICategory" kind="struct" language="C++" prot="public">
+    <compoundname>POICategory</compoundname>
+    <includes refid="FreeTextSearch_8types_8h" local="no">FreeTextSearch.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPOICategory_1ac6b465f67d4d34ea0ca5b3d01e8a4ed6" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1a9b220ef0e616dd6fb6884c96952e4ee3" kindref="member">POICategoryCode</ref></type>
+        <definition>POICategoryCode POICategory::categoryCode</definition>
+        <argsstring></argsstring>
+        <name>categoryCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="225" column="1" bodyfile="FreeTextSearch.types.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOICategory_1abc7e97751536208b2fe970475d29c70f" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString POICategory::categoryName</definition>
+        <argsstring></argsstring>
+        <name>categoryName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="226" column="1" bodyfile="FreeTextSearch.types.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOICategory_1ad8d969b3dc9c78a59ad2ecc8491de000" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString POICategory::matchedName</definition>
+        <argsstring></argsstring>
+        <name>matchedName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="227" column="1" bodyfile="FreeTextSearch.types.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOICategory_1a21fb04046f60a4418bec9646e2333bf6" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString POICategory::searchTextSuggestion</definition>
+        <argsstring></argsstring>
+        <name>searchTextSuggestion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="228" column="1" bodyfile="FreeTextSearch.types.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOICategory_1af1c43e6a6904bcdf3514f1788ec75073" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1a5616271fcf4c686bd069f323545ae3ba" kindref="member">Addresses</ref></type>
+        <definition>Addresses POICategory::nearAddressSuggestions</definition>
+        <argsstring></argsstring>
+        <name>nearAddressSuggestions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="229" column="1" bodyfile="FreeTextSearch.types.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOICategory_1a242b8ac82308d4a494701d8d4560e1b1" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1ada01a46f1c7d02c46be1bd5ff5be9bc9" kindref="member">Score</ref></type>
+        <definition>Score POICategory::score</definition>
+        <argsstring></argsstring>
+        <name>score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="230" column="1" bodyfile="FreeTextSearch.types.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FreeTextSearch.types.h" line="224" column="1" bodyfile="FreeTextSearch.types.h" bodystart="224" bodyend="231"/>
+    <listofallmembers>
+      <member refid="structPOICategory_1ac6b465f67d4d34ea0ca5b3d01e8a4ed6" prot="public" virt="non-virtual"><scope>POICategory</scope><name>categoryCode</name></member>
+      <member refid="structPOICategory_1abc7e97751536208b2fe970475d29c70f" prot="public" virt="non-virtual"><scope>POICategory</scope><name>categoryName</name></member>
+      <member refid="structPOICategory_1ad8d969b3dc9c78a59ad2ecc8491de000" prot="public" virt="non-virtual"><scope>POICategory</scope><name>matchedName</name></member>
+      <member refid="structPOICategory_1af1c43e6a6904bcdf3514f1788ec75073" prot="public" virt="non-virtual"><scope>POICategory</scope><name>nearAddressSuggestions</name></member>
+      <member refid="structPOICategory_1a242b8ac82308d4a494701d8d4560e1b1" prot="public" virt="non-virtual"><scope>POICategory</scope><name>score</name></member>
+      <member refid="structPOICategory_1a21fb04046f60a4418bec9646e2333bf6" prot="public" virt="non-virtual"><scope>POICategory</scope><name>searchTextSuggestion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

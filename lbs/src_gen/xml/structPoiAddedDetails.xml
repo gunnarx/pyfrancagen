@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structPoiAddedDetails" kind="struct" language="C++" prot="public">
+    <compoundname>PoiAddedDetails</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPoiAddedDetails_1a3cc3ee377dd31e9e11a42a3dad120b62" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String PoiAddedDetails::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="236" column="1" bodyfile="POIServiceTypes.types.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPoiAddedDetails_1aa67c663cc8aa5c63275f453b3db3fa1a" prot="public" static="no" mutable="no">
+        <type><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref></type>
+        <definition>Coordinate3D PoiAddedDetails::location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="237" column="1" bodyfile="POIServiceTypes.types.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPoiAddedDetails_1a36206efe58086032378273932de9bf52" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structPoiAttribute" kindref="compound">PoiAttribute</ref> &gt;</type>
+        <definition>std::vector&lt;PoiAttribute&gt; PoiAddedDetails::attributeList</definition>
+        <argsstring></argsstring>
+        <name>attributeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="238" column="1" bodyfile="POIServiceTypes.types.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="142">
+        <label>PoiAddedDetails</label>
+        <link refid="structPoiAddedDetails"/>
+        <childnode refid="143" relation="usage">
+          <edgelabel>location</edgelabel>
+        </childnode>
+      </node>
+      <node id="143">
+        <label>Coordinate3D</label>
+        <link refid="structCoordinate3D"/>
+      </node>
+    </collaborationgraph>
+    <location file="POIServiceTypes.types.h" line="235" column="1" bodyfile="POIServiceTypes.types.h" bodystart="235" bodyend="239"/>
+    <listofallmembers>
+      <member refid="structPoiAddedDetails_1a36206efe58086032378273932de9bf52" prot="public" virt="non-virtual"><scope>PoiAddedDetails</scope><name>attributeList</name></member>
+      <member refid="structPoiAddedDetails_1aa67c663cc8aa5c63275f453b3db3fa1a" prot="public" virt="non-virtual"><scope>PoiAddedDetails</scope><name>location</name></member>
+      <member refid="structPoiAddedDetails_1a3cc3ee377dd31e9e11a42a3dad120b62" prot="public" virt="non-virtual"><scope>PoiAddedDetails</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

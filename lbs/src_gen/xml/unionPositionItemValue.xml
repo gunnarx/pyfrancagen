@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="unionPositionItemValue" kind="union" language="C++" prot="public">
+    <compoundname>PositionItemValue</compoundname>
+    <includes refid="MapMatchedPosition_8types_8h" local="no">MapMatchedPosition.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionPositionItemValue_1aba85360b994b9c92524dbde965e4f145" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a4bd87ed8c2931b537a170519e3bd61d7" kindref="member">Timestamp</ref></type>
+        <definition>Timestamp PositionItemValue::timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="121" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionPositionItemValue_1a0f351369b41c459236ae5040838a097b" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+        <definition>Boolean PositionItemValue::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="122" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionPositionItemValue_1a717ee36f73ed20c884a405ba9c5c350b" prot="public" static="no" mutable="no">
+        <type><ref refid="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffdd" kindref="member">GnnsFixStatus</ref></type>
+        <definition>GnnsFixStatus PositionItemValue::fix</definition>
+        <argsstring></argsstring>
+        <name>fix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="123" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionPositionItemValue_1a91015b8e0bf8cf0f6c699dd9493da029" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref></type>
+        <definition>Double PositionItemValue::doubleValue</definition>
+        <argsstring></argsstring>
+        <name>doubleValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="124" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionPositionItemValue_1a7e85d0f1e52e87c847413fcf85e630ac" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+        <definition>Int32 PositionItemValue::intValue</definition>
+        <argsstring></argsstring>
+        <name>intValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="125" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MapMatchedPosition.types.h" line="120" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="120" bodyend="126"/>
+    <listofallmembers>
+      <member refid="unionPositionItemValue_1a91015b8e0bf8cf0f6c699dd9493da029" prot="public" virt="non-virtual"><scope>PositionItemValue</scope><name>doubleValue</name></member>
+      <member refid="unionPositionItemValue_1a717ee36f73ed20c884a405ba9c5c350b" prot="public" virt="non-virtual"><scope>PositionItemValue</scope><name>fix</name></member>
+      <member refid="unionPositionItemValue_1a7e85d0f1e52e87c847413fcf85e630ac" prot="public" virt="non-virtual"><scope>PositionItemValue</scope><name>intValue</name></member>
+      <member refid="unionPositionItemValue_1a0f351369b41c459236ae5040838a097b" prot="public" virt="non-virtual"><scope>PositionItemValue</scope><name>status</name></member>
+      <member refid="unionPositionItemValue_1aba85360b994b9c92524dbde965e4f145" prot="public" virt="non-virtual"><scope>PositionItemValue</scope><name>timestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classPOIConfiguration" kind="class" language="C++" prot="public">
+    <compoundname>POIConfiguration</compoundname>
+    <includes refid="POIConfiguration_8h" local="no">POIConfiguration.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPOIConfiguration_1a0e0d20ce4cc04a224076ae3196ed0690" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POIConfiguration::POIConfiguration</definition>
+        <argsstring>()</argsstring>
+        <name>POIConfiguration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="25" column="1" bodyfile="POIConfiguration.cpp" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1ae99c35f00f3b3338888cb02ff426b4f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POIConfiguration::POIConfiguration</definition>
+        <argsstring>(const POIConfiguration &amp;c)</argsstring>
+        <name>POIConfiguration</name>
+        <param>
+          <type>const <ref refid="classPOIConfiguration" kindref="compound">POIConfiguration</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="26" column="1" bodyfile="POIConfiguration.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1ab2c3a5285fd9098c294ee8fc6c1d2a86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classPOIConfiguration" kindref="compound">POIConfiguration</ref> &amp;</type>
+        <definition>POIConfiguration &amp; POIConfiguration::operator=</definition>
+        <argsstring>(const POIConfiguration &amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classPOIConfiguration" kindref="compound">POIConfiguration</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="27" column="1" bodyfile="POIConfiguration.cpp" bodystart="28" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1a259126f14be536c70501668137a64a11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POIConfiguration::~POIConfiguration</definition>
+        <argsstring>()</argsstring>
+        <name>~POIConfiguration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="28" column="1" bodyfile="POIConfiguration.cpp" bodystart="31" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1a418ea206dc4fd4781f46361b6ae02d38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::getVersion</definition>
+        <argsstring>(Version &amp;interfaceversion)</argsstring>
+        <name>getVersion</name>
+        <param>
+          <type><ref refid="structVersion" kindref="compound">Version</ref> &amp;</type>
+          <declname>interfaceversion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="30" column="1" bodyfile="POIConfiguration.cpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1ac007791e3af1a3769ab3483efe3db5f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::setLocale</definition>
+        <argsstring>(String languageCode, String countryCode, String scriptCode)</argsstring>
+        <name>setLocale</name>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>languageCode</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>countryCode</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>scriptCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="32" column="1" bodyfile="POIConfiguration.cpp" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1a10a8bbb342a4766336910212cf928601" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::getLocale</definition>
+        <argsstring>(String &amp;languageCode, String &amp;countryCode, String &amp;scriptCode)</argsstring>
+        <name>getLocale</name>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref> &amp;</type>
+          <declname>languageCode</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref> &amp;</type>
+          <declname>countryCode</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref> &amp;</type>
+          <declname>scriptCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="34" column="1" bodyfile="POIConfiguration.cpp" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1ac276ba0fb5f51a5f392ec387e8830189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::getSupportedLocales</definition>
+        <argsstring>(std::vector&lt; Locale &gt; &amp;localeList)</argsstring>
+        <name>getSupportedLocales</name>
+        <param>
+          <type>std::vector&lt; <ref refid="structLocale" kindref="compound">Locale</ref> &gt; &amp;</type>
+          <declname>localeList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="36" column="1" bodyfile="POIConfiguration.cpp" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1ad3fd0d895b7e6e82b87a9608b7565dd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::setTimeFormat</definition>
+        <argsstring>(TimeFormat format)</argsstring>
+        <name>setTimeFormat</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" kindref="member">TimeFormat</ref></type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="38" column="1" bodyfile="POIConfiguration.cpp" bodystart="60" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1a23f54a6888abe269ef3d4d59ef027b51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::getTimeFormat</definition>
+        <argsstring>(TimeFormat &amp;format)</argsstring>
+        <name>getTimeFormat</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" kindref="member">TimeFormat</ref> &amp;</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="40" column="1" bodyfile="POIConfiguration.cpp" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1ad86775655a93ba596d2cbf2adcd69731" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::getSupportedTimeFormats</definition>
+        <argsstring>(std::vector&lt; TimeFormat &gt; &amp;timeFormatList)</argsstring>
+        <name>getSupportedTimeFormats</name>
+        <param>
+          <type>std::vector&lt; <ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" kindref="member">TimeFormat</ref> &gt; &amp;</type>
+          <declname>timeFormatList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="42" column="1" bodyfile="POIConfiguration.cpp" bodystart="72" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1a2a806982ee5555e48bf9e4717962dc20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::setCoordinatesFormat</definition>
+        <argsstring>(CoordinatesFormat coordinatesFormat)</argsstring>
+        <name>setCoordinatesFormat</name>
+        <param>
+          <type><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85" kindref="member">CoordinatesFormat</ref></type>
+          <declname>coordinatesFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="44" column="1" bodyfile="POIConfiguration.cpp" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1a09227c431cc8b7a543bcf1c8b37e7c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::getCoordinatesFormat</definition>
+        <argsstring>(CoordinatesFormat &amp;coordinatesFormat)</argsstring>
+        <name>getCoordinatesFormat</name>
+        <param>
+          <type><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85" kindref="member">CoordinatesFormat</ref> &amp;</type>
+          <declname>coordinatesFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="46" column="1" bodyfile="POIConfiguration.cpp" bodystart="86" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1aac76632d9986326184b360bd733186fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::getSupportedCoordinatesFormat</definition>
+        <argsstring>(std::vector&lt; CoordinatesFormat &gt; &amp;coordinatesFormatList)</argsstring>
+        <name>getSupportedCoordinatesFormat</name>
+        <param>
+          <type>std::vector&lt; <ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85" kindref="member">CoordinatesFormat</ref> &gt; &amp;</type>
+          <declname>coordinatesFormatList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="48" column="1" bodyfile="POIConfiguration.cpp" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1a2adce1d771ae821f1ddbc66b36a2e41e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::setUnitsOfMeasurement</definition>
+        <argsstring>(UnitsOfMeasurement unitsOfMeasurementList)</argsstring>
+        <name>setUnitsOfMeasurement</name>
+        <param>
+          <type><ref refid="Configuration_8types_8h_1a1031c81fe968f821429abf89b45277fa" kindref="member">UnitsOfMeasurement</ref></type>
+          <declname>unitsOfMeasurementList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="51" column="1" bodyfile="POIConfiguration.cpp" bodystart="100" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1ab4d69f4a225da6eff6d23ad95ca4f69c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::getUnitsOfMeasurement</definition>
+        <argsstring>(UnitsOfMeasurement &amp;unitsOfMeasurementList)</argsstring>
+        <name>getUnitsOfMeasurement</name>
+        <param>
+          <type><ref refid="Configuration_8types_8h_1a1031c81fe968f821429abf89b45277fa" kindref="member">UnitsOfMeasurement</ref> &amp;</type>
+          <declname>unitsOfMeasurementList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="53" column="1" bodyfile="POIConfiguration.cpp" bodystart="107" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOIConfiguration_1adcbde05d23b50c44838efbc659a29022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POIConfiguration::getSupportedUnitsOfMeasurement</definition>
+        <argsstring>(UnitsOfMeasurementList &amp;unitsOfMeasurementList)</argsstring>
+        <name>getSupportedUnitsOfMeasurement</name>
+        <param>
+          <type><ref refid="Configuration_8types_8h_1a4e8a73e8f770a3f01c6b610059735ec6" kindref="member">UnitsOfMeasurementList</ref> &amp;</type>
+          <declname>unitsOfMeasurementList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.h" line="55" column="1" bodyfile="POIConfiguration.cpp" bodystart="114" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="POIConfiguration.h" line="23" column="1" bodyfile="POIConfiguration.h" bodystart="23" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classPOIConfiguration_1a09227c431cc8b7a543bcf1c8b37e7c5f" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>getCoordinatesFormat</name></member>
+      <member refid="classPOIConfiguration_1a10a8bbb342a4766336910212cf928601" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>getLocale</name></member>
+      <member refid="classPOIConfiguration_1aac76632d9986326184b360bd733186fe" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>getSupportedCoordinatesFormat</name></member>
+      <member refid="classPOIConfiguration_1ac276ba0fb5f51a5f392ec387e8830189" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>getSupportedLocales</name></member>
+      <member refid="classPOIConfiguration_1ad86775655a93ba596d2cbf2adcd69731" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>getSupportedTimeFormats</name></member>
+      <member refid="classPOIConfiguration_1adcbde05d23b50c44838efbc659a29022" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>getSupportedUnitsOfMeasurement</name></member>
+      <member refid="classPOIConfiguration_1a23f54a6888abe269ef3d4d59ef027b51" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>getTimeFormat</name></member>
+      <member refid="classPOIConfiguration_1ab4d69f4a225da6eff6d23ad95ca4f69c" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>getUnitsOfMeasurement</name></member>
+      <member refid="classPOIConfiguration_1a418ea206dc4fd4781f46361b6ae02d38" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>getVersion</name></member>
+      <member refid="classPOIConfiguration_1ab2c3a5285fd9098c294ee8fc6c1d2a86" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>operator=</name></member>
+      <member refid="classPOIConfiguration_1a0e0d20ce4cc04a224076ae3196ed0690" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>POIConfiguration</name></member>
+      <member refid="classPOIConfiguration_1ae99c35f00f3b3338888cb02ff426b4f7" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>POIConfiguration</name></member>
+      <member refid="classPOIConfiguration_1a2a806982ee5555e48bf9e4717962dc20" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>setCoordinatesFormat</name></member>
+      <member refid="classPOIConfiguration_1ac007791e3af1a3769ab3483efe3db5f7" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>setLocale</name></member>
+      <member refid="classPOIConfiguration_1ad3fd0d895b7e6e82b87a9608b7565dd4" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>setTimeFormat</name></member>
+      <member refid="classPOIConfiguration_1a2adce1d771ae821f1ddbc66b36a2e41e" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>setUnitsOfMeasurement</name></member>
+      <member refid="classPOIConfiguration_1a259126f14be536c70501668137a64a11" prot="public" virt="non-virtual"><scope>POIConfiguration</scope><name>~POIConfiguration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structPoliticalDivisionDetails" kind="struct" language="C++" prot="public">
+    <compoundname>PoliticalDivisionDetails</compoundname>
+    <includes refid="FreeTextSearch_8types_8h" local="no">FreeTextSearch.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPoliticalDivisionDetails_1a1dca0ec7026934000b7565873ee7a28a" prot="public" static="no" mutable="no">
+        <type><ref refid="structRectangle" kindref="compound">Rectangle</ref></type>
+        <definition>Rectangle PoliticalDivisionDetails::boundingBox</definition>
+        <argsstring></argsstring>
+        <name>boundingBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="53" column="1" bodyfile="FreeTextSearch.types.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="166">
+        <label>Coordinate2D</label>
+        <link refid="structCoordinate2D"/>
+      </node>
+      <node id="165">
+        <label>Rectangle</label>
+        <link refid="structRectangle"/>
+        <childnode refid="166" relation="usage">
+          <edgelabel>bottomRight</edgelabel>
+          <edgelabel>topLeft</edgelabel>
+        </childnode>
+      </node>
+      <node id="164">
+        <label>PoliticalDivisionDetails</label>
+        <link refid="structPoliticalDivisionDetails"/>
+        <childnode refid="165" relation="usage">
+          <edgelabel>boundingBox</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="FreeTextSearch.types.h" line="52" column="1" bodyfile="FreeTextSearch.types.h" bodystart="52" bodyend="54"/>
+    <listofallmembers>
+      <member refid="structPoliticalDivisionDetails_1a1dca0ec7026934000b7565873ee7a28a" prot="public" virt="non-virtual"><scope>PoliticalDivisionDetails</scope><name>boundingBox</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

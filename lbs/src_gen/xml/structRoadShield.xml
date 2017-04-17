@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structRoadShield" kind="struct" language="C++" prot="public">
+    <compoundname>RoadShield</compoundname>
+    <includes refid="NavigationCoreTypes_8types_8h" local="no">NavigationCoreTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structRoadShield_1a4c956c637feaf8598ff20383a4d7c831" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String RoadShield::roadNumber</definition>
+        <argsstring></argsstring>
+        <name>roadNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationCoreTypes.types.h" line="69" column="1" bodyfile="NavigationCoreTypes.types.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRoadShield_1a5de546b33a439b5ce7f80c03af2fd2fd" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structRoadShieldAffix" kindref="compound">RoadShieldAffix</ref> &gt;</type>
+        <definition>std::vector&lt;RoadShieldAffix&gt; RoadShield::affixes</definition>
+        <argsstring></argsstring>
+        <name>affixes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationCoreTypes.types.h" line="70" column="1" bodyfile="NavigationCoreTypes.types.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRoadShield_1a5029f7a3a4b1c1f9c72c314a3bb6405f" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String RoadShield::iconSetId</definition>
+        <argsstring></argsstring>
+        <name>iconSetId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationCoreTypes.types.h" line="71" column="1" bodyfile="NavigationCoreTypes.types.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NavigationCoreTypes.types.h" line="68" column="1" bodyfile="NavigationCoreTypes.types.h" bodystart="68" bodyend="72"/>
+    <listofallmembers>
+      <member refid="structRoadShield_1a5de546b33a439b5ce7f80c03af2fd2fd" prot="public" virt="non-virtual"><scope>RoadShield</scope><name>affixes</name></member>
+      <member refid="structRoadShield_1a5029f7a3a4b1c1f9c72c314a3bb6405f" prot="public" virt="non-virtual"><scope>RoadShield</scope><name>iconSetId</name></member>
+      <member refid="structRoadShield_1a4c956c637feaf8598ff20383a4d7c831" prot="public" virt="non-virtual"><scope>RoadShield</scope><name>roadNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Configuration_8h" kind="file" language="C++">
+    <compoundname>Configuration.h</compoundname>
+    <includes refid="CommonTypes_8types_8h" local="yes">CommonTypes.types.h</includes>
+    <includes refid="Configuration_8types_8h" local="yes">Configuration.types.h</includes>
+    <includes refid="NavigationTypes_8types_8h" local="yes">NavigationTypes.types.h</includes>
+    <includedby refid="Configuration_8cpp" local="yes">Configuration.cpp</includedby>
+    <incdepgraph>
+      <node id="56">
+        <label>Configuration.h</label>
+        <link refid="Configuration_8h"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>stdint.h</label>
+      </node>
+      <node id="62">
+        <label>string</label>
+      </node>
+      <node id="61">
+        <label>map</label>
+      </node>
+      <node id="57">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>vector</label>
+      </node>
+      <node id="63">
+        <label>Configuration.types.h</label>
+        <link refid="Configuration_8types_8h"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="65">
+        <label>Configuration.h</label>
+        <link refid="Configuration_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>Configuration.cpp</label>
+        <link refid="Configuration_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classConfiguration" prot="public">Configuration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="CommonTypes_8types_8h" kindref="compound">CommonTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Configuration_8types_8h" kindref="compound">Configuration.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationTypes_8types_8h" kindref="compound">NavigationTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classConfiguration" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classConfiguration" kindref="compound">Configuration</ref><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><ref refid="classConfiguration_1a779947337bf652f0e773cb29f37f14ba" kindref="member">Configuration</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><ref refid="classConfiguration_1a779947337bf652f0e773cb29f37f14ba" kindref="member">Configuration</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classConfiguration" kindref="compound">Configuration</ref><sp/>&amp;c);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><ref refid="classConfiguration" kindref="compound">Configuration</ref><sp/>&amp;<ref refid="classConfiguration_1ae175f8761454f62f31846a7619a865e4" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classConfiguration" kindref="compound">Configuration</ref><sp/>&amp;c);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><ref refid="classConfiguration_1a0dd0fa189e239f4c9a036303f641441e" kindref="member">~Configuration</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a2eaae2317a15ef79ff9aabf0be88781a" kindref="member">getVersion</ref>(<ref refid="structVersion" kindref="compound">Version</ref><sp/>&amp;interfaceversion);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1aecca1cbb8130e6ec9c9c2fdbdbab721b" kindref="member">setLocale</ref>(<ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>languageCode,<sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>countryCode,<sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>scriptCode);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a0b5c6a7cca39091dd9a7135e6ac061f7" kindref="member">getLocale</ref>(<ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>&amp;languageCode,<sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>&amp;countryCode,<sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/>&amp;scriptCode);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a8f31975aec900971f4289cf04acf975c" kindref="member">getSupportedLocales</ref>(std::vector&lt;Locale&gt;<sp/>&amp;localeList);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1ac8037d471b68e268fb996c16e7cd2ac8" kindref="member">setTimeFormat</ref>(<ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" kindref="member">TimeFormat</ref><sp/>format);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a25a00cd33600fb3f38b819f4547c4a04" kindref="member">getTimeFormat</ref>(<ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" kindref="member">TimeFormat</ref><sp/>&amp;format);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a2e2cc701f0b26cbe57169a893489608d" kindref="member">getSupportedTimeFormats</ref>(std::vector&lt;TimeFormat&gt;<sp/>&amp;timeFormatList);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a761026e2afe77880783b42629a8fcee3" kindref="member">setCoordinatesFormat</ref>(<ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85" kindref="member">CoordinatesFormat</ref><sp/>coordinatesFormat);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a31e6198960772695a5701c5f68c03692" kindref="member">getCoordinatesFormat</ref>(<ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85" kindref="member">CoordinatesFormat</ref><sp/>&amp;coordinatesFormat);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a042feb4b1e50fe641f26959581442152" kindref="member">getSupportedCoordinatesFormat</ref>(</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;CoordinatesFormat&gt;<sp/>&amp;coordinatesFormatList);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1acd1288f528b3e2de2ae41e5e1654625d" kindref="member">setUnitsOfMeasurement</ref>(<ref refid="Configuration_8types_8h_1a1031c81fe968f821429abf89b45277fa" kindref="member">UnitsOfMeasurement</ref><sp/>unitsOfMeasurement);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1aaa38c635ad91ea00f987df47cc39ae0d" kindref="member">getUnitsOfMeasurement</ref>(<ref refid="Configuration_8types_8h_1a1031c81fe968f821429abf89b45277fa" kindref="member">UnitsOfMeasurement</ref><sp/>&amp;unitsOfMeasurement);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a43ab4e9b91fa322d0dc5b347974c058f" kindref="member">getSupportedUnitsOfMeasurement</ref>(</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="Configuration_8types_8h_1a4e8a73e8f770a3f01c6b610059735ec6" kindref="member">UnitsOfMeasurementList</ref><sp/>&amp;unitsOfMeasurementList);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>none</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Configuration.h"/>
+  </compounddef>
+</doxygen>

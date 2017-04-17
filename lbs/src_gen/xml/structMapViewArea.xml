@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structMapViewArea" kind="struct" language="C++" prot="public">
+    <compoundname>MapViewArea</compoundname>
+    <includes refid="MapViewerControl_8types_8h" local="no">MapViewerControl.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMapViewArea_1ac3792f094ed01202288c71c6c28248e5" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref></type>
+        <definition>Double MapViewArea::left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="41" column="1" bodyfile="MapViewerControl.types.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMapViewArea_1a99f3dd9f96514cc8d49756dc28be22c2" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref></type>
+        <definition>Double MapViewArea::right</definition>
+        <argsstring></argsstring>
+        <name>right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="42" column="1" bodyfile="MapViewerControl.types.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMapViewArea_1aa9792ee681f29c2a3fd7057774d1622d" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref></type>
+        <definition>Double MapViewArea::top</definition>
+        <argsstring></argsstring>
+        <name>top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="43" column="1" bodyfile="MapViewerControl.types.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMapViewArea_1a03f9875eba6baaff21071a514e4886a9" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref></type>
+        <definition>Double MapViewArea::bottom</definition>
+        <argsstring></argsstring>
+        <name>bottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="44" column="1" bodyfile="MapViewerControl.types.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MapViewerControl.types.h" line="40" column="1" bodyfile="MapViewerControl.types.h" bodystart="40" bodyend="45"/>
+    <listofallmembers>
+      <member refid="structMapViewArea_1a03f9875eba6baaff21071a514e4886a9" prot="public" virt="non-virtual"><scope>MapViewArea</scope><name>bottom</name></member>
+      <member refid="structMapViewArea_1ac3792f094ed01202288c71c6c28248e5" prot="public" virt="non-virtual"><scope>MapViewArea</scope><name>left</name></member>
+      <member refid="structMapViewArea_1a99f3dd9f96514cc8d49756dc28be22c2" prot="public" virt="non-virtual"><scope>MapViewArea</scope><name>right</name></member>
+      <member refid="structMapViewArea_1aa9792ee681f29c2a3fd7057774d1622d" prot="public" virt="non-virtual"><scope>MapViewArea</scope><name>top</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

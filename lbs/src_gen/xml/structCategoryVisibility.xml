@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structCategoryVisibility" kind="struct" language="C++" prot="public">
+    <compoundname>CategoryVisibility</compoundname>
+    <includes refid="MapViewerControl_8types_8h" local="no">MapViewerControl.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCategoryVisibility_1a598dc0f13e7a5a97c07209cba19a989c" prot="public" static="no" mutable="no">
+        <type><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref></type>
+        <definition>CategoryID CategoryVisibility::poiCategoryId</definition>
+        <argsstring></argsstring>
+        <name>poiCategoryId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="61" column="1" bodyfile="MapViewerControl.types.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryVisibility_1ad1e7b2af25eafbd7fed59084b51e98b0" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+        <definition>Boolean CategoryVisibility::visible</definition>
+        <argsstring></argsstring>
+        <name>visible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="62" column="1" bodyfile="MapViewerControl.types.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryVisibility_1a7932b2baafa7ccb6b68edf49510b6207" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref></type>
+        <definition>UInt8 CategoryVisibility::minScaleID</definition>
+        <argsstring></argsstring>
+        <name>minScaleID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="63" column="1" bodyfile="MapViewerControl.types.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryVisibility_1a1d84edb5f7477d9fc863e1815f6eac3a" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref></type>
+        <definition>UInt8 CategoryVisibility::maxScaleID</definition>
+        <argsstring></argsstring>
+        <name>maxScaleID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="64" column="1" bodyfile="MapViewerControl.types.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MapViewerControl.types.h" line="60" column="1" bodyfile="MapViewerControl.types.h" bodystart="60" bodyend="65"/>
+    <listofallmembers>
+      <member refid="structCategoryVisibility_1a1d84edb5f7477d9fc863e1815f6eac3a" prot="public" virt="non-virtual"><scope>CategoryVisibility</scope><name>maxScaleID</name></member>
+      <member refid="structCategoryVisibility_1a7932b2baafa7ccb6b68edf49510b6207" prot="public" virt="non-virtual"><scope>CategoryVisibility</scope><name>minScaleID</name></member>
+      <member refid="structCategoryVisibility_1a598dc0f13e7a5a97c07209cba19a989c" prot="public" virt="non-virtual"><scope>CategoryVisibility</scope><name>poiCategoryId</name></member>
+      <member refid="structCategoryVisibility_1ad1e7b2af25eafbd7fed59084b51e98b0" prot="public" virt="non-virtual"><scope>CategoryVisibility</scope><name>visible</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

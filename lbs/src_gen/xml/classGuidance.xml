@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classGuidance" kind="class" language="C++" prot="public">
+    <compoundname>Guidance</compoundname>
+    <includes refid="Guidance_8h" local="no">Guidance.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGuidance_1ab61fc5691a3369b55adbfb77cb029cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Guidance::Guidance</definition>
+        <argsstring>()</argsstring>
+        <name>Guidance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="25" column="1" bodyfile="Guidance.cpp" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1ae2f491c227399fb713cce7105ec05938" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Guidance::Guidance</definition>
+        <argsstring>(const Guidance &amp;c)</argsstring>
+        <name>Guidance</name>
+        <param>
+          <type>const <ref refid="classGuidance" kindref="compound">Guidance</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="26" column="1" bodyfile="Guidance.cpp" bodystart="23" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1a20fd13a8deb34dcc0e985d146aa2e62f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classGuidance" kindref="compound">Guidance</ref> &amp;</type>
+        <definition>Guidance &amp; Guidance::operator=</definition>
+        <argsstring>(const Guidance &amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classGuidance" kindref="compound">Guidance</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="27" column="1" bodyfile="Guidance.cpp" bodystart="26" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1ad14ccf81d6a06ec9333d921c7b8f2927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Guidance::~Guidance</definition>
+        <argsstring>()</argsstring>
+        <name>~Guidance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="28" column="1" bodyfile="Guidance.cpp" bodystart="29" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1a06d4234d8f2a577201d21d28f49c176d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::getVersion</definition>
+        <argsstring>(Version &amp;interfaceversion)</argsstring>
+        <name>getVersion</name>
+        <param>
+          <type><ref refid="structVersion" kindref="compound">Version</ref> &amp;</type>
+          <declname>interfaceversion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="30" column="1" bodyfile="Guidance.cpp" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1a65eec219b3424967f6494b122671ab92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::startGuidance</definition>
+        <argsstring>(Handle sessionHandle, Handle routeHandle)</argsstring>
+        <name>startGuidance</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="32" column="1" bodyfile="Guidance.cpp" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1af228e145597d599e3f91da55ff404d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::stopGuidance</definition>
+        <argsstring>(Handle sessionHandle)</argsstring>
+        <name>stopGuidance</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="34" column="1" bodyfile="Guidance.cpp" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1aec6e14629f0f7f45be04ef5667fcd947" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::setVoiceGuidance</definition>
+        <argsstring>(Boolean activate, String voice)</argsstring>
+        <name>setVoiceGuidance</name>
+        <param>
+          <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+          <declname>activate</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>voice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="36" column="1" bodyfile="Guidance.cpp" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1a7edb32da6cbcdeb36128bae7fd4528b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::getGuidanceDetails</definition>
+        <argsstring>(Boolean &amp;voiceGuidance, Boolean &amp;vehicleOnTheRoad, Boolean &amp;isDestinationReached, ManeuverPhase &amp;maneuver)</argsstring>
+        <name>getGuidanceDetails</name>
+        <param>
+          <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref> &amp;</type>
+          <declname>voiceGuidance</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref> &amp;</type>
+          <declname>vehicleOnTheRoad</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref> &amp;</type>
+          <declname>isDestinationReached</declname>
+        </param>
+        <param>
+          <type><ref refid="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5" kindref="member">ManeuverPhase</ref> &amp;</type>
+          <declname>maneuver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="38" column="1" bodyfile="Guidance.cpp" bodystart="56" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1ac4d08f1b787f2fd4b524768d2882d932" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::playVoiceManeuver</definition>
+        <argsstring>()</argsstring>
+        <name>playVoiceManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="42" column="1" bodyfile="Guidance.cpp" bodystart="65" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1ac946a109058627e98aaf2c591befbf4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::getWaypointInformation</definition>
+        <argsstring>(UInt16 requestedNumberOfWaypoints, UInt16 &amp;numberOfWaypoints, std::vector&lt; WaypointStruct &gt; &amp;waypointsList)</argsstring>
+        <name>getWaypointInformation</name>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+          <declname>requestedNumberOfWaypoints</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref> &amp;</type>
+          <declname>numberOfWaypoints</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structWaypointStruct" kindref="compound">WaypointStruct</ref> &gt; &amp;</type>
+          <declname>waypointsList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="46" column="1" bodyfile="Guidance.cpp" bodystart="71" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1af68fd0d13fb9d4a9f5c667ed2fa2e7c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::getDestinationInformation</definition>
+        <argsstring>(UInt32 &amp;offset, UInt32 &amp;travelTime, Int32 &amp;direction, Side &amp;side, Int16 &amp;timeZone, Int16 &amp;daylightSavingTime)</argsstring>
+        <name>getDestinationInformation</name>
+        <param>
+          <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref> &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref> &amp;</type>
+          <declname>travelTime</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref> &amp;</type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type><ref refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00" kindref="member">Side</ref> &amp;</type>
+          <declname>side</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref> &amp;</type>
+          <declname>timeZone</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref> &amp;</type>
+          <declname>daylightSavingTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="50" column="1" bodyfile="Guidance.cpp" bodystart="79" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1a59f7058a8eea205ff958b27734393e2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::getManeuversList</definition>
+        <argsstring>(UInt16 requestedNumberOfManeuvers, UInt32 maneuverOffset, UInt16 &amp;numberOfManeuvers, std::vector&lt; Maneuver &gt; &amp;maneuversList)</argsstring>
+        <name>getManeuversList</name>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+          <declname>requestedNumberOfManeuvers</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+          <declname>maneuverOffset</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref> &amp;</type>
+          <declname>numberOfManeuvers</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structManeuver" kindref="compound">Maneuver</ref> &gt; &amp;</type>
+          <declname>maneuversList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="54" column="1" bodyfile="Guidance.cpp" bodystart="88" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1a95cebd402b2e88d3289b073cff6f7401" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::setRouteCalculationMode</definition>
+        <argsstring>(Handle sessionHandle, CalculationMode routeCalculationMode)</argsstring>
+        <name>setRouteCalculationMode</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="Guidance_8types_8h_1acc9c0b6bfa11bc615816faebb986f2d7" kindref="member">CalculationMode</ref></type>
+          <declname>routeCalculationMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="58" column="1" bodyfile="Guidance.cpp" bodystart="97" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1ab23f0ddf1d7d4d3a46571eeb72115804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::skipNextManeuver</definition>
+        <argsstring>(Handle sessionHandle)</argsstring>
+        <name>skipNextManeuver</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="61" column="1" bodyfile="Guidance.cpp" bodystart="104" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1a38e1b556a860d99a2da98522d4b0c01a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::getGuidanceStatus</definition>
+        <argsstring>(GuidanceStatus &amp;guidanceStatus, Handle &amp;routeHandle)</argsstring>
+        <name>getGuidanceStatus</name>
+        <param>
+          <type><ref refid="Guidance_8types_8h_1a1b9ebe3321efe3f304d9a9bc3170d85e" kindref="member">GuidanceStatus</ref> &amp;</type>
+          <declname>guidanceStatus</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref> &amp;</type>
+          <declname>routeHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="63" column="1" bodyfile="Guidance.cpp" bodystart="110" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1af3f518f5b7aa78174fd38ef2ac6afcbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::setVoiceGuidanceSettings</definition>
+        <argsstring>(PromptMode promptMode)</argsstring>
+        <name>setVoiceGuidanceSettings</name>
+        <param>
+          <type><ref refid="Guidance_8types_8h_1affb9b76c684f4d272a1ca0defae8e89d" kindref="member">PromptMode</ref></type>
+          <declname>promptMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="65" column="1" bodyfile="Guidance.cpp" bodystart="117" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classGuidance_1adb7643f5cbfc87ee7d5403d120f783f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Guidance::getVoiceGuidanceSettings</definition>
+        <argsstring>(PromptMode &amp;promptMode)</argsstring>
+        <name>getVoiceGuidanceSettings</name>
+        <param>
+          <type><ref refid="Guidance_8types_8h_1affb9b76c684f4d272a1ca0defae8e89d" kindref="member">PromptMode</ref> &amp;</type>
+          <declname>promptMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.h" line="67" column="1" bodyfile="Guidance.cpp" bodystart="123" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Guidance.h" line="23" column="1" bodyfile="Guidance.h" bodystart="23" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classGuidance_1af68fd0d13fb9d4a9f5c667ed2fa2e7c8" prot="public" virt="non-virtual"><scope>Guidance</scope><name>getDestinationInformation</name></member>
+      <member refid="classGuidance_1a7edb32da6cbcdeb36128bae7fd4528b3" prot="public" virt="non-virtual"><scope>Guidance</scope><name>getGuidanceDetails</name></member>
+      <member refid="classGuidance_1a38e1b556a860d99a2da98522d4b0c01a" prot="public" virt="non-virtual"><scope>Guidance</scope><name>getGuidanceStatus</name></member>
+      <member refid="classGuidance_1a59f7058a8eea205ff958b27734393e2f" prot="public" virt="non-virtual"><scope>Guidance</scope><name>getManeuversList</name></member>
+      <member refid="classGuidance_1a06d4234d8f2a577201d21d28f49c176d" prot="public" virt="non-virtual"><scope>Guidance</scope><name>getVersion</name></member>
+      <member refid="classGuidance_1adb7643f5cbfc87ee7d5403d120f783f4" prot="public" virt="non-virtual"><scope>Guidance</scope><name>getVoiceGuidanceSettings</name></member>
+      <member refid="classGuidance_1ac946a109058627e98aaf2c591befbf4e" prot="public" virt="non-virtual"><scope>Guidance</scope><name>getWaypointInformation</name></member>
+      <member refid="classGuidance_1ab61fc5691a3369b55adbfb77cb029cd3" prot="public" virt="non-virtual"><scope>Guidance</scope><name>Guidance</name></member>
+      <member refid="classGuidance_1ae2f491c227399fb713cce7105ec05938" prot="public" virt="non-virtual"><scope>Guidance</scope><name>Guidance</name></member>
+      <member refid="classGuidance_1a20fd13a8deb34dcc0e985d146aa2e62f" prot="public" virt="non-virtual"><scope>Guidance</scope><name>operator=</name></member>
+      <member refid="classGuidance_1ac4d08f1b787f2fd4b524768d2882d932" prot="public" virt="non-virtual"><scope>Guidance</scope><name>playVoiceManeuver</name></member>
+      <member refid="classGuidance_1a95cebd402b2e88d3289b073cff6f7401" prot="public" virt="non-virtual"><scope>Guidance</scope><name>setRouteCalculationMode</name></member>
+      <member refid="classGuidance_1aec6e14629f0f7f45be04ef5667fcd947" prot="public" virt="non-virtual"><scope>Guidance</scope><name>setVoiceGuidance</name></member>
+      <member refid="classGuidance_1af3f518f5b7aa78174fd38ef2ac6afcbc" prot="public" virt="non-virtual"><scope>Guidance</scope><name>setVoiceGuidanceSettings</name></member>
+      <member refid="classGuidance_1ab23f0ddf1d7d4d3a46571eeb72115804" prot="public" virt="non-virtual"><scope>Guidance</scope><name>skipNextManeuver</name></member>
+      <member refid="classGuidance_1a65eec219b3424967f6494b122671ab92" prot="public" virt="non-virtual"><scope>Guidance</scope><name>startGuidance</name></member>
+      <member refid="classGuidance_1af228e145597d599e3f91da55ff404d0b" prot="public" virt="non-virtual"><scope>Guidance</scope><name>stopGuidance</name></member>
+      <member refid="classGuidance_1ad14ccf81d6a06ec9333d921c7b8f2927" prot="public" virt="non-virtual"><scope>Guidance</scope><name>~Guidance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

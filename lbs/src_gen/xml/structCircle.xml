@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structCircle" kind="struct" language="C++" prot="public">
+    <compoundname>Circle</compoundname>
+    <includes refid="NavigationTypes_8types_8h" local="no">NavigationTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCircle_1a6ebddb9c2c20fada3aec73933e8be51f" prot="public" static="no" mutable="no">
+        <type><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref></type>
+        <definition>Coordinate2D Circle::center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="93" column="1" bodyfile="NavigationTypes.types.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCircle_1ac7583e87aa18aa7ba3f2d0713504a36b" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref></type>
+        <definition>DistanceInMeters Circle::radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="94" column="1" bodyfile="NavigationTypes.types.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="67">
+        <label>Coordinate2D</label>
+        <link refid="structCoordinate2D"/>
+      </node>
+      <node id="66">
+        <label>Circle</label>
+        <link refid="structCircle"/>
+        <childnode refid="67" relation="usage">
+          <edgelabel>center</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="NavigationTypes.types.h" line="92" column="1" bodyfile="NavigationTypes.types.h" bodystart="92" bodyend="95"/>
+    <listofallmembers>
+      <member refid="structCircle_1a6ebddb9c2c20fada3aec73933e8be51f" prot="public" virt="non-virtual"><scope>Circle</scope><name>center</name></member>
+      <member refid="structCircle_1ac7583e87aa18aa7ba3f2d0713504a36b" prot="public" virt="non-virtual"><scope>Circle</scope><name>radius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

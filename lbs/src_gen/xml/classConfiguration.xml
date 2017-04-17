@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classConfiguration" kind="class" language="C++" prot="public">
+    <compoundname>Configuration</compoundname>
+    <includes refid="Configuration_8h" local="no">Configuration.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classConfiguration_1a779947337bf652f0e773cb29f37f14ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Configuration::Configuration</definition>
+        <argsstring>()</argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="24" column="1" bodyfile="Configuration.cpp" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a74cdde9cb4da23a8091dc09accd7289e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Configuration::Configuration</definition>
+        <argsstring>(const Configuration &amp;c)</argsstring>
+        <name>Configuration</name>
+        <param>
+          <type>const <ref refid="classConfiguration" kindref="compound">Configuration</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="25" column="1" bodyfile="Configuration.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1ae175f8761454f62f31846a7619a865e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classConfiguration" kindref="compound">Configuration</ref> &amp;</type>
+        <definition>Configuration &amp; Configuration::operator=</definition>
+        <argsstring>(const Configuration &amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classConfiguration" kindref="compound">Configuration</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="26" column="1" bodyfile="Configuration.cpp" bodystart="28" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a0dd0fa189e239f4c9a036303f641441e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Configuration::~Configuration</definition>
+        <argsstring>()</argsstring>
+        <name>~Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="27" column="1" bodyfile="Configuration.cpp" bodystart="31" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a2eaae2317a15ef79ff9aabf0be88781a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::getVersion</definition>
+        <argsstring>(Version &amp;interfaceversion)</argsstring>
+        <name>getVersion</name>
+        <param>
+          <type><ref refid="structVersion" kindref="compound">Version</ref> &amp;</type>
+          <declname>interfaceversion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="29" column="1" bodyfile="Configuration.cpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1aecca1cbb8130e6ec9c9c2fdbdbab721b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setLocale</definition>
+        <argsstring>(String languageCode, String countryCode, String scriptCode)</argsstring>
+        <name>setLocale</name>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>languageCode</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>countryCode</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>scriptCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="31" column="1" bodyfile="Configuration.cpp" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a0b5c6a7cca39091dd9a7135e6ac061f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::getLocale</definition>
+        <argsstring>(String &amp;languageCode, String &amp;countryCode, String &amp;scriptCode)</argsstring>
+        <name>getLocale</name>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref> &amp;</type>
+          <declname>languageCode</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref> &amp;</type>
+          <declname>countryCode</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref> &amp;</type>
+          <declname>scriptCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="33" column="1" bodyfile="Configuration.cpp" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a8f31975aec900971f4289cf04acf975c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::getSupportedLocales</definition>
+        <argsstring>(std::vector&lt; Locale &gt; &amp;localeList)</argsstring>
+        <name>getSupportedLocales</name>
+        <param>
+          <type>std::vector&lt; <ref refid="structLocale" kindref="compound">Locale</ref> &gt; &amp;</type>
+          <declname>localeList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="35" column="1" bodyfile="Configuration.cpp" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1ac8037d471b68e268fb996c16e7cd2ac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setTimeFormat</definition>
+        <argsstring>(TimeFormat format)</argsstring>
+        <name>setTimeFormat</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" kindref="member">TimeFormat</ref></type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="37" column="1" bodyfile="Configuration.cpp" bodystart="60" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a25a00cd33600fb3f38b819f4547c4a04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::getTimeFormat</definition>
+        <argsstring>(TimeFormat &amp;format)</argsstring>
+        <name>getTimeFormat</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" kindref="member">TimeFormat</ref> &amp;</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="39" column="1" bodyfile="Configuration.cpp" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a2e2cc701f0b26cbe57169a893489608d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::getSupportedTimeFormats</definition>
+        <argsstring>(std::vector&lt; TimeFormat &gt; &amp;timeFormatList)</argsstring>
+        <name>getSupportedTimeFormats</name>
+        <param>
+          <type>std::vector&lt; <ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" kindref="member">TimeFormat</ref> &gt; &amp;</type>
+          <declname>timeFormatList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="41" column="1" bodyfile="Configuration.cpp" bodystart="72" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a761026e2afe77880783b42629a8fcee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setCoordinatesFormat</definition>
+        <argsstring>(CoordinatesFormat coordinatesFormat)</argsstring>
+        <name>setCoordinatesFormat</name>
+        <param>
+          <type><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85" kindref="member">CoordinatesFormat</ref></type>
+          <declname>coordinatesFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="43" column="1" bodyfile="Configuration.cpp" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a31e6198960772695a5701c5f68c03692" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::getCoordinatesFormat</definition>
+        <argsstring>(CoordinatesFormat &amp;coordinatesFormat)</argsstring>
+        <name>getCoordinatesFormat</name>
+        <param>
+          <type><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85" kindref="member">CoordinatesFormat</ref> &amp;</type>
+          <declname>coordinatesFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="45" column="1" bodyfile="Configuration.cpp" bodystart="85" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a042feb4b1e50fe641f26959581442152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::getSupportedCoordinatesFormat</definition>
+        <argsstring>(std::vector&lt; CoordinatesFormat &gt; &amp;coordinatesFormatList)</argsstring>
+        <name>getSupportedCoordinatesFormat</name>
+        <param>
+          <type>std::vector&lt; <ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85" kindref="member">CoordinatesFormat</ref> &gt; &amp;</type>
+          <declname>coordinatesFormatList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="47" column="1" bodyfile="Configuration.cpp" bodystart="91" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1acd1288f528b3e2de2ae41e5e1654625d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setUnitsOfMeasurement</definition>
+        <argsstring>(UnitsOfMeasurement unitsOfMeasurement)</argsstring>
+        <name>setUnitsOfMeasurement</name>
+        <param>
+          <type><ref refid="Configuration_8types_8h_1a1031c81fe968f821429abf89b45277fa" kindref="member">UnitsOfMeasurement</ref></type>
+          <declname>unitsOfMeasurement</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="50" column="1" bodyfile="Configuration.cpp" bodystart="98" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1aaa38c635ad91ea00f987df47cc39ae0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::getUnitsOfMeasurement</definition>
+        <argsstring>(UnitsOfMeasurement &amp;unitsOfMeasurement)</argsstring>
+        <name>getUnitsOfMeasurement</name>
+        <param>
+          <type><ref refid="Configuration_8types_8h_1a1031c81fe968f821429abf89b45277fa" kindref="member">UnitsOfMeasurement</ref> &amp;</type>
+          <declname>unitsOfMeasurement</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="52" column="1" bodyfile="Configuration.cpp" bodystart="105" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a43ab4e9b91fa322d0dc5b347974c058f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::getSupportedUnitsOfMeasurement</definition>
+        <argsstring>(UnitsOfMeasurementList &amp;unitsOfMeasurementList)</argsstring>
+        <name>getSupportedUnitsOfMeasurement</name>
+        <param>
+          <type><ref refid="Configuration_8types_8h_1a4e8a73e8f770a3f01c6b610059735ec6" kindref="member">UnitsOfMeasurementList</ref> &amp;</type>
+          <declname>unitsOfMeasurementList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Configuration.h" line="54" column="1" bodyfile="Configuration.cpp" bodystart="112" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Configuration.h" line="22" column="1" bodyfile="Configuration.h" bodystart="22" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classConfiguration_1a779947337bf652f0e773cb29f37f14ba" prot="public" virt="non-virtual"><scope>Configuration</scope><name>Configuration</name></member>
+      <member refid="classConfiguration_1a74cdde9cb4da23a8091dc09accd7289e" prot="public" virt="non-virtual"><scope>Configuration</scope><name>Configuration</name></member>
+      <member refid="classConfiguration_1a31e6198960772695a5701c5f68c03692" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getCoordinatesFormat</name></member>
+      <member refid="classConfiguration_1a0b5c6a7cca39091dd9a7135e6ac061f7" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getLocale</name></member>
+      <member refid="classConfiguration_1a042feb4b1e50fe641f26959581442152" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getSupportedCoordinatesFormat</name></member>
+      <member refid="classConfiguration_1a8f31975aec900971f4289cf04acf975c" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getSupportedLocales</name></member>
+      <member refid="classConfiguration_1a2e2cc701f0b26cbe57169a893489608d" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getSupportedTimeFormats</name></member>
+      <member refid="classConfiguration_1a43ab4e9b91fa322d0dc5b347974c058f" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getSupportedUnitsOfMeasurement</name></member>
+      <member refid="classConfiguration_1a25a00cd33600fb3f38b819f4547c4a04" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getTimeFormat</name></member>
+      <member refid="classConfiguration_1aaa38c635ad91ea00f987df47cc39ae0d" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getUnitsOfMeasurement</name></member>
+      <member refid="classConfiguration_1a2eaae2317a15ef79ff9aabf0be88781a" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getVersion</name></member>
+      <member refid="classConfiguration_1ae175f8761454f62f31846a7619a865e4" prot="public" virt="non-virtual"><scope>Configuration</scope><name>operator=</name></member>
+      <member refid="classConfiguration_1a761026e2afe77880783b42629a8fcee3" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setCoordinatesFormat</name></member>
+      <member refid="classConfiguration_1aecca1cbb8130e6ec9c9c2fdbdbab721b" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setLocale</name></member>
+      <member refid="classConfiguration_1ac8037d471b68e268fb996c16e7cd2ac8" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setTimeFormat</name></member>
+      <member refid="classConfiguration_1acd1288f528b3e2de2ae41e5e1654625d" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setUnitsOfMeasurement</name></member>
+      <member refid="classConfiguration_1a0dd0fa189e239f4c9a036303f641441e" prot="public" virt="non-virtual"><scope>Configuration</scope><name>~Configuration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['bad_5fversion',['BAD_VERSION',['../FreeTextSearch_8types_8h.html#a82bb9aaa2b74e43ebb5809c212b5aac7a2d953e36833fd02d5a8f38c229edbaf3',1,'FreeTextSearch.types.h']]],
+  ['balanced',['BALANCED',['../Routing_8types_8h.html#a5c32fd70cbc64478edf2ae65471e7da6a0cb4635d100151dcaac6f91db856c402',1,'Routing.types.h']]],
+  ['bank',['BANK',['../POIServiceTypes_8types_8h.html#a157631a2ef5aa2c9a71abb3d8a5722dba702ccd4c4de96dda2108bed873989158',1,'POIServiceTypes.types.h']]],
+  ['bank_5fand_5ffinancial',['BANK_AND_FINANCIAL',['../POIServiceTypes_8types_8h.html#af6b02cf14a13447f859be060841e85a1a8381edaeb8ed67b97599709c48f9f177',1,'POIServiceTypes.types.h']]],
+  ['bar_5for_5fpub',['BAR_OR_PUB',['../POIServiceTypes_8types_8h.html#a157631a2ef5aa2c9a71abb3d8a5722dbaa93c9695b7cda3612353c2cdc36532a7',1,'POIServiceTypes.types.h']]],
+  ['bifurcation',['BIFURCATION',['../Guidance_8types_8h.html#a1b8e52e2ee8280749f5ece971615a14dadf7f329c956eac17094b8c97179704a5',1,'Guidance.types.h']]],
+  ['boolean',['BOOLEAN',['../POIServiceTypes_8types_8h.html#a349a9cde14be8097df865ba0469c0ab2ac48d5da12d702e73d6966069f2687376',1,'POIServiceTypes.types.h']]],
+  ['border_5fcrossing',['BORDER_CROSSING',['../Routing_8types_8h.html#abb08321d0a6d4ab25d5df4d1dd3215e4a8958b7f436257c3d622471d998441f26',1,'Routing.types.h']]],
+  ['buildings',['BUILDINGS',['../MapViewerControl_8types_8h.html#a67136a09240486180e77c4607064f246ae0b98ba3cc5785380590352cdce1d83e',1,'MapViewerControl.types.h']]],
+  ['business_5farea',['BUSINESS_AREA',['../POIServiceTypes_8types_8h.html#af6b02cf14a13447f859be060841e85a1a9a7139abdc87d2f3acb05061abeef43a',1,'POIServiceTypes.types.h']]],
+  ['business_5ffacility',['BUSINESS_FACILITY',['../POIServiceTypes_8types_8h.html#a157631a2ef5aa2c9a71abb3d8a5722dba441947a22e29c59b3b970bc8a0212212',1,'POIServiceTypes.types.h']]],
+  ['business_5floop',['BUSINESS_LOOP',['../NavigationCoreTypes_8types_8h.html#ab01a50d5c4439aa84b868de3fa40533cad2195d7db69bf167be03a08ba05cc22c',1,'NavigationCoreTypes.types.h']]],
+  ['business_5froute',['BUSINESS_ROUTE',['../NavigationCoreTypes_8types_8h.html#ab01a50d5c4439aa84b868de3fa40533caf4b3bff7e5ce72684b34fbea9bfb9267',1,'NavigationCoreTypes.types.h']]],
+  ['business_5fspur',['BUSINESS_SPUR',['../NavigationCoreTypes_8types_8h.html#ab01a50d5c4439aa84b868de3fa40533ca95d80760850cdb3d2301a0ea9716fe0f',1,'NavigationCoreTypes.types.h']]],
+  ['by_5fbicycle',['BY_BICYCLE',['../Routing_8types_8h.html#a142f7d9be579b05d2a3360016a16a3c8a7d9ac0a2771118bd61403ebe63827d9f',1,'Routing.types.h']]],
+  ['by_5fcar',['BY_CAR',['../Routing_8types_8h.html#a142f7d9be579b05d2a3360016a16a3c8ab6cace4c1e4f6df73aa3dbefce94174d',1,'Routing.types.h']]],
+  ['by_5ftruck',['BY_TRUCK',['../Routing_8types_8h.html#a142f7d9be579b05d2a3360016a16a3c8a76e00d61ed354e8366cfffb02bbe2a32',1,'Routing.types.h']]],
+  ['bypass',['BYPASS',['../NavigationCoreTypes_8types_8h.html#ab01a50d5c4439aa84b868de3fa40533ca9eb9f378b4e4b7b1079ba068cfef75a8',1,'NavigationCoreTypes.types.h']]]
+];

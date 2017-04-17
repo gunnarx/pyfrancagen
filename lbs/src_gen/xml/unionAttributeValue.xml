@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="unionAttributeValue" kind="union" language="C++" prot="public">
+    <compoundname>AttributeValue</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionAttributeValue_1aba9f4dac322ceb809838723ee17bdb49" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+        <definition>Int32 AttributeValue::intValue</definition>
+        <argsstring></argsstring>
+        <name>intValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="28" column="1" bodyfile="POIServiceTypes.types.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAttributeValue_1a5f94c3961713fe2cb5003c7fae5b320d" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String AttributeValue::stringValue</definition>
+        <argsstring></argsstring>
+        <name>stringValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="29" column="1" bodyfile="POIServiceTypes.types.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAttributeValue_1a7eaa5edbad83f9f70437d6e24a71c561" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+        <definition>Boolean AttributeValue::boolValue</definition>
+        <argsstring></argsstring>
+        <name>boolValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="30" column="1" bodyfile="POIServiceTypes.types.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="POIServiceTypes.types.h" line="27" column="1" bodyfile="POIServiceTypes.types.h" bodystart="27" bodyend="31"/>
+    <listofallmembers>
+      <member refid="unionAttributeValue_1a7eaa5edbad83f9f70437d6e24a71c561" prot="public" virt="non-virtual"><scope>AttributeValue</scope><name>boolValue</name></member>
+      <member refid="unionAttributeValue_1aba9f4dac322ceb809838723ee17bdb49" prot="public" virt="non-virtual"><scope>AttributeValue</scope><name>intValue</name></member>
+      <member refid="unionAttributeValue_1a5f94c3961713fe2cb5003c7fae5b320d" prot="public" virt="non-virtual"><scope>AttributeValue</scope><name>stringValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structSearchResult" kind="struct" language="C++" prot="public">
+    <compoundname>SearchResult</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSearchResult_1ae9903f51ef5503f5f9662aa050b90477" prot="public" static="no" mutable="no">
+        <type><ref refid="POIServiceTypes_8types_8h_1a400a3573b04df4d01d041cfd0bbad662" kindref="member">POI_ID</ref></type>
+        <definition>POI_ID SearchResult::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="350" column="1" bodyfile="POIServiceTypes.types.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSearchResult_1ac6390b9125682b536f2e4c3f6981a451" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>UInt32 SearchResult::distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="351" column="1" bodyfile="POIServiceTypes.types.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSearchResult_1a2d507ad87384c52992956d99f40cc22e" prot="public" static="no" mutable="no">
+        <type><ref refid="POIServiceTypes_8types_8h_1a2502aed4307441828cacb3cf03def5de" kindref="member">RouteStatus</ref></type>
+        <definition>RouteStatus SearchResult::routeStatus</definition>
+        <argsstring></argsstring>
+        <name>routeStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="352" column="1" bodyfile="POIServiceTypes.types.h" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSearchResult_1aafb5ccca814a27399d72c0eb3c41dd6d" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structPoiAttribute" kindref="compound">PoiAttribute</ref> &gt;</type>
+        <definition>std::vector&lt;PoiAttribute&gt; SearchResult::attributeList</definition>
+        <argsstring></argsstring>
+        <name>attributeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="353" column="1" bodyfile="POIServiceTypes.types.h" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="POIServiceTypes.types.h" line="349" column="1" bodyfile="POIServiceTypes.types.h" bodystart="349" bodyend="354"/>
+    <listofallmembers>
+      <member refid="structSearchResult_1aafb5ccca814a27399d72c0eb3c41dd6d" prot="public" virt="non-virtual"><scope>SearchResult</scope><name>attributeList</name></member>
+      <member refid="structSearchResult_1ac6390b9125682b536f2e4c3f6981a451" prot="public" virt="non-virtual"><scope>SearchResult</scope><name>distance</name></member>
+      <member refid="structSearchResult_1ae9903f51ef5503f5f9662aa050b90477" prot="public" virt="non-virtual"><scope>SearchResult</scope><name>id</name></member>
+      <member refid="structSearchResult_1a2d507ad87384c52992956d99f40cc22e" prot="public" virt="non-virtual"><scope>SearchResult</scope><name>routeStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

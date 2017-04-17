@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structCoordinate2D" kind="struct" language="C++" prot="public">
+    <compoundname>Coordinate2D</compoundname>
+    <includes refid="NavigationTypes_8types_8h" local="no">NavigationTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCoordinate2D_1aa3fd7f8a20eaa839d39a825315a98f80" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref></type>
+        <definition>Double Coordinate2D::latitude</definition>
+        <argsstring></argsstring>
+        <name>latitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="23" column="1" bodyfile="NavigationTypes.types.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCoordinate2D_1a66ba2982268a6297fc7ad3665f91361a" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref></type>
+        <definition>Double Coordinate2D::longitude</definition>
+        <argsstring></argsstring>
+        <name>longitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="24" column="1" bodyfile="NavigationTypes.types.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NavigationTypes.types.h" line="22" column="1" bodyfile="NavigationTypes.types.h" bodystart="22" bodyend="25"/>
+    <listofallmembers>
+      <member refid="structCoordinate2D_1aa3fd7f8a20eaa839d39a825315a98f80" prot="public" virt="non-virtual"><scope>Coordinate2D</scope><name>latitude</name></member>
+      <member refid="structCoordinate2D_1a66ba2982268a6297fc7ad3665f91361a" prot="public" virt="non-virtual"><scope>Coordinate2D</scope><name>longitude</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

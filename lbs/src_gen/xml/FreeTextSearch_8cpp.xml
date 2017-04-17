@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="FreeTextSearch_8cpp" kind="file" language="C++">
+    <compoundname>FreeTextSearch.cpp</compoundname>
+    <includes refid="FreeTextSearch_8h" local="yes">FreeTextSearch.h</includes>
+    <incdepgraph>
+      <node id="125">
+        <label>FreeTextSearch.h</label>
+        <link refid="FreeTextSearch_8h"/>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="127" relation="include">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>stdint.h</label>
+      </node>
+      <node id="131">
+        <label>string</label>
+      </node>
+      <node id="130">
+        <label>map</label>
+      </node>
+      <node id="126">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="127" relation="include">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>FreeTextSearch.types.h</label>
+        <link refid="FreeTextSearch_8types_8h"/>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>vector</label>
+      </node>
+      <node id="124">
+        <label>FreeTextSearch.cpp</label>
+        <link refid="FreeTextSearch_8cpp"/>
+        <childnode refid="125" relation="include">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="FreeTextSearch_8h" kindref="compound">FreeTextSearch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Constructors,<sp/>etc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="classFreeTextSearch_1addaa8c5bae70027db9229d5251fecf21" kindref="member">FreeTextSearch::FreeTextSearch</ref>()<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>TODO,<sp/>or<sp/>use<sp/>implicit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="classFreeTextSearch_1addaa8c5bae70027db9229d5251fecf21" kindref="member">FreeTextSearch::FreeTextSearch</ref>(</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classFreeTextSearch" kindref="compound">FreeTextSearch</ref><sp/>&amp;x)<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>TODO,<sp/>or<sp/>use<sp/>implicit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="classFreeTextSearch" kindref="compound">FreeTextSearch</ref><sp/>&amp;<ref refid="classFreeTextSearch_1a93bb98c268ae962adbd6cd6ea35a1f5f" kindref="member">FreeTextSearch::</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><ref refid="classFreeTextSearch_1a93bb98c268ae962adbd6cd6ea35a1f5f" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classFreeTextSearch" kindref="compound">FreeTextSearch</ref><sp/>&amp;x)<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>TODO,<sp/>or<sp/>use<sp/>implicit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><ref refid="classFreeTextSearch_1a80e72393d915883f9e9f2e5f29476f6c" kindref="member">FreeTextSearch::~FreeTextSearch</ref>()<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>TODO,<sp/>or<sp/>use<sp/>implicit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classFreeTextSearch_1af4751c096065a47cfafab1a36db5ccd0" kindref="member">FreeTextSearch::getVersion</ref>(<ref refid="structVersion" kindref="compound">Version</ref><sp/>&amp;interfaceversion)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>getVersion<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classFreeTextSearch_1a4d7812145276393be1897725d833df77" kindref="member">FreeTextSearch::ftsRequest</ref>(</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/>inputString,<sp/><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref><sp/>searchLocation,<sp/><ref refid="FreeTextSearch_8types_8h_1a66442d58200418aff54497de9bbabd16" kindref="member">ShapeList</ref><sp/>searchShapes,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aef6c18c5074959cb121cd3ee67411901" kindref="member">PageSize</ref><sp/>pageSize,<sp/><ref refid="FreeTextSearch_8types_8h_1a08c6e689d44630957220620d44469b1a" kindref="member">SearchOptions</ref><sp/>searchOptions,<sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/>searchConditions,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a19a083cad2a178e7f0258d2e306f52d6" kindref="member">FuzzyLevel</ref><sp/>fuzzyLevel,<sp/><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/>&amp;sessionHandle,<sp/><ref refid="FreeTextSearch_8types_8h_1a63f998396879305f36dbdb64c7993a31" kindref="member">PageId</ref><sp/>&amp;pageId)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>ftsRequest<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classFreeTextSearch_1a207bdcf4688a2e1a1d6bad1b003a25fa" kindref="member">FreeTextSearch::ftsNextPage</ref>(<ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/>sessionHandle,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a08c6e689d44630957220620d44469b1a" kindref="member">SearchOptions</ref><sp/>searchOptions,<sp/><ref refid="FreeTextSearch_8types_8h_1a63f998396879305f36dbdb64c7993a31" kindref="member">PageId</ref><sp/>&amp;pageId)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>ftsNextPage<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classFreeTextSearch_1ad226fbf4c7c2f2296a1b87fbd1b739c3" kindref="member">FreeTextSearch::ftsCancel</ref>(<ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/>sessionHandle)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>ftsCancel<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classFreeTextSearch_1adaf1b33df084d216ce495f232f3e1e35" kindref="member">FreeTextSearch::deleteLocationHandles</ref>(</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a3aa8afec7a2a1fe156f0df8313a703fb" kindref="member">LocationHandleList</ref><sp/>locationHandleList)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Method<sp/>body<sp/>for<sp/>deleteLocationHandles<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="FreeTextSearch.cpp"/>
+  </compounddef>
+</doxygen>

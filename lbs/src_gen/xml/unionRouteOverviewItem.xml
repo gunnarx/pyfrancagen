@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="unionRouteOverviewItem" kind="union" language="C++" prot="public">
+    <compoundname>RouteOverviewItem</compoundname>
+    <includes refid="Routing_8types_8h" local="no">Routing.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionRouteOverviewItem_1a793e6ae99a449f4a151211033716baeb" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>UInt32 RouteOverviewItem::uValue</definition>
+        <argsstring></argsstring>
+        <name>uValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="60" column="1" bodyfile="Routing.types.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Routing.types.h" line="59" column="1" bodyfile="Routing.types.h" bodystart="59" bodyend="61"/>
+    <listofallmembers>
+      <member refid="unionRouteOverviewItem_1a793e6ae99a449f4a151211033716baeb" prot="public" virt="non-virtual"><scope>RouteOverviewItem</scope><name>uValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structPixel" kind="struct" language="C++" prot="public">
+    <compoundname>Pixel</compoundname>
+    <includes refid="MapViewerControl_8types_8h" local="no">MapViewerControl.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPixel_1ac91e6beefaeb76c798c9e340afddde21" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 Pixel::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="49" column="1" bodyfile="MapViewerControl.types.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPixel_1ac43ff0c0b021d2492d465d9c4a8e4054" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 Pixel::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="50" column="1" bodyfile="MapViewerControl.types.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MapViewerControl.types.h" line="48" column="1" bodyfile="MapViewerControl.types.h" bodystart="48" bodyend="51"/>
+    <listofallmembers>
+      <member refid="structPixel_1ac91e6beefaeb76c798c9e340afddde21" prot="public" virt="non-virtual"><scope>Pixel</scope><name>x</name></member>
+      <member refid="structPixel_1ac43ff0c0b021d2492d465d9c4a8e4054" prot="public" virt="non-virtual"><scope>Pixel</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

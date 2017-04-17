@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structRoadPreference" kind="struct" language="C++" prot="public">
+    <compoundname>RoadPreference</compoundname>
+    <includes refid="Routing_8types_8h" local="no">Routing.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structRoadPreference_1a1668f362a561c28da765e641f379dca6" prot="public" static="no" mutable="no">
+        <type><ref refid="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7" kindref="member">PreferenceMode</ref></type>
+        <definition>PreferenceMode RoadPreference::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="105" column="1" bodyfile="Routing.types.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRoadPreference_1ae5e2a6d13d636c46433329c87f9849c9" prot="public" static="no" mutable="no">
+        <type><ref refid="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5" kindref="member">RoutePreferenceSource</ref></type>
+        <definition>RoutePreferenceSource RoadPreference::source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="106" column="1" bodyfile="Routing.types.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Routing.types.h" line="104" column="1" bodyfile="Routing.types.h" bodystart="104" bodyend="107"/>
+    <listofallmembers>
+      <member refid="structRoadPreference_1a1668f362a561c28da765e641f379dca6" prot="public" virt="non-virtual"><scope>RoadPreference</scope><name>mode</name></member>
+      <member refid="structRoadPreference_1ae5e2a6d13d636c46433329c87f9849c9" prot="public" virt="non-virtual"><scope>RoadPreference</scope><name>source</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

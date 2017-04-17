@@ -1,0 +1,1752 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classMapViewerControl" kind="class" language="C++" prot="public">
+    <compoundname>MapViewerControl</compoundname>
+    <includes refid="MapViewerControl_8h" local="no">MapViewerControl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMapViewerControl_1a97f292e29ab8b7dfc5b49c128dafe1e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MapViewerControl::MapViewerControl</definition>
+        <argsstring>()</argsstring>
+        <name>MapViewerControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="24" column="1" bodyfile="MapViewerControl.cpp" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a71fafca8473396b57fff88d3c89bb440" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MapViewerControl::MapViewerControl</definition>
+        <argsstring>(const MapViewerControl &amp;c)</argsstring>
+        <name>MapViewerControl</name>
+        <param>
+          <type>const <ref refid="classMapViewerControl" kindref="compound">MapViewerControl</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="25" column="1" bodyfile="MapViewerControl.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ab444f9b12f1033231546b00f45ec9a15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMapViewerControl" kindref="compound">MapViewerControl</ref> &amp;</type>
+        <definition>MapViewerControl &amp; MapViewerControl::operator=</definition>
+        <argsstring>(const MapViewerControl &amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classMapViewerControl" kindref="compound">MapViewerControl</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="26" column="1" bodyfile="MapViewerControl.cpp" bodystart="28" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a49558ff061266635f9fe416ce4c50831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MapViewerControl::~MapViewerControl</definition>
+        <argsstring>()</argsstring>
+        <name>~MapViewerControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="27" column="1" bodyfile="MapViewerControl.cpp" bodystart="31" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ac7143c2c8ecca6fd44bcf5fe35859903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getVersion</definition>
+        <argsstring>(Version &amp;interfaceversion)</argsstring>
+        <name>getVersion</name>
+        <param>
+          <type><ref refid="structVersion" kindref="compound">Version</ref> &amp;</type>
+          <declname>interfaceversion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="29" column="1" bodyfile="MapViewerControl.cpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a05ecbff303e81a8f432baa92624aa2b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::createMapViewInstance</definition>
+        <argsstring>(Handle sessionHandle, Dimension mapViewSize, MapViewType mapViewType, Handle &amp;mapViewInstanceHandle)</argsstring>
+        <name>createMapViewInstance</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structDimension" kindref="compound">Dimension</ref></type>
+          <declname>mapViewSize</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a3df6dff14cfe7f5bd88d4c157c1e5eb3" kindref="member">MapViewType</ref></type>
+          <declname>mapViewType</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref> &amp;</type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="31" column="1" bodyfile="MapViewerControl.cpp" bodystart="40" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1aa8b27052266385ed42483047af087ee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::releaseMapViewInstance</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle)</argsstring>
+        <name>releaseMapViewInstance</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="35" column="1" bodyfile="MapViewerControl.cpp" bodystart="49" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a6721c89247624dce92f01247f8f5b136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getMapViewType</definition>
+        <argsstring>(Handle mapViewInstanceHandle, MapViewType &amp;mapViewType)</argsstring>
+        <name>getMapViewType</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a3df6dff14cfe7f5bd88d4c157c1e5eb3" kindref="member">MapViewType</ref> &amp;</type>
+          <declname>mapViewType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="38" column="1" bodyfile="MapViewerControl.cpp" bodystart="56" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a60f48d0f90ada6fa408a657efba1ce39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getSupportedMapViewTypes</definition>
+        <argsstring>(std::vector&lt; MapViewType &gt; &amp;mapViewTypeList)</argsstring>
+        <name>getSupportedMapViewTypes</name>
+        <param>
+          <type>std::vector&lt; <ref refid="MapViewerControl_8types_8h_1a3df6dff14cfe7f5bd88d4c157c1e5eb3" kindref="member">MapViewType</ref> &gt; &amp;</type>
+          <declname>mapViewTypeList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="40" column="1" bodyfile="MapViewerControl.cpp" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1adcdab44c3eaa4c74356a9ad2d4b0db68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setTargetPoint</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Coordinate3D targetPoint)</argsstring>
+        <name>setTargetPoint</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref></type>
+          <declname>targetPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="42" column="1" bodyfile="MapViewerControl.cpp" bodystart="70" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a21340ad47c2d6ac19691fdb11fd5f437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getTargetPoint</definition>
+        <argsstring>(Handle mapViewInstanceHandle, Coordinate3D &amp;targetPoint)</argsstring>
+        <name>getTargetPoint</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref> &amp;</type>
+          <declname>targetPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="45" column="1" bodyfile="MapViewerControl.cpp" bodystart="78" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a6fae9039d3d0c387d0d50e613aad456a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setFollowCarMode</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Boolean followCarMode)</argsstring>
+        <name>setFollowCarMode</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+          <declname>followCarMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="47" column="1" bodyfile="MapViewerControl.cpp" bodystart="85" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ad6e41a192ff1935d9404597296741bdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getFollowCarMode</definition>
+        <argsstring>(Handle mapViewInstanceHandle, Boolean &amp;followCarMode)</argsstring>
+        <name>getFollowCarMode</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref> &amp;</type>
+          <declname>followCarMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="50" column="1" bodyfile="MapViewerControl.cpp" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1abf06237e3cbed6d57f605c5b5bbdddf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setCameraPosition</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Coordinate3D position)</argsstring>
+        <name>setCameraPosition</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="52" column="1" bodyfile="MapViewerControl.cpp" bodystart="100" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1aa541613b8bc6650c6f04d4341708612e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getCameraPosition</definition>
+        <argsstring>(Handle mapViewInstanceHandle, Coordinate3D &amp;position)</argsstring>
+        <name>getCameraPosition</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref> &amp;</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="55" column="1" bodyfile="MapViewerControl.cpp" bodystart="108" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1aead79e3a0bb292d197449d43888a8d83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setCameraHeadingAngle</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Int32 heading)</argsstring>
+        <name>setCameraHeadingAngle</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+          <declname>heading</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="57" column="1" bodyfile="MapViewerControl.cpp" bodystart="115" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a4a8cf0e0bdb31cb661b9661444211000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setCameraHeadingToTarget</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Coordinate2D target)</argsstring>
+        <name>setCameraHeadingToTarget</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="60" column="1" bodyfile="MapViewerControl.cpp" bodystart="123" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ab126a7191d94acdc9be63adde2ae56f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setCameraHeadingTrackUp</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle)</argsstring>
+        <name>setCameraHeadingTrackUp</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="64" column="1" bodyfile="MapViewerControl.cpp" bodystart="131" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a12980fcdf49dbd9aeef17c442234aeb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getCameraHeading</definition>
+        <argsstring>(Handle mapViewInstanceHandle, HeadingType &amp;headingType, Int32 &amp;headingAngle, Coordinate2D &amp;target)</argsstring>
+        <name>getCameraHeading</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a9b14440b5043a334b063813bf7ef4a67" kindref="member">HeadingType</ref> &amp;</type>
+          <declname>headingType</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref> &amp;</type>
+          <declname>headingAngle</declname>
+        </param>
+        <param>
+          <type><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref> &amp;</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="67" column="1" bodyfile="MapViewerControl.cpp" bodystart="138" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a5d6cd2cfc10bc658b5d9915f4862eaf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setCameraTiltAngle</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Int32 tilt)</argsstring>
+        <name>setCameraTiltAngle</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+          <declname>tilt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="70" column="1" bodyfile="MapViewerControl.cpp" bodystart="147" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a1fc6a281b37c5942294a6c4cd6ee9d7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getCameraTiltAngle</definition>
+        <argsstring>(Handle mapViewInstanceHandle, Int32 &amp;tilt)</argsstring>
+        <name>getCameraTiltAngle</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref> &amp;</type>
+          <declname>tilt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="73" column="1" bodyfile="MapViewerControl.cpp" bodystart="155" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a42d2973fd6851b5f97e87191ce3579aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setCameraRollAngle</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Int32 roll)</argsstring>
+        <name>setCameraRollAngle</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+          <declname>roll</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="75" column="1" bodyfile="MapViewerControl.cpp" bodystart="162" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a47ba1ea089b9dc72cfa27e8b3a5fc9ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getCameraRollAngle</definition>
+        <argsstring>(Handle mapViewInstanceHandle, Int32 &amp;roll)</argsstring>
+        <name>getCameraRollAngle</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref> &amp;</type>
+          <declname>roll</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="78" column="1" bodyfile="MapViewerControl.cpp" bodystart="170" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1aeac28933891f600a4cfd466a57d51749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setCameraDistanceFromTargetPoint</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, UInt32 distance)</argsstring>
+        <name>setCameraDistanceFromTargetPoint</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="80" column="1" bodyfile="MapViewerControl.cpp" bodystart="177" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ada1804f4aec1b77b0fbe5c28aa982ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getCameraDistanceFromTargetPoint</definition>
+        <argsstring>(Handle mapViewInstanceHandle, UInt32 &amp;distance)</argsstring>
+        <name>getCameraDistanceFromTargetPoint</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref> &amp;</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="84" column="1" bodyfile="MapViewerControl.cpp" bodystart="184" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ae6e35fea785a405b5caee622c0718e86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewScaleMode</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, MapScaleMode scaleMode)</argsstring>
+        <name>setMapViewScaleMode</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1abc8ff7844c32d4283a49bd0ef70cff51" kindref="member">MapScaleMode</ref></type>
+          <declname>scaleMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="87" column="1" bodyfile="MapViewerControl.cpp" bodystart="191" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a970e3c1ce7e0797ddf5dd599a009c750" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getMapViewScaleMode</definition>
+        <argsstring>(Handle mapViewInstanceHandle, MapScaleMode &amp;scaleMode)</argsstring>
+        <name>getMapViewScaleMode</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1abc8ff7844c32d4283a49bd0ef70cff51" kindref="member">MapScaleMode</ref> &amp;</type>
+          <declname>scaleMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="90" column="1" bodyfile="MapViewerControl.cpp" bodystart="199" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ae2745b1ae168cc3373256dd635af6a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getSupportedMapViewScaleModes</definition>
+        <argsstring>(Handle mapViewInstanceHandle, std::vector&lt; MapScaleMode &gt; &amp;scaleModeList)</argsstring>
+        <name>getSupportedMapViewScaleModes</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="MapViewerControl_8types_8h_1abc8ff7844c32d4283a49bd0ef70cff51" kindref="member">MapScaleMode</ref> &gt; &amp;</type>
+          <declname>scaleModeList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="93" column="1" bodyfile="MapViewerControl.cpp" bodystart="206" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1abdfce8c3589c7a15107e2328e70fa62e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setCameraHeight</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, UInt32 height)</argsstring>
+        <name>setCameraHeight</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="96" column="1" bodyfile="MapViewerControl.cpp" bodystart="213" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a7ccc8a6bf0928ce3508e4bda21feb304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getCameraHeight</definition>
+        <argsstring>(Handle mapViewInstanceHandle, UInt32 &amp;height)</argsstring>
+        <name>getCameraHeight</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref> &amp;</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="99" column="1" bodyfile="MapViewerControl.cpp" bodystart="221" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ad9dd4e14075419139a37d86e8491dd07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewPerspective</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, MapPerspective perspective)</argsstring>
+        <name>setMapViewPerspective</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1ac46850b47bc6541c2701b4f21a358e92" kindref="member">MapPerspective</ref></type>
+          <declname>perspective</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="101" column="1" bodyfile="MapViewerControl.cpp" bodystart="228" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a97c53d8e9b6338aa986abaff19f4b542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getMapViewPerspective</definition>
+        <argsstring>(Handle mapViewInstanceHandle, MapPerspective &amp;perspective)</argsstring>
+        <name>getMapViewPerspective</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1ac46850b47bc6541c2701b4f21a358e92" kindref="member">MapPerspective</ref> &amp;</type>
+          <declname>perspective</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="104" column="1" bodyfile="MapViewerControl.cpp" bodystart="236" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ad4a03bc0e84954428ad7701453de09dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getSupportedMapViewPerspectives</definition>
+        <argsstring>(std::vector&lt; MapPerspective &gt; &amp;perspectiveList)</argsstring>
+        <name>getSupportedMapViewPerspectives</name>
+        <param>
+          <type>std::vector&lt; <ref refid="MapViewerControl_8types_8h_1ac46850b47bc6541c2701b4f21a358e92" kindref="member">MapPerspective</ref> &gt; &amp;</type>
+          <declname>perspectiveList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="108" column="1" bodyfile="MapViewerControl.cpp" bodystart="243" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a682cf702dedd39dd974a22a35a7d7aa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewObjectVisibility</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, MapObjectVisibility objectVisibilityList)</argsstring>
+        <name>setMapViewObjectVisibility</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a223c761ad908f622be25fb4854f261db" kindref="member">MapObjectVisibility</ref></type>
+          <declname>objectVisibilityList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="110" column="1" bodyfile="MapViewerControl.cpp" bodystart="250" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a3f3f9d1315c9687811c34d7047dee22e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getMapViewObjectVisibility</definition>
+        <argsstring>(Handle mapViewInstanceHandle, MapObjectVisibility &amp;objectVisibilityList)</argsstring>
+        <name>getMapViewObjectVisibility</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a223c761ad908f622be25fb4854f261db" kindref="member">MapObjectVisibility</ref> &amp;</type>
+          <declname>objectVisibilityList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="114" column="1" bodyfile="MapViewerControl.cpp" bodystart="258" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a1e2652278f0fbc29a5d3104eba2f7c72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getSupportedMapViewObjectVisibilities</definition>
+        <argsstring>(Handle mapViewInstanceHandle, std::vector&lt; MapObject &gt; &amp;objectVisibilityList)</argsstring>
+        <name>getSupportedMapViewObjectVisibilities</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="MapViewerControl_8types_8h_1a67136a09240486180e77c4607064f246" kindref="member">MapObject</ref> &gt; &amp;</type>
+          <declname>objectVisibilityList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="117" column="1" bodyfile="MapViewerControl.cpp" bodystart="265" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a7cad586a735eced819f32d44e97e7f53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getScaleList</definition>
+        <argsstring>(Handle mapViewInstanceHandle, std::vector&lt; MapScale &gt; &amp;scaleList)</argsstring>
+        <name>getScaleList</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structMapScale" kindref="compound">MapScale</ref> &gt; &amp;</type>
+          <declname>scaleList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="121" column="1" bodyfile="MapViewerControl.cpp" bodystart="272" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a716ab52cdc9a92b5ee9273e392bfc24d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewScale</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, UInt16 scaleID)</argsstring>
+        <name>setMapViewScale</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+          <declname>scaleID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="124" column="1" bodyfile="MapViewerControl.cpp" bodystart="279" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a822e86da5f8f0cb95ba2e465575eda63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewScaleByDelta</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Int16 scaleDelta)</argsstring>
+        <name>setMapViewScaleByDelta</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref></type>
+          <declname>scaleDelta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="127" column="1" bodyfile="MapViewerControl.cpp" bodystart="287" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a0f08bf6b07572038403eec5db4910ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewScaleByMetersPerPixel</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Double metersPerPixel)</argsstring>
+        <name>setMapViewScaleByMetersPerPixel</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref></type>
+          <declname>metersPerPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="130" column="1" bodyfile="MapViewerControl.cpp" bodystart="295" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a85fe9fb4adfaa31ba499f154947ffb16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getMapViewScale</definition>
+        <argsstring>(Handle mapViewInstanceHandle, UInt8 &amp;scaleID, MapScaleType &amp;isMinMax)</argsstring>
+        <name>getMapViewScale</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref> &amp;</type>
+          <declname>scaleID</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1ac2de3bf9649422e467c20e3314e33131" kindref="member">MapScaleType</ref> &amp;</type>
+          <declname>isMinMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="134" column="1" bodyfile="MapViewerControl.cpp" bodystart="302" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a97b44d1330807e323fc0aed7cd1ec11a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewBoundingBox</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Rectangle boundingBox)</argsstring>
+        <name>setMapViewBoundingBox</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structRectangle" kindref="compound">Rectangle</ref></type>
+          <declname>boundingBox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="137" column="1" bodyfile="MapViewerControl.cpp" bodystart="309" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a6970565c40d47f3449e43760ae004865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getMapViewBoundingBox</definition>
+        <argsstring>(Handle mapViewInstanceHandle, Rectangle &amp;boundingBox)</argsstring>
+        <name>getMapViewBoundingBox</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structRectangle" kindref="compound">Rectangle</ref> &amp;</type>
+          <declname>boundingBox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="140" column="1" bodyfile="MapViewerControl.cpp" bodystart="317" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a2f5fa6bf67ab86e5cc36426a99dbbe49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewSaveArea</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, MapViewArea saveArea)</argsstring>
+        <name>setMapViewSaveArea</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structMapViewArea" kindref="compound">MapViewArea</ref></type>
+          <declname>saveArea</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="143" column="1" bodyfile="MapViewerControl.cpp" bodystart="324" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1af1b0bece6a4c2b163496b506f7ec543e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getMapViewSaveArea</definition>
+        <argsstring>(Handle mapViewInstanceHandle, MapViewArea &amp;saveArea)</argsstring>
+        <name>getMapViewSaveArea</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structMapViewArea" kindref="compound">MapViewArea</ref> &amp;</type>
+          <declname>saveArea</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="146" column="1" bodyfile="MapViewerControl.cpp" bodystart="332" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ad216ce95ac6e68620d424d9ce366a3cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewPan</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, PanAction panningAction, std::vector&lt; Pixel &gt; pixelCoordinates)</argsstring>
+        <name>setMapViewPan</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a0d43835c129e24448d68e227b905f071" kindref="member">PanAction</ref></type>
+          <declname>panningAction</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structPixel" kindref="compound">Pixel</ref> &gt;</type>
+          <declname>pixelCoordinates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="148" column="1" bodyfile="MapViewerControl.cpp" bodystart="339" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1aafa142cf92dbefc47aab50a28e2f4d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getMapViewPan</definition>
+        <argsstring>(Handle mapViewInstanceHandle, PanAction valueToReturn, std::vector&lt; Pixel &gt; &amp;pixelCoordinates)</argsstring>
+        <name>getMapViewPan</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a0d43835c129e24448d68e227b905f071" kindref="member">PanAction</ref></type>
+          <declname>valueToReturn</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structPixel" kindref="compound">Pixel</ref> &gt; &amp;</type>
+          <declname>pixelCoordinates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="152" column="1" bodyfile="MapViewerControl.cpp" bodystart="348" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ad0ac723889dad03826e03fc82e3f44fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewRotation</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Int32 rotationAngle, Int32 rotationAnglePerSecond)</argsstring>
+        <name>setMapViewRotation</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+          <declname>rotationAngle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+          <declname>rotationAnglePerSecond</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="155" column="1" bodyfile="MapViewerControl.cpp" bodystart="356" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a82d348062270f72ee65f3d656026afea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getMapViewRotation</definition>
+        <argsstring>(Handle mapViewInstanceHandle, Int32 &amp;rotationAngle, Int32 &amp;rotationAnglePerFrame)</argsstring>
+        <name>getMapViewRotation</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref> &amp;</type>
+          <declname>rotationAngle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref> &amp;</type>
+          <declname>rotationAnglePerFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="158" column="1" bodyfile="MapViewerControl.cpp" bodystart="365" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a28895ba2e64debef464c002daa96d4cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewVisibilityMode</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Visibility visibilityMode)</argsstring>
+        <name>setMapViewVisibilityMode</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a53d6f8ccb0015ea020228de41cfd2162" kindref="member">Visibility</ref></type>
+          <declname>visibilityMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="161" column="1" bodyfile="MapViewerControl.cpp" bodystart="373" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a5615051048b5f0785873d7b3b202d87a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getMapViewVisibilityMode</definition>
+        <argsstring>(Handle mapViewInstanceHandle, Visibility &amp;visibilityMode)</argsstring>
+        <name>getMapViewVisibilityMode</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a53d6f8ccb0015ea020228de41cfd2162" kindref="member">Visibility</ref> &amp;</type>
+          <declname>visibilityMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="165" column="1" bodyfile="MapViewerControl.cpp" bodystart="381" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1aecc9b6244dfcdf3465735b8b4e23ad91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getSupportedMapViewVisibilityModes</definition>
+        <argsstring>(std::vector&lt; Visibility &gt; &amp;visibilityModeList)</argsstring>
+        <name>getSupportedMapViewVisibilityModes</name>
+        <param>
+          <type>std::vector&lt; <ref refid="MapViewerControl_8types_8h_1a53d6f8ccb0015ea020228de41cfd2162" kindref="member">Visibility</ref> &gt; &amp;</type>
+          <declname>visibilityModeList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="168" column="1" bodyfile="MapViewerControl.cpp" bodystart="388" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a9a1fdb8b91456803885bb2cf245d1b61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewPerformanceLevel</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Level performanceLevel)</argsstring>
+        <name>setMapViewPerformanceLevel</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a221b779e6bb7b8d40677d7642bfefac5" kindref="member">Level</ref></type>
+          <declname>performanceLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="171" column="1" bodyfile="MapViewerControl.cpp" bodystart="395" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a60c1026ac4c834a97917289676e89add" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getMapViewPerformanceLevel</definition>
+        <argsstring>(Handle mapViewInstanceHandle, Level &amp;performanceLevel)</argsstring>
+        <name>getMapViewPerformanceLevel</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a221b779e6bb7b8d40677d7642bfefac5" kindref="member">Level</ref> &amp;</type>
+          <declname>performanceLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="175" column="1" bodyfile="MapViewerControl.cpp" bodystart="403" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a96bbf35637931844287eb4b074b5c612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getSupportedMapViewPerformanceLevels</definition>
+        <argsstring>(std::vector&lt; Level &gt; &amp;performanceLevelList)</argsstring>
+        <name>getSupportedMapViewPerformanceLevels</name>
+        <param>
+          <type>std::vector&lt; <ref refid="MapViewerControl_8types_8h_1a221b779e6bb7b8d40677d7642bfefac5" kindref="member">Level</ref> &gt; &amp;</type>
+          <declname>performanceLevelList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="178" column="1" bodyfile="MapViewerControl.cpp" bodystart="410" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1affb463733e13f66185d7b7f13df60786" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::displayRoute</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Handle routeHandle, Boolean highlighted)</argsstring>
+        <name>displayRoute</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+          <declname>highlighted</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="181" column="1" bodyfile="MapViewerControl.cpp" bodystart="417" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a08452074924a716e090def4df6a633ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::hideRoute</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Handle routeHandle)</argsstring>
+        <name>hideRoute</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>routeHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="184" column="1" bodyfile="MapViewerControl.cpp" bodystart="425" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a3686486346a8c9e903e721ae917d35ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getDisplayedRoutes</definition>
+        <argsstring>(Handle mapViewInstanceHandle, std::vector&lt; DisplayedRoute &gt; &amp;displayedRoutes)</argsstring>
+        <name>getDisplayedRoutes</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structDisplayedRoute" kindref="compound">DisplayedRoute</ref> &gt; &amp;</type>
+          <declname>displayedRoutes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="187" column="1" bodyfile="MapViewerControl.cpp" bodystart="433" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1aef9cea21d433b55b2096b97617a6a968" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getPoiCategoriesVisible</definition>
+        <argsstring>(Handle mapViewInstanceHandle, std::vector&lt; CategoryID &gt; &amp;poiCategoryIds)</argsstring>
+        <name>getPoiCategoriesVisible</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref> &gt; &amp;</type>
+          <declname>poiCategoryIds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="190" column="1" bodyfile="MapViewerControl.cpp" bodystart="440" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a867117ba3bdfdfcdea5de866a1409dea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setPoiCategoriesVisible</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, std::vector&lt; CategoryID &gt; poiCategoryIds)</argsstring>
+        <name>setPoiCategoriesVisible</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref> &gt;</type>
+          <declname>poiCategoryIds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="193" column="1" bodyfile="MapViewerControl.cpp" bodystart="447" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a303313532d87304136f98e62b1a2d256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setPoiCategoriesVisibleWithinLimits</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, std::vector&lt; CategoryID &gt; poiCategoryIds, UInt8 minScaleID, UInt8 maxScaleID)</argsstring>
+        <name>setPoiCategoriesVisibleWithinLimits</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref> &gt;</type>
+          <declname>poiCategoryIds</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref></type>
+          <declname>minScaleID</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref></type>
+          <declname>maxScaleID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="198" column="1" bodyfile="MapViewerControl.cpp" bodystart="455" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a3a6e13e6cf2faa20b3e1183b80b58c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setPoiCategoriesNotVisible</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, std::vector&lt; CategoryID &gt; poiCategoryIds)</argsstring>
+        <name>setPoiCategoriesNotVisible</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref> &gt;</type>
+          <declname>poiCategoryIds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="203" column="1" bodyfile="MapViewerControl.cpp" bodystart="463" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ad5e53a18c7a6a764e25f12adaa05b514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setTrafficIncidentsVisibility</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, Boolean visible)</argsstring>
+        <name>setTrafficIncidentsVisibility</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="207" column="1" bodyfile="MapViewerControl.cpp" bodystart="471" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a7b352ddd493a9427559505bc367f503c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::setMapViewTheme</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, MapTheme mapViewTheme)</argsstring>
+        <name>setMapViewTheme</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a93137070672832a6fac39e59e6dfdbaf" kindref="member">MapTheme</ref></type>
+          <declname>mapViewTheme</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="211" column="1" bodyfile="MapViewerControl.cpp" bodystart="478" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a16f7f9239a40a97a0099764aa622afeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getMapViewTheme</definition>
+        <argsstring>(Handle mapViewInstanceHandle, MapTheme &amp;mapViewTheme)</argsstring>
+        <name>getMapViewTheme</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a93137070672832a6fac39e59e6dfdbaf" kindref="member">MapTheme</ref> &amp;</type>
+          <declname>mapViewTheme</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="214" column="1" bodyfile="MapViewerControl.cpp" bodystart="486" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a498c46ee96043b5ffb6415be99a7d67b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getSupportedMapViewThemes</definition>
+        <argsstring>(std::vector&lt; MapTheme &gt; &amp;mapViewThemeList)</argsstring>
+        <name>getSupportedMapViewThemes</name>
+        <param>
+          <type>std::vector&lt; <ref refid="MapViewerControl_8types_8h_1a93137070672832a6fac39e59e6dfdbaf" kindref="member">MapTheme</ref> &gt; &amp;</type>
+          <declname>mapViewThemeList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="216" column="1" bodyfile="MapViewerControl.cpp" bodystart="493" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ab0e16f99545fdd3b22fa1963245313be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::convertPixelCoordsToGeoCoords</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, std::vector&lt; Pixel &gt; pixelCoordinates, std::vector&lt; Coordinate2D &gt; &amp;geoCoordinates)</argsstring>
+        <name>convertPixelCoordsToGeoCoords</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structPixel" kindref="compound">Pixel</ref> &gt;</type>
+          <declname>pixelCoordinates</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref> &gt; &amp;</type>
+          <declname>geoCoordinates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="218" column="1" bodyfile="MapViewerControl.cpp" bodystart="500" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a7014858572eceb7e3c34e54a4bd66fcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::convertGeoCoordsToPixelCoords</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, std::vector&lt; Coordinate2D &gt; geoCoordinates, std::vector&lt; Pixel &gt; &amp;pixelCoordinates)</argsstring>
+        <name>convertGeoCoordsToPixelCoords</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref> &gt;</type>
+          <declname>geoCoordinates</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structPixel" kindref="compound">Pixel</ref> &gt; &amp;</type>
+          <declname>pixelCoordinates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="223" column="1" bodyfile="MapViewerControl.cpp" bodystart="509" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ac0097d9580df4913ffc9bc767a23a422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::displayCustomElements</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, std::vector&lt; CustomElement &gt; customElements, std::vector&lt; Handle &gt; &amp;customElemenHandles)</argsstring>
+        <name>displayCustomElements</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structCustomElement" kindref="compound">CustomElement</ref> &gt;</type>
+          <declname>customElements</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref> &gt; &amp;</type>
+          <declname>customElemenHandles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="228" column="1" bodyfile="MapViewerControl.cpp" bodystart="518" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1a100eb3860acacf71f24bc5d7dc4b8ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::hideCustomElements</definition>
+        <argsstring>(Handle sessionHandle, Handle mapViewInstanceHandle, std::vector&lt; Handle &gt; customElemenHandles)</argsstring>
+        <name>hideCustomElements</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref> &gt;</type>
+          <declname>customElemenHandles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="232" column="1" bodyfile="MapViewerControl.cpp" bodystart="527" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1ab0c74424da74f0951fa52c1cdc181732" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::getDisplayedCustomElements</definition>
+        <argsstring>(Handle mapViewInstanceHandle, CustomElementDict &amp;customElements)</argsstring>
+        <name>getDisplayedCustomElements</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="MapViewerControl_8types_8h_1a45d5aca9b3e0780a4147cdda1b2ef802" kindref="member">CustomElementDict</ref> &amp;</type>
+          <declname>customElements</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="235" column="1" bodyfile="MapViewerControl.cpp" bodystart="535" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="classMapViewerControl_1abe259857986a85de365c715ec3b6c3e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapViewerControl::selectElementsOnMap</definition>
+        <argsstring>(Handle mapViewInstanceHandle, Pixel pixelCoordinate, std::vector&lt; SelectableMapType &gt; selectableTypes, UInt16 maxNumberOfSelectedElements, std::vector&lt; SelectedMapElement &gt; &amp;selectedElements)</argsstring>
+        <name>selectElementsOnMap</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>mapViewInstanceHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structPixel" kindref="compound">Pixel</ref></type>
+          <declname>pixelCoordinate</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="MapViewerControl_8types_8h_1aa9fd45894632661538a02981ea2bc053" kindref="member">SelectableMapType</ref> &gt;</type>
+          <declname>selectableTypes</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+          <declname>maxNumberOfSelectedElements</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="structSelectedMapElement" kindref="compound">SelectedMapElement</ref> &gt; &amp;</type>
+          <declname>selectedElements</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.h" line="238" column="1" bodyfile="MapViewerControl.cpp" bodystart="542" bodyend="550"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MapViewerControl.h" line="22" column="1" bodyfile="MapViewerControl.h" bodystart="22" bodyend="245"/>
+    <listofallmembers>
+      <member refid="classMapViewerControl_1a7014858572eceb7e3c34e54a4bd66fcc" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>convertGeoCoordsToPixelCoords</name></member>
+      <member refid="classMapViewerControl_1ab0e16f99545fdd3b22fa1963245313be" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>convertPixelCoordsToGeoCoords</name></member>
+      <member refid="classMapViewerControl_1a05ecbff303e81a8f432baa92624aa2b5" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>createMapViewInstance</name></member>
+      <member refid="classMapViewerControl_1ac0097d9580df4913ffc9bc767a23a422" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>displayCustomElements</name></member>
+      <member refid="classMapViewerControl_1affb463733e13f66185d7b7f13df60786" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>displayRoute</name></member>
+      <member refid="classMapViewerControl_1ada1804f4aec1b77b0fbe5c28aa982ec2" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getCameraDistanceFromTargetPoint</name></member>
+      <member refid="classMapViewerControl_1a12980fcdf49dbd9aeef17c442234aeb6" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getCameraHeading</name></member>
+      <member refid="classMapViewerControl_1a7ccc8a6bf0928ce3508e4bda21feb304" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getCameraHeight</name></member>
+      <member refid="classMapViewerControl_1aa541613b8bc6650c6f04d4341708612e" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getCameraPosition</name></member>
+      <member refid="classMapViewerControl_1a47ba1ea089b9dc72cfa27e8b3a5fc9ab" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getCameraRollAngle</name></member>
+      <member refid="classMapViewerControl_1a1fc6a281b37c5942294a6c4cd6ee9d7e" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getCameraTiltAngle</name></member>
+      <member refid="classMapViewerControl_1ab0c74424da74f0951fa52c1cdc181732" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getDisplayedCustomElements</name></member>
+      <member refid="classMapViewerControl_1a3686486346a8c9e903e721ae917d35ac" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getDisplayedRoutes</name></member>
+      <member refid="classMapViewerControl_1ad6e41a192ff1935d9404597296741bdf" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getFollowCarMode</name></member>
+      <member refid="classMapViewerControl_1a6970565c40d47f3449e43760ae004865" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getMapViewBoundingBox</name></member>
+      <member refid="classMapViewerControl_1a3f3f9d1315c9687811c34d7047dee22e" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getMapViewObjectVisibility</name></member>
+      <member refid="classMapViewerControl_1aafa142cf92dbefc47aab50a28e2f4d8e" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getMapViewPan</name></member>
+      <member refid="classMapViewerControl_1a60c1026ac4c834a97917289676e89add" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getMapViewPerformanceLevel</name></member>
+      <member refid="classMapViewerControl_1a97c53d8e9b6338aa986abaff19f4b542" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getMapViewPerspective</name></member>
+      <member refid="classMapViewerControl_1a82d348062270f72ee65f3d656026afea" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getMapViewRotation</name></member>
+      <member refid="classMapViewerControl_1af1b0bece6a4c2b163496b506f7ec543e" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getMapViewSaveArea</name></member>
+      <member refid="classMapViewerControl_1a85fe9fb4adfaa31ba499f154947ffb16" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getMapViewScale</name></member>
+      <member refid="classMapViewerControl_1a970e3c1ce7e0797ddf5dd599a009c750" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getMapViewScaleMode</name></member>
+      <member refid="classMapViewerControl_1a16f7f9239a40a97a0099764aa622afeb" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getMapViewTheme</name></member>
+      <member refid="classMapViewerControl_1a6721c89247624dce92f01247f8f5b136" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getMapViewType</name></member>
+      <member refid="classMapViewerControl_1a5615051048b5f0785873d7b3b202d87a" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getMapViewVisibilityMode</name></member>
+      <member refid="classMapViewerControl_1aef9cea21d433b55b2096b97617a6a968" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getPoiCategoriesVisible</name></member>
+      <member refid="classMapViewerControl_1a7cad586a735eced819f32d44e97e7f53" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getScaleList</name></member>
+      <member refid="classMapViewerControl_1a1e2652278f0fbc29a5d3104eba2f7c72" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getSupportedMapViewObjectVisibilities</name></member>
+      <member refid="classMapViewerControl_1a96bbf35637931844287eb4b074b5c612" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getSupportedMapViewPerformanceLevels</name></member>
+      <member refid="classMapViewerControl_1ad4a03bc0e84954428ad7701453de09dd" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getSupportedMapViewPerspectives</name></member>
+      <member refid="classMapViewerControl_1ae2745b1ae168cc3373256dd635af6a5b" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getSupportedMapViewScaleModes</name></member>
+      <member refid="classMapViewerControl_1a498c46ee96043b5ffb6415be99a7d67b" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getSupportedMapViewThemes</name></member>
+      <member refid="classMapViewerControl_1a60f48d0f90ada6fa408a657efba1ce39" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getSupportedMapViewTypes</name></member>
+      <member refid="classMapViewerControl_1aecc9b6244dfcdf3465735b8b4e23ad91" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getSupportedMapViewVisibilityModes</name></member>
+      <member refid="classMapViewerControl_1a21340ad47c2d6ac19691fdb11fd5f437" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getTargetPoint</name></member>
+      <member refid="classMapViewerControl_1ac7143c2c8ecca6fd44bcf5fe35859903" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>getVersion</name></member>
+      <member refid="classMapViewerControl_1a100eb3860acacf71f24bc5d7dc4b8ba7" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>hideCustomElements</name></member>
+      <member refid="classMapViewerControl_1a08452074924a716e090def4df6a633ed" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>hideRoute</name></member>
+      <member refid="classMapViewerControl_1a97f292e29ab8b7dfc5b49c128dafe1e2" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>MapViewerControl</name></member>
+      <member refid="classMapViewerControl_1a71fafca8473396b57fff88d3c89bb440" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>MapViewerControl</name></member>
+      <member refid="classMapViewerControl_1ab444f9b12f1033231546b00f45ec9a15" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>operator=</name></member>
+      <member refid="classMapViewerControl_1aa8b27052266385ed42483047af087ee5" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>releaseMapViewInstance</name></member>
+      <member refid="classMapViewerControl_1abe259857986a85de365c715ec3b6c3e9" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>selectElementsOnMap</name></member>
+      <member refid="classMapViewerControl_1aeac28933891f600a4cfd466a57d51749" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setCameraDistanceFromTargetPoint</name></member>
+      <member refid="classMapViewerControl_1aead79e3a0bb292d197449d43888a8d83" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setCameraHeadingAngle</name></member>
+      <member refid="classMapViewerControl_1a4a8cf0e0bdb31cb661b9661444211000" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setCameraHeadingToTarget</name></member>
+      <member refid="classMapViewerControl_1ab126a7191d94acdc9be63adde2ae56f0" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setCameraHeadingTrackUp</name></member>
+      <member refid="classMapViewerControl_1abdfce8c3589c7a15107e2328e70fa62e" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setCameraHeight</name></member>
+      <member refid="classMapViewerControl_1abf06237e3cbed6d57f605c5b5bbdddf2" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setCameraPosition</name></member>
+      <member refid="classMapViewerControl_1a42d2973fd6851b5f97e87191ce3579aa" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setCameraRollAngle</name></member>
+      <member refid="classMapViewerControl_1a5d6cd2cfc10bc658b5d9915f4862eaf9" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setCameraTiltAngle</name></member>
+      <member refid="classMapViewerControl_1a6fae9039d3d0c387d0d50e613aad456a" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setFollowCarMode</name></member>
+      <member refid="classMapViewerControl_1a97b44d1330807e323fc0aed7cd1ec11a" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewBoundingBox</name></member>
+      <member refid="classMapViewerControl_1a682cf702dedd39dd974a22a35a7d7aa4" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewObjectVisibility</name></member>
+      <member refid="classMapViewerControl_1ad216ce95ac6e68620d424d9ce366a3cb" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewPan</name></member>
+      <member refid="classMapViewerControl_1a9a1fdb8b91456803885bb2cf245d1b61" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewPerformanceLevel</name></member>
+      <member refid="classMapViewerControl_1ad9dd4e14075419139a37d86e8491dd07" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewPerspective</name></member>
+      <member refid="classMapViewerControl_1ad0ac723889dad03826e03fc82e3f44fd" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewRotation</name></member>
+      <member refid="classMapViewerControl_1a2f5fa6bf67ab86e5cc36426a99dbbe49" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewSaveArea</name></member>
+      <member refid="classMapViewerControl_1a716ab52cdc9a92b5ee9273e392bfc24d" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewScale</name></member>
+      <member refid="classMapViewerControl_1a822e86da5f8f0cb95ba2e465575eda63" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewScaleByDelta</name></member>
+      <member refid="classMapViewerControl_1a0f08bf6b07572038403eec5db4910ba7" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewScaleByMetersPerPixel</name></member>
+      <member refid="classMapViewerControl_1ae6e35fea785a405b5caee622c0718e86" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewScaleMode</name></member>
+      <member refid="classMapViewerControl_1a7b352ddd493a9427559505bc367f503c" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewTheme</name></member>
+      <member refid="classMapViewerControl_1a28895ba2e64debef464c002daa96d4cc" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setMapViewVisibilityMode</name></member>
+      <member refid="classMapViewerControl_1a3a6e13e6cf2faa20b3e1183b80b58c58" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setPoiCategoriesNotVisible</name></member>
+      <member refid="classMapViewerControl_1a867117ba3bdfdfcdea5de866a1409dea" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setPoiCategoriesVisible</name></member>
+      <member refid="classMapViewerControl_1a303313532d87304136f98e62b1a2d256" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setPoiCategoriesVisibleWithinLimits</name></member>
+      <member refid="classMapViewerControl_1adcdab44c3eaa4c74356a9ad2d4b0db68" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setTargetPoint</name></member>
+      <member refid="classMapViewerControl_1ad5e53a18c7a6a764e25f12adaa05b514" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>setTrafficIncidentsVisibility</name></member>
+      <member refid="classMapViewerControl_1a49558ff061266635f9fe416ce4c50831" prot="public" virt="non-virtual"><scope>MapViewerControl</scope><name>~MapViewerControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structDetails" kind="struct" language="C++" prot="public">
+    <compoundname>Details</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structDetails_1a2e1956d1d10c27fccf16e0b8d0325796" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref> &gt;</type>
+        <definition>std::vector&lt;CategoryID&gt; Details::parentsId</definition>
+        <argsstring></argsstring>
+        <name>parentsId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="243" column="1" bodyfile="POIServiceTypes.types.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDetails_1a1a967110ed26ddaa908164719383dc8c" prot="public" static="no" mutable="no">
+        <type><ref refid="unionIcon" kindref="compound">Icon</ref></type>
+        <definition>Icon Details::icons</definition>
+        <argsstring></argsstring>
+        <name>icons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="244" column="1" bodyfile="POIServiceTypes.types.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDetails_1acc2a2efc349939c690ce60ea10113ebf" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Details::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="245" column="1" bodyfile="POIServiceTypes.types.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDetails_1a6de2ee5184312998d91d4aff9007f44d" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Details::shortDesc</definition>
+        <argsstring></argsstring>
+        <name>shortDesc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="246" column="1" bodyfile="POIServiceTypes.types.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDetails_1a63d411108a2a0b12ccbda0deaa5fd343" prot="public" static="no" mutable="no">
+        <type><ref refid="unionMedia" kindref="compound">Media</ref></type>
+        <definition>Media Details::media</definition>
+        <argsstring></argsstring>
+        <name>media</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="247" column="1" bodyfile="POIServiceTypes.types.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="85">
+        <label>Icon</label>
+        <link refid="unionIcon"/>
+      </node>
+      <node id="84">
+        <label>Media</label>
+        <link refid="unionMedia"/>
+      </node>
+      <node id="83">
+        <label>Details</label>
+        <link refid="structDetails"/>
+        <childnode refid="84" relation="usage">
+          <edgelabel>media</edgelabel>
+        </childnode>
+        <childnode refid="85" relation="usage">
+          <edgelabel>icons</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="POIServiceTypes.types.h" line="242" column="1" bodyfile="POIServiceTypes.types.h" bodystart="242" bodyend="248"/>
+    <listofallmembers>
+      <member refid="structDetails_1a1a967110ed26ddaa908164719383dc8c" prot="public" virt="non-virtual"><scope>Details</scope><name>icons</name></member>
+      <member refid="structDetails_1a63d411108a2a0b12ccbda0deaa5fd343" prot="public" virt="non-virtual"><scope>Details</scope><name>media</name></member>
+      <member refid="structDetails_1acc2a2efc349939c690ce60ea10113ebf" prot="public" virt="non-virtual"><scope>Details</scope><name>name</name></member>
+      <member refid="structDetails_1a2e1956d1d10c27fccf16e0b8d0325796" prot="public" virt="non-virtual"><scope>Details</scope><name>parentsId</name></member>
+      <member refid="structDetails_1a6de2ee5184312998d91d4aff9007f44d" prot="public" virt="non-virtual"><scope>Details</scope><name>shortDesc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

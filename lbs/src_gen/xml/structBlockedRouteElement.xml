@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structBlockedRouteElement" kind="struct" language="C++" prot="public">
+    <compoundname>BlockedRouteElement</compoundname>
+    <includes refid="Routing_8types_8h" local="no">Routing.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structBlockedRouteElement_1aa23c6c1955b9b09ab83262c7b7abc0dd" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>UInt32 BlockedRouteElement::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="54" column="1" bodyfile="Routing.types.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBlockedRouteElement_1ad242513cab7e18e8532fbb5725fb3db1" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>UInt32 BlockedRouteElement::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="55" column="1" bodyfile="Routing.types.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Routing.types.h" line="53" column="1" bodyfile="Routing.types.h" bodystart="53" bodyend="56"/>
+    <listofallmembers>
+      <member refid="structBlockedRouteElement_1ad242513cab7e18e8532fbb5725fb3db1" prot="public" virt="non-virtual"><scope>BlockedRouteElement</scope><name>length</name></member>
+      <member refid="structBlockedRouteElement_1aa23c6c1955b9b09ab83262c7b7abc0dd" prot="public" virt="non-virtual"><scope>BlockedRouteElement</scope><name>offset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

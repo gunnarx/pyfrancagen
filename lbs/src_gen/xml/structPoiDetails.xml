@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structPoiDetails" kind="struct" language="C++" prot="public">
+    <compoundname>PoiDetails</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPoiDetails_1af5979a9ba9603e62114532409b12af4d" prot="public" static="no" mutable="no">
+        <type><ref refid="POIServiceTypes_8types_8h_1a400a3573b04df4d01d041cfd0bbad662" kindref="member">POI_ID</ref></type>
+        <definition>POI_ID PoiDetails::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="76" column="1" bodyfile="POIServiceTypes.types.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPoiDetails_1ab8cb7948a15f3115438d1343303312a5" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String PoiDetails::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="77" column="1" bodyfile="POIServiceTypes.types.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPoiDetails_1afe63f70bef3293c7c5a2cbaa59491526" prot="public" static="no" mutable="no">
+        <type><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref></type>
+        <definition>Coordinate3D PoiDetails::location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="78" column="1" bodyfile="POIServiceTypes.types.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="160">
+        <label>Coordinate3D</label>
+        <link refid="structCoordinate3D"/>
+      </node>
+      <node id="159">
+        <label>PoiDetails</label>
+        <link refid="structPoiDetails"/>
+        <childnode refid="160" relation="usage">
+          <edgelabel>location</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="POIServiceTypes.types.h" line="75" column="1" bodyfile="POIServiceTypes.types.h" bodystart="75" bodyend="79"/>
+    <listofallmembers>
+      <member refid="structPoiDetails_1af5979a9ba9603e62114532409b12af4d" prot="public" virt="non-virtual"><scope>PoiDetails</scope><name>id</name></member>
+      <member refid="structPoiDetails_1afe63f70bef3293c7c5a2cbaa59491526" prot="public" virt="non-virtual"><scope>PoiDetails</scope><name>location</name></member>
+      <member refid="structPoiDetails_1ab8cb7948a15f3115438d1343303312a5" prot="public" virt="non-virtual"><scope>PoiDetails</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

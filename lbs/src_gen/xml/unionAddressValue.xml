@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="unionAddressValue" kind="union" language="C++" prot="public">
+    <compoundname>AddressValue</compoundname>
+    <includes refid="LocationInput_8types_8h" local="no">LocationInput.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionAddressValue_1a591ba707c9fb6903d47ed2ef13954efa" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+        <definition>Int32 AddressValue::intValue</definition>
+        <argsstring></argsstring>
+        <name>intValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.types.h" line="26" column="1" bodyfile="LocationInput.types.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressValue_1a3c9318eff5f9b4c8f98d3a908e17c76e" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref></type>
+        <definition>Double AddressValue::doubleValue</definition>
+        <argsstring></argsstring>
+        <name>doubleValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.types.h" line="27" column="1" bodyfile="LocationInput.types.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressValue_1ab1e460e5d454f1574ce10226a1e12f4d" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String AddressValue::stringValue</definition>
+        <argsstring></argsstring>
+        <name>stringValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.types.h" line="28" column="1" bodyfile="LocationInput.types.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressValue_1a872c4ab580e73f3ba23b6c64302898cb" prot="public" static="no" mutable="no">
+        <type><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref></type>
+        <definition>Coordinate3D AddressValue::coordinate3DValue</definition>
+        <argsstring></argsstring>
+        <name>coordinate3DValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.types.h" line="29" column="1" bodyfile="LocationInput.types.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressValue_1a26c6c338aa2bf13d6f7c341e4122e4e5" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref> &gt;</type>
+        <definition>std::vector&lt;UInt8&gt; AddressValue::internalData</definition>
+        <argsstring></argsstring>
+        <name>internalData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.types.h" line="30" column="1" bodyfile="LocationInput.types.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressValue_1a4feee964124d886a65617da562636e55" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structRoadShield" kindref="compound">RoadShield</ref> &gt;</type>
+        <definition>std::vector&lt;RoadShield&gt; AddressValue::roadShields</definition>
+        <argsstring></argsstring>
+        <name>roadShields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.types.h" line="31" column="1" bodyfile="LocationInput.types.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="23">
+        <label>Coordinate3D</label>
+        <link refid="structCoordinate3D"/>
+      </node>
+      <node id="22">
+        <label>AddressValue</label>
+        <link refid="unionAddressValue"/>
+        <childnode refid="23" relation="usage">
+          <edgelabel>coordinate3DValue</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="LocationInput.types.h" line="25" column="1" bodyfile="LocationInput.types.h" bodystart="25" bodyend="32"/>
+    <listofallmembers>
+      <member refid="unionAddressValue_1a872c4ab580e73f3ba23b6c64302898cb" prot="public" virt="non-virtual"><scope>AddressValue</scope><name>coordinate3DValue</name></member>
+      <member refid="unionAddressValue_1a3c9318eff5f9b4c8f98d3a908e17c76e" prot="public" virt="non-virtual"><scope>AddressValue</scope><name>doubleValue</name></member>
+      <member refid="unionAddressValue_1a26c6c338aa2bf13d6f7c341e4122e4e5" prot="public" virt="non-virtual"><scope>AddressValue</scope><name>internalData</name></member>
+      <member refid="unionAddressValue_1a591ba707c9fb6903d47ed2ef13954efa" prot="public" virt="non-virtual"><scope>AddressValue</scope><name>intValue</name></member>
+      <member refid="unionAddressValue_1a4feee964124d886a65617da562636e55" prot="public" virt="non-virtual"><scope>AddressValue</scope><name>roadShields</name></member>
+      <member refid="unionAddressValue_1ab1e460e5d454f1574ce10226a1e12f4d" prot="public" virt="non-virtual"><scope>AddressValue</scope><name>stringValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

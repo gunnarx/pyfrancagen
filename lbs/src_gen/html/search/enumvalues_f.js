@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['railway_5fstation',['RAILWAY_STATION',['../POIServiceTypes_8types_8h.html#a157631a2ef5aa2c9a71abb3d8a5722dba897f300cf33e85590704140fa9297306',1,'RAILWAY_STATION():&#160;POIServiceTypes.types.h'],['../POIServiceTypes_8types_8h.html#af6b02cf14a13447f859be060841e85a1a897f300cf33e85590704140fa9297306',1,'RAILWAY_STATION():&#160;POIServiceTypes.types.h']]],
+  ['recreation',['RECREATION',['../POIServiceTypes_8types_8h.html#a157631a2ef5aa2c9a71abb3d8a5722dba837191301303da569127510508dceb64',1,'POIServiceTypes.types.h']]],
+  ['removed',['REMOVED',['../POIServiceTypes_8types_8h.html#a1873e097e146ea161799113ba50651baab3461745d64b12346503b2980e436db5',1,'POIServiceTypes.types.h']]],
+  ['rent_5fa_5fcar',['RENT_A_CAR',['../POIServiceTypes_8types_8h.html#a157631a2ef5aa2c9a71abb3d8a5722dba67453b279ca98c6b4c58317dada7e094',1,'POIServiceTypes.types.h']]],
+  ['rest_5farea',['REST_AREA',['../POIServiceTypes_8types_8h.html#a157631a2ef5aa2c9a71abb3d8a5722dba2f0f26ea65edda468bf707e2a71d243f',1,'POIServiceTypes.types.h']]],
+  ['restaurant',['RESTAURANT',['../POIServiceTypes_8types_8h.html#a157631a2ef5aa2c9a71abb3d8a5722dbab0dfbb297192e37153f16adfc7fe5de7',1,'RESTAURANT():&#160;POIServiceTypes.types.h'],['../POIServiceTypes_8types_8h.html#af6b02cf14a13447f859be060841e85a1ab0dfbb297192e37153f16adfc7fe5de7',1,'RESTAURANT():&#160;POIServiceTypes.types.h']]],
+  ['right',['RIGHT',['../Guidance_8types_8h.html#a8c0137d7160ad71b6ed265c53c99ed00a21507b40c80068eda19865706fdc2403',1,'RIGHT():&#160;Guidance.types.h'],['../Guidance_8types_8h.html#a7062e55fb44616570556b5ab252e4131a21507b40c80068eda19865706fdc2403',1,'RIGHT():&#160;Guidance.types.h']]],
+  ['road_5fassistance',['ROAD_ASSISTANCE',['../POIServiceTypes_8types_8h.html#a157631a2ef5aa2c9a71abb3d8a5722dbae7d5ffa76f6aeb7601399b5923916ae4',1,'POIServiceTypes.types.h']]],
+  ['road_5fferry',['ROAD_FERRY',['../Guidance_8types_8h.html#ab3e18155ee67f16a7360f7b3f529e1b8a7c89ba02c0dafae1c9a0ecc08edba05a',1,'Guidance.types.h']]],
+  ['road_5fform',['ROAD_FORM',['../Guidance_8types_8h.html#ae34dc4e7b655873b628235208b2958a2ae14b6376b342e0c608535a94093db2c8',1,'ROAD_FORM():&#160;Guidance.types.h'],['../Guidance_8types_8h.html#aab348e1621268dee04259ee13ebf3230ae14b6376b342e0c608535a94093db2c8',1,'ROAD_FORM():&#160;Guidance.types.h']]],
+  ['road_5fhighway_5fmotorway',['ROAD_HIGHWAY_MOTORWAY',['../Guidance_8types_8h.html#ab3e18155ee67f16a7360f7b3f529e1b8a0de687694073fcec7104bf843dd856de',1,'Guidance.types.h']]],
+  ['road_5fname',['ROAD_NAME',['../Routing_8types_8h.html#abb08321d0a6d4ab25d5df4d1dd3215e4a2bf981538a24c4b0c456e2bc62f3fbec',1,'Routing.types.h']]],
+  ['road_5fnumber',['ROAD_NUMBER',['../LocationInput_8types_8h.html#a2a34a1565274f78f14ec36a25b191998ad77477d3fb7d68b6e9f6776db7b2409c',1,'ROAD_NUMBER():&#160;LocationInput.types.h'],['../MapMatchedPosition_8types_8h.html#abc3047936975bcb921661f7862e2174bad77477d3fb7d68b6e9f6776db7b2409c',1,'ROAD_NUMBER():&#160;MapMatchedPosition.types.h'],['../Routing_8types_8h.html#abb08321d0a6d4ab25d5df4d1dd3215e4ad77477d3fb7d68b6e9f6776db7b2409c',1,'ROAD_NUMBER():&#160;Routing.types.h']]],
+  ['road_5fregular',['ROAD_REGULAR',['../Guidance_8types_8h.html#ab3e18155ee67f16a7360f7b3f529e1b8afb8d82eeebc67fad2abb40a3a681dc33',1,'Guidance.types.h']]],
+  ['roadshields',['ROADSHIELDS',['../LocationInput_8types_8h.html#a2a34a1565274f78f14ec36a25b191998a604ee3f7363163d40d1ef028e7597a49',1,'ROADSHIELDS():&#160;LocationInput.types.h'],['../MapMatchedPosition_8types_8h.html#abc3047936975bcb921661f7862e2174ba604ee3f7363163d40d1ef028e7597a49',1,'ROADSHIELDS():&#160;MapMatchedPosition.types.h']]],
+  ['roundabout',['ROUNDABOUT',['../Guidance_8types_8h.html#a1b8e52e2ee8280749f5ece971615a14da8f465700d451120a934e8c150011ba22',1,'Guidance.types.h']]],
+  ['route',['ROUTE',['../MapViewerControl_8types_8h.html#aa9fd45894632661538a02981ea2bc053ab27f430ed948df9b2bf126b3122d7175',1,'MapViewerControl.types.h']]]
+];

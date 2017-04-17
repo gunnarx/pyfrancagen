@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="CommonTypes_8types_8h" kind="file" language="C++">
+    <compoundname>CommonTypes.types.h</compoundname>
+    <includes refid="franca__types_8h" local="yes">franca_types.h</includes>
+    <includedby refid="Configuration_8h" local="yes">Configuration.h</includedby>
+    <includedby refid="Configuration_8types_8h" local="yes">Configuration.types.h</includedby>
+    <includedby refid="FreeTextSearch_8h" local="yes">FreeTextSearch.h</includedby>
+    <includedby refid="FreeTextSearch_8types_8h" local="yes">FreeTextSearch.types.h</includedby>
+    <includedby refid="Guidance_8h" local="yes">Guidance.h</includedby>
+    <includedby refid="Guidance_8types_8h" local="yes">Guidance.types.h</includedby>
+    <includedby refid="NavigationCoreTypes_8types_8h" local="yes">NavigationCoreTypes.types.h</includedby>
+    <includedby refid="LocationInput_8h" local="yes">LocationInput.h</includedby>
+    <includedby refid="LocationInput_8types_8h" local="yes">LocationInput.types.h</includedby>
+    <includedby refid="MapMatchedPosition_8h" local="yes">MapMatchedPosition.h</includedby>
+    <includedby refid="MapMatchedPosition_8types_8h" local="yes">MapMatchedPosition.types.h</includedby>
+    <includedby refid="MapViewerControl_8h" local="yes">MapViewerControl.h</includedby>
+    <includedby refid="MapViewerControl_8types_8h" local="yes">MapViewerControl.types.h</includedby>
+    <includedby refid="POIConfiguration_8h" local="yes">POIConfiguration.h</includedby>
+    <includedby refid="POIConfiguration_8types_8h" local="yes">POIConfiguration.types.h</includedby>
+    <includedby refid="POIServiceTypes_8types_8h" local="yes">POIServiceTypes.types.h</includedby>
+    <includedby refid="POIContentAccess_8h" local="yes">POIContentAccess.h</includedby>
+    <includedby refid="POIContentAccess_8types_8h" local="yes">POIContentAccess.types.h</includedby>
+    <includedby refid="POIContentAccessModule_8h" local="yes">POIContentAccessModule.h</includedby>
+    <includedby refid="POIContentAccessModule_8types_8h" local="yes">POIContentAccessModule.types.h</includedby>
+    <includedby refid="POISearch_8h" local="yes">POISearch.h</includedby>
+    <includedby refid="POISearch_8types_8h" local="yes">POISearch.types.h</includedby>
+    <includedby refid="Routing_8h" local="yes">Routing.h</includedby>
+    <includedby refid="Routing_8types_8h" local="yes">Routing.types.h</includedby>
+    <includedby refid="Session_8h" local="yes">Session.h</includedby>
+    <includedby refid="Session_8types_8h" local="yes">Session.types.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="4">
+        <label>map</label>
+      </node>
+      <node id="0">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+      <node id="1">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="16">
+        <label>NavigationCoreTypes.types.h</label>
+        <link refid="NavigationCoreTypes_8types_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>FreeTextSearch.h</label>
+        <link refid="FreeTextSearch_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Configuration.h</label>
+        <link refid="Configuration_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>POIContentAccess.cpp</label>
+        <link refid="POIContentAccess_8cpp"/>
+      </node>
+      <node id="17">
+        <label>LocationInput.types.h</label>
+        <link refid="LocationInput_8types_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Guidance.cpp</label>
+        <link refid="Guidance_8cpp"/>
+      </node>
+      <node id="19">
+        <label>LocationInput.cpp</label>
+        <link refid="LocationInput_8cpp"/>
+      </node>
+      <node id="28">
+        <label>MapViewerControl.types.h</label>
+        <link refid="MapViewerControl_8types_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>Session.cpp</label>
+        <link refid="Session_8cpp"/>
+      </node>
+      <node id="29">
+        <label>POIConfiguration.h</label>
+        <link refid="POIConfiguration_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>POIServiceTypes.types.h</label>
+        <link refid="POIServiceTypes_8types_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>POIContentAccessModule.types.h</label>
+        <link refid="POIContentAccessModule_8types_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MapMatchedPosition.cpp</label>
+        <link refid="MapMatchedPosition_8cpp"/>
+      </node>
+      <node id="40">
+        <label>POISearch.h</label>
+        <link refid="POISearch_8h"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MapViewerControl.h</label>
+        <link refid="MapViewerControl_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>POIConfiguration.types.h</label>
+        <link refid="POIConfiguration_8types_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>FreeTextSearch.types.h</label>
+        <link refid="FreeTextSearch_8types_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>Routing.types.h</label>
+        <link refid="Routing_8types_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>POISearch.types.h</label>
+        <link refid="POISearch_8types_8h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>POIContentAccessModule.h</label>
+        <link refid="POIContentAccessModule_8h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MapViewerControl.cpp</label>
+        <link refid="MapViewerControl_8cpp"/>
+      </node>
+      <node id="41">
+        <label>POISearch.cpp</label>
+        <link refid="POISearch_8cpp"/>
+      </node>
+      <node id="42">
+        <label>Session.h</label>
+        <link refid="Session_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MapMatchedPosition.h</label>
+        <link refid="MapMatchedPosition_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Configuration.types.h</label>
+        <link refid="Configuration_8types_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>FreeTextSearch.cpp</label>
+        <link refid="FreeTextSearch_8cpp"/>
+      </node>
+      <node id="15">
+        <label>Guidance.types.h</label>
+        <link refid="Guidance_8types_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Guidance.h</label>
+        <link refid="Guidance_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>POIContentAccess.types.h</label>
+        <link refid="POIContentAccess_8types_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>POIContentAccess.h</label>
+        <link refid="POIContentAccess_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MapMatchedPosition.types.h</label>
+        <link refid="MapMatchedPosition_8types_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>POIContentAccessModule.cpp</label>
+        <link refid="POIContentAccessModule_8cpp"/>
+      </node>
+      <node id="24">
+        <label>Routing.cpp</label>
+        <link refid="Routing_8cpp"/>
+      </node>
+      <node id="8">
+        <label>Configuration.cpp</label>
+        <link refid="Configuration_8cpp"/>
+      </node>
+      <node id="44">
+        <label>Session.types.h</label>
+        <link refid="Session_8types_8h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>POIConfiguration.cpp</label>
+        <link refid="POIConfiguration_8cpp"/>
+      </node>
+      <node id="18">
+        <label>LocationInput.h</label>
+        <link refid="LocationInput_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>Routing.h</label>
+        <link refid="Routing_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structVersion" prot="public">Version</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>typedef UInt32 CategoryID</definition>
+        <argsstring></argsstring>
+        <name>CategoryID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="CommonTypes.types.h" line="30" column="1" bodyfile="CommonTypes.types.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="franca__types_8h" kindref="compound">franca_types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#0<sp/>from<sp/>CommonTypes<sp/>in<sp/>package<sp/>org.genivi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="structVersion" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structVersion" kindref="compound">Version</ref><sp/>{</highlight></codeline>
+<codeline lineno="23" refid="structVersion_1ad78bff029742ad43573fea1662c048f6" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref><sp/><ref refid="structVersion_1ad78bff029742ad43573fea1662c048f6" kindref="member">versionMajor</ref>;</highlight></codeline>
+<codeline lineno="24" refid="structVersion_1a072a6db691eb97444a783e7d1278e9ca" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref><sp/><ref refid="structVersion_1a072a6db691eb97444a783e7d1278e9ca" kindref="member">versionMinor</ref>;</highlight></codeline>
+<codeline lineno="25" refid="structVersion_1a3be1173efb2b65436a9473feea248aaa" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref><sp/><ref refid="structVersion_1a3be1173efb2b65436a9473feea248aaa" kindref="member">versionMicro</ref>;</highlight></codeline>
+<codeline lineno="26" refid="structVersion_1a119753397d4e9d9bad6b2b6bea6af043" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structVersion_1a119753397d4e9d9bad6b2b6bea6af043" kindref="member">date</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#1<sp/>from<sp/>CommonTypes<sp/>in<sp/>package<sp/>org.genivi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="CommonTypes.types.h"/>
+  </compounddef>
+</doxygen>

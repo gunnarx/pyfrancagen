@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structCategoryAttribute" kind="struct" language="C++" prot="public">
+    <compoundname>CategoryAttribute</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCategoryAttribute_1a7b6f49c38f6cf9328efb2aebf7fab83b" prot="public" static="no" mutable="no">
+        <type><ref refid="POIServiceTypes_8types_8h_1a63fb569c36bb85fc79bbf5f2771a8543" kindref="member">AttributeID</ref></type>
+        <definition>AttributeID CategoryAttribute::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="259" column="1" bodyfile="POIServiceTypes.types.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryAttribute_1adfb910cbe1e6e4e7a8315a6a5c5dc7e2" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String CategoryAttribute::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="260" column="1" bodyfile="POIServiceTypes.types.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryAttribute_1a7e32cd287788786bc1824351ad208216" prot="public" static="no" mutable="no">
+        <type><ref refid="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2" kindref="member">AttributeType</ref></type>
+        <definition>AttributeType CategoryAttribute::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="261" column="1" bodyfile="POIServiceTypes.types.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryAttribute_1a7258945eba3ba39fa19465434e94c42f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structOperator" kindref="compound">Operator</ref> &gt;</type>
+        <definition>std::vector&lt;Operator&gt; CategoryAttribute::operators</definition>
+        <argsstring></argsstring>
+        <name>operators</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="262" column="1" bodyfile="POIServiceTypes.types.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="POIServiceTypes.types.h" line="258" column="1" bodyfile="POIServiceTypes.types.h" bodystart="258" bodyend="263"/>
+    <listofallmembers>
+      <member refid="structCategoryAttribute_1a7b6f49c38f6cf9328efb2aebf7fab83b" prot="public" virt="non-virtual"><scope>CategoryAttribute</scope><name>id</name></member>
+      <member refid="structCategoryAttribute_1adfb910cbe1e6e4e7a8315a6a5c5dc7e2" prot="public" virt="non-virtual"><scope>CategoryAttribute</scope><name>name</name></member>
+      <member refid="structCategoryAttribute_1a7258945eba3ba39fa19465434e94c42f" prot="public" virt="non-virtual"><scope>CategoryAttribute</scope><name>operators</name></member>
+      <member refid="structCategoryAttribute_1a7e32cd287788786bc1824351ad208216" prot="public" virt="non-virtual"><scope>CategoryAttribute</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

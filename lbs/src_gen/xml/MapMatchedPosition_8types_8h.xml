@@ -1,0 +1,742 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="MapMatchedPosition_8types_8h" kind="file" language="C++">
+    <compoundname>MapMatchedPosition.types.h</compoundname>
+    <includes refid="CommonTypes_8types_8h" local="yes">CommonTypes.types.h</includes>
+    <includes refid="NavigationCoreTypes_8types_8h" local="yes">NavigationCoreTypes.types.h</includes>
+    <includes refid="NavigationTypes_8types_8h" local="yes">NavigationTypes.types.h</includes>
+    <includes refid="franca__types_8h" local="yes">franca_types.h</includes>
+    <includedby refid="MapMatchedPosition_8h" local="yes">MapMatchedPosition.h</includedby>
+    <incdepgraph>
+      <node id="260">
+        <label>NavigationCoreTypes.types.h</label>
+        <link refid="NavigationCoreTypes_8types_8h"/>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="261">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>stdint.h</label>
+      </node>
+      <node id="259">
+        <label>string</label>
+      </node>
+      <node id="258">
+        <label>map</label>
+      </node>
+      <node id="254">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="257">
+        <label>vector</label>
+      </node>
+      <node id="253">
+        <label>MapMatchedPosition.types.h</label>
+        <link refid="MapMatchedPosition_8types_8h"/>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="255">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="264">
+        <label>MapMatchedPosition.cpp</label>
+        <link refid="MapMatchedPosition_8cpp"/>
+      </node>
+      <node id="263">
+        <label>MapMatchedPosition.h</label>
+        <link refid="MapMatchedPosition_8h"/>
+        <childnode refid="264" relation="include">
+        </childnode>
+      </node>
+      <node id="262">
+        <label>MapMatchedPosition.types.h</label>
+        <link refid="MapMatchedPosition_8types_8h"/>
+        <childnode refid="263" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="unionPositionOnSegmentValue" prot="public">PositionOnSegmentValue</innerclass>
+    <innerclass refid="unionPositionStatusValue" prot="public">PositionStatusValue</innerclass>
+    <innerclass refid="unionAddressItemValue" prot="public">AddressItemValue</innerclass>
+    <innerclass refid="unionPositionItemValue" prot="public">PositionItemValue</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffdd" prot="public" static="no">
+        <name>GnnsFixStatus</name>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffddaa80630704b93114ed9e817a3f53f59c7" prot="public">
+          <name>NO_FIX</name>
+          <initializer>= 256</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffddaef8de8a64f2b57a192e5ef6fe5465b98" prot="public">
+          <name>TIME_FIX</name>
+          <initializer>= 257</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffdda8b433e3f63d83e78dfbfe6da3ff61b3e" prot="public">
+          <name>FIX_2D</name>
+          <initializer>= 258</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffdda5eddc8631075de75c679f84846de5d51" prot="public">
+          <name>FIX_3D</name>
+          <initializer>= 259</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="26" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="enum" id="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031" prot="public" static="no">
+        <name>MatchMode</name>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a1a0196f9db0b5a7724c1339c2f1475dc" prot="public">
+          <name>MATCH_TYPE</name>
+          <initializer>= 240</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a0031130c9ac1b66a6f7ca8163d0aa73d" prot="public">
+          <name>ON_ROAD</name>
+          <initializer>= 241</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a99e0a1369300af50a07abcfd94322322" prot="public">
+          <name>OFF_ROAD</name>
+          <initializer>= 242</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a22bf49c84c216d532e24d505518c7696" prot="public">
+          <name>ON_FERRY</name>
+          <initializer>= 243</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a80581e27cc197d02a9e45f5c85ed44aa" prot="public">
+          <name>IN_TUNNEL</name>
+          <initializer>= 244</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a1ece1b4b0bb29085566fda2cc155e313" prot="public">
+          <name>ON_CARPARK</name>
+          <initializer>= 245</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="36" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="36" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="enum" id="MapMatchedPosition_8types_8h_1a7213985bfeda1498cf011f1891d77ce0" prot="public" static="no">
+        <name>PositionItemKey</name>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a7213985bfeda1498cf011f1891d77ce0acc65dd7b535ac7fc2363aeb572cc2a8e" prot="public">
+          <name>HEADING</name>
+          <initializer>= 163</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a7213985bfeda1498cf011f1891d77ce0a65a59338b99aee6a451e86b17b462b5a" prot="public">
+          <name>SPEED</name>
+          <initializer>= 164</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a7213985bfeda1498cf011f1891d77ce0a31c1814360e4e67f1adf1d03aa1c47e1" prot="public">
+          <name>CLIMB</name>
+          <initializer>= 165</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="65" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="enum" id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174b" prot="public" static="no">
+        <name>AddressItemKey</name>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174bad84534266f6c38a70b940adcbd8aff03" prot="public">
+          <name>TIMEZONE_OFFSET</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba800add60b6480f5f62199ba0eb7492f9" prot="public">
+          <name>DAYLIGHT_OFFSET</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba6ddc09dc456001d9854e9fe670374eb2" prot="public">
+          <name>COUNTRY</name>
+          <initializer>= 166</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba2b848a8cc886d253d21a77c43cd50aae" prot="public">
+          <name>STATE</name>
+          <initializer>= 167</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba859214628431995197c0558f7b5f8ffc" prot="public">
+          <name>CITY</name>
+          <initializer>= 168</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba78fce82336bbbdca7f6da7564b8f9325" prot="public">
+          <name>STREET</name>
+          <initializer>= 170</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba84c207a9187a98bff73c9fffd8d7dbbb" prot="public">
+          <name>HOUSENUMBER</name>
+          <initializer>= 171</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba48e8b789f56df1f5d120d5a8714f1088" prot="public">
+          <name>CROSSING</name>
+          <initializer>= 172</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba90b2bdc0f1ec01de1376652cacc36d3c" prot="public">
+          <name>DISTRICT</name>
+          <initializer>= 173</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba9b76d30c9d0bcdb45b6ca9d4faae95c7" prot="public">
+          <name>PHONENUMBER</name>
+          <initializer>= 174</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba85c7012b8a03de05d970f8d7cc40f6b4" prot="public">
+          <name>POINAME</name>
+          <initializer>= 175</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba04ef2712a8e57304205637aff7dc1ca6" prot="public">
+          <name>TOWNCENTER</name>
+          <initializer>= 176</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba434baf169d8bb6c681a839923f75c359" prot="public">
+          <name>LOCATION_INPUT</name>
+          <initializer>= 177</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174bad10260c6daec2bced796ab9675015d81" prot="public">
+          <name>FULL_ADDRESS</name>
+          <initializer>= 178</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174baef23889338b8428530718f94442319ca" prot="public">
+          <name>COUNTRYCODE</name>
+          <initializer>= 179</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba27077b1d922d7893178027ef5317c644" prot="public">
+          <name>HOUSENAME</name>
+          <initializer>= 180</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba8499ecafeca851c4e1d630cb75038855" prot="public">
+          <name>POSTAL_CODE</name>
+          <initializer>= 181</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174bad77477d3fb7d68b6e9f6776db7b2409c" prot="public">
+          <name>ROAD_NUMBER</name>
+          <initializer>= 334</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba1a0196f9db0b5a7724c1339c2f1475dc" prot="public">
+          <name>MATCH_TYPE</name>
+          <initializer>= 240</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba604ee3f7363163d40d1ef028e7597a49" prot="public">
+          <name>ROADSHIELDS</name>
+          <initializer>= 182</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="74" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="74" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="enum" id="MapMatchedPosition_8types_8h_1a61f55608397ceac3077dcb9909bf3b88" prot="public" static="no">
+        <name>PositionStatus</name>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a61f55608397ceac3077dcb9909bf3b88aec3f5f3ab37ba352cf30b01114f6ef63" prot="public">
+          <name>GNSS_FIX_STATUS</name>
+          <initializer>= 224</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a61f55608397ceac3077dcb9909bf3b88ae46068fea8fba7ce667e6f3988528578" prot="public">
+          <name>DR_STATUS</name>
+          <initializer>= 225</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a61f55608397ceac3077dcb9909bf3b88a14fdf51da0ca3d688fd1a1ad0d29eaa9" prot="public">
+          <name>MM_STATUS</name>
+          <initializer>= 226</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1a61f55608397ceac3077dcb9909bf3b88a225b3d118591beff8d61a20b987c4d77" prot="public">
+          <name>SIMULATION_MODE</name>
+          <initializer>= 227</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="100" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="100" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="enum" id="MapMatchedPosition_8types_8h_1ae897d132f43fa2ba7d02055bdfeccce0" prot="public" static="no">
+        <name>PositionOnSegmentKey</name>
+        <enumvalue id="MapMatchedPosition_8types_8h_1ae897d132f43fa2ba7d02055bdfeccce0a7fda5f518a67c6800a7ffa5d29ed2d83" prot="public">
+          <name>SEGMENT_ID</name>
+          <initializer>= 272</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1ae897d132f43fa2ba7d02055bdfeccce0a385620726b46507c52bac927ebecbb70" prot="public">
+          <name>DIRECTION_ON_SEGMENT</name>
+          <initializer>= 274</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1ae897d132f43fa2ba7d02055bdfeccce0aaa1c22f491e00c039384ce2df955d7f2" prot="public">
+          <name>DISTANCE_ON_SEGMENT</name>
+          <initializer>= 275</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="130" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="130" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="enum" id="MapMatchedPosition_8types_8h_1aaf5876738450df4bb9d08a5ec8a8dbe2" prot="public" static="no">
+        <name>SimulationStatus</name>
+        <enumvalue id="MapMatchedPosition_8types_8h_1aaf5876738450df4bb9d08a5ec8a8dbe2ac5126bec863ff7f01040132077a86891" prot="public">
+          <name>SIMULATION_STATUS_NO_SIMULATION</name>
+          <initializer>= 544</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1aaf5876738450df4bb9d08a5ec8a8dbe2a29c35fec5ea9ef9cc5115f045b721480" prot="public">
+          <name>SIMULATION_STATUS_RUNNING</name>
+          <initializer>= 545</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1aaf5876738450df4bb9d08a5ec8a8dbe2a4ef2886aa78ce7339cfe0a86cd3ff857" prot="public">
+          <name>SIMULATION_STATUS_PAUSED</name>
+          <initializer>= 546</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MapMatchedPosition_8types_8h_1aaf5876738450df4bb9d08a5ec8a8dbe2a76996552c51f85bae3a07040f3bd03ed" prot="public">
+          <name>SIMULATION_STATUS_FIXED_POSITION</name>
+          <initializer>= 547</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="139" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="139" bodyend="145"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MapMatchedPosition_8types_8h_1ad3a297befff1d89bc8b6d68d8bb41ec9" prot="public" static="no">
+        <type>std::map&lt; <ref refid="MapMatchedPosition_8types_8h_1a7213985bfeda1498cf011f1891d77ce0" kindref="member">PositionItemKey</ref>, <ref refid="unionPositionItemValue" kindref="compound">PositionItemValue</ref> &gt;</type>
+        <definition>typedef std::map&lt;PositionItemKey, PositionItemValue&gt; PositionItemDict</definition>
+        <argsstring></argsstring>
+        <name>PositionItemDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="149" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MapMatchedPosition_8types_8h_1a538ccc2323455d9cba291ad11efbe3ce" prot="public" static="no">
+        <type>std::map&lt; <ref refid="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174b" kindref="member">AddressItemKey</ref>, <ref refid="unionAddressItemValue" kindref="compound">AddressItemValue</ref> &gt;</type>
+        <definition>typedef std::map&lt;AddressItemKey, AddressItemValue&gt; AddressItemDict</definition>
+        <argsstring></argsstring>
+        <name>AddressItemDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="153" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MapMatchedPosition_8types_8h_1a2a4e535fceabb3c671ac01f5e978b4e0" prot="public" static="no">
+        <type>std::map&lt; <ref refid="MapMatchedPosition_8types_8h_1ae897d132f43fa2ba7d02055bdfeccce0" kindref="member">PositionOnSegmentKey</ref>, <ref refid="unionPositionOnSegmentValue" kindref="compound">PositionOnSegmentValue</ref> &gt;</type>
+        <definition>typedef std::map&lt;PositionOnSegmentKey, PositionOnSegmentValue&gt; PositionOnSegmentDict</definition>
+        <argsstring></argsstring>
+        <name>PositionOnSegmentDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="158" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MapMatchedPosition_8types_8h_1a445964d81c645fc3fdfbcde127a5a85e" prot="public" static="no">
+        <type>std::map&lt; <ref refid="MapMatchedPosition_8types_8h_1a61f55608397ceac3077dcb9909bf3b88" kindref="member">PositionStatus</ref>, <ref refid="unionPositionStatusValue" kindref="compound">PositionStatusValue</ref> &gt;</type>
+        <definition>typedef std::map&lt;PositionStatus, PositionStatusValue&gt; PositionStatusDict</definition>
+        <argsstring></argsstring>
+        <name>PositionStatusDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="162" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="CommonTypes_8types_8h" kindref="compound">CommonTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationCoreTypes_8types_8h" kindref="compound">NavigationCoreTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationTypes_8types_8h" kindref="compound">NavigationTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="franca__types_8h" kindref="compound">franca_types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#0<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffdd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffdd" kindref="member">GnnsFixStatus</ref><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffddaa80630704b93114ed9e817a3f53f59c7" kindref="member">NO_FIX</ref><sp/>=<sp/>256,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffddaef8de8a64f2b57a192e5ef6fe5465b98" kindref="member">TIME_FIX</ref><sp/>=<sp/>257,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffdda8b433e3f63d83e78dfbfe6da3ff61b3e" kindref="member">FIX_2D</ref><sp/>=<sp/>258,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffdda5eddc8631075de75c679f84846de5d51" kindref="member">FIX_3D</ref><sp/>=<sp/>259,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#1<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031" kindref="member">MatchMode</ref><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a1a0196f9db0b5a7724c1339c2f1475dc" kindref="member">MATCH_TYPE</ref><sp/>=<sp/>240,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a0031130c9ac1b66a6f7ca8163d0aa73d" kindref="member">ON_ROAD</ref><sp/>=<sp/>241,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a99e0a1369300af50a07abcfd94322322" kindref="member">OFF_ROAD</ref><sp/>=<sp/>242,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a22bf49c84c216d532e24d505518c7696" kindref="member">ON_FERRY</ref><sp/>=<sp/>243,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a80581e27cc197d02a9e45f5c85ed44aa" kindref="member">IN_TUNNEL</ref><sp/>=<sp/>244,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a1ece1b4b0bb29085566fda2cc155e313" kindref="member">ON_CARPARK</ref><sp/>=<sp/>245,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#2<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="unionPositionOnSegmentValue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionPositionOnSegmentValue" kindref="compound">PositionOnSegmentValue</ref><sp/>{</highlight></codeline>
+<codeline lineno="49" refid="unionPositionOnSegmentValue_1ac73ef98b3021ddb291a36495f680be55" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="unionPositionOnSegmentValue_1ac73ef98b3021ddb291a36495f680be55" kindref="member">directionOnSegment</ref>;</highlight></codeline>
+<codeline lineno="50" refid="unionPositionOnSegmentValue_1adf912795b9f873fc0604280e2fecf984" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref><sp/><ref refid="unionPositionOnSegmentValue_1adf912795b9f873fc0604280e2fecf984" kindref="member">distanceOnSegment</ref>;</highlight></codeline>
+<codeline lineno="51" refid="unionPositionOnSegmentValue_1aa828d646c86ad396c291f7107ff6df19" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a4d02373b2f2c0107ac705c8c375dfaf2" kindref="member">ByteBuffer</ref><sp/><ref refid="unionPositionOnSegmentValue_1aa828d646c86ad396c291f7107ff6df19" kindref="member">segment</ref>;</highlight></codeline>
+<codeline lineno="52" refid="unionPositionOnSegmentValue_1a29724fa04c5a98a7efe7890c15d7ff8b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a4bd87ed8c2931b537a170519e3bd61d7" kindref="member">Timestamp</ref><sp/><ref refid="unionPositionOnSegmentValue_1a29724fa04c5a98a7efe7890c15d7ff8b" kindref="member">timestamp</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#3<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="unionPositionStatusValue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionPositionStatusValue" kindref="compound">PositionStatusValue</ref><sp/>{</highlight></codeline>
+<codeline lineno="58" refid="unionPositionStatusValue_1ac223ef079bd76eb45c152e647ea839a7" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="unionPositionStatusValue_1ac223ef079bd76eb45c152e647ea839a7" kindref="member">statusValue</ref>;</highlight></codeline>
+<codeline lineno="59" refid="unionPositionStatusValue_1a3362264e1e7491929bad0ad973174413" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffdd" kindref="member">GnnsFixStatus</ref><sp/><ref refid="unionPositionStatusValue_1a3362264e1e7491929bad0ad973174413" kindref="member">fixStatus</ref>;</highlight></codeline>
+<codeline lineno="60" refid="unionPositionStatusValue_1a63f169c31caa664dcd82864152bb48c1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a4bd87ed8c2931b537a170519e3bd61d7" kindref="member">Timestamp</ref><sp/><ref refid="unionPositionStatusValue_1a63f169c31caa664dcd82864152bb48c1" kindref="member">timestamp</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#4<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MapMatchedPosition_8types_8h_1a7213985bfeda1498cf011f1891d77ce0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="MapMatchedPosition_8types_8h_1a7213985bfeda1498cf011f1891d77ce0" kindref="member">PositionItemKey</ref><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a7213985bfeda1498cf011f1891d77ce0acc65dd7b535ac7fc2363aeb572cc2a8e" kindref="member">HEADING</ref><sp/>=<sp/>163,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a7213985bfeda1498cf011f1891d77ce0a65a59338b99aee6a451e86b17b462b5a" kindref="member">SPEED</ref><sp/>=<sp/>164,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a7213985bfeda1498cf011f1891d77ce0a31c1814360e4e67f1adf1d03aa1c47e1" kindref="member">CLIMB</ref><sp/>=<sp/>165,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#5<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174b" kindref="member">AddressItemKey</ref><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174bad84534266f6c38a70b940adcbd8aff03" kindref="member">TIMEZONE_OFFSET</ref><sp/>=<sp/>17,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1abc3047936975bcb921661f7862e2174ba800add60b6480f5f62199ba0eb7492f9" kindref="member">DAYLIGHT_OFFSET</ref><sp/>=<sp/>18,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a6ddc09dc456001d9854e9fe670374eb2" kindref="member">COUNTRY</ref><sp/>=<sp/>166,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a2b848a8cc886d253d21a77c43cd50aae" kindref="member">STATE</ref><sp/>=<sp/>167,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a859214628431995197c0558f7b5f8ffc" kindref="member">CITY</ref><sp/>=<sp/>168,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a78fce82336bbbdca7f6da7564b8f9325" kindref="member">STREET</ref><sp/>=<sp/>170,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a84c207a9187a98bff73c9fffd8d7dbbb" kindref="member">HOUSENUMBER</ref><sp/>=<sp/>171,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a48e8b789f56df1f5d120d5a8714f1088" kindref="member">CROSSING</ref><sp/>=<sp/>172,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a90b2bdc0f1ec01de1376652cacc36d3c" kindref="member">DISTRICT</ref><sp/>=<sp/>173,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a9b76d30c9d0bcdb45b6ca9d4faae95c7" kindref="member">PHONENUMBER</ref><sp/>=<sp/>174,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a85c7012b8a03de05d970f8d7cc40f6b4" kindref="member">POINAME</ref><sp/>=<sp/>175,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a04ef2712a8e57304205637aff7dc1ca6" kindref="member">TOWNCENTER</ref><sp/>=<sp/>176,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a434baf169d8bb6c681a839923f75c359" kindref="member">LOCATION_INPUT</ref><sp/>=<sp/>177,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998ad10260c6daec2bced796ab9675015d81" kindref="member">FULL_ADDRESS</ref><sp/>=<sp/>178,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998aef23889338b8428530718f94442319ca" kindref="member">COUNTRYCODE</ref><sp/>=<sp/>179,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a27077b1d922d7893178027ef5317c644" kindref="member">HOUSENAME</ref><sp/>=<sp/>180,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a8499ecafeca851c4e1d630cb75038855" kindref="member">POSTAL_CODE</ref><sp/>=<sp/>181,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998ad77477d3fb7d68b6e9f6776db7b2409c" kindref="member">ROAD_NUMBER</ref><sp/>=<sp/>334,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a1a0196f9db0b5a7724c1339c2f1475dc" kindref="member">MATCH_TYPE</ref><sp/>=<sp/>240,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a604ee3f7363163d40d1ef028e7597a49" kindref="member">ROADSHIELDS</ref><sp/>=<sp/>182,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#6<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MapMatchedPosition_8types_8h_1a61f55608397ceac3077dcb9909bf3b88" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="MapMatchedPosition_8types_8h_1a61f55608397ceac3077dcb9909bf3b88" kindref="member">PositionStatus</ref><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a61f55608397ceac3077dcb9909bf3b88aec3f5f3ab37ba352cf30b01114f6ef63" kindref="member">GNSS_FIX_STATUS</ref><sp/>=<sp/>224,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a61f55608397ceac3077dcb9909bf3b88ae46068fea8fba7ce667e6f3988528578" kindref="member">DR_STATUS</ref><sp/>=<sp/>225,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a61f55608397ceac3077dcb9909bf3b88a14fdf51da0ca3d688fd1a1ad0d29eaa9" kindref="member">MM_STATUS</ref><sp/>=<sp/>226,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a61f55608397ceac3077dcb9909bf3b88a225b3d118591beff8d61a20b987c4d77" kindref="member">SIMULATION_MODE</ref><sp/>=<sp/>227,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#7<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="unionAddressItemValue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionAddressItemValue" kindref="compound">AddressItemValue</ref><sp/>{</highlight></codeline>
+<codeline lineno="111" refid="unionAddressItemValue_1adaa0fa22b379583166d645489cb53e1a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="unionAddressItemValue_1adaa0fa22b379583166d645489cb53e1a" kindref="member">addressField</ref>;</highlight></codeline>
+<codeline lineno="112" refid="unionAddressItemValue_1ad37215b4255b29f7eae62f320fab623d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref><sp/><ref refid="unionAddressItemValue_1ad37215b4255b29f7eae62f320fab623d" kindref="member">offset</ref>;</highlight></codeline>
+<codeline lineno="113" refid="unionAddressItemValue_1a4cb3a12764ace7944d4cd38f0744dbb7" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a4bd87ed8c2931b537a170519e3bd61d7" kindref="member">Timestamp</ref><sp/><ref refid="unionAddressItemValue_1a4cb3a12764ace7944d4cd38f0744dbb7" kindref="member">timestamp</ref>;</highlight></codeline>
+<codeline lineno="114" refid="unionAddressItemValue_1ae7480109db537d6aeeee87faaae9c64d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031" kindref="member">MatchMode</ref><sp/><ref refid="unionAddressItemValue_1ae7480109db537d6aeeee87faaae9c64d" kindref="member">matchMode</ref>;</highlight></codeline>
+<codeline lineno="115" refid="unionAddressItemValue_1ac39ebd987e3209445f7bc02a3d3114d5" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;RoadShield&gt;<sp/><ref refid="unionAddressItemValue_1ac39ebd987e3209445f7bc02a3d3114d5" kindref="member">roadShields</ref>;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#8<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="unionPositionItemValue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionPositionItemValue" kindref="compound">PositionItemValue</ref><sp/>{</highlight></codeline>
+<codeline lineno="121" refid="unionPositionItemValue_1aba85360b994b9c92524dbde965e4f145" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a4bd87ed8c2931b537a170519e3bd61d7" kindref="member">Timestamp</ref><sp/><ref refid="unionPositionItemValue_1aba85360b994b9c92524dbde965e4f145" kindref="member">timestamp</ref>;</highlight></codeline>
+<codeline lineno="122" refid="unionPositionItemValue_1a0f351369b41c459236ae5040838a097b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="unionPositionItemValue_1a0f351369b41c459236ae5040838a097b" kindref="member">status</ref>;</highlight></codeline>
+<codeline lineno="123" refid="unionPositionItemValue_1a717ee36f73ed20c884a405ba9c5c350b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a21f812c26a39fb9f4b5290e7debeffdd" kindref="member">GnnsFixStatus</ref><sp/><ref refid="unionPositionItemValue_1a717ee36f73ed20c884a405ba9c5c350b" kindref="member">fix</ref>;</highlight></codeline>
+<codeline lineno="124" refid="unionPositionItemValue_1a91015b8e0bf8cf0f6c699dd9493da029" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref><sp/><ref refid="unionPositionItemValue_1a91015b8e0bf8cf0f6c699dd9493da029" kindref="member">doubleValue</ref>;</highlight></codeline>
+<codeline lineno="125" refid="unionPositionItemValue_1a7e85d0f1e52e87c847413fcf85e630ac" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref><sp/><ref refid="unionPositionItemValue_1a7e85d0f1e52e87c847413fcf85e630ac" kindref="member">intValue</ref>;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#9<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MapMatchedPosition_8types_8h_1ae897d132f43fa2ba7d02055bdfeccce0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="MapMatchedPosition_8types_8h_1ae897d132f43fa2ba7d02055bdfeccce0" kindref="member">PositionOnSegmentKey</ref><sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1ae897d132f43fa2ba7d02055bdfeccce0a7fda5f518a67c6800a7ffa5d29ed2d83" kindref="member">SEGMENT_ID</ref><sp/>=<sp/>272,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1ae897d132f43fa2ba7d02055bdfeccce0a385620726b46507c52bac927ebecbb70" kindref="member">DIRECTION_ON_SEGMENT</ref><sp/>=<sp/>274,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1ae897d132f43fa2ba7d02055bdfeccce0aaa1c22f491e00c039384ce2df955d7f2" kindref="member">DISTANCE_ON_SEGMENT</ref><sp/>=<sp/>275,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#10<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MapMatchedPosition_8types_8h_1aaf5876738450df4bb9d08a5ec8a8dbe2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="MapMatchedPosition_8types_8h_1aaf5876738450df4bb9d08a5ec8a8dbe2" kindref="member">SimulationStatus</ref><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1aaf5876738450df4bb9d08a5ec8a8dbe2ac5126bec863ff7f01040132077a86891" kindref="member">SIMULATION_STATUS_NO_SIMULATION</ref><sp/>=<sp/>544,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1aaf5876738450df4bb9d08a5ec8a8dbe2a29c35fec5ea9ef9cc5115f045b721480" kindref="member">SIMULATION_STATUS_RUNNING</ref><sp/>=<sp/>545,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1aaf5876738450df4bb9d08a5ec8a8dbe2a4ef2886aa78ce7339cfe0a86cd3ff857" kindref="member">SIMULATION_STATUS_PAUSED</ref><sp/>=<sp/>546,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1aaf5876738450df4bb9d08a5ec8a8dbe2a76996552c51f85bae3a07040f3bd03ed" kindref="member">SIMULATION_STATUS_FIXED_POSITION</ref><sp/>=<sp/>547,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#11<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MapMatchedPosition_8types_8h_1ad3a297befff1d89bc8b6d68d8bb41ec9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;PositionItemKey,<sp/>PositionItemValue&gt;<sp/><ref refid="MapMatchedPosition_8types_8h_1ad3a297befff1d89bc8b6d68d8bb41ec9" kindref="member">PositionItemDict</ref>;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#12<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MapMatchedPosition_8types_8h_1a538ccc2323455d9cba291ad11efbe3ce" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;AddressItemKey,<sp/>AddressItemValue&gt;<sp/><ref refid="MapMatchedPosition_8types_8h_1a538ccc2323455d9cba291ad11efbe3ce" kindref="member">AddressItemDict</ref>;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#13<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;PositionOnSegmentKey,<sp/>PositionOnSegmentValue&gt;</highlight></codeline>
+<codeline lineno="158" refid="MapMatchedPosition_8types_8h_1a2a4e535fceabb3c671ac01f5e978b4e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a2a4e535fceabb3c671ac01f5e978b4e0" kindref="member">PositionOnSegmentDict</ref>;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#14<sp/>from<sp/>MapMatchedPosition<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MapMatchedPosition_8types_8h_1a445964d81c645fc3fdfbcde127a5a85e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;PositionStatus,<sp/>PositionStatusValue&gt;<sp/><ref refid="MapMatchedPosition_8types_8h_1a445964d81c645fc3fdfbcde127a5a85e" kindref="member">PositionStatusDict</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="MapMatchedPosition.types.h"/>
+  </compounddef>
+</doxygen>

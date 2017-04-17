@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="POIConfiguration_8types_8h" kind="file" language="C++">
+    <compoundname>POIConfiguration.types.h</compoundname>
+    <includes refid="CommonTypes_8types_8h" local="yes">CommonTypes.types.h</includes>
+    <includes refid="NavigationTypes_8types_8h" local="yes">NavigationTypes.types.h</includes>
+    <includes refid="POIServiceTypes_8types_8h" local="yes">POIServiceTypes.types.h</includes>
+    <includes refid="franca__types_8h" local="yes">franca_types.h</includes>
+    <includedby refid="POIConfiguration_8h" local="yes">POIConfiguration.h</includedby>
+    <incdepgraph>
+      <node id="391">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="386" relation="include">
+        </childnode>
+      </node>
+      <node id="387">
+        <label>stdint.h</label>
+      </node>
+      <node id="390">
+        <label>string</label>
+      </node>
+      <node id="392">
+        <label>POIServiceTypes.types.h</label>
+        <link refid="POIServiceTypes_8types_8h"/>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="386" relation="include">
+        </childnode>
+      </node>
+      <node id="389">
+        <label>map</label>
+      </node>
+      <node id="385">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="386" relation="include">
+        </childnode>
+      </node>
+      <node id="384">
+        <label>POIConfiguration.types.h</label>
+        <link refid="POIConfiguration_8types_8h"/>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="386" relation="include">
+        </childnode>
+      </node>
+      <node id="388">
+        <label>vector</label>
+      </node>
+      <node id="386">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="394">
+        <label>POIConfiguration.h</label>
+        <link refid="POIConfiguration_8h"/>
+        <childnode refid="395" relation="include">
+        </childnode>
+      </node>
+      <node id="393">
+        <label>POIConfiguration.types.h</label>
+        <link refid="POIConfiguration_8types_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>POIConfiguration.cpp</label>
+        <link refid="POIConfiguration_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="POIConfiguration_8types_8h_1af4d1bb09d1c003f9d256c8aba6524087" prot="public" static="no">
+        <name>UnitsOfMeasurementAttribute</name>
+        <enumvalue id="POIConfiguration_8types_8h_1af4d1bb09d1c003f9d256c8aba6524087aaddeac40406177897b3fccba88558f1c" prot="public">
+          <name>LENGTH</name>
+          <initializer>= 49</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1af4d1bb09d1c003f9d256c8aba6524087accc0377a8afbf50e7094f5c23a8af223" prot="public">
+          <name>INVALID</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1af4d1bb09d1c003f9d256c8aba6524087aaddeac40406177897b3fccba88558f1c" prot="public">
+          <name>LENGTH</name>
+          <initializer>= 49</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.types.h" line="25" column="1" bodyfile="POIConfiguration.types.h" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIConfiguration_8types_8h_1aa51640a1a3d537c3290247c0d0825210" prot="public" static="no">
+        <name>UnitsOfMeasurementValue</name>
+        <enumvalue id="POIConfiguration_8types_8h_1aa51640a1a3d537c3290247c0d0825210acc7ab7853e03a21956737fb272615996" prot="public">
+          <name>METER</name>
+          <initializer>= 50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1aa51640a1a3d537c3290247c0d0825210a54d3fdac39bd35685c1e888c66da86dc" prot="public">
+          <name>MILE</name>
+          <initializer>= 51</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1aa51640a1a3d537c3290247c0d0825210add480f25b31ec27223fee2c6edcacb3c" prot="public">
+          <name>KM</name>
+          <initializer>= 52</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1aa51640a1a3d537c3290247c0d0825210ac57f760f6774158812a8319519e98d14" prot="public">
+          <name>YARD</name>
+          <initializer>= 53</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1aa51640a1a3d537c3290247c0d0825210af5dd40adaf2cd3949f81fb2aae4fdf4e" prot="public">
+          <name>FOOT</name>
+          <initializer>= 54</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1aa51640a1a3d537c3290247c0d0825210acc7ab7853e03a21956737fb272615996" prot="public">
+          <name>METER</name>
+          <initializer>= 50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1aa51640a1a3d537c3290247c0d0825210a54d3fdac39bd35685c1e888c66da86dc" prot="public">
+          <name>MILE</name>
+          <initializer>= 51</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1aa51640a1a3d537c3290247c0d0825210add480f25b31ec27223fee2c6edcacb3c" prot="public">
+          <name>KM</name>
+          <initializer>= 52</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1aa51640a1a3d537c3290247c0d0825210ac57f760f6774158812a8319519e98d14" prot="public">
+          <name>YARD</name>
+          <initializer>= 53</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1aa51640a1a3d537c3290247c0d0825210af5dd40adaf2cd3949f81fb2aae4fdf4e" prot="public">
+          <name>FOOT</name>
+          <initializer>= 54</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.types.h" line="32" column="1" bodyfile="POIConfiguration.types.h" bodystart="32" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIConfiguration_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190" prot="public" static="no">
+        <name>Units</name>
+        <enumvalue id="POIConfiguration_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190acc7ab7853e03a21956737fb272615996" prot="public">
+          <name>METER</name>
+          <initializer>= 50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190a54d3fdac39bd35685c1e888c66da86dc" prot="public">
+          <name>MILE</name>
+          <initializer>= 51</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190add480f25b31ec27223fee2c6edcacb3c" prot="public">
+          <name>KM</name>
+          <initializer>= 52</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190ac57f760f6774158812a8319519e98d14" prot="public">
+          <name>YARD</name>
+          <initializer>= 53</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190af5dd40adaf2cd3949f81fb2aae4fdf4e" prot="public">
+          <name>FOOT</name>
+          <initializer>= 54</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190acc7ab7853e03a21956737fb272615996" prot="public">
+          <name>METER</name>
+          <initializer>= 50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190a54d3fdac39bd35685c1e888c66da86dc" prot="public">
+          <name>MILE</name>
+          <initializer>= 51</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190add480f25b31ec27223fee2c6edcacb3c" prot="public">
+          <name>KM</name>
+          <initializer>= 52</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190ac57f760f6774158812a8319519e98d14" prot="public">
+          <name>YARD</name>
+          <initializer>= 53</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190af5dd40adaf2cd3949f81fb2aae4fdf4e" prot="public">
+          <name>FOOT</name>
+          <initializer>= 54</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.types.h" line="42" column="1" bodyfile="POIConfiguration.types.h" bodystart="42" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIConfiguration_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" prot="public" static="no">
+        <name>TimeFormat</name>
+        <enumvalue id="POIConfiguration_8types_8h_1a25de3b313f6a766c08b5af9f3cac864dacf9ffd9193ba30e7dd1ef7ad0dbc3eef" prot="public">
+          <name>TWELVEH</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1a25de3b313f6a766c08b5af9f3cac864daa5dbfbda0c7085c872421ef7982bdfde" prot="public">
+          <name>TWENTYFOURH</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1a25de3b313f6a766c08b5af9f3cac864daccc0377a8afbf50e7094f5c23a8af223" prot="public">
+          <name>INVALID</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1a25de3b313f6a766c08b5af9f3cac864dacf9ffd9193ba30e7dd1ef7ad0dbc3eef" prot="public">
+          <name>TWELVEH</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1a25de3b313f6a766c08b5af9f3cac864daa5dbfbda0c7085c872421ef7982bdfde" prot="public">
+          <name>TWENTYFOURH</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.types.h" line="52" column="1" bodyfile="POIConfiguration.types.h" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="enum" id="POIConfiguration_8types_8h_1a71bade2d2183585211b040a3538f7b85" prot="public" static="no">
+        <name>CoordinatesFormat</name>
+        <enumvalue id="POIConfiguration_8types_8h_1a71bade2d2183585211b040a3538f7b85accc0377a8afbf50e7094f5c23a8af223" prot="public">
+          <name>INVALID</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1a71bade2d2183585211b040a3538f7b85afee20551b6d06fd83aa56a486e557307" prot="public">
+          <name>DEGREES</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1a71bade2d2183585211b040a3538f7b85a7ffb9cea885bcba59e55574d54f819c2" prot="public">
+          <name>MINUTES</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1a71bade2d2183585211b040a3538f7b85aa9126caa6ef3db9cf3c35ac627ad22b5" prot="public">
+          <name>SECONDS</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1a71bade2d2183585211b040a3538f7b85accc0377a8afbf50e7094f5c23a8af223" prot="public">
+          <name>INVALID</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1a71bade2d2183585211b040a3538f7b85afee20551b6d06fd83aa56a486e557307" prot="public">
+          <name>DEGREES</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1a71bade2d2183585211b040a3538f7b85a7ffb9cea885bcba59e55574d54f819c2" prot="public">
+          <name>MINUTES</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="POIConfiguration_8types_8h_1a71bade2d2183585211b040a3538f7b85aa9126caa6ef3db9cf3c35ac627ad22b5" prot="public">
+          <name>SECONDS</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.types.h" line="60" column="1" bodyfile="POIConfiguration.types.h" bodystart="60" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="POIConfiguration_8types_8h_1a17d94508d89a246db0610d967c43714a" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210" kindref="member">UnitsOfMeasurementValue</ref> &gt;</type>
+        <definition>typedef std::vector&lt;UnitsOfMeasurementValue&gt; UnitsOfMeasurementListValue</definition>
+        <argsstring></argsstring>
+        <name>UnitsOfMeasurementListValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.types.h" line="69" column="1" bodyfile="POIConfiguration.types.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="POIConfiguration_8types_8h_1a1031c81fe968f821429abf89b45277fa" prot="public" static="no">
+        <type>std::map&lt; <ref refid="Configuration_8types_8h_1af4d1bb09d1c003f9d256c8aba6524087" kindref="member">UnitsOfMeasurementAttribute</ref>, <ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210" kindref="member">UnitsOfMeasurementValue</ref> &gt;</type>
+        <definition>typedef std::map&lt;UnitsOfMeasurementAttribute, UnitsOfMeasurementValue&gt; UnitsOfMeasurement</definition>
+        <argsstring></argsstring>
+        <name>UnitsOfMeasurement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.types.h" line="72" column="1" bodyfile="POIConfiguration.types.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="POIConfiguration_8types_8h_1a4e8a73e8f770a3f01c6b610059735ec6" prot="public" static="no">
+        <type>std::map&lt; <ref refid="Configuration_8types_8h_1af4d1bb09d1c003f9d256c8aba6524087" kindref="member">UnitsOfMeasurementAttribute</ref>, <ref refid="Configuration_8types_8h_1a17d94508d89a246db0610d967c43714a" kindref="member">UnitsOfMeasurementListValue</ref> &gt;</type>
+        <definition>typedef std::map&lt;UnitsOfMeasurementAttribute, UnitsOfMeasurementListValue&gt; UnitsOfMeasurementList</definition>
+        <argsstring></argsstring>
+        <name>UnitsOfMeasurementList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIConfiguration.types.h" line="76" column="1" bodyfile="POIConfiguration.types.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="CommonTypes_8types_8h" kindref="compound">CommonTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationTypes_8types_8h" kindref="compound">NavigationTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="POIServiceTypes_8types_8h" kindref="compound">POIServiceTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="franca__types_8h" kindref="compound">franca_types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#0<sp/>from<sp/>POIConfiguration<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="POIConfiguration_8types_8h_1af4d1bb09d1c003f9d256c8aba6524087" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Configuration_8types_8h_1af4d1bb09d1c003f9d256c8aba6524087" kindref="member">UnitsOfMeasurementAttribute</ref><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85accc0377a8afbf50e7094f5c23a8af223" kindref="member">INVALID</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1af4d1bb09d1c003f9d256c8aba6524087aaddeac40406177897b3fccba88558f1c" kindref="member">LENGTH</ref><sp/>=<sp/>49,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#1<sp/>from<sp/>POIConfiguration<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="POIConfiguration_8types_8h_1aa51640a1a3d537c3290247c0d0825210" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210" kindref="member">UnitsOfMeasurementValue</ref><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210acc7ab7853e03a21956737fb272615996" kindref="member">METER</ref><sp/>=<sp/>50,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210a54d3fdac39bd35685c1e888c66da86dc" kindref="member">MILE</ref><sp/>=<sp/>51,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210add480f25b31ec27223fee2c6edcacb3c" kindref="member">KM</ref><sp/>=<sp/>52,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210ac57f760f6774158812a8319519e98d14" kindref="member">YARD</ref><sp/>=<sp/>53,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210af5dd40adaf2cd3949f81fb2aae4fdf4e" kindref="member">FOOT</ref><sp/>=<sp/>54,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#2<sp/>from<sp/>POIConfiguration<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="POIConfiguration_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190" kindref="member">Units</ref><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210acc7ab7853e03a21956737fb272615996" kindref="member">METER</ref><sp/>=<sp/>50,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210a54d3fdac39bd35685c1e888c66da86dc" kindref="member">MILE</ref><sp/>=<sp/>51,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210add480f25b31ec27223fee2c6edcacb3c" kindref="member">KM</ref><sp/>=<sp/>52,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210ac57f760f6774158812a8319519e98d14" kindref="member">YARD</ref><sp/>=<sp/>53,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210af5dd40adaf2cd3949f81fb2aae4fdf4e" kindref="member">FOOT</ref><sp/>=<sp/>54,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#3<sp/>from<sp/>POIConfiguration<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="POIConfiguration_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" kindref="member">TimeFormat</ref><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85accc0377a8afbf50e7094f5c23a8af223" kindref="member">INVALID</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864dacf9ffd9193ba30e7dd1ef7ad0dbc3eef" kindref="member">TWELVEH</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864daa5dbfbda0c7085c872421ef7982bdfde" kindref="member">TWENTYFOURH</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#4<sp/>from<sp/>POIConfiguration<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="POIConfiguration_8types_8h_1a71bade2d2183585211b040a3538f7b85" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85" kindref="member">CoordinatesFormat</ref><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85accc0377a8afbf50e7094f5c23a8af223" kindref="member">INVALID</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85afee20551b6d06fd83aa56a486e557307" kindref="member">DEGREES</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85a7ffb9cea885bcba59e55574d54f819c2" kindref="member">MINUTES</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85aa9126caa6ef3db9cf3c35ac627ad22b5" kindref="member">SECONDS</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#5<sp/>from<sp/>POIConfiguration<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="POIConfiguration_8types_8h_1a17d94508d89a246db0610d967c43714a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;UnitsOfMeasurementValue&gt;<sp/><ref refid="POIConfiguration_8types_8h_1a17d94508d89a246db0610d967c43714a" kindref="member">UnitsOfMeasurementListValue</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#6<sp/>from<sp/>POIConfiguration<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;UnitsOfMeasurementAttribute,<sp/>UnitsOfMeasurementValue&gt;</highlight></codeline>
+<codeline lineno="72" refid="POIConfiguration_8types_8h_1a1031c81fe968f821429abf89b45277fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="POIConfiguration_8types_8h_1a1031c81fe968f821429abf89b45277fa" kindref="member">UnitsOfMeasurement</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#7<sp/>from<sp/>POIConfiguration<sp/>in<sp/>package<sp/>org.genivi.navigation.poiservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;UnitsOfMeasurementAttribute,<sp/>UnitsOfMeasurementListValue&gt;</highlight></codeline>
+<codeline lineno="76" refid="POIConfiguration_8types_8h_1a4e8a73e8f770a3f01c6b610059735ec6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="POIConfiguration_8types_8h_1a4e8a73e8f770a3f01c6b610059735ec6" kindref="member">UnitsOfMeasurementList</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="POIConfiguration.types.h"/>
+  </compounddef>
+</doxygen>

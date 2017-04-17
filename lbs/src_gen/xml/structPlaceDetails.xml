@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structPlaceDetails" kind="struct" language="C++" prot="public">
+    <compoundname>PlaceDetails</compoundname>
+    <includes refid="FreeTextSearch_8types_8h" local="no">FreeTextSearch.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPlaceDetails_1a9db50f1e4a0421bf5ecef30b0ea94e62" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1a91f58056863c01f8dda2040d448f3d31" kindref="member">PlaceType</ref></type>
+        <definition>PlaceType PlaceDetails::placeType</definition>
+        <argsstring></argsstring>
+        <name>placeType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="65" column="1" bodyfile="FreeTextSearch.types.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPlaceDetails_1a0f7a1471aa452696446591ad60a70c85" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString PlaceDetails::placeName</definition>
+        <argsstring></argsstring>
+        <name>placeName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="66" column="1" bodyfile="FreeTextSearch.types.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPlaceDetails_1a3f1c8bee551de91ed501a90dbc632287" prot="public" static="no" mutable="no">
+        <type><ref refid="structRectangle" kindref="compound">Rectangle</ref></type>
+        <definition>Rectangle PlaceDetails::placeBoundingBox</definition>
+        <argsstring></argsstring>
+        <name>placeBoundingBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="67" column="1" bodyfile="FreeTextSearch.types.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="137">
+        <label>Coordinate2D</label>
+        <link refid="structCoordinate2D"/>
+      </node>
+      <node id="136">
+        <label>Rectangle</label>
+        <link refid="structRectangle"/>
+        <childnode refid="137" relation="usage">
+          <edgelabel>bottomRight</edgelabel>
+          <edgelabel>topLeft</edgelabel>
+        </childnode>
+      </node>
+      <node id="135">
+        <label>PlaceDetails</label>
+        <link refid="structPlaceDetails"/>
+        <childnode refid="136" relation="usage">
+          <edgelabel>placeBoundingBox</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="FreeTextSearch.types.h" line="64" column="1" bodyfile="FreeTextSearch.types.h" bodystart="64" bodyend="68"/>
+    <listofallmembers>
+      <member refid="structPlaceDetails_1a3f1c8bee551de91ed501a90dbc632287" prot="public" virt="non-virtual"><scope>PlaceDetails</scope><name>placeBoundingBox</name></member>
+      <member refid="structPlaceDetails_1a0f7a1471aa452696446591ad60a70c85" prot="public" virt="non-virtual"><scope>PlaceDetails</scope><name>placeName</name></member>
+      <member refid="structPlaceDetails_1a9db50f1e4a0421bf5ecef30b0ea94e62" prot="public" virt="non-virtual"><scope>PlaceDetails</scope><name>placeType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

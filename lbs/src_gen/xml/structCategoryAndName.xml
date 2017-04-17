@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structCategoryAndName" kind="struct" language="C++" prot="public">
+    <compoundname>CategoryAndName</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCategoryAndName_1a963027dc8d146f03e3bf43303e64c8d9" prot="public" static="no" mutable="no">
+        <type><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref></type>
+        <definition>CategoryID CategoryAndName::uniqueId</definition>
+        <argsstring></argsstring>
+        <name>uniqueId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="213" column="1" bodyfile="POIServiceTypes.types.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryAndName_1a09986679670bd4bb78347700112951bc" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String CategoryAndName::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="214" column="1" bodyfile="POIServiceTypes.types.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryAndName_1aed3476144eb77e8b90d8aba775b77667" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+        <definition>Boolean CategoryAndName::topLevel</definition>
+        <argsstring></argsstring>
+        <name>topLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="215" column="1" bodyfile="POIServiceTypes.types.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="POIServiceTypes.types.h" line="212" column="1" bodyfile="POIServiceTypes.types.h" bodystart="212" bodyend="216"/>
+    <listofallmembers>
+      <member refid="structCategoryAndName_1a09986679670bd4bb78347700112951bc" prot="public" virt="non-virtual"><scope>CategoryAndName</scope><name>name</name></member>
+      <member refid="structCategoryAndName_1aed3476144eb77e8b90d8aba775b77667" prot="public" virt="non-virtual"><scope>CategoryAndName</scope><name>topLevel</name></member>
+      <member refid="structCategoryAndName_1a963027dc8d146f03e3bf43303e64c8d9" prot="public" virt="non-virtual"><scope>CategoryAndName</scope><name>uniqueId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

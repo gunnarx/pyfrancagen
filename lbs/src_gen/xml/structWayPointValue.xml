@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structWayPointValue" kind="struct" language="C++" prot="public">
+    <compoundname>WayPointValue</compoundname>
+    <includes refid="MapViewerControl_8types_8h" local="no">MapViewerControl.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structWayPointValue_1ac63a57e11772af69c6fd4b54b29e4c36" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+        <definition>Handle WayPointValue::routeHandle</definition>
+        <argsstring></argsstring>
+        <name>routeHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="83" column="1" bodyfile="MapViewerControl.types.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWayPointValue_1a4b3ad39378ba3d6a3e82c696c3461cbc" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 WayPointValue::waypointIndex</definition>
+        <argsstring></argsstring>
+        <name>waypointIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="84" column="1" bodyfile="MapViewerControl.types.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MapViewerControl.types.h" line="82" column="1" bodyfile="MapViewerControl.types.h" bodystart="82" bodyend="85"/>
+    <listofallmembers>
+      <member refid="structWayPointValue_1ac63a57e11772af69c6fd4b54b29e4c36" prot="public" virt="non-virtual"><scope>WayPointValue</scope><name>routeHandle</name></member>
+      <member refid="structWayPointValue_1a4b3ad39378ba3d6a3e82c696c3461cbc" prot="public" virt="non-virtual"><scope>WayPointValue</scope><name>waypointIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="unionWayPointItem" kind="union" language="C++" prot="public">
+    <compoundname>WayPointItem</compoundname>
+    <includes refid="Routing_8types_8h" local="no">Routing.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionWayPointItem_1a91db6fc66ac3a30e2eee047c6434d6de" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref></type>
+        <definition>Double WayPointItem::coordinateValue</definition>
+        <argsstring></argsstring>
+        <name>coordinateValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="65" column="1" bodyfile="Routing.types.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionWayPointItem_1a963adf6b55109595f829d3ba201b74c7" prot="public" static="no" mutable="no">
+        <type><ref refid="Routing_8types_8h_1aaeabc4e4862a21aed76b7406a60df649" kindref="member">WayPointType</ref></type>
+        <definition>WayPointType WayPointItem::waypointValue</definition>
+        <argsstring></argsstring>
+        <name>waypointValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="66" column="1" bodyfile="Routing.types.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionWayPointItem_1adf514ddea966ffb589a40c0daff42a33" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref> &gt;</type>
+        <definition>std::vector&lt;UInt8&gt; WayPointItem::metaData</definition>
+        <argsstring></argsstring>
+        <name>metaData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="67" column="1" bodyfile="Routing.types.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Routing.types.h" line="64" column="1" bodyfile="Routing.types.h" bodystart="64" bodyend="68"/>
+    <listofallmembers>
+      <member refid="unionWayPointItem_1a91db6fc66ac3a30e2eee047c6434d6de" prot="public" virt="non-virtual"><scope>WayPointItem</scope><name>coordinateValue</name></member>
+      <member refid="unionWayPointItem_1adf514ddea966ffb589a40c0daff42a33" prot="public" virt="non-virtual"><scope>WayPointItem</scope><name>metaData</name></member>
+      <member refid="unionWayPointItem_1a963adf6b55109595f829d3ba201b74c7" prot="public" virt="non-virtual"><scope>WayPointItem</scope><name>waypointValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

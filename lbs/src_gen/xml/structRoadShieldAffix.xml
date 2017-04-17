@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structRoadShieldAffix" kind="struct" language="C++" prot="public">
+    <compoundname>RoadShieldAffix</compoundname>
+    <includes refid="NavigationCoreTypes_8types_8h" local="no">NavigationCoreTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structRoadShieldAffix_1a8f1e4787b8c9191f987302f6f7e94f04" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationCoreTypes_8types_8h_1ab01a50d5c4439aa84b868de3fa40533c" kindref="member">RoadShieldAffixType</ref></type>
+        <definition>RoadShieldAffixType RoadShieldAffix::affixType</definition>
+        <argsstring></argsstring>
+        <name>affixType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationCoreTypes.types.h" line="46" column="1" bodyfile="NavigationCoreTypes.types.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRoadShieldAffix_1afd5c630260cdefcaf67ba0bba428bd4b" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String RoadShieldAffix::affixContent</definition>
+        <argsstring></argsstring>
+        <name>affixContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationCoreTypes.types.h" line="47" column="1" bodyfile="NavigationCoreTypes.types.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NavigationCoreTypes.types.h" line="45" column="1" bodyfile="NavigationCoreTypes.types.h" bodystart="45" bodyend="48"/>
+    <listofallmembers>
+      <member refid="structRoadShieldAffix_1afd5c630260cdefcaf67ba0bba428bd4b" prot="public" virt="non-virtual"><scope>RoadShieldAffix</scope><name>affixContent</name></member>
+      <member refid="structRoadShieldAffix_1a8f1e4787b8c9191f987302f6f7e94f04" prot="public" virt="non-virtual"><scope>RoadShieldAffix</scope><name>affixType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

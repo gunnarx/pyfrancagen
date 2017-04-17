@@ -1,0 +1,1120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Routing_8types_8h" kind="file" language="C++">
+    <compoundname>Routing.types.h</compoundname>
+    <includes refid="CommonTypes_8types_8h" local="yes">CommonTypes.types.h</includes>
+    <includes refid="NavigationCoreTypes_8types_8h" local="yes">NavigationCoreTypes.types.h</includes>
+    <includes refid="NavigationTypes_8types_8h" local="yes">NavigationTypes.types.h</includes>
+    <includes refid="franca__types_8h" local="yes">franca_types.h</includes>
+    <includedby refid="Routing_8h" local="yes">Routing.h</includedby>
+    <incdepgraph>
+      <node id="552">
+        <label>NavigationCoreTypes.types.h</label>
+        <link refid="NavigationCoreTypes_8types_8h"/>
+        <childnode refid="546" relation="include">
+        </childnode>
+        <childnode refid="552" relation="include">
+        </childnode>
+        <childnode refid="553" relation="include">
+        </childnode>
+        <childnode refid="547" relation="include">
+        </childnode>
+      </node>
+      <node id="553">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="547" relation="include">
+        </childnode>
+      </node>
+      <node id="548">
+        <label>stdint.h</label>
+      </node>
+      <node id="551">
+        <label>string</label>
+      </node>
+      <node id="550">
+        <label>map</label>
+      </node>
+      <node id="546">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="547" relation="include">
+        </childnode>
+      </node>
+      <node id="545">
+        <label>Routing.types.h</label>
+        <link refid="Routing_8types_8h"/>
+        <childnode refid="546" relation="include">
+        </childnode>
+        <childnode refid="552" relation="include">
+        </childnode>
+        <childnode refid="553" relation="include">
+        </childnode>
+        <childnode refid="547" relation="include">
+        </childnode>
+      </node>
+      <node id="549">
+        <label>vector</label>
+      </node>
+      <node id="547">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="548" relation="include">
+        </childnode>
+        <childnode refid="549" relation="include">
+        </childnode>
+        <childnode refid="550" relation="include">
+        </childnode>
+        <childnode refid="551" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="554">
+        <label>Routing.types.h</label>
+        <link refid="Routing_8types_8h"/>
+        <childnode refid="555" relation="include">
+        </childnode>
+      </node>
+      <node id="556">
+        <label>Routing.cpp</label>
+        <link refid="Routing_8cpp"/>
+      </node>
+      <node id="555">
+        <label>Routing.h</label>
+        <link refid="Routing_8h"/>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structBlockedRouteElement" prot="public">BlockedRouteElement</innerclass>
+    <innerclass refid="unionRouteOverviewItem" prot="public">RouteOverviewItem</innerclass>
+    <innerclass refid="unionWayPointItem" prot="public">WayPointItem</innerclass>
+    <innerclass refid="structIntermediatePoint" prot="public">IntermediatePoint</innerclass>
+    <innerclass refid="structRoadPreference" prot="public">RoadPreference</innerclass>
+    <innerclass refid="structConditionPreference" prot="public">ConditionPreference</innerclass>
+    <innerclass refid="unionRouteSegmentItem" prot="public">RouteSegmentItem</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5" prot="public" static="no">
+        <name>RoutePreferenceSource</name>
+        <enumvalue id="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5a744c4bf5cfa46a775fd4a459f50161c5" prot="public">
+          <name>FERRY</name>
+          <initializer>= 368</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5a1637def534927125a5e2c75f84011f36" prot="public">
+          <name>TOLL_ROADS</name>
+          <initializer>= 369</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5aca819a2a0c8caeafce53289a63741eae" prot="public">
+          <name>TUNNELS</name>
+          <initializer>= 370</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5a486aa154db2edf21f1d9747abd6d3842" prot="public">
+          <name>HIGHWAYS_MOTORWAYS</name>
+          <initializer>= 371</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5ab55057251e6cea7dd18153eb0287a4b0" prot="public">
+          <name>VEHICLE_SIZE_LIMIT</name>
+          <initializer>= 372</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5a29b4e72b0b6a589842c34df4b3a37cc4" prot="public">
+          <name>CRIME_AREAS</name>
+          <initializer>= 373</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="25" column="1" bodyfile="Routing.types.h" bodystart="25" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7" prot="public" static="no">
+        <name>PreferenceMode</name>
+        <enumvalue id="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7abb1096c7b0ccea0a98e61a492dc58e1b" prot="public">
+          <name>PROHIBIT</name>
+          <initializer>= 400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7a78b109673573c53b5cb61e68bcbea1fd" prot="public">
+          <name>AVOID</name>
+          <initializer>= 401</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7a7dc33953b23388ad93a4db20e33d26e4" prot="public">
+          <name>USE</name>
+          <initializer>= 402</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7a7c28d59df57648f2cb96df3f199136e7" prot="public">
+          <name>PREFER</name>
+          <initializer>= 403</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7aa2e843feab94ef623fea888f07c28696" prot="public">
+          <name>IGNORE</name>
+          <initializer>= 404</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="36" column="1" bodyfile="Routing.types.h" bodystart="36" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1aaeabc4e4862a21aed76b7406a60df649" prot="public" static="no">
+        <name>WayPointType</name>
+        <enumvalue id="Routing_8types_8h_1aaeabc4e4862a21aed76b7406a60df649a66244518d850e35f9a860d670b562964" prot="public">
+          <name>HARD_POINT</name>
+          <initializer>= 290</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1aaeabc4e4862a21aed76b7406a60df649a73c5e7142c0f9f508dfe0f2690fe5d0c" prot="public">
+          <name>SOFT_POINT</name>
+          <initializer>= 291</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="46" column="1" bodyfile="Routing.types.h" bodystart="46" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1a1b929ccb5d81a6ec5776c85f020f345b" prot="public" static="no">
+        <name>CalculationStatus</name>
+        <enumvalue id="Routing_8types_8h_1a1b929ccb5d81a6ec5776c85f020f345ba7bf1e50e22ad1a2d297d671859b61b94" prot="public">
+          <name>CALCULATION_OK</name>
+          <initializer>= 304</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a1b929ccb5d81a6ec5776c85f020f345bafc7dbc82a9918b59581658b86a318f19" prot="public">
+          <name>NO_POSITION</name>
+          <initializer>= 305</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="76" column="1" bodyfile="Routing.types.h" bodystart="76" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1a8fd51d853c36410f6adcd1b2bc77b8e5" prot="public" static="no">
+        <name>CalculationError</name>
+        <enumvalue id="Routing_8types_8h_1a8fd51d853c36410f6adcd1b2bc77b8e5af10ca3a20c1d908e3e8f27933b0bca0a" prot="public">
+          <name>UNMATCHED_POSITION</name>
+          <initializer>= 306</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a8fd51d853c36410f6adcd1b2bc77b8e5a6a1423771ee65f9e7161e09767aabfcf" prot="public">
+          <name>UNREACHABLE_DESTINATION</name>
+          <initializer>= 307</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a8fd51d853c36410f6adcd1b2bc77b8e5ad5825d4951073d73ccf4b5813dc82ebc" prot="public">
+          <name>UNFULFILLED_PREFERENCE_MODE</name>
+          <initializer>= 308</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="83" column="1" bodyfile="Routing.types.h" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6" prot="public" static="no">
+        <name>CostModel</name>
+        <enumvalue id="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6ae9db11364fe8c92dbc11297d6f678404" prot="public">
+          <name>FASTEST</name>
+          <initializer>= 352</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6aa63ddb11bc6cc95583b3f7632a45a16b" prot="public">
+          <name>SHORTEST</name>
+          <initializer>= 353</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6a1a9c76518653f019dadc9451fcc59cb1" prot="public">
+          <name>ECOLOGICAL</name>
+          <initializer>= 354</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6adcf47803b7cea1e352bbb396c0eb55ee" prot="public">
+          <name>SCENIC</name>
+          <initializer>= 355</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6a6e5affbf5c08fef0e28c094856f94627" prot="public">
+          <name>EASY</name>
+          <initializer>= 356</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6a99e0a1369300af50a07abcfd94322322" prot="public">
+          <name>OFF_ROAD</name>
+          <initializer>= 357</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6a0cb4635d100151dcaac6f91db856c402" prot="public">
+          <name>BALANCED</name>
+          <initializer>= 358</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6abd5d00afb539e48933cf8400dd8bad02" prot="public">
+          <name>CHEAPEST</name>
+          <initializer>= 359</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="91" column="1" bodyfile="Routing.types.h" bodystart="91" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8" prot="public" static="no">
+        <name>TransportationMeans</name>
+        <enumvalue id="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8ab6cace4c1e4f6df73aa3dbefce94174d" prot="public">
+          <name>BY_CAR</name>
+          <initializer>= 384</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8a7089542e0146a3499986c81e24924b58" prot="public">
+          <name>ON_FOOT</name>
+          <initializer>= 385</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8a0e9ed51fddf2f4a5e1d19c0e46491ff0" prot="public">
+          <name>LONG_RANGE_TRAINS</name>
+          <initializer>= 386</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8ac0b72ef92e3c916535b6ec91ba464a2c" prot="public">
+          <name>PUBLIC_TRANSPORTATION</name>
+          <initializer>= 387</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8a7d9ac0a2771118bd61403ebe63827d9f" prot="public">
+          <name>BY_BICYCLE</name>
+          <initializer>= 388</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8a76e00d61ed354e8366cfffb02bbe2a32" prot="public">
+          <name>BY_TRUCK</name>
+          <initializer>= 389</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="110" column="1" bodyfile="Routing.types.h" bodystart="110" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333c" prot="public" static="no">
+        <name>Schedule</name>
+        <enumvalue id="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333caa5bdaa9cdd630db8ee8fa00f6108a0bc" prot="public">
+          <name>ARRIVAL_TIME</name>
+          <initializer>= 394</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333ca7e47eddad1df1e31fd85ebca5e164011" prot="public">
+          <name>ARRIVAL_DATE</name>
+          <initializer>= 395</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333ca68cd5a786a57998bb348badf4cd21593" prot="public">
+          <name>DEPARTURE_TIME</name>
+          <initializer>= 396</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333ca45c19e3c6470a3e670e8b07c1bf2e58c" prot="public">
+          <name>DEPARTURE_DATE</name>
+          <initializer>= 397</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="121" column="1" bodyfile="Routing.types.h" bodystart="121" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1a9711a2c92522ef9b778729b3770b8170" prot="public" static="no">
+        <name>ConditionPreferenceSource</name>
+        <enumvalue id="Routing_8types_8h_1a9711a2c92522ef9b778729b3770b8170a928edbd077554aae1b51c0f202ef2636" prot="public">
+          <name>TRAFFIC_REALTIME</name>
+          <initializer>= 512</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="130" column="1" bodyfile="Routing.types.h" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1a46b37cb2d36543ab0c9ffc4e80a03001" prot="public" static="no">
+        <name>TimeStampedEnum</name>
+        <enumvalue id="Routing_8types_8h_1a46b37cb2d36543ab0c9ffc4e80a03001a87fb568bfdc633ffd5dee0f22cb4606c" prot="public">
+          <name>TIMESTAMP</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a46b37cb2d36543ab0c9ffc4e80a03001a87fb568bfdc633ffd5dee0f22cb4606c" prot="public">
+          <name>TIMESTAMP</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="142" column="1" bodyfile="Routing.types.h" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9" prot="public" static="no">
+        <name>GeoLocalizedEnum</name>
+        <enumvalue id="Routing_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9a2a9b6e0aa5d92a6666c82a53cb0d43a3" prot="public">
+          <name>LATITUDE</name>
+          <initializer>= 160</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9aa8fd1e13ca6fa1267c62df607fca39d5" prot="public">
+          <name>LONGITUDE</name>
+          <initializer>= 161</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9a3edb4ad8ce1872bcb6a9755b787ca4ed" prot="public">
+          <name>ALTITUDE</name>
+          <initializer>= 162</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9a2a9b6e0aa5d92a6666c82a53cb0d43a3" prot="public">
+          <name>LATITUDE</name>
+          <initializer>= 160</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9aa8fd1e13ca6fa1267c62df607fca39d5" prot="public">
+          <name>LONGITUDE</name>
+          <initializer>= 161</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9a3edb4ad8ce1872bcb6a9755b787ca4ed" prot="public">
+          <name>ALTITUDE</name>
+          <initializer>= 162</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="148" column="1" bodyfile="Routing.types.h" bodystart="148" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1af6b50dbca773530ac29961c508ea341a" prot="public" static="no">
+        <name>RouteOverviewType</name>
+        <enumvalue id="Routing_8types_8h_1af6b50dbca773530ac29961c508ea341aa95e2919bcbc8cb5e55e9f9c935192cb2" prot="public">
+          <name>TOTAL_TIME</name>
+          <initializer>= 398</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1af6b50dbca773530ac29961c508ea341aac610fa61585b55f9b7a0c6ff2f407010" prot="public">
+          <name>TOTAL_DISTANCE</name>
+          <initializer>= 399</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="168" column="1" bodyfile="Routing.types.h" bodystart="168" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1a52fbea4eb17bff65119fd055d2ede4a0" prot="public" static="no">
+        <name>WaypointElementType</name>
+        <enumvalue id="Routing_8types_8h_1a52fbea4eb17bff65119fd055d2ede4a0a2a9b6e0aa5d92a6666c82a53cb0d43a3" prot="public">
+          <name>LATITUDE</name>
+          <initializer>= 160</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a52fbea4eb17bff65119fd055d2ede4a0aa8fd1e13ca6fa1267c62df607fca39d5" prot="public">
+          <name>LONGITUDE</name>
+          <initializer>= 161</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a52fbea4eb17bff65119fd055d2ede4a0a3edb4ad8ce1872bcb6a9755b787ca4ed" prot="public">
+          <name>ALTITUDE</name>
+          <initializer>= 162</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a52fbea4eb17bff65119fd055d2ede4a0a434baf169d8bb6c681a839923f75c359" prot="public">
+          <name>LOCATION_INPUT</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1a52fbea4eb17bff65119fd055d2ede4a0aa488d78c35b8f3d518c19dd9234fcdf7" prot="public">
+          <name>WAYPOINT_TYPE</name>
+          <initializer>= 289</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="175" column="1" bodyfile="Routing.types.h" bodystart="175" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="enum" id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4" prot="public" static="no">
+        <name>RouteSegmentType</name>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a5158a2bedf37f5d7a47d12401dd65407" prot="public">
+          <name>LINK_ID</name>
+          <initializer>= 320</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a76a5d1c33515fa82ed27f818b79809e4" prot="public">
+          <name>START_LATITUDE</name>
+          <initializer>= 321</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a4931fe1a072b35c722d5ccee2bdb56f6" prot="public">
+          <name>END_LATITUDE</name>
+          <initializer>= 322</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a6d4414147e2cc2cdf9a444a386c3896f" prot="public">
+          <name>START_LONGITUDE</name>
+          <initializer>= 323</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a9bd1f57e6dfefa42685c7395a55bd236" prot="public">
+          <name>END_LONGITUDE</name>
+          <initializer>= 324</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a49d16a34e9fe1da5d0724defd3c2df9a" prot="public">
+          <name>START_ALTITUDE</name>
+          <initializer>= 325</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a25bf38fe6a8fd421c5960226db978c9f" prot="public">
+          <name>END_ALTITUDE</name>
+          <initializer>= 326</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a2bf981538a24c4b0c456e2bc62f3fbec" prot="public">
+          <name>ROAD_NAME</name>
+          <initializer>= 327</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4ab06c2037eb7a58030a42212c8244d477" prot="public">
+          <name>DISTANCE</name>
+          <initializer>= 328</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a346ff32eaa3c09983fb2ec057816d352" prot="public">
+          <name>TIME</name>
+          <initializer>= 329</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4ae30fd3901adfda9dc2260d6370961616" prot="public">
+          <name>MANEUVER</name>
+          <initializer>= 330</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a40cb2f2c740ed5a8dec7dc25e0b5aacb" prot="public">
+          <name>INSTRUCTION</name>
+          <initializer>= 331</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a8958b7f436257c3d622471d998441f26" prot="public">
+          <name>BORDER_CROSSING</name>
+          <initializer>= 332</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a31b7ca677715de33ec769c2f3ba05c46" prot="public">
+          <name>ADDITIONAL_INFORMATION</name>
+          <initializer>= 333</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4ad77477d3fb7d68b6e9f6776db7b2409c" prot="public">
+          <name>ROAD_NUMBER</name>
+          <initializer>= 334</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4ac190c2598567dca841ffa03ec5006de9" prot="public">
+          <name>START_OFFSET</name>
+          <initializer>= 335</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a7a745fa37c562c69774a4bb3b2c05eb0" prot="public">
+          <name>INTERMEDIATE_POINTS</name>
+          <initializer>= 288</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4ab34f802b2c64b0a61e19da8db8453360" prot="public">
+          <name>HIGHWAY_EXIT</name>
+          <initializer>= 116</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a65a59338b99aee6a451e86b17b462b5a" prot="public">
+          <name>SPEED</name>
+          <initializer>= 164</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a7ed2a86d12092f143a4024a85250b9b4" prot="public">
+          <name>TIME_ZONE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a24bd2aa29e0234d13054a50c9c16e287" prot="public">
+          <name>DAYLIGHT_SAVING_TIME</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="185" column="1" bodyfile="Routing.types.h" bodystart="185" bodyend="208"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="Routing_8types_8h_1a9c908abf645b5d4233e7f73aa2b8c848" prot="public" static="no">
+        <type>std::map&lt; <ref refid="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7" kindref="member">PreferenceMode</ref>, <ref refid="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5" kindref="member">RoutePreferenceSource</ref> &gt;</type>
+        <definition>typedef std::map&lt;PreferenceMode, RoutePreferenceSource&gt; UnfullfilledRoutePreference</definition>
+        <argsstring></argsstring>
+        <name>UnfullfilledRoutePreference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="212" column="1" bodyfile="Routing.types.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Routing_8types_8h_1a0d7b7d1bb4321f171f86fc4d65be4049" prot="public" static="no">
+        <type>std::map&lt; <ref refid="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333c" kindref="member">Schedule</ref>, <ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref> &gt;</type>
+        <definition>typedef std::map&lt;Schedule, UInt32&gt; RouteSchedule</definition>
+        <argsstring></argsstring>
+        <name>RouteSchedule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="215" column="1" bodyfile="Routing.types.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Routing_8types_8h_1a95cef2a037f61b1b42f7818c11933ca9" prot="public" static="no">
+        <type>std::map&lt; <ref refid="Routing_8types_8h_1af6b50dbca773530ac29961c508ea341a" kindref="member">RouteOverviewType</ref>, <ref refid="unionRouteOverviewItem" kindref="compound">RouteOverviewItem</ref> &gt;</type>
+        <definition>typedef std::map&lt;RouteOverviewType, RouteOverviewItem&gt; RouteOverview</definition>
+        <argsstring></argsstring>
+        <name>RouteOverview</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="218" column="1" bodyfile="Routing.types.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Routing_8types_8h_1a3770e44afcd6b61ecebcf024990a6bf9" prot="public" static="no">
+        <type>std::map&lt; <ref refid="Routing_8types_8h_1a52fbea4eb17bff65119fd055d2ede4a0" kindref="member">WaypointElementType</ref>, <ref refid="unionWayPointItem" kindref="compound">WayPointItem</ref> &gt;</type>
+        <definition>typedef std::map&lt;WaypointElementType, WayPointItem&gt; WayPoint</definition>
+        <argsstring></argsstring>
+        <name>WayPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="221" column="1" bodyfile="Routing.types.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Routing_8types_8h_1a8dfe867ef1c8bc22349520e151109fcc" prot="public" static="no">
+        <type>std::map&lt; <ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4" kindref="member">RouteSegmentType</ref>, <ref refid="unionRouteSegmentItem" kindref="compound">RouteSegmentItem</ref> &gt;</type>
+        <definition>typedef std::map&lt;RouteSegmentType, RouteSegmentItem&gt; RouteSegment</definition>
+        <argsstring></argsstring>
+        <name>RouteSegment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="224" column="1" bodyfile="Routing.types.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="CommonTypes_8types_8h" kindref="compound">CommonTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationCoreTypes_8types_8h" kindref="compound">NavigationCoreTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationTypes_8types_8h" kindref="compound">NavigationTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="franca__types_8h" kindref="compound">franca_types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#0<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5" kindref="member">RoutePreferenceSource</ref><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5a744c4bf5cfa46a775fd4a459f50161c5" kindref="member">FERRY</ref><sp/>=<sp/>368,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a23a70b01befdd4fae9e7b857b850e7f8a1637def534927125a5e2c75f84011f36" kindref="member">TOLL_ROADS</ref><sp/>=<sp/>369,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5aca819a2a0c8caeafce53289a63741eae" kindref="member">TUNNELS</ref><sp/>=<sp/>370,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5a486aa154db2edf21f1d9747abd6d3842" kindref="member">HIGHWAYS_MOTORWAYS</ref><sp/>=<sp/>371,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5ab55057251e6cea7dd18153eb0287a4b0" kindref="member">VEHICLE_SIZE_LIMIT</ref><sp/>=<sp/>372,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5a29b4e72b0b6a589842c34df4b3a37cc4" kindref="member">CRIME_AREAS</ref><sp/>=<sp/>373,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#1<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7" kindref="member">PreferenceMode</ref><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7abb1096c7b0ccea0a98e61a492dc58e1b" kindref="member">PROHIBIT</ref><sp/>=<sp/>400,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7a78b109673573c53b5cb61e68bcbea1fd" kindref="member">AVOID</ref><sp/>=<sp/>401,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7a7dc33953b23388ad93a4db20e33d26e4" kindref="member">USE</ref><sp/>=<sp/>402,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7a7c28d59df57648f2cb96df3f199136e7" kindref="member">PREFER</ref><sp/>=<sp/>403,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7aa2e843feab94ef623fea888f07c28696" kindref="member">IGNORE</ref><sp/>=<sp/>404,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#2<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="Routing_8types_8h_1aaeabc4e4862a21aed76b7406a60df649" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Routing_8types_8h_1aaeabc4e4862a21aed76b7406a60df649" kindref="member">WayPointType</ref><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1aaeabc4e4862a21aed76b7406a60df649a66244518d850e35f9a860d670b562964" kindref="member">HARD_POINT</ref><sp/>=<sp/>290,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1aaeabc4e4862a21aed76b7406a60df649a73c5e7142c0f9f508dfe0f2690fe5d0c" kindref="member">SOFT_POINT</ref><sp/>=<sp/>291,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#3<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="structBlockedRouteElement" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structBlockedRouteElement" kindref="compound">BlockedRouteElement</ref><sp/>{</highlight></codeline>
+<codeline lineno="54" refid="structBlockedRouteElement_1aa23c6c1955b9b09ab83262c7b7abc0dd" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="structBlockedRouteElement_1aa23c6c1955b9b09ab83262c7b7abc0dd" kindref="member">offset</ref>;</highlight></codeline>
+<codeline lineno="55" refid="structBlockedRouteElement_1ad242513cab7e18e8532fbb5725fb3db1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="structBlockedRouteElement_1ad242513cab7e18e8532fbb5725fb3db1" kindref="member">length</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#4<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="unionRouteOverviewItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionRouteOverviewItem" kindref="compound">RouteOverviewItem</ref><sp/>{</highlight></codeline>
+<codeline lineno="60" refid="unionRouteOverviewItem_1a793e6ae99a449f4a151211033716baeb" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="unionRouteOverviewItem_1a793e6ae99a449f4a151211033716baeb" kindref="member">uValue</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#5<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="unionWayPointItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionWayPointItem" kindref="compound">WayPointItem</ref><sp/>{</highlight></codeline>
+<codeline lineno="65" refid="unionWayPointItem_1a91db6fc66ac3a30e2eee047c6434d6de" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref><sp/><ref refid="unionWayPointItem_1a91db6fc66ac3a30e2eee047c6434d6de" kindref="member">coordinateValue</ref>;</highlight></codeline>
+<codeline lineno="66" refid="unionWayPointItem_1a963adf6b55109595f829d3ba201b74c7" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1aaeabc4e4862a21aed76b7406a60df649" kindref="member">WayPointType</ref><sp/><ref refid="unionWayPointItem_1a963adf6b55109595f829d3ba201b74c7" kindref="member">waypointValue</ref>;</highlight></codeline>
+<codeline lineno="67" refid="unionWayPointItem_1adf514ddea966ffb589a40c0daff42a33" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;UInt8&gt;<sp/><ref refid="unionWayPointItem_1adf514ddea966ffb589a40c0daff42a33" kindref="member">metaData</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#6<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="structIntermediatePoint" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIntermediatePoint" kindref="compound">IntermediatePoint</ref><sp/>{</highlight></codeline>
+<codeline lineno="72" refid="structIntermediatePoint_1ae79d533ea5fa04b53192d4056ea3a3ff" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1aaeabc4e4862a21aed76b7406a60df649" kindref="member">WayPointType</ref><sp/><ref refid="structIntermediatePoint_1ae79d533ea5fa04b53192d4056ea3a3ff" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#7<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="Routing_8types_8h_1a1b929ccb5d81a6ec5776c85f020f345b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Routing_8types_8h_1a1b929ccb5d81a6ec5776c85f020f345b" kindref="member">CalculationStatus</ref><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a1b929ccb5d81a6ec5776c85f020f345ba7bf1e50e22ad1a2d297d671859b61b94" kindref="member">CALCULATION_OK</ref><sp/>=<sp/>304,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a1b929ccb5d81a6ec5776c85f020f345bafc7dbc82a9918b59581658b86a318f19" kindref="member">NO_POSITION</ref><sp/>=<sp/>305,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#8<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="Routing_8types_8h_1a8fd51d853c36410f6adcd1b2bc77b8e5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Routing_8types_8h_1a8fd51d853c36410f6adcd1b2bc77b8e5" kindref="member">CalculationError</ref><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a8fd51d853c36410f6adcd1b2bc77b8e5af10ca3a20c1d908e3e8f27933b0bca0a" kindref="member">UNMATCHED_POSITION</ref><sp/>=<sp/>306,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a8fd51d853c36410f6adcd1b2bc77b8e5a6a1423771ee65f9e7161e09767aabfcf" kindref="member">UNREACHABLE_DESTINATION</ref><sp/>=<sp/>307,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a8fd51d853c36410f6adcd1b2bc77b8e5ad5825d4951073d73ccf4b5813dc82ebc" kindref="member">UNFULFILLED_PREFERENCE_MODE</ref><sp/>=<sp/>308,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#9<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6" kindref="member">CostModel</ref><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6ae9db11364fe8c92dbc11297d6f678404" kindref="member">FASTEST</ref><sp/>=<sp/>352,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6aa63ddb11bc6cc95583b3f7632a45a16b" kindref="member">SHORTEST</ref><sp/>=<sp/>353,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6a1a9c76518653f019dadc9451fcc59cb1" kindref="member">ECOLOGICAL</ref><sp/>=<sp/>354,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6adcf47803b7cea1e352bbb396c0eb55ee" kindref="member">SCENIC</ref><sp/>=<sp/>355,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6a6e5affbf5c08fef0e28c094856f94627" kindref="member">EASY</ref><sp/>=<sp/>356,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031a99e0a1369300af50a07abcfd94322322" kindref="member">OFF_ROAD</ref><sp/>=<sp/>357,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6a0cb4635d100151dcaac6f91db856c402" kindref="member">BALANCED</ref><sp/>=<sp/>358,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a5c32fd70cbc64478edf2ae65471e7da6abd5d00afb539e48933cf8400dd8bad02" kindref="member">CHEAPEST</ref><sp/>=<sp/>359,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#10<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="structRoadPreference" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structRoadPreference" kindref="compound">RoadPreference</ref><sp/>{</highlight></codeline>
+<codeline lineno="105" refid="structRoadPreference_1a1668f362a561c28da765e641f379dca6" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7" kindref="member">PreferenceMode</ref><sp/><ref refid="structRoadPreference_1a1668f362a561c28da765e641f379dca6" kindref="member">mode</ref>;</highlight></codeline>
+<codeline lineno="106" refid="structRoadPreference_1ae5e2a6d13d636c46433329c87f9849c9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a43399bbfd1206f627df6a13d9fd225c5" kindref="member">RoutePreferenceSource</ref><sp/><ref refid="structRoadPreference_1ae5e2a6d13d636c46433329c87f9849c9" kindref="member">source</ref>;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#11<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8" kindref="member">TransportationMeans</ref><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8ab6cace4c1e4f6df73aa3dbefce94174d" kindref="member">BY_CAR</ref><sp/>=<sp/>384,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8a7089542e0146a3499986c81e24924b58" kindref="member">ON_FOOT</ref><sp/>=<sp/>385,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8a0e9ed51fddf2f4a5e1d19c0e46491ff0" kindref="member">LONG_RANGE_TRAINS</ref><sp/>=<sp/>386,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8ac0b72ef92e3c916535b6ec91ba464a2c" kindref="member">PUBLIC_TRANSPORTATION</ref><sp/>=<sp/>387,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8a7d9ac0a2771118bd61403ebe63827d9f" kindref="member">BY_BICYCLE</ref><sp/>=<sp/>388,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a142f7d9be579b05d2a3360016a16a3c8a76e00d61ed354e8366cfffb02bbe2a32" kindref="member">BY_TRUCK</ref><sp/>=<sp/>389,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#12<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333c" kindref="member">Schedule</ref><sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333caa5bdaa9cdd630db8ee8fa00f6108a0bc" kindref="member">ARRIVAL_TIME</ref><sp/>=<sp/>394,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333ca7e47eddad1df1e31fd85ebca5e164011" kindref="member">ARRIVAL_DATE</ref><sp/>=<sp/>395,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333ca68cd5a786a57998bb348badf4cd21593" kindref="member">DEPARTURE_TIME</ref><sp/>=<sp/>396,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1aa8d68f66fb591b44757cd154da31333ca45c19e3c6470a3e670e8b07c1bf2e58c" kindref="member">DEPARTURE_DATE</ref><sp/>=<sp/>397,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#13<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="Routing_8types_8h_1a9711a2c92522ef9b778729b3770b8170" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Routing_8types_8h_1a9711a2c92522ef9b778729b3770b8170" kindref="member">ConditionPreferenceSource</ref><sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a9711a2c92522ef9b778729b3770b8170a928edbd077554aae1b51c0f202ef2636" kindref="member">TRAFFIC_REALTIME</ref><sp/>=<sp/>512,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#14<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="structConditionPreference" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structConditionPreference" kindref="compound">ConditionPreference</ref><sp/>{</highlight></codeline>
+<codeline lineno="137" refid="structConditionPreference_1a6183fa3954308b322066e254d77d250a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a27f2896f2de42d65786bf402d33c4ab7" kindref="member">PreferenceMode</ref><sp/><ref refid="structConditionPreference_1a6183fa3954308b322066e254d77d250a" kindref="member">mode</ref>;</highlight></codeline>
+<codeline lineno="138" refid="structConditionPreference_1a881a50adf73f0b53ef21db213e4c259d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a9711a2c92522ef9b778729b3770b8170" kindref="member">ConditionPreferenceSource</ref><sp/><ref refid="structConditionPreference_1a881a50adf73f0b53ef21db213e4c259d" kindref="member">source</ref>;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#15<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="Routing_8types_8h_1a46b37cb2d36543ab0c9ffc4e80a03001" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="NavigationCoreTypes_8types_8h_1a46b37cb2d36543ab0c9ffc4e80a03001" kindref="member">TimeStampedEnum</ref><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><ref refid="NavigationCoreTypes_8types_8h_1a46b37cb2d36543ab0c9ffc4e80a03001a87fb568bfdc633ffd5dee0f22cb4606c" kindref="member">TIMESTAMP</ref><sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#16<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="Routing_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="NavigationCoreTypes_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9" kindref="member">GeoLocalizedEnum</ref><sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><ref refid="NavigationCoreTypes_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9a2a9b6e0aa5d92a6666c82a53cb0d43a3" kindref="member">LATITUDE</ref><sp/>=<sp/>160,</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><ref refid="NavigationCoreTypes_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9aa8fd1e13ca6fa1267c62df607fca39d5" kindref="member">LONGITUDE</ref><sp/>=<sp/>161,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><ref refid="NavigationCoreTypes_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9a3edb4ad8ce1872bcb6a9755b787ca4ed" kindref="member">ALTITUDE</ref><sp/>=<sp/>162,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#17<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="unionRouteSegmentItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionRouteSegmentItem" kindref="compound">RouteSegmentItem</ref><sp/>{</highlight></codeline>
+<codeline lineno="157" refid="unionRouteSegmentItem_1a2b1e63c31655873dbc2e794160f4338e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref><sp/><ref refid="unionRouteSegmentItem_1a2b1e63c31655873dbc2e794160f4338e" kindref="member">doubleValue</ref>;</highlight></codeline>
+<codeline lineno="158" refid="unionRouteSegmentItem_1a18174efb33101f0e36a1a93dcaa512bf" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;IntermediatePoint&gt;<sp/><ref refid="unionRouteSegmentItem_1a18174efb33101f0e36a1a93dcaa512bf" kindref="member">intermediatePoints</ref>;</highlight></codeline>
+<codeline lineno="159" refid="unionRouteSegmentItem_1acac20fd22b8a3b039015bfb2e34b2f59" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="unionRouteSegmentItem_1acac20fd22b8a3b039015bfb2e34b2f59" kindref="member">stringValue</ref>;</highlight></codeline>
+<codeline lineno="160" refid="unionRouteSegmentItem_1ad4810f3dc3f8566aa8b339bfa5b24af6" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;UInt8&gt;<sp/><ref refid="unionRouteSegmentItem_1ad4810f3dc3f8566aa8b339bfa5b24af6" kindref="member">linkId</ref>;</highlight></codeline>
+<codeline lineno="161" refid="unionRouteSegmentItem_1ac2dfac8d3fce8a83ad0c2ecdc4bade4c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref><sp/><ref refid="unionRouteSegmentItem_1ac2dfac8d3fce8a83ad0c2ecdc4bade4c" kindref="member">int32Value</ref>;</highlight></codeline>
+<codeline lineno="162" refid="unionRouteSegmentItem_1acb395539ba6f29a3a7971aff746d0cf5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref><sp/><ref refid="unionRouteSegmentItem_1acb395539ba6f29a3a7971aff746d0cf5" kindref="member">int16Value</ref>;</highlight></codeline>
+<codeline lineno="163" refid="unionRouteSegmentItem_1ab2cdf657ddf35b8d75d4ed61f7bb21e5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="unionRouteSegmentItem_1ab2cdf657ddf35b8d75d4ed61f7bb21e5" kindref="member">uInt32Value</ref>;</highlight></codeline>
+<codeline lineno="164" refid="unionRouteSegmentItem_1afb24951b8900b058f192a1403c032e65" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref><sp/><ref refid="unionRouteSegmentItem_1afb24951b8900b058f192a1403c032e65" kindref="member">uInt16Value</ref>;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#18<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="Routing_8types_8h_1af6b50dbca773530ac29961c508ea341a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Routing_8types_8h_1af6b50dbca773530ac29961c508ea341a" kindref="member">RouteOverviewType</ref><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1af6b50dbca773530ac29961c508ea341aa95e2919bcbc8cb5e55e9f9c935192cb2" kindref="member">TOTAL_TIME</ref><sp/>=<sp/>398,</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1af6b50dbca773530ac29961c508ea341aac610fa61585b55f9b7a0c6ff2f407010" kindref="member">TOTAL_DISTANCE</ref><sp/>=<sp/>399,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#19<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="Routing_8types_8h_1a52fbea4eb17bff65119fd055d2ede4a0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Routing_8types_8h_1a52fbea4eb17bff65119fd055d2ede4a0" kindref="member">WaypointElementType</ref><sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><ref refid="NavigationCoreTypes_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9a2a9b6e0aa5d92a6666c82a53cb0d43a3" kindref="member">LATITUDE</ref><sp/>=<sp/>160,</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><ref refid="NavigationCoreTypes_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9aa8fd1e13ca6fa1267c62df607fca39d5" kindref="member">LONGITUDE</ref><sp/>=<sp/>161,</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><ref refid="NavigationCoreTypes_8types_8h_1a97e7f0f6f723b3e63c611d343aad16e9a3edb4ad8ce1872bcb6a9755b787ca4ed" kindref="member">ALTITUDE</ref><sp/>=<sp/>162,</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998a434baf169d8bb6c681a839923f75c359" kindref="member">LOCATION_INPUT</ref><sp/>=<sp/>17,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1a52fbea4eb17bff65119fd055d2ede4a0aa488d78c35b8f3d518c19dd9234fcdf7" kindref="member">WAYPOINT_TYPE</ref><sp/>=<sp/>289,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#20<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4" kindref="member">RouteSegmentType</ref><sp/>{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a5158a2bedf37f5d7a47d12401dd65407" kindref="member">LINK_ID</ref><sp/>=<sp/>320,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a76a5d1c33515fa82ed27f818b79809e4" kindref="member">START_LATITUDE</ref><sp/>=<sp/>321,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a4931fe1a072b35c722d5ccee2bdb56f6" kindref="member">END_LATITUDE</ref><sp/>=<sp/>322,</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a6d4414147e2cc2cdf9a444a386c3896f" kindref="member">START_LONGITUDE</ref><sp/>=<sp/>323,</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a9bd1f57e6dfefa42685c7395a55bd236" kindref="member">END_LONGITUDE</ref><sp/>=<sp/>324,</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a49d16a34e9fe1da5d0724defd3c2df9a" kindref="member">START_ALTITUDE</ref><sp/>=<sp/>325,</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a25bf38fe6a8fd421c5960226db978c9f" kindref="member">END_ALTITUDE</ref><sp/>=<sp/>326,</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a2bf981538a24c4b0c456e2bc62f3fbec" kindref="member">ROAD_NAME</ref><sp/>=<sp/>327,</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4ab06c2037eb7a58030a42212c8244d477" kindref="member">DISTANCE</ref><sp/>=<sp/>328,</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a346ff32eaa3c09983fb2ec057816d352" kindref="member">TIME</ref><sp/>=<sp/>329,</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4ae30fd3901adfda9dc2260d6370961616" kindref="member">MANEUVER</ref><sp/>=<sp/>330,</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a40cb2f2c740ed5a8dec7dc25e0b5aacb" kindref="member">INSTRUCTION</ref><sp/>=<sp/>331,</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a8958b7f436257c3d622471d998441f26" kindref="member">BORDER_CROSSING</ref><sp/>=<sp/>332,</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a31b7ca677715de33ec769c2f3ba05c46" kindref="member">ADDITIONAL_INFORMATION</ref><sp/>=<sp/>333,</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998ad77477d3fb7d68b6e9f6776db7b2409c" kindref="member">ROAD_NUMBER</ref><sp/>=<sp/>334,</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4ac190c2598567dca841ffa03ec5006de9" kindref="member">START_OFFSET</ref><sp/>=<sp/>335,</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a7a745fa37c562c69774a4bb3b2c05eb0" kindref="member">INTERMEDIATE_POINTS</ref><sp/>=<sp/>288,</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14dab34f802b2c64b0a61e19da8db8453360" kindref="member">HIGHWAY_EXIT</ref><sp/>=<sp/>116,</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><ref refid="MapMatchedPosition_8types_8h_1a7213985bfeda1498cf011f1891d77ce0a65a59338b99aee6a451e86b17b462b5a" kindref="member">SPEED</ref><sp/>=<sp/>164,</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a7ed2a86d12092f143a4024a85250b9b4" kindref="member">TIME_ZONE</ref>,</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><ref refid="Routing_8types_8h_1abb08321d0a6d4ab25d5df4d1dd3215e4a24bd2aa29e0234d13054a50c9c16e287" kindref="member">DAYLIGHT_SAVING_TIME</ref>,</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#21<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;PreferenceMode,<sp/>RoutePreferenceSource&gt;</highlight></codeline>
+<codeline lineno="212" refid="Routing_8types_8h_1a9c908abf645b5d4233e7f73aa2b8c848" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="Routing_8types_8h_1a9c908abf645b5d4233e7f73aa2b8c848" kindref="member">UnfullfilledRoutePreference</ref>;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#22<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="Routing_8types_8h_1a0d7b7d1bb4321f171f86fc4d65be4049" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;Schedule,<sp/>UInt32&gt;<sp/><ref refid="Routing_8types_8h_1a0d7b7d1bb4321f171f86fc4d65be4049" kindref="member">RouteSchedule</ref>;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#23<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="Routing_8types_8h_1a95cef2a037f61b1b42f7818c11933ca9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;RouteOverviewType,<sp/>RouteOverviewItem&gt;<sp/><ref refid="Routing_8types_8h_1a95cef2a037f61b1b42f7818c11933ca9" kindref="member">RouteOverview</ref>;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#24<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="Routing_8types_8h_1a3770e44afcd6b61ecebcf024990a6bf9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;WaypointElementType,<sp/>WayPointItem&gt;<sp/><ref refid="Routing_8types_8h_1a3770e44afcd6b61ecebcf024990a6bf9" kindref="member">WayPoint</ref>;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#25<sp/>from<sp/>Routing<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="Routing_8types_8h_1a8dfe867ef1c8bc22349520e151109fcc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;RouteSegmentType,<sp/>RouteSegmentItem&gt;<sp/><ref refid="Routing_8types_8h_1a8dfe867ef1c8bc22349520e151109fcc" kindref="member">RouteSegment</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="Routing.types.h"/>
+  </compounddef>
+</doxygen>

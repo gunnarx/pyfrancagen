@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classLocationInput" kind="class" language="C++" prot="public">
+    <compoundname>LocationInput</compoundname>
+    <includes refid="LocationInput_8h" local="no">LocationInput.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLocationInput_1a5317600565236cc480ca428eb5b1b273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LocationInput::LocationInput</definition>
+        <argsstring>()</argsstring>
+        <name>LocationInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="25" column="1" bodyfile="LocationInput.cpp" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1a15fa68bcc2d0cd6253390b462e31cc98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LocationInput::LocationInput</definition>
+        <argsstring>(const LocationInput &amp;c)</argsstring>
+        <name>LocationInput</name>
+        <param>
+          <type>const <ref refid="classLocationInput" kindref="compound">LocationInput</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="26" column="1" bodyfile="LocationInput.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1a06271695a40952b7aac285fa05cbca91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classLocationInput" kindref="compound">LocationInput</ref> &amp;</type>
+        <definition>LocationInput &amp; LocationInput::operator=</definition>
+        <argsstring>(const LocationInput &amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classLocationInput" kindref="compound">LocationInput</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="27" column="1" bodyfile="LocationInput.cpp" bodystart="28" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1aaf2371108ad77de2b94f091267f98526" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LocationInput::~LocationInput</definition>
+        <argsstring>()</argsstring>
+        <name>~LocationInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="28" column="1" bodyfile="LocationInput.cpp" bodystart="31" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1ab58ea2126db6b4f9842c67540c622f43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::getVersion</definition>
+        <argsstring>(Version &amp;interfaceversion)</argsstring>
+        <name>getVersion</name>
+        <param>
+          <type><ref refid="structVersion" kindref="compound">Version</ref> &amp;</type>
+          <declname>interfaceversion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="30" column="1" bodyfile="LocationInput.cpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1ac482c9cc50101385da03c8ca5062d8e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::createLocationInput</definition>
+        <argsstring>(Handle sessionHandle, LocationHandle &amp;locationInputHandle)</argsstring>
+        <name>createLocationInput</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref> &amp;</type>
+          <declname>locationInputHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="32" column="1" bodyfile="LocationInput.cpp" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1a028f78e238a2c86150df60fb7fed11fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::deleteLocationInput</definition>
+        <argsstring>(Handle sessionHandle, LocationHandle locationInputHandle)</argsstring>
+        <name>deleteLocationInput</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref></type>
+          <declname>locationInputHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="35" column="1" bodyfile="LocationInput.cpp" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1a128982603a20062b59c9ad7c056b771b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::getSupportedAddressAttributes</definition>
+        <argsstring>(AddressAttributeList &amp;addressAttributesList)</argsstring>
+        <name>getSupportedAddressAttributes</name>
+        <param>
+          <type><ref refid="LocationInput_8types_8h_1a305700741ee1bf117f45f6410cb6b3fb" kindref="member">AddressAttributeList</ref> &amp;</type>
+          <declname>addressAttributesList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="39" column="1" bodyfile="LocationInput.cpp" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1a7a306fdc37d7bd7dbe0577fcb635adab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::setAddress</definition>
+        <argsstring>(Handle sessionHandle, LocationHandle locationInputHandle, Address address)</argsstring>
+        <name>setAddress</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref></type>
+          <declname>locationInputHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structAddress" kindref="compound">Address</ref></type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="41" column="1" bodyfile="LocationInput.cpp" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1ab261f3270acce63afb3af7cd6d4e4169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::setSelectionCriterion</definition>
+        <argsstring>(Handle sessionHandle, LocationHandle locationInputHandle, AddressAttribute selectionCriterion)</argsstring>
+        <name>setSelectionCriterion</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref></type>
+          <declname>locationInputHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="LocationInput_8types_8h_1a2a34a1565274f78f14ec36a25b191998" kindref="member">AddressAttribute</ref></type>
+          <declname>selectionCriterion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="44" column="1" bodyfile="LocationInput.cpp" bodystart="69" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1ac5ca0f11aada7d8d10565874ad2611b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::spell</definition>
+        <argsstring>(Handle sessionHandle, LocationHandle locationInputHandle, String inputCharacter, UInt16 maxWindowSize)</argsstring>
+        <name>spell</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref></type>
+          <declname>locationInputHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>inputCharacter</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+          <declname>maxWindowSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="48" column="1" bodyfile="LocationInput.cpp" bodystart="77" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1acbe867da30cacaad14df03fe6811719c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::search</definition>
+        <argsstring>(Handle sessionHandle, LocationHandle locationInputHandle, String inputString, UInt16 maxWindowSize)</argsstring>
+        <name>search</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref></type>
+          <declname>locationInputHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+          <declname>inputString</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+          <declname>maxWindowSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="51" column="1" bodyfile="LocationInput.cpp" bodystart="85" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1a3a6201c5eb02b74e0fb1454b9239cf61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::requestListUpdate</definition>
+        <argsstring>(Handle sessionHandle, LocationHandle locationInputHandle, UInt16 offset, UInt16 maxWindowSize)</argsstring>
+        <name>requestListUpdate</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref></type>
+          <declname>locationInputHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+          <declname>maxWindowSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="54" column="1" bodyfile="LocationInput.cpp" bodystart="93" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1ae444603822905de15c5df0c65a81de4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::selectEntry</definition>
+        <argsstring>(Handle sessionHandle, LocationHandle locationInputHandle, UInt16 index)</argsstring>
+        <name>selectEntry</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref></type>
+          <declname>locationInputHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="58" column="1" bodyfile="LocationInput.cpp" bodystart="101" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1ae8d2352a4428c4819e77101050329d82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::getEntry</definition>
+        <argsstring>(LocationHandle locationInputHandle, UInt16 index, Address &amp;address)</argsstring>
+        <name>getEntry</name>
+        <param>
+          <type><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref></type>
+          <declname>locationInputHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="structAddress" kindref="compound">Address</ref> &amp;</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="61" column="1" bodyfile="LocationInput.cpp" bodystart="109" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1a4670b54ccacb8449246449a38afa0f8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::validateAddress</definition>
+        <argsstring>(Handle sessionHandle, LocationHandle locationInputHandle, Address inputAddress)</argsstring>
+        <name>validateAddress</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref></type>
+          <declname>locationInputHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structAddress" kindref="compound">Address</ref></type>
+          <declname>inputAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="64" column="1" bodyfile="LocationInput.cpp" bodystart="116" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classLocationInput_1ac5eb825bddd5ad599d07e506692a1696" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocationInput::reverseGeocode</definition>
+        <argsstring>(Handle sessionHandle, LocationHandle locationInputHandle, Coordinate2D coordinate)</argsstring>
+        <name>reverseGeocode</name>
+        <param>
+          <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+          <declname>sessionHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref></type>
+          <declname>locationInputHandle</declname>
+        </param>
+        <param>
+          <type><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref></type>
+          <declname>coordinate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LocationInput.h" line="67" column="1" bodyfile="LocationInput.cpp" bodystart="124" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="LocationInput.h" line="23" column="1" bodyfile="LocationInput.h" bodystart="23" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classLocationInput_1ac482c9cc50101385da03c8ca5062d8e4" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>createLocationInput</name></member>
+      <member refid="classLocationInput_1a028f78e238a2c86150df60fb7fed11fd" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>deleteLocationInput</name></member>
+      <member refid="classLocationInput_1ae8d2352a4428c4819e77101050329d82" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>getEntry</name></member>
+      <member refid="classLocationInput_1a128982603a20062b59c9ad7c056b771b" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>getSupportedAddressAttributes</name></member>
+      <member refid="classLocationInput_1ab58ea2126db6b4f9842c67540c622f43" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>getVersion</name></member>
+      <member refid="classLocationInput_1a5317600565236cc480ca428eb5b1b273" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>LocationInput</name></member>
+      <member refid="classLocationInput_1a15fa68bcc2d0cd6253390b462e31cc98" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>LocationInput</name></member>
+      <member refid="classLocationInput_1a06271695a40952b7aac285fa05cbca91" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>operator=</name></member>
+      <member refid="classLocationInput_1a3a6201c5eb02b74e0fb1454b9239cf61" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>requestListUpdate</name></member>
+      <member refid="classLocationInput_1ac5eb825bddd5ad599d07e506692a1696" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>reverseGeocode</name></member>
+      <member refid="classLocationInput_1acbe867da30cacaad14df03fe6811719c" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>search</name></member>
+      <member refid="classLocationInput_1ae444603822905de15c5df0c65a81de4d" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>selectEntry</name></member>
+      <member refid="classLocationInput_1a7a306fdc37d7bd7dbe0577fcb635adab" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>setAddress</name></member>
+      <member refid="classLocationInput_1ab261f3270acce63afb3af7cd6d4e4169" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>setSelectionCriterion</name></member>
+      <member refid="classLocationInput_1ac5ca0f11aada7d8d10565874ad2611b4" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>spell</name></member>
+      <member refid="classLocationInput_1a4670b54ccacb8449246449a38afa0f8d" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>validateAddress</name></member>
+      <member refid="classLocationInput_1aaf2371108ad77de2b94f091267f98526" prot="public" virt="non-virtual"><scope>LocationInput</scope><name>~LocationInput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

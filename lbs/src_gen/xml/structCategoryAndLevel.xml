@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structCategoryAndLevel" kind="struct" language="C++" prot="public">
+    <compoundname>CategoryAndLevel</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCategoryAndLevel_1a4764e7d681c024e83461657dc8dd729c" prot="public" static="no" mutable="no">
+        <type><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref></type>
+        <definition>CategoryID CategoryAndLevel::uniqueId</definition>
+        <argsstring></argsstring>
+        <name>uniqueId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="207" column="1" bodyfile="POIServiceTypes.types.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryAndLevel_1aeaaaef046f5254a4b5c9b1000578b14c" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+        <definition>Boolean CategoryAndLevel::topLevel</definition>
+        <argsstring></argsstring>
+        <name>topLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="208" column="1" bodyfile="POIServiceTypes.types.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="POIServiceTypes.types.h" line="206" column="1" bodyfile="POIServiceTypes.types.h" bodystart="206" bodyend="209"/>
+    <listofallmembers>
+      <member refid="structCategoryAndLevel_1aeaaaef046f5254a4b5c9b1000578b14c" prot="public" virt="non-virtual"><scope>CategoryAndLevel</scope><name>topLevel</name></member>
+      <member refid="structCategoryAndLevel_1a4764e7d681c024e83461657dc8dd729c" prot="public" virt="non-virtual"><scope>CategoryAndLevel</scope><name>uniqueId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

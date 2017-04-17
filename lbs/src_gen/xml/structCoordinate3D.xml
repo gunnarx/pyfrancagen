@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structCoordinate3D" kind="struct" language="C++" prot="public">
+    <compoundname>Coordinate3D</compoundname>
+    <includes refid="NavigationTypes_8types_8h" local="no">NavigationTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCoordinate3D_1ab55bd0c649b81e6303f0e455bc8059c1" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref></type>
+        <definition>Double Coordinate3D::altitude</definition>
+        <argsstring></argsstring>
+        <name>altitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="29" column="1" bodyfile="NavigationTypes.types.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NavigationTypes.types.h" line="28" column="1" bodyfile="NavigationTypes.types.h" bodystart="28" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structCoordinate3D_1ab55bd0c649b81e6303f0e455bc8059c1" prot="public" virt="non-virtual"><scope>Coordinate3D</scope><name>altitude</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

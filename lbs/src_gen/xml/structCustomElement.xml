@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structCustomElement" kind="struct" language="C++" prot="public">
+    <compoundname>CustomElement</compoundname>
+    <includes refid="MapViewerControl_8types_8h" local="no">MapViewerControl.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCustomElement_1a5d5d9f394f11da81770261ec01e3bbf1" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String CustomElement::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="75" column="1" bodyfile="MapViewerControl.types.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCustomElement_1afa88f4d2fe560f90e7e575d3217c4f4e" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String CustomElement::iconUri</definition>
+        <argsstring></argsstring>
+        <name>iconUri</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="76" column="1" bodyfile="MapViewerControl.types.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCustomElement_1a5993aebf41602f423d1abb00024c8bf4" prot="public" static="no" mutable="no">
+        <type><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref></type>
+        <definition>Coordinate2D CustomElement::coordinate</definition>
+        <argsstring></argsstring>
+        <name>coordinate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="77" column="1" bodyfile="MapViewerControl.types.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCustomElement_1a778499f00db13a29f808fe019f677760" prot="public" static="no" mutable="no">
+        <type><ref refid="structAnchorPoint" kindref="compound">AnchorPoint</ref></type>
+        <definition>AnchorPoint CustomElement::elem4</definition>
+        <argsstring></argsstring>
+        <name>elem4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="78" column="1" bodyfile="MapViewerControl.types.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="81">
+        <label>Coordinate2D</label>
+        <link refid="structCoordinate2D"/>
+      </node>
+      <node id="79">
+        <label>CustomElement</label>
+        <link refid="structCustomElement"/>
+        <childnode refid="80" relation="usage">
+          <edgelabel>elem4</edgelabel>
+        </childnode>
+        <childnode refid="81" relation="usage">
+          <edgelabel>coordinate</edgelabel>
+        </childnode>
+      </node>
+      <node id="80">
+        <label>AnchorPoint</label>
+        <link refid="structAnchorPoint"/>
+      </node>
+    </collaborationgraph>
+    <location file="MapViewerControl.types.h" line="74" column="1" bodyfile="MapViewerControl.types.h" bodystart="74" bodyend="79"/>
+    <listofallmembers>
+      <member refid="structCustomElement_1a5993aebf41602f423d1abb00024c8bf4" prot="public" virt="non-virtual"><scope>CustomElement</scope><name>coordinate</name></member>
+      <member refid="structCustomElement_1a778499f00db13a29f808fe019f677760" prot="public" virt="non-virtual"><scope>CustomElement</scope><name>elem4</name></member>
+      <member refid="structCustomElement_1afa88f4d2fe560f90e7e575d3217c4f4e" prot="public" virt="non-virtual"><scope>CustomElement</scope><name>iconUri</name></member>
+      <member refid="structCustomElement_1a5d5d9f394f11da81770261ec01e3bbf1" prot="public" virt="non-virtual"><scope>CustomElement</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

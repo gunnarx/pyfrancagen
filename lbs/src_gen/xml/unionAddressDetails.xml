@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="unionAddressDetails" kind="union" language="C++" prot="public">
+    <compoundname>AddressDetails</compoundname>
+    <includes refid="FreeTextSearch_8types_8h" local="no">FreeTextSearch.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionAddressDetails_1a0a82fab64270bbfd4f910806ecee9d94" prot="public" static="no" mutable="no">
+        <type><ref refid="structStreetDetails" kindref="compound">StreetDetails</ref></type>
+        <definition>StreetDetails AddressDetails::streetDetails</definition>
+        <argsstring></argsstring>
+        <name>streetDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="133" column="1" bodyfile="FreeTextSearch.types.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressDetails_1a66f9a1a44e80141393ff0cc50eefb1ce" prot="public" static="no" mutable="no">
+        <type><ref refid="structPlaceDetails" kindref="compound">PlaceDetails</ref></type>
+        <definition>PlaceDetails AddressDetails::placeDetails</definition>
+        <argsstring></argsstring>
+        <name>placeDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="134" column="1" bodyfile="FreeTextSearch.types.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressDetails_1a02cf5a982f63b8ce8a9162c51be6a85c" prot="public" static="no" mutable="no">
+        <type><ref refid="structMapCodeDetails" kindref="compound">MapCodeDetails</ref></type>
+        <definition>MapCodeDetails AddressDetails::mapCodeDetails</definition>
+        <argsstring></argsstring>
+        <name>mapCodeDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="135" column="1" bodyfile="FreeTextSearch.types.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressDetails_1af89da40f6d28a4e4ec6c8f3b582f22da" prot="public" static="no" mutable="no">
+        <type><ref refid="structPoliticalDivisionDetails" kindref="compound">PoliticalDivisionDetails</ref></type>
+        <definition>PoliticalDivisionDetails AddressDetails::politicalDivisionDetails</definition>
+        <argsstring></argsstring>
+        <name>politicalDivisionDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="136" column="1" bodyfile="FreeTextSearch.types.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressDetails_1ac4c701a0c210feb2890b0139a016215c" prot="public" static="no" mutable="no">
+        <type><ref refid="structCoordinatesDetails" kindref="compound">CoordinatesDetails</ref></type>
+        <definition>CoordinatesDetails AddressDetails::coordinatesDetails</definition>
+        <argsstring></argsstring>
+        <name>coordinatesDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="137" column="1" bodyfile="FreeTextSearch.types.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="16">
+        <label>Coordinate2D</label>
+        <link refid="structCoordinate2D"/>
+      </node>
+      <node id="15">
+        <label>Rectangle</label>
+        <link refid="structRectangle"/>
+        <childnode refid="16" relation="usage">
+          <edgelabel>bottomRight</edgelabel>
+          <edgelabel>topLeft</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>StreetDetails</label>
+        <link refid="structStreetDetails"/>
+      </node>
+      <node id="12">
+        <label>MapCodeDetails</label>
+        <link refid="structMapCodeDetails"/>
+      </node>
+      <node id="17">
+        <label>PlaceDetails</label>
+        <link refid="structPlaceDetails"/>
+        <childnode refid="15" relation="usage">
+          <edgelabel>placeBoundingBox</edgelabel>
+        </childnode>
+      </node>
+      <node id="18">
+        <label>CoordinatesDetails</label>
+        <link refid="structCoordinatesDetails"/>
+      </node>
+      <node id="11">
+        <label>AddressDetails</label>
+        <link refid="unionAddressDetails"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>mapCodeDetails</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>streetDetails</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>politicalDivisionDetails</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>placeDetails</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>coordinatesDetails</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>PoliticalDivisionDetails</label>
+        <link refid="structPoliticalDivisionDetails"/>
+        <childnode refid="15" relation="usage">
+          <edgelabel>boundingBox</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="FreeTextSearch.types.h" line="132" column="1" bodyfile="FreeTextSearch.types.h" bodystart="132" bodyend="138"/>
+    <listofallmembers>
+      <member refid="unionAddressDetails_1ac4c701a0c210feb2890b0139a016215c" prot="public" virt="non-virtual"><scope>AddressDetails</scope><name>coordinatesDetails</name></member>
+      <member refid="unionAddressDetails_1a02cf5a982f63b8ce8a9162c51be6a85c" prot="public" virt="non-virtual"><scope>AddressDetails</scope><name>mapCodeDetails</name></member>
+      <member refid="unionAddressDetails_1a66f9a1a44e80141393ff0cc50eefb1ce" prot="public" virt="non-virtual"><scope>AddressDetails</scope><name>placeDetails</name></member>
+      <member refid="unionAddressDetails_1af89da40f6d28a4e4ec6c8f3b582f22da" prot="public" virt="non-virtual"><scope>AddressDetails</scope><name>politicalDivisionDetails</name></member>
+      <member refid="unionAddressDetails_1a0a82fab64270bbfd4f910806ecee9d94" prot="public" virt="non-virtual"><scope>AddressDetails</scope><name>streetDetails</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="unionElementValue" kind="union" language="C++" prot="public">
+    <compoundname>ElementValue</compoundname>
+    <includes refid="MapViewerControl_8types_8h" local="no">MapViewerControl.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionElementValue_1a9abee8db233e596612a2e0d94b1710bb" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+        <definition>Int32 ElementValue::trafficIncident</definition>
+        <argsstring></argsstring>
+        <name>trafficIncident</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="89" column="1" bodyfile="MapViewerControl.types.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionElementValue_1aea728b6c46b624bfe0660fa381386024" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+        <definition>Handle ElementValue::handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="90" column="1" bodyfile="MapViewerControl.types.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionElementValue_1a41eccfd865c0f87c6318cd2c6efc7f0a" prot="public" static="no" mutable="no">
+        <type><ref refid="structCustomElement" kindref="compound">CustomElement</ref></type>
+        <definition>CustomElement ElementValue::element</definition>
+        <argsstring></argsstring>
+        <name>element</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="91" column="1" bodyfile="MapViewerControl.types.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionElementValue_1a8dd7e9a7e1ca9607ae001e29c26a1942" prot="public" static="no" mutable="no">
+        <type><ref refid="structWayPointValue" kindref="compound">WayPointValue</ref></type>
+        <definition>WayPointValue ElementValue::wayPointValue</definition>
+        <argsstring></argsstring>
+        <name>wayPointValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapViewerControl.types.h" line="92" column="1" bodyfile="MapViewerControl.types.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="94">
+        <label>Coordinate2D</label>
+        <link refid="structCoordinate2D"/>
+      </node>
+      <node id="92">
+        <label>CustomElement</label>
+        <link refid="structCustomElement"/>
+        <childnode refid="93" relation="usage">
+          <edgelabel>elem4</edgelabel>
+        </childnode>
+        <childnode refid="94" relation="usage">
+          <edgelabel>coordinate</edgelabel>
+        </childnode>
+      </node>
+      <node id="95">
+        <label>WayPointValue</label>
+        <link refid="structWayPointValue"/>
+      </node>
+      <node id="93">
+        <label>AnchorPoint</label>
+        <link refid="structAnchorPoint"/>
+      </node>
+      <node id="91">
+        <label>ElementValue</label>
+        <link refid="unionElementValue"/>
+        <childnode refid="92" relation="usage">
+          <edgelabel>element</edgelabel>
+        </childnode>
+        <childnode refid="95" relation="usage">
+          <edgelabel>wayPointValue</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MapViewerControl.types.h" line="88" column="1" bodyfile="MapViewerControl.types.h" bodystart="88" bodyend="93"/>
+    <listofallmembers>
+      <member refid="unionElementValue_1a41eccfd865c0f87c6318cd2c6efc7f0a" prot="public" virt="non-virtual"><scope>ElementValue</scope><name>element</name></member>
+      <member refid="unionElementValue_1aea728b6c46b624bfe0660fa381386024" prot="public" virt="non-virtual"><scope>ElementValue</scope><name>handle</name></member>
+      <member refid="unionElementValue_1a9abee8db233e596612a2e0d94b1710bb" prot="public" virt="non-virtual"><scope>ElementValue</scope><name>trafficIncident</name></member>
+      <member refid="unionElementValue_1a8dd7e9a7e1ca9607ae001e29c26a1942" prot="public" virt="non-virtual"><scope>ElementValue</scope><name>wayPointValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

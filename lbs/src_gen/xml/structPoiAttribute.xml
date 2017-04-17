@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structPoiAttribute" kind="struct" language="C++" prot="public">
+    <compoundname>PoiAttribute</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPoiAttribute_1a77ad07764488c4bf4ee89224d778230e" prot="public" static="no" mutable="no">
+        <type><ref refid="POIServiceTypes_8types_8h_1a63fb569c36bb85fc79bbf5f2771a8543" kindref="member">AttributeID</ref></type>
+        <definition>AttributeID PoiAttribute::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="91" column="1" bodyfile="POIServiceTypes.types.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPoiAttribute_1aec4708f823dedde1942773c2a4500c79" prot="public" static="no" mutable="no">
+        <type><ref refid="POIServiceTypes_8types_8h_1a349a9cde14be8097df865ba0469c0ab2" kindref="member">AttributeType</ref></type>
+        <definition>AttributeType PoiAttribute::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="92" column="1" bodyfile="POIServiceTypes.types.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPoiAttribute_1a23eb507f2fed667af3e511e513f58da0" prot="public" static="no" mutable="no">
+        <type><ref refid="unionAttributeValue" kindref="compound">AttributeValue</ref></type>
+        <definition>AttributeValue PoiAttribute::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="93" column="1" bodyfile="POIServiceTypes.types.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="145">
+        <label>PoiAttribute</label>
+        <link refid="structPoiAttribute"/>
+        <childnode refid="146" relation="usage">
+          <edgelabel>value</edgelabel>
+        </childnode>
+      </node>
+      <node id="146">
+        <label>AttributeValue</label>
+        <link refid="unionAttributeValue"/>
+      </node>
+    </collaborationgraph>
+    <location file="POIServiceTypes.types.h" line="90" column="1" bodyfile="POIServiceTypes.types.h" bodystart="90" bodyend="94"/>
+    <listofallmembers>
+      <member refid="structPoiAttribute_1a77ad07764488c4bf4ee89224d778230e" prot="public" virt="non-virtual"><scope>PoiAttribute</scope><name>id</name></member>
+      <member refid="structPoiAttribute_1aec4708f823dedde1942773c2a4500c79" prot="public" virt="non-virtual"><scope>PoiAttribute</scope><name>type</name></member>
+      <member refid="structPoiAttribute_1a23eb507f2fed667af3e511e513f58da0" prot="public" virt="non-virtual"><scope>PoiAttribute</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

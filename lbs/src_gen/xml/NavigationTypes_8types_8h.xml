@@ -1,0 +1,687 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="NavigationTypes_8types_8h" kind="file" language="C++">
+    <compoundname>NavigationTypes.types.h</compoundname>
+    <includes refid="franca__types_8h" local="yes">franca_types.h</includes>
+    <includedby refid="Configuration_8types_8h" local="yes">Configuration.types.h</includedby>
+    <includedby refid="Configuration_8h" local="yes">Configuration.h</includedby>
+    <includedby refid="FreeTextSearch_8types_8h" local="yes">FreeTextSearch.types.h</includedby>
+    <includedby refid="FreeTextSearch_8h" local="yes">FreeTextSearch.h</includedby>
+    <includedby refid="NavigationCoreTypes_8types_8h" local="yes">NavigationCoreTypes.types.h</includedby>
+    <includedby refid="Guidance_8types_8h" local="yes">Guidance.types.h</includedby>
+    <includedby refid="Guidance_8h" local="yes">Guidance.h</includedby>
+    <includedby refid="LocationInput_8types_8h" local="yes">LocationInput.types.h</includedby>
+    <includedby refid="LocationInput_8h" local="yes">LocationInput.h</includedby>
+    <includedby refid="MapMatchedPosition_8types_8h" local="yes">MapMatchedPosition.types.h</includedby>
+    <includedby refid="MapMatchedPosition_8h" local="yes">MapMatchedPosition.h</includedby>
+    <includedby refid="MapViewerControl_8types_8h" local="yes">MapViewerControl.types.h</includedby>
+    <includedby refid="MapViewerControl_8h" local="yes">MapViewerControl.h</includedby>
+    <includedby refid="POIConfiguration_8h" local="yes">POIConfiguration.h</includedby>
+    <includedby refid="POIConfiguration_8types_8h" local="yes">POIConfiguration.types.h</includedby>
+    <includedby refid="POIContentAccessModule_8h" local="yes">POIContentAccessModule.h</includedby>
+    <includedby refid="POIContentAccessModule_8types_8h" local="yes">POIContentAccessModule.types.h</includedby>
+    <includedby refid="POISearch_8h" local="yes">POISearch.h</includedby>
+    <includedby refid="POISearch_8types_8h" local="yes">POISearch.types.h</includedby>
+    <includedby refid="Routing_8h" local="yes">Routing.h</includedby>
+    <includedby refid="Routing_8types_8h" local="yes">Routing.types.h</includedby>
+    <includedby refid="Session_8h" local="yes">Session.h</includedby>
+    <includedby refid="Session_8types_8h" local="yes">Session.types.h</includedby>
+    <incdepgraph>
+      <node id="319">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="320" relation="include">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>stdint.h</label>
+      </node>
+      <node id="324">
+        <label>string</label>
+      </node>
+      <node id="323">
+        <label>map</label>
+      </node>
+      <node id="322">
+        <label>vector</label>
+      </node>
+      <node id="320">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="321" relation="include">
+        </childnode>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="324" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="332">
+        <label>NavigationCoreTypes.types.h</label>
+        <link refid="NavigationCoreTypes_8types_8h"/>
+        <childnode refid="333" relation="include">
+        </childnode>
+        <childnode refid="332" relation="include">
+        </childnode>
+        <childnode refid="334" relation="include">
+        </childnode>
+        <childnode refid="336" relation="include">
+        </childnode>
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="339" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>FreeTextSearch.h</label>
+        <link refid="FreeTextSearch_8h"/>
+        <childnode refid="331" relation="include">
+        </childnode>
+      </node>
+      <node id="327">
+        <label>Configuration.h</label>
+        <link refid="Configuration_8h"/>
+        <childnode refid="328" relation="include">
+        </childnode>
+      </node>
+      <node id="325">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="327" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+        <childnode refid="332" relation="include">
+        </childnode>
+        <childnode refid="333" relation="include">
+        </childnode>
+        <childnode refid="334" relation="include">
+        </childnode>
+        <childnode refid="336" relation="include">
+        </childnode>
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="339" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="345" relation="include">
+        </childnode>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="348" relation="include">
+        </childnode>
+        <childnode refid="350" relation="include">
+        </childnode>
+        <childnode refid="351" relation="include">
+        </childnode>
+        <childnode refid="353" relation="include">
+        </childnode>
+        <childnode refid="354" relation="include">
+        </childnode>
+        <childnode refid="356" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="359" relation="include">
+        </childnode>
+      </node>
+      <node id="336">
+        <label>LocationInput.types.h</label>
+        <link refid="LocationInput_8types_8h"/>
+        <childnode refid="337" relation="include">
+        </childnode>
+      </node>
+      <node id="335">
+        <label>Guidance.cpp</label>
+        <link refid="Guidance_8cpp"/>
+      </node>
+      <node id="338">
+        <label>LocationInput.cpp</label>
+        <link refid="LocationInput_8cpp"/>
+      </node>
+      <node id="345">
+        <label>MapViewerControl.types.h</label>
+        <link refid="MapViewerControl_8types_8h"/>
+        <childnode refid="346" relation="include">
+        </childnode>
+      </node>
+      <node id="358">
+        <label>Session.cpp</label>
+        <link refid="Session_8cpp"/>
+      </node>
+      <node id="348">
+        <label>POIConfiguration.h</label>
+        <link refid="POIConfiguration_8h"/>
+        <childnode refid="349" relation="include">
+        </childnode>
+      </node>
+      <node id="353">
+        <label>POIContentAccessModule.types.h</label>
+        <link refid="POIContentAccessModule_8types_8h"/>
+        <childnode refid="351" relation="include">
+        </childnode>
+      </node>
+      <node id="341">
+        <label>MapMatchedPosition.cpp</label>
+        <link refid="MapMatchedPosition_8cpp"/>
+      </node>
+      <node id="354">
+        <label>POISearch.h</label>
+        <link refid="POISearch_8h"/>
+        <childnode refid="355" relation="include">
+        </childnode>
+      </node>
+      <node id="346">
+        <label>MapViewerControl.h</label>
+        <link refid="MapViewerControl_8h"/>
+        <childnode refid="347" relation="include">
+        </childnode>
+      </node>
+      <node id="350">
+        <label>POIConfiguration.types.h</label>
+        <link refid="POIConfiguration_8types_8h"/>
+        <childnode refid="348" relation="include">
+        </childnode>
+      </node>
+      <node id="329">
+        <label>FreeTextSearch.types.h</label>
+        <link refid="FreeTextSearch_8types_8h"/>
+        <childnode refid="330" relation="include">
+        </childnode>
+      </node>
+      <node id="344">
+        <label>Routing.types.h</label>
+        <link refid="Routing_8types_8h"/>
+        <childnode refid="342" relation="include">
+        </childnode>
+      </node>
+      <node id="356">
+        <label>POISearch.types.h</label>
+        <link refid="POISearch_8types_8h"/>
+        <childnode refid="354" relation="include">
+        </childnode>
+      </node>
+      <node id="351">
+        <label>POIContentAccessModule.h</label>
+        <link refid="POIContentAccessModule_8h"/>
+        <childnode refid="352" relation="include">
+        </childnode>
+      </node>
+      <node id="347">
+        <label>MapViewerControl.cpp</label>
+        <link refid="MapViewerControl_8cpp"/>
+      </node>
+      <node id="355">
+        <label>POISearch.cpp</label>
+        <link refid="POISearch_8cpp"/>
+      </node>
+      <node id="357">
+        <label>Session.h</label>
+        <link refid="Session_8h"/>
+        <childnode refid="358" relation="include">
+        </childnode>
+      </node>
+      <node id="340">
+        <label>MapMatchedPosition.h</label>
+        <link refid="MapMatchedPosition_8h"/>
+        <childnode refid="341" relation="include">
+        </childnode>
+      </node>
+      <node id="326">
+        <label>Configuration.types.h</label>
+        <link refid="Configuration_8types_8h"/>
+        <childnode refid="327" relation="include">
+        </childnode>
+      </node>
+      <node id="331">
+        <label>FreeTextSearch.cpp</label>
+        <link refid="FreeTextSearch_8cpp"/>
+      </node>
+      <node id="333">
+        <label>Guidance.types.h</label>
+        <link refid="Guidance_8types_8h"/>
+        <childnode refid="334" relation="include">
+        </childnode>
+      </node>
+      <node id="334">
+        <label>Guidance.h</label>
+        <link refid="Guidance_8h"/>
+        <childnode refid="335" relation="include">
+        </childnode>
+      </node>
+      <node id="339">
+        <label>MapMatchedPosition.types.h</label>
+        <link refid="MapMatchedPosition_8types_8h"/>
+        <childnode refid="340" relation="include">
+        </childnode>
+      </node>
+      <node id="352">
+        <label>POIContentAccessModule.cpp</label>
+        <link refid="POIContentAccessModule_8cpp"/>
+      </node>
+      <node id="343">
+        <label>Routing.cpp</label>
+        <link refid="Routing_8cpp"/>
+      </node>
+      <node id="328">
+        <label>Configuration.cpp</label>
+        <link refid="Configuration_8cpp"/>
+      </node>
+      <node id="359">
+        <label>Session.types.h</label>
+        <link refid="Session_8types_8h"/>
+        <childnode refid="357" relation="include">
+        </childnode>
+      </node>
+      <node id="349">
+        <label>POIConfiguration.cpp</label>
+        <link refid="POIConfiguration_8cpp"/>
+      </node>
+      <node id="337">
+        <label>LocationInput.h</label>
+        <link refid="LocationInput_8h"/>
+        <childnode refid="338" relation="include">
+        </childnode>
+      </node>
+      <node id="342">
+        <label>Routing.h</label>
+        <link refid="Routing_8h"/>
+        <childnode refid="343" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structCoordinate2D" prot="public">Coordinate2D</innerclass>
+    <innerclass refid="structCoordinate3D" prot="public">Coordinate3D</innerclass>
+    <innerclass refid="structRectangle" prot="public">Rectangle</innerclass>
+    <innerclass refid="structLocale" prot="public">Locale</innerclass>
+    <innerclass refid="structSession" prot="public">Session</innerclass>
+    <innerclass refid="structCircle" prot="public">Circle</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="NavigationTypes_8types_8h_1a70dd0583f52ff6e3588f6ad98d54f381" prot="public" static="no">
+        <name>BasicEnum</name>
+        <enumvalue id="NavigationTypes_8types_8h_1a70dd0583f52ff6e3588f6ad98d54f381accc0377a8afbf50e7094f5c23a8af223" prot="public">
+          <name>INVALID</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1a70dd0583f52ff6e3588f6ad98d54f381a5fb1f955b45e38e31789286a1790398d" prot="public">
+          <name>ALL</name>
+          <initializer>= 65535</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="52" column="1" bodyfile="NavigationTypes.types.h" bodystart="52" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="enum" id="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" prot="public" static="no">
+        <name>TimeFormat</name>
+        <enumvalue id="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864dacf9ffd9193ba30e7dd1ef7ad0dbc3eef" prot="public">
+          <name>TWELVEH</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864daa5dbfbda0c7085c872421ef7982bdfde" prot="public">
+          <name>TWENTYFOURH</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864daccc0377a8afbf50e7094f5c23a8af223" prot="public">
+          <name>INVALID</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864dacf9ffd9193ba30e7dd1ef7ad0dbc3eef" prot="public">
+          <name>TWELVEH</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864daa5dbfbda0c7085c872421ef7982bdfde" prot="public">
+          <name>TWENTYFOURH</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="59" column="1" bodyfile="NavigationTypes.types.h" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="enum" id="NavigationTypes_8types_8h_1aa68bfc8983f200bfbae62a07dd04ebf0" prot="public" static="no">
+        <name>SessionStatus</name>
+        <enumvalue id="NavigationTypes_8types_8h_1aa68bfc8983f200bfbae62a07dd04ebf0a1588118736b5ecdb1ac20c16428d8ea7" prot="public">
+          <name>AVAILABLE</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1aa68bfc8983f200bfbae62a07dd04ebf0ad07995fa8f4a3a019d134fcbfca4669a" prot="public">
+          <name>NOT_AVAILABLE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="66" column="1" bodyfile="NavigationTypes.types.h" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="enum" id="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190" prot="public" static="no">
+        <name>Units</name>
+        <enumvalue id="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190acc7ab7853e03a21956737fb272615996" prot="public">
+          <name>METER</name>
+          <initializer>= 50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190a54d3fdac39bd35685c1e888c66da86dc" prot="public">
+          <name>MILE</name>
+          <initializer>= 51</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190add480f25b31ec27223fee2c6edcacb3c" prot="public">
+          <name>KM</name>
+          <initializer>= 52</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190ac57f760f6774158812a8319519e98d14" prot="public">
+          <name>YARD</name>
+          <initializer>= 53</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190af5dd40adaf2cd3949f81fb2aae4fdf4e" prot="public">
+          <name>FOOT</name>
+          <initializer>= 54</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190acc7ab7853e03a21956737fb272615996" prot="public">
+          <name>METER</name>
+          <initializer>= 50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190a54d3fdac39bd35685c1e888c66da86dc" prot="public">
+          <name>MILE</name>
+          <initializer>= 51</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190add480f25b31ec27223fee2c6edcacb3c" prot="public">
+          <name>KM</name>
+          <initializer>= 52</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190ac57f760f6774158812a8319519e98d14" prot="public">
+          <name>YARD</name>
+          <initializer>= 53</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190af5dd40adaf2cd3949f81fb2aae4fdf4e" prot="public">
+          <name>FOOT</name>
+          <initializer>= 54</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="73" column="1" bodyfile="NavigationTypes.types.h" bodystart="73" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+        <definition>typedef Int32 DistanceInMeters</definition>
+        <argsstring></argsstring>
+        <name>DistanceInMeters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="39" column="1" bodyfile="NavigationTypes.types.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>typedef UInt32 Handle</definition>
+        <argsstring></argsstring>
+        <name>Handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="42" column="1" bodyfile="NavigationTypes.types.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="NavigationTypes_8types_8h_1a1d9df912d0d303b2127c05179a8d0f14" prot="public" static="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+        <definition>typedef Handle LocationHandle</definition>
+        <argsstring></argsstring>
+        <name>LocationHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="89" column="1" bodyfile="NavigationTypes.types.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="NavigationTypes_8types_8h_1a4bd87ed8c2931b537a170519e3bd61d7" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1aa288382a207683aa38aca516f6edd66d" kindref="member">UInt64</ref></type>
+        <definition>typedef UInt64 Timestamp</definition>
+        <argsstring></argsstring>
+        <name>Timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="98" column="1" bodyfile="NavigationTypes.types.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="NavigationTypes_8types_8h_1a9ab6330f04f680fc77a6b1b782af0313" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref> &gt;</type>
+        <definition>typedef std::vector&lt;Coordinate2D&gt; Polygon</definition>
+        <argsstring></argsstring>
+        <name>Polygon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="101" column="1" bodyfile="NavigationTypes.types.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="franca__types_8h" kindref="compound">franca_types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#0<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="structCoordinate2D" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref><sp/>{</highlight></codeline>
+<codeline lineno="23" refid="structCoordinate2D_1aa3fd7f8a20eaa839d39a825315a98f80" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref><sp/><ref refid="structCoordinate2D_1aa3fd7f8a20eaa839d39a825315a98f80" kindref="member">latitude</ref>;</highlight></codeline>
+<codeline lineno="24" refid="structCoordinate2D_1a66ba2982268a6297fc7ad3665f91361a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref><sp/><ref refid="structCoordinate2D_1a66ba2982268a6297fc7ad3665f91361a" kindref="member">longitude</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#1<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="structCoordinate3D" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref><sp/>{</highlight></codeline>
+<codeline lineno="29" refid="structCoordinate3D_1ab55bd0c649b81e6303f0e455bc8059c1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref><sp/><ref refid="structCoordinate3D_1ab55bd0c649b81e6303f0e455bc8059c1" kindref="member">altitude</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#2<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="structRectangle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structRectangle" kindref="compound">Rectangle</ref><sp/>{</highlight></codeline>
+<codeline lineno="34" refid="structRectangle_1a0e95a3ecf9a48863af610a4cbe2392da" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref><sp/><ref refid="structRectangle_1a0e95a3ecf9a48863af610a4cbe2392da" kindref="member">topLeft</ref>;</highlight></codeline>
+<codeline lineno="35" refid="structRectangle_1a0e916f9334cfb5959a8cece8d4fc68dc" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref><sp/><ref refid="structRectangle_1a0e916f9334cfb5959a8cece8d4fc68dc" kindref="member">bottomRight</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#3<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref><sp/><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#4<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#5<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="structLocale" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structLocale" kindref="compound">Locale</ref><sp/>{</highlight></codeline>
+<codeline lineno="46" refid="structLocale_1aa9271587034e283fb34580080199f016" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structLocale_1aa9271587034e283fb34580080199f016" kindref="member">languageCode</ref>;</highlight></codeline>
+<codeline lineno="47" refid="structLocale_1aa6e157541713e3dec6a8589465412207" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structLocale_1aa6e157541713e3dec6a8589465412207" kindref="member">countryCode</ref>;</highlight></codeline>
+<codeline lineno="48" refid="structLocale_1afeb70f5971ad34789edae5cda86d8bc5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structLocale_1afeb70f5971ad34789edae5cda86d8bc5" kindref="member">scriptCode</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#6<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="NavigationTypes_8types_8h_1a70dd0583f52ff6e3588f6ad98d54f381" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="NavigationTypes_8types_8h_1a70dd0583f52ff6e3588f6ad98d54f381" kindref="member">BasicEnum</ref><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1a71bade2d2183585211b040a3538f7b85accc0377a8afbf50e7094f5c23a8af223" kindref="member">INVALID</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a70dd0583f52ff6e3588f6ad98d54f381a5fb1f955b45e38e31789286a1790398d" kindref="member">ALL</ref><sp/>=<sp/>65535,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#7<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864d" kindref="member">TimeFormat</ref><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864dacf9ffd9193ba30e7dd1ef7ad0dbc3eef" kindref="member">TWELVEH</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a25de3b313f6a766c08b5af9f3cac864daa5dbfbda0c7085c872421ef7982bdfde" kindref="member">TWENTYFOURH</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#8<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="NavigationTypes_8types_8h_1aa68bfc8983f200bfbae62a07dd04ebf0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="NavigationTypes_8types_8h_1aa68bfc8983f200bfbae62a07dd04ebf0" kindref="member">SessionStatus</ref><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1aa68bfc8983f200bfbae62a07dd04ebf0a1588118736b5ecdb1ac20c16428d8ea7" kindref="member">AVAILABLE</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00ad07995fa8f4a3a019d134fcbfca4669a" kindref="member">NOT_AVAILABLE</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#9<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="NavigationTypes_8types_8h_1ac33d2b1fdba15c8bfb494f9cf0ef4190" kindref="member">Units</ref><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210acc7ab7853e03a21956737fb272615996" kindref="member">METER</ref><sp/>=<sp/>50,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210a54d3fdac39bd35685c1e888c66da86dc" kindref="member">MILE</ref><sp/>=<sp/>51,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210add480f25b31ec27223fee2c6edcacb3c" kindref="member">KM</ref><sp/>=<sp/>52,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210ac57f760f6774158812a8319519e98d14" kindref="member">YARD</ref><sp/>=<sp/>53,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1aa51640a1a3d537c3290247c0d0825210af5dd40adaf2cd3949f81fb2aae4fdf4e" kindref="member">FOOT</ref><sp/>=<sp/>54,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#10<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="structSession" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structSession" kindref="compound">Session</ref><sp/>{</highlight></codeline>
+<codeline lineno="84" refid="structSession_1a1dd8a1528a59e15192eba6320f9904ad" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/><ref refid="structSession_1a1dd8a1528a59e15192eba6320f9904ad" kindref="member">sessionHandle</ref>;</highlight></codeline>
+<codeline lineno="85" refid="structSession_1a79f6e799ce7f3114f843b0fb8b4637d3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structSession_1a79f6e799ce7f3114f843b0fb8b4637d3" kindref="member">clientApp</ref>;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#11<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="NavigationTypes_8types_8h_1a1d9df912d0d303b2127c05179a8d0f14" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/><ref refid="NavigationTypes_8types_8h_1a1d9df912d0d303b2127c05179a8d0f14" kindref="member">LocationHandle</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#12<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="structCircle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCircle" kindref="compound">Circle</ref><sp/>{</highlight></codeline>
+<codeline lineno="93" refid="structCircle_1a6ebddb9c2c20fada3aec73933e8be51f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref><sp/><ref refid="structCircle_1a6ebddb9c2c20fada3aec73933e8be51f" kindref="member">center</ref>;</highlight></codeline>
+<codeline lineno="94" refid="structCircle_1ac7583e87aa18aa7ba3f2d0713504a36b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref><sp/><ref refid="structCircle_1ac7583e87aa18aa7ba3f2d0713504a36b" kindref="member">radius</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#13<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="NavigationTypes_8types_8h_1a4bd87ed8c2931b537a170519e3bd61d7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1aa288382a207683aa38aca516f6edd66d" kindref="member">UInt64</ref><sp/><ref refid="NavigationTypes_8types_8h_1a4bd87ed8c2931b537a170519e3bd61d7" kindref="member">Timestamp</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#14<sp/>from<sp/>NavigationTypes<sp/>in<sp/>package<sp/>org.genivi.navigation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="NavigationTypes_8types_8h_1a9ab6330f04f680fc77a6b1b782af0313" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;Coordinate2D&gt;<sp/><ref refid="NavigationTypes_8types_8h_1a9ab6330f04f680fc77a6b1b782af0313" kindref="member">Polygon</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="NavigationTypes.types.h"/>
+  </compounddef>
+</doxygen>

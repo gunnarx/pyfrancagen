@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="unionAddressItemValue" kind="union" language="C++" prot="public">
+    <compoundname>AddressItemValue</compoundname>
+    <includes refid="MapMatchedPosition_8types_8h" local="no">MapMatchedPosition.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionAddressItemValue_1adaa0fa22b379583166d645489cb53e1a" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String AddressItemValue::addressField</definition>
+        <argsstring></argsstring>
+        <name>addressField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="111" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressItemValue_1ad37215b4255b29f7eae62f320fab623d" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref></type>
+        <definition>Int16 AddressItemValue::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="112" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressItemValue_1a4cb3a12764ace7944d4cd38f0744dbb7" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a4bd87ed8c2931b537a170519e3bd61d7" kindref="member">Timestamp</ref></type>
+        <definition>Timestamp AddressItemValue::timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="113" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressItemValue_1ae7480109db537d6aeeee87faaae9c64d" prot="public" static="no" mutable="no">
+        <type><ref refid="MapMatchedPosition_8types_8h_1a629c38ab545dfac020071d0383f7d031" kindref="member">MatchMode</ref></type>
+        <definition>MatchMode AddressItemValue::matchMode</definition>
+        <argsstring></argsstring>
+        <name>matchMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="114" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionAddressItemValue_1ac39ebd987e3209445f7bc02a3d3114d5" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structRoadShield" kindref="compound">RoadShield</ref> &gt;</type>
+        <definition>std::vector&lt;RoadShield&gt; AddressItemValue::roadShields</definition>
+        <argsstring></argsstring>
+        <name>roadShields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MapMatchedPosition.types.h" line="115" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MapMatchedPosition.types.h" line="110" column="1" bodyfile="MapMatchedPosition.types.h" bodystart="110" bodyend="116"/>
+    <listofallmembers>
+      <member refid="unionAddressItemValue_1adaa0fa22b379583166d645489cb53e1a" prot="public" virt="non-virtual"><scope>AddressItemValue</scope><name>addressField</name></member>
+      <member refid="unionAddressItemValue_1ae7480109db537d6aeeee87faaae9c64d" prot="public" virt="non-virtual"><scope>AddressItemValue</scope><name>matchMode</name></member>
+      <member refid="unionAddressItemValue_1ad37215b4255b29f7eae62f320fab623d" prot="public" virt="non-virtual"><scope>AddressItemValue</scope><name>offset</name></member>
+      <member refid="unionAddressItemValue_1ac39ebd987e3209445f7bc02a3d3114d5" prot="public" virt="non-virtual"><scope>AddressItemValue</scope><name>roadShields</name></member>
+      <member refid="unionAddressItemValue_1a4cb3a12764ace7944d4cd38f0744dbb7" prot="public" virt="non-virtual"><scope>AddressItemValue</scope><name>timestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

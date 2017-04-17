@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structVersion" kind="struct" language="C++" prot="public">
+    <compoundname>Version</compoundname>
+    <includes refid="CommonTypes_8types_8h" local="no">CommonTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structVersion_1ad78bff029742ad43573fea1662c048f6" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 Version::versionMajor</definition>
+        <argsstring></argsstring>
+        <name>versionMajor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="CommonTypes.types.h" line="23" column="1" bodyfile="CommonTypes.types.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVersion_1a072a6db691eb97444a783e7d1278e9ca" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 Version::versionMinor</definition>
+        <argsstring></argsstring>
+        <name>versionMinor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="CommonTypes.types.h" line="24" column="1" bodyfile="CommonTypes.types.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVersion_1a3be1173efb2b65436a9473feea248aaa" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 Version::versionMicro</definition>
+        <argsstring></argsstring>
+        <name>versionMicro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="CommonTypes.types.h" line="25" column="1" bodyfile="CommonTypes.types.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVersion_1a119753397d4e9d9bad6b2b6bea6af043" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Version::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="CommonTypes.types.h" line="26" column="1" bodyfile="CommonTypes.types.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="CommonTypes.types.h" line="22" column="1" bodyfile="CommonTypes.types.h" bodystart="22" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structVersion_1a119753397d4e9d9bad6b2b6bea6af043" prot="public" virt="non-virtual"><scope>Version</scope><name>date</name></member>
+      <member refid="structVersion_1ad78bff029742ad43573fea1662c048f6" prot="public" virt="non-virtual"><scope>Version</scope><name>versionMajor</name></member>
+      <member refid="structVersion_1a3be1173efb2b65436a9473feea248aaa" prot="public" virt="non-virtual"><scope>Version</scope><name>versionMicro</name></member>
+      <member refid="structVersion_1a072a6db691eb97444a783e7d1278e9ca" prot="public" virt="non-virtual"><scope>Version</scope><name>versionMinor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

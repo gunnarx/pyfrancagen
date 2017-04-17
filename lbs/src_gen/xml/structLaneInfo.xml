@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structLaneInfo" kind="struct" language="C++" prot="public">
+    <compoundname>LaneInfo</compoundname>
+    <includes refid="Guidance_8types_8h" local="no">Guidance.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structLaneInfo_1a7692bbaa8ca5d68fd8f14fd3ce34500a" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>UInt32 LaneInfo::laneIndex</definition>
+        <argsstring></argsstring>
+        <name>laneIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="142" column="1" bodyfile="Guidance.types.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLaneInfo_1a20928a33901c939f4250c0697d779317" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a4d02373b2f2c0107ac705c8c375dfaf2" kindref="member">ByteBuffer</ref></type>
+        <definition>ByteBuffer LaneInfo::laneDirections</definition>
+        <argsstring></argsstring>
+        <name>laneDirections</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="143" column="1" bodyfile="Guidance.types.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLaneInfo_1aee551e33464a7037f3b7876a148fe70a" prot="public" static="no" mutable="no">
+        <type><ref refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33" kindref="member">LaneType</ref></type>
+        <definition>LaneType LaneInfo::directionToFollow</definition>
+        <argsstring></argsstring>
+        <name>directionToFollow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="144" column="1" bodyfile="Guidance.types.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLaneInfo_1ac923d16edf4bf14fb925d03a33ed991d" prot="public" static="no" mutable="no">
+        <type><ref refid="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935c" kindref="member">LaneDivider</ref></type>
+        <definition>LaneDivider LaneInfo::divider</definition>
+        <argsstring></argsstring>
+        <name>divider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="145" column="1" bodyfile="Guidance.types.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Guidance.types.h" line="141" column="1" bodyfile="Guidance.types.h" bodystart="141" bodyend="146"/>
+    <listofallmembers>
+      <member refid="structLaneInfo_1aee551e33464a7037f3b7876a148fe70a" prot="public" virt="non-virtual"><scope>LaneInfo</scope><name>directionToFollow</name></member>
+      <member refid="structLaneInfo_1ac923d16edf4bf14fb925d03a33ed991d" prot="public" virt="non-virtual"><scope>LaneInfo</scope><name>divider</name></member>
+      <member refid="structLaneInfo_1a20928a33901c939f4250c0697d779317" prot="public" virt="non-virtual"><scope>LaneInfo</scope><name>laneDirections</name></member>
+      <member refid="structLaneInfo_1a7692bbaa8ca5d68fd8f14fd3ce34500a" prot="public" virt="non-virtual"><scope>LaneInfo</scope><name>laneIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

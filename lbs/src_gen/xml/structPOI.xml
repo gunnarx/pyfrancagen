@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structPOI" kind="struct" language="C++" prot="public">
+    <compoundname>POI</compoundname>
+    <includes refid="FreeTextSearch_8types_8h" local="no">FreeTextSearch.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPOI_1aeb5f11cbba5f7c7ad3d926057f3213b1" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref></type>
+        <definition>LocationHandle POI::locationHandle</definition>
+        <argsstring></argsstring>
+        <name>locationHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="158" column="1" bodyfile="FreeTextSearch.types.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a704d50f064f550ef9d4d207ed013a4d9" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1a9b220ef0e616dd6fb6884c96952e4ee3" kindref="member">POICategoryCode</ref></type>
+        <definition>POICategoryCode POI::categoryCode</definition>
+        <argsstring></argsstring>
+        <name>categoryCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="159" column="1" bodyfile="FreeTextSearch.types.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a931de754b360e1b6814dd33daae84e25" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1a75a58b7141b07fd078fed45a720983a3" kindref="member">FtsStringList</ref></type>
+        <definition>FtsStringList POI::brandNames</definition>
+        <argsstring></argsstring>
+        <name>brandNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="160" column="1" bodyfile="FreeTextSearch.types.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a2a7bff1613d9aed7c267c85b5d588761" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString POI::poiName</definition>
+        <argsstring></argsstring>
+        <name>poiName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="161" column="1" bodyfile="FreeTextSearch.types.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a37f6e463d19f194008f341812c7f1da4" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString POI::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="162" column="1" bodyfile="FreeTextSearch.types.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1abc542581e7bf3b77283af60b6793bc3b" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1a75a58b7141b07fd078fed45a720983a3" kindref="member">FtsStringList</ref></type>
+        <definition>FtsStringList POI::place</definition>
+        <argsstring></argsstring>
+        <name>place</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="163" column="1" bodyfile="FreeTextSearch.types.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a37577830e7fb56e9278bf045d65bcdb7" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1a75a58b7141b07fd078fed45a720983a3" kindref="member">FtsStringList</ref></type>
+        <definition>FtsStringList POI::postalCode</definition>
+        <argsstring></argsstring>
+        <name>postalCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="164" column="1" bodyfile="FreeTextSearch.types.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1aba964d35a76c79d4eed98d721883ce98" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString POI::mapCode</definition>
+        <argsstring></argsstring>
+        <name>mapCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="165" column="1" bodyfile="FreeTextSearch.types.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1ac0a9be8b7f5aa1a76e0d2fc243aef4d1" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString POI::countryCode</definition>
+        <argsstring></argsstring>
+        <name>countryCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="166" column="1" bodyfile="FreeTextSearch.types.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a27a161cfd83b2f6240450261b4f100df" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString POI::stateCode</definition>
+        <argsstring></argsstring>
+        <name>stateCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="167" column="1" bodyfile="FreeTextSearch.types.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a90b01155ee98acd15341f0e44025e90c" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref></type>
+        <definition>FtsString POI::telephone</definition>
+        <argsstring></argsstring>
+        <name>telephone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="168" column="1" bodyfile="FreeTextSearch.types.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1ab3477130eac0ffbbebd6289dfec34a23" prot="public" static="no" mutable="no">
+        <type><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref></type>
+        <definition>Coordinate2D POI::coordinate</definition>
+        <argsstring></argsstring>
+        <name>coordinate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="169" column="1" bodyfile="FreeTextSearch.types.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1afb206b9357cfcd2a23c86bf2ef661080" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref></type>
+        <definition>DistanceInMeters POI::distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="170" column="1" bodyfile="FreeTextSearch.types.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a6b82429b3367f8f0396c60f7dbf12940" prot="public" static="no" mutable="no">
+        <type><ref refid="FreeTextSearch_8types_8h_1ada01a46f1c7d02c46be1bd5ff5be9bc9" kindref="member">Score</ref></type>
+        <definition>Score POI::score</definition>
+        <argsstring></argsstring>
+        <name>score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="171" column="1" bodyfile="FreeTextSearch.types.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a0294846a5f71fc2f9ce4d6be68d8e03c" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+        <definition>Boolean POI::fuzzyMatch</definition>
+        <argsstring></argsstring>
+        <name>fuzzyMatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="172" column="1" bodyfile="FreeTextSearch.types.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a56ee77036713eab7fb0b9cc0454afa41" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+        <definition>Boolean POI::hasParents</definition>
+        <argsstring></argsstring>
+        <name>hasParents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="173" column="1" bodyfile="FreeTextSearch.types.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a85d083dddfaa1e1b75943064d6eeaaf8" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+        <definition>Boolean POI::hasChildren</definition>
+        <argsstring></argsstring>
+        <name>hasChildren</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="174" column="1" bodyfile="FreeTextSearch.types.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a266c015d6d1b5d5971b6629d95ea2cf4" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref></type>
+        <definition>DistanceInMeters POI::detourDistance</definition>
+        <argsstring></argsstring>
+        <name>detourDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="175" column="1" bodyfile="FreeTextSearch.types.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOI_1a0bcbf86321fd0ff606b11790af98a094" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+        <definition>Int32 POI::detourTime</definition>
+        <argsstring></argsstring>
+        <name>detourTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="176" column="1" bodyfile="FreeTextSearch.types.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="140">
+        <label>Coordinate2D</label>
+        <link refid="structCoordinate2D"/>
+      </node>
+      <node id="139">
+        <label>POI</label>
+        <link refid="structPOI"/>
+        <childnode refid="140" relation="usage">
+          <edgelabel>coordinate</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="FreeTextSearch.types.h" line="157" column="1" bodyfile="FreeTextSearch.types.h" bodystart="157" bodyend="177"/>
+    <listofallmembers>
+      <member refid="structPOI_1a37f6e463d19f194008f341812c7f1da4" prot="public" virt="non-virtual"><scope>POI</scope><name>address</name></member>
+      <member refid="structPOI_1a931de754b360e1b6814dd33daae84e25" prot="public" virt="non-virtual"><scope>POI</scope><name>brandNames</name></member>
+      <member refid="structPOI_1a704d50f064f550ef9d4d207ed013a4d9" prot="public" virt="non-virtual"><scope>POI</scope><name>categoryCode</name></member>
+      <member refid="structPOI_1ab3477130eac0ffbbebd6289dfec34a23" prot="public" virt="non-virtual"><scope>POI</scope><name>coordinate</name></member>
+      <member refid="structPOI_1ac0a9be8b7f5aa1a76e0d2fc243aef4d1" prot="public" virt="non-virtual"><scope>POI</scope><name>countryCode</name></member>
+      <member refid="structPOI_1a266c015d6d1b5d5971b6629d95ea2cf4" prot="public" virt="non-virtual"><scope>POI</scope><name>detourDistance</name></member>
+      <member refid="structPOI_1a0bcbf86321fd0ff606b11790af98a094" prot="public" virt="non-virtual"><scope>POI</scope><name>detourTime</name></member>
+      <member refid="structPOI_1afb206b9357cfcd2a23c86bf2ef661080" prot="public" virt="non-virtual"><scope>POI</scope><name>distance</name></member>
+      <member refid="structPOI_1a0294846a5f71fc2f9ce4d6be68d8e03c" prot="public" virt="non-virtual"><scope>POI</scope><name>fuzzyMatch</name></member>
+      <member refid="structPOI_1a85d083dddfaa1e1b75943064d6eeaaf8" prot="public" virt="non-virtual"><scope>POI</scope><name>hasChildren</name></member>
+      <member refid="structPOI_1a56ee77036713eab7fb0b9cc0454afa41" prot="public" virt="non-virtual"><scope>POI</scope><name>hasParents</name></member>
+      <member refid="structPOI_1aeb5f11cbba5f7c7ad3d926057f3213b1" prot="public" virt="non-virtual"><scope>POI</scope><name>locationHandle</name></member>
+      <member refid="structPOI_1aba964d35a76c79d4eed98d721883ce98" prot="public" virt="non-virtual"><scope>POI</scope><name>mapCode</name></member>
+      <member refid="structPOI_1abc542581e7bf3b77283af60b6793bc3b" prot="public" virt="non-virtual"><scope>POI</scope><name>place</name></member>
+      <member refid="structPOI_1a2a7bff1613d9aed7c267c85b5d588761" prot="public" virt="non-virtual"><scope>POI</scope><name>poiName</name></member>
+      <member refid="structPOI_1a37577830e7fb56e9278bf045d65bcdb7" prot="public" virt="non-virtual"><scope>POI</scope><name>postalCode</name></member>
+      <member refid="structPOI_1a6b82429b3367f8f0396c60f7dbf12940" prot="public" virt="non-virtual"><scope>POI</scope><name>score</name></member>
+      <member refid="structPOI_1a27a161cfd83b2f6240450261b4f100df" prot="public" virt="non-virtual"><scope>POI</scope><name>stateCode</name></member>
+      <member refid="structPOI_1a90b01155ee98acd15341f0e44025e90c" prot="public" virt="non-virtual"><scope>POI</scope><name>telephone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

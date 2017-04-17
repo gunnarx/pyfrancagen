@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['camcategory',['CAMCategory',['../structCAMCategory.html',1,'']]],
+  ['camcategoryupdate',['CAMCategoryUpdate',['../structCAMCategoryUpdate.html',1,'']]],
+  ['category',['Category',['../structCategory.html',1,'']]],
+  ['categoryandlevel',['CategoryAndLevel',['../structCategoryAndLevel.html',1,'']]],
+  ['categoryandname',['CategoryAndName',['../structCategoryAndName.html',1,'']]],
+  ['categoryandradius',['CategoryAndRadius',['../structCategoryAndRadius.html',1,'']]],
+  ['categoryandreason',['CategoryAndReason',['../structCategoryAndReason.html',1,'']]],
+  ['categoryandstatus',['CategoryAndStatus',['../structCategoryAndStatus.html',1,'']]],
+  ['categoryattribute',['CategoryAttribute',['../structCategoryAttribute.html',1,'']]],
+  ['categorydetails',['CategoryDetails',['../structCategoryDetails.html',1,'']]],
+  ['categorysortoption',['CategorySortOption',['../structCategorySortOption.html',1,'']]],
+  ['categoryvisibility',['CategoryVisibility',['../structCategoryVisibility.html',1,'']]],
+  ['circle',['Circle',['../structCircle.html',1,'']]],
+  ['conditionpreference',['ConditionPreference',['../structConditionPreference.html',1,'']]],
+  ['configuration',['Configuration',['../classConfiguration.html',1,'']]],
+  ['coordinate2d',['Coordinate2D',['../structCoordinate2D.html',1,'']]],
+  ['coordinate3d',['Coordinate3D',['../structCoordinate3D.html',1,'']]],
+  ['coordinatesdetails',['CoordinatesDetails',['../structCoordinatesDetails.html',1,'']]],
+  ['customelement',['CustomElement',['../structCustomElement.html',1,'']]]
+];

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structCAMCategory" kind="struct" language="C++" prot="public">
+    <compoundname>CAMCategory</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCAMCategory_1aa026c6144ded03ef28826f9ad247be3c" prot="public" static="no" mutable="no">
+        <type><ref refid="structDetails" kindref="compound">Details</ref></type>
+        <definition>Details CAMCategory::details</definition>
+        <argsstring></argsstring>
+        <name>details</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="319" column="1" bodyfile="POIServiceTypes.types.h" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAMCategory_1aff833385e46e0b7234e35ae64d0c146c" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structCategoryAttribute" kindref="compound">CategoryAttribute</ref> &gt;</type>
+        <definition>std::vector&lt;CategoryAttribute&gt; CAMCategory::attributeList</definition>
+        <argsstring></argsstring>
+        <name>attributeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="320" column="1" bodyfile="POIServiceTypes.types.h" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAMCategory_1a816abea7e6849ef85b93f227bde193eb" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structCategorySortOption" kindref="compound">CategorySortOption</ref> &gt;</type>
+        <definition>std::vector&lt;CategorySortOption&gt; CAMCategory::sortOptions</definition>
+        <argsstring></argsstring>
+        <name>sortOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="321" column="1" bodyfile="POIServiceTypes.types.h" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="37">
+        <label>Icon</label>
+        <link refid="unionIcon"/>
+      </node>
+      <node id="36">
+        <label>Media</label>
+        <link refid="unionMedia"/>
+      </node>
+      <node id="35">
+        <label>Details</label>
+        <link refid="structDetails"/>
+        <childnode refid="36" relation="usage">
+          <edgelabel>media</edgelabel>
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>icons</edgelabel>
+        </childnode>
+      </node>
+      <node id="34">
+        <label>CAMCategory</label>
+        <link refid="structCAMCategory"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>details</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="POIServiceTypes.types.h" line="318" column="1" bodyfile="POIServiceTypes.types.h" bodystart="318" bodyend="322"/>
+    <listofallmembers>
+      <member refid="structCAMCategory_1aff833385e46e0b7234e35ae64d0c146c" prot="public" virt="non-virtual"><scope>CAMCategory</scope><name>attributeList</name></member>
+      <member refid="structCAMCategory_1aa026c6144ded03ef28826f9ad247be3c" prot="public" virt="non-virtual"><scope>CAMCategory</scope><name>details</name></member>
+      <member refid="structCAMCategory_1a816abea7e6849ef85b93f227bde193eb" prot="public" virt="non-virtual"><scope>CAMCategory</scope><name>sortOptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

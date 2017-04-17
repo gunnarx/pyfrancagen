@@ -1,0 +1,798 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="FreeTextSearch_8types_8h" kind="file" language="C++">
+    <compoundname>FreeTextSearch.types.h</compoundname>
+    <includes refid="CommonTypes_8types_8h" local="yes">CommonTypes.types.h</includes>
+    <includes refid="NavigationTypes_8types_8h" local="yes">NavigationTypes.types.h</includes>
+    <includes refid="franca__types_8h" local="yes">franca_types.h</includes>
+    <includedby refid="FreeTextSearch_8h" local="yes">FreeTextSearch.h</includedby>
+    <incdepgraph>
+      <node id="153">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="148" relation="include">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>stdint.h</label>
+      </node>
+      <node id="152">
+        <label>string</label>
+      </node>
+      <node id="151">
+        <label>map</label>
+      </node>
+      <node id="147">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="148" relation="include">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>FreeTextSearch.types.h</label>
+        <link refid="FreeTextSearch_8types_8h"/>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+      </node>
+      <node id="150">
+        <label>vector</label>
+      </node>
+      <node id="148">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="155">
+        <label>FreeTextSearch.h</label>
+        <link refid="FreeTextSearch_8h"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>FreeTextSearch.types.h</label>
+        <link refid="FreeTextSearch_8types_8h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>FreeTextSearch.cpp</label>
+        <link refid="FreeTextSearch_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structRouteCorridor" prot="public">RouteCorridor</innerclass>
+    <innerclass refid="structMapCodeDetails" prot="public">MapCodeDetails</innerclass>
+    <innerclass refid="structPoliticalDivisionDetails" prot="public">PoliticalDivisionDetails</innerclass>
+    <innerclass refid="structCoordinatesDetails" prot="public">CoordinatesDetails</innerclass>
+    <innerclass refid="structPlaceDetails" prot="public">PlaceDetails</innerclass>
+    <innerclass refid="unionShape" prot="public">Shape</innerclass>
+    <innerclass refid="structStreetDetails" prot="public">StreetDetails</innerclass>
+    <innerclass refid="unionAddressDetails" prot="public">AddressDetails</innerclass>
+    <innerclass refid="structPOI" prot="public">POI</innerclass>
+    <innerclass refid="structAddress" prot="public">Address</innerclass>
+    <innerclass refid="structPOICategory" prot="public">POICategory</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="FreeTextSearch_8types_8h_1a91f58056863c01f8dda2040d448f3d31" prot="public" static="no">
+        <name>PlaceType</name>
+        <enumvalue id="FreeTextSearch_8types_8h_1a91f58056863c01f8dda2040d448f3d31a03570470bad94692ce93e32700d2e1cb" prot="public">
+          <name>OTHER</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a91f58056863c01f8dda2040d448f3d31a75447f2292f5c4de869e37dc4ac6b76e" prot="public">
+          <name>SETTLEMENT</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="38" column="1" bodyfile="FreeTextSearch.types.h" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="enum" id="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091" prot="public" static="no">
+        <name>FtsRangeConstants</name>
+        <enumvalue id="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091a90a2533909a5566c339af42bca24bf1e" prot="public">
+          <name>MAX_FUZZY_LEVEL</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091a40c155f0adb4345e6ea15e9bce40e604" prot="public">
+          <name>MAX_SHAPES</name>
+          <initializer>= 31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091a855d98e4d88c1736ce4c15c37c6184de" prot="public">
+          <name>MAX_STRING_LIST_SIZE</name>
+          <initializer>= 100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091af3876bcfb589e902588126aa899acd5c" prot="public">
+          <name>MAX_RESULTS</name>
+          <initializer>= 500</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091ad974863f3de8c2d4128bfe175ec9e43d" prot="public">
+          <name>MAX_STRING_LENGTH</name>
+          <initializer>= 4095</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091a28c4789d438169683b135c73f4d3cc38" prot="public">
+          <name>MAX_LOCATION_HANDLES_LIST_SIZE</name>
+          <initializer>= 4096</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="96" column="1" bodyfile="FreeTextSearch.types.h" bodystart="96" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="enum" id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7" prot="public" static="no">
+        <name>FtsStatus</name>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7ae0aa021e21dddbd6d8cecec71e9cf564" prot="public">
+          <name>OK</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a4e6c860e5da10e31c5fd9cb76ddc2025" prot="public">
+          <name>ABORTED</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7aa16fef6068a3180943666ad8a705e61d" prot="public">
+          <name>PREFIX_TOO_SHORT</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7ae8c0c70879b5895c615677261d64a1ee" prot="public">
+          <name>INTERNAL_ERROR</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7aef42a6c83aa212bc15eae49be81eb71b" prot="public">
+          <name>INDEX_MISSING</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a2d953e36833fd02d5a8f38c229edbaf3" prot="public">
+          <name>BAD_VERSION</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a29f38fe2e519869c71deb6b43a4511bd" prot="public">
+          <name>INVALID_PARAMETER_QUERY</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7aa0415e9233b78fd35bbf2e64059bfdbf" prot="public">
+          <name>INVALID_PARAMETER_SEARCH_LOCATION</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a05477275672b778265eb1e74e3d722a5" prot="public">
+          <name>INVALID_PARAMETER_PAGE_SIZE</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a99cf3ee82ff22078ac980e7359082bcb" prot="public">
+          <name>INVALID_PARAMETER_SEARCH_OPTIONS</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7acf59668ca7486b9799a87269db83db8b" prot="public">
+          <name>INVALID_PARAMETER_SEARCH_CONDITIONS</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a6138ff733b7a9020e47b79874b18a472" prot="public">
+          <name>INVALID_PARAMETER_SEARCH_SHAPES</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a6a564621ce25b9fdeba02b8797bb9f17" prot="public">
+          <name>INVALID_PARAMETER_FUZZY_LEVEL</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a7aed16c533c6fad94995c6f432213357" prot="public">
+          <name>INVALID_COORDINATES_INPUT</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="112" column="1" bodyfile="FreeTextSearch.types.h" bodystart="112" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="enum" id="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175" prot="public" static="no">
+        <name>SearchOption</name>
+        <enumvalue id="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175a2664f03ac6b8bb9eee4287720e407db3" prot="public">
+          <name>ADDRESS</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175a187da83771c1b8646aeb9eb895fa15c0" prot="public">
+          <name>POI</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175af7fb54dcb044fb48b74206739b321feb" prot="public">
+          <name>POI_SUGGESTION</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175afb1465ee6f42a909a805d5b9aac47852" prot="public">
+          <name>NO_PLACES</name>
+          <initializer>= 65536</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175ab4e03287b286dde20c53fdaa9d591c9d" prot="public">
+          <name>NO_STREETS</name>
+          <initializer>= 131072</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175ac392008c7727e836377bbf7f26104c8e" prot="public">
+          <name>NO_POI_CATEGORY_ASSUMPTIONS</name>
+          <initializer>= 262144</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175a8ccadcaa45c4d41ebe1e62adbaaf6e8b" prot="public">
+          <name>NO_POLITICAL_DIVISIONS</name>
+          <initializer>= 524288</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175a3b60410d403494b82346dc1b46112317" prot="public">
+          <name>POI_INDICATE_LINKS</name>
+          <initializer>= 1048576</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="197" column="1" bodyfile="FreeTextSearch.types.h" bodystart="197" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>typedef String FtsString</definition>
+        <argsstring></argsstring>
+        <name>FtsString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="34" column="1" bodyfile="FreeTextSearch.types.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>typedef UInt32 LocationHandle</definition>
+        <argsstring></argsstring>
+        <name>LocationHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="72" column="1" bodyfile="FreeTextSearch.types.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1ada01a46f1c7d02c46be1bd5ff5be9bc9" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>typedef UInt16 Score</definition>
+        <argsstring></argsstring>
+        <name>Score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="76" column="1" bodyfile="FreeTextSearch.types.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1a9b220ef0e616dd6fb6884c96952e4ee3" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>typedef UInt32 POICategoryCode</definition>
+        <argsstring></argsstring>
+        <name>POICategoryCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="108" column="1" bodyfile="FreeTextSearch.types.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1a63f998396879305f36dbdb64c7993a31" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+        <definition>typedef Int32 PageId</definition>
+        <argsstring></argsstring>
+        <name>PageId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="142" column="1" bodyfile="FreeTextSearch.types.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1a75a58b7141b07fd078fed45a720983a3" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref> &gt;</type>
+        <definition>typedef std::vector&lt;FtsString&gt; FtsStringList</definition>
+        <argsstring></argsstring>
+        <name>FtsStringList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="146" column="1" bodyfile="FreeTextSearch.types.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1aef6c18c5074959cb121cd3ee67411901" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>typedef UInt16 PageSize</definition>
+        <argsstring></argsstring>
+        <name>PageSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="149" column="1" bodyfile="FreeTextSearch.types.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1a08c6e689d44630957220620d44469b1a" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>typedef UInt32 SearchOptions</definition>
+        <argsstring></argsstring>
+        <name>SearchOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="153" column="1" bodyfile="FreeTextSearch.types.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1a19a083cad2a178e7f0258d2e306f52d6" prot="public" static="no">
+        <type><ref refid="franca__types_8h_1a1d6ba23467c5f743eb2b594913650a61" kindref="member">Int8</ref></type>
+        <definition>typedef Int8 FuzzyLevel</definition>
+        <argsstring></argsstring>
+        <name>FuzzyLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="211" column="1" bodyfile="FreeTextSearch.types.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1a5616271fcf4c686bd069f323545ae3ba" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="structAddress" kindref="compound">Address</ref> &gt;</type>
+        <definition>typedef std::vector&lt;Address&gt; Addresses</definition>
+        <argsstring></argsstring>
+        <name>Addresses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="215" column="1" bodyfile="FreeTextSearch.types.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1a66442d58200418aff54497de9bbabd16" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="unionShape" kindref="compound">Shape</ref> &gt;</type>
+        <definition>typedef std::vector&lt;Shape&gt; ShapeList</definition>
+        <argsstring></argsstring>
+        <name>ShapeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="218" column="1" bodyfile="FreeTextSearch.types.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1a3aa8afec7a2a1fe156f0df8313a703fb" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref> &gt;</type>
+        <definition>typedef std::vector&lt;LocationHandle&gt; LocationHandleList</definition>
+        <argsstring></argsstring>
+        <name>LocationHandleList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="221" column="1" bodyfile="FreeTextSearch.types.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1a2fc9255d67030464dbf41f661d62d74e" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="structPOI" kindref="compound">POI</ref> &gt;</type>
+        <definition>typedef std::vector&lt;POI&gt; POIs</definition>
+        <argsstring></argsstring>
+        <name>POIs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="235" column="1" bodyfile="FreeTextSearch.types.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="FreeTextSearch_8types_8h_1a3cb86e4f606b13e3fbed4cf1add3bd32" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="structPOICategory" kindref="compound">POICategory</ref> &gt;</type>
+        <definition>typedef std::vector&lt;POICategory&gt; POICategories</definition>
+        <argsstring></argsstring>
+        <name>POICategories</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="238" column="1" bodyfile="FreeTextSearch.types.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="CommonTypes_8types_8h" kindref="compound">CommonTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationTypes_8types_8h" kindref="compound">NavigationTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="franca__types_8h" kindref="compound">franca_types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#0<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="structRouteCorridor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structRouteCorridor" kindref="compound">RouteCorridor</ref><sp/>{</highlight></codeline>
+<codeline lineno="26" refid="structRouteCorridor_1a9218cef792a2e7f9dcf03e8eb41926d9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref><sp/><ref refid="structRouteCorridor_1a9218cef792a2e7f9dcf03e8eb41926d9" kindref="member">routeHandle</ref>;</highlight></codeline>
+<codeline lineno="27" refid="structRouteCorridor_1a2d270a01b57bdf0df5cc9339fd80066c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref><sp/><ref refid="structRouteCorridor_1a2d270a01b57bdf0df5cc9339fd80066c" kindref="member">startOffset</ref>;</highlight></codeline>
+<codeline lineno="28" refid="structRouteCorridor_1a2f05478f8d603559c2e50e607f732246" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref><sp/><ref refid="structRouteCorridor_1a2f05478f8d603559c2e50e607f732246" kindref="member">corridorWidth</ref>;</highlight></codeline>
+<codeline lineno="29" refid="structRouteCorridor_1aa3ca1ec3e686caa88fda5487bc10e540" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref><sp/><ref refid="structRouteCorridor_1aa3ca1ec3e686caa88fda5487bc10e540" kindref="member">corridorLength</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#1<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#2<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="FreeTextSearch_8types_8h_1a91f58056863c01f8dda2040d448f3d31" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="FreeTextSearch_8types_8h_1a91f58056863c01f8dda2040d448f3d31" kindref="member">PlaceType</ref><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a91f58056863c01f8dda2040d448f3d31a03570470bad94692ce93e32700d2e1cb" kindref="member">OTHER</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a91f58056863c01f8dda2040d448f3d31a75447f2292f5c4de869e37dc4ac6b76e" kindref="member">SETTLEMENT</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#3<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="structMapCodeDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMapCodeDetails" kindref="compound">MapCodeDetails</ref><sp/>{</highlight></codeline>
+<codeline lineno="47" refid="structMapCodeDetails_1a9ed8970058754fa26e47852432602323" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structMapCodeDetails_1a9ed8970058754fa26e47852432602323" kindref="member">closestStreetName</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#4<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="structPoliticalDivisionDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structPoliticalDivisionDetails" kindref="compound">PoliticalDivisionDetails</ref><sp/>{</highlight></codeline>
+<codeline lineno="53" refid="structPoliticalDivisionDetails_1a1dca0ec7026934000b7565873ee7a28a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structRectangle" kindref="compound">Rectangle</ref><sp/><ref refid="structPoliticalDivisionDetails_1a1dca0ec7026934000b7565873ee7a28a" kindref="member">boundingBox</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#5<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="structCoordinatesDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structCoordinatesDetails" kindref="compound">CoordinatesDetails</ref><sp/>{</highlight></codeline>
+<codeline lineno="59" refid="structCoordinatesDetails_1a417b63e9e4d7b4eb696455789f7044d1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structCoordinatesDetails_1a417b63e9e4d7b4eb696455789f7044d1" kindref="member">closestStreetName</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#6<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="structPlaceDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structPlaceDetails" kindref="compound">PlaceDetails</ref><sp/>{</highlight></codeline>
+<codeline lineno="65" refid="structPlaceDetails_1a9db50f1e4a0421bf5ecef30b0ea94e62" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a91f58056863c01f8dda2040d448f3d31" kindref="member">PlaceType</ref><sp/><ref refid="structPlaceDetails_1a9db50f1e4a0421bf5ecef30b0ea94e62" kindref="member">placeType</ref>;</highlight></codeline>
+<codeline lineno="66" refid="structPlaceDetails_1a0f7a1471aa452696446591ad60a70c85" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structPlaceDetails_1a0f7a1471aa452696446591ad60a70c85" kindref="member">placeName</ref>;</highlight></codeline>
+<codeline lineno="67" refid="structPlaceDetails_1a3f1c8bee551de91ed501a90dbc632287" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structRectangle" kindref="compound">Rectangle</ref><sp/><ref refid="structPlaceDetails_1a3f1c8bee551de91ed501a90dbc632287" kindref="member">placeBoundingBox</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#7<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#8<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="FreeTextSearch_8types_8h_1ada01a46f1c7d02c46be1bd5ff5be9bc9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref><sp/><ref refid="FreeTextSearch_8types_8h_1ada01a46f1c7d02c46be1bd5ff5be9bc9" kindref="member">Score</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#9<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="unionShape" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionShape" kindref="compound">Shape</ref><sp/>{</highlight></codeline>
+<codeline lineno="81" refid="unionShape_1ac92b3a8db8c863d033c4b03e253e642d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structCircle" kindref="compound">Circle</ref><sp/><ref refid="unionShape_1ac92b3a8db8c863d033c4b03e253e642d" kindref="member">circle</ref>;</highlight></codeline>
+<codeline lineno="82" refid="unionShape_1a8ae59e175b9847002ad1f19493fcd9da" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structRectangle" kindref="compound">Rectangle</ref><sp/><ref refid="unionShape_1a8ae59e175b9847002ad1f19493fcd9da" kindref="member">rectangle</ref>;</highlight></codeline>
+<codeline lineno="83" refid="unionShape_1a805c15f1a2fc4818c954bcba52bbd820" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structRouteCorridor" kindref="compound">RouteCorridor</ref><sp/><ref refid="unionShape_1a805c15f1a2fc4818c954bcba52bbd820" kindref="member">routeCorridor</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#10<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="structStreetDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structStreetDetails" kindref="compound">StreetDetails</ref><sp/>{</highlight></codeline>
+<codeline lineno="89" refid="structStreetDetails_1adce4b685d2548069e359cf1808689c77" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structStreetDetails_1adce4b685d2548069e359cf1808689c77" kindref="member">streetName</ref>;</highlight></codeline>
+<codeline lineno="90" refid="structStreetDetails_1a38003145a4188f84b9e3f835d8bf95d0" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structStreetDetails_1a38003145a4188f84b9e3f835d8bf95d0" kindref="member">houseNumber</ref>;</highlight></codeline>
+<codeline lineno="91" refid="structStreetDetails_1a3a513a4c19c9ddb36ff39553d5a2164b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structStreetDetails_1a3a513a4c19c9ddb36ff39553d5a2164b" kindref="member">houseNumberFromInput</ref>;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#11<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091" kindref="member">FtsRangeConstants</ref><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091a90a2533909a5566c339af42bca24bf1e" kindref="member">MAX_FUZZY_LEVEL</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091a40c155f0adb4345e6ea15e9bce40e604" kindref="member">MAX_SHAPES</ref><sp/>=<sp/>31,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091a855d98e4d88c1736ce4c15c37c6184de" kindref="member">MAX_STRING_LIST_SIZE</ref><sp/>=<sp/>100,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091af3876bcfb589e902588126aa899acd5c" kindref="member">MAX_RESULTS</ref><sp/>=<sp/>500,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091ad974863f3de8c2d4128bfe175ec9e43d" kindref="member">MAX_STRING_LENGTH</ref><sp/>=<sp/>4095,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a1f8ae38e88c737d0c4fe5f3fa38e8091a28c4789d438169683b135c73f4d3cc38" kindref="member">MAX_LOCATION_HANDLES_LIST_SIZE</ref><sp/>=<sp/>4096,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#12<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="FreeTextSearch_8types_8h_1a9b220ef0e616dd6fb6884c96952e4ee3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="FreeTextSearch_8types_8h_1a9b220ef0e616dd6fb6884c96952e4ee3" kindref="member">POICategoryCode</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#13<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7" kindref="member">FtsStatus</ref><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7ae0aa021e21dddbd6d8cecec71e9cf564" kindref="member">OK</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a4e6c860e5da10e31c5fd9cb76ddc2025" kindref="member">ABORTED</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7aa16fef6068a3180943666ad8a705e61d" kindref="member">PREFIX_TOO_SHORT</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7ae8c0c70879b5895c615677261d64a1ee" kindref="member">INTERNAL_ERROR</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7aef42a6c83aa212bc15eae49be81eb71b" kindref="member">INDEX_MISSING</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a2d953e36833fd02d5a8f38c229edbaf3" kindref="member">BAD_VERSION</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a29f38fe2e519869c71deb6b43a4511bd" kindref="member">INVALID_PARAMETER_QUERY</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7aa0415e9233b78fd35bbf2e64059bfdbf" kindref="member">INVALID_PARAMETER_SEARCH_LOCATION</ref><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a05477275672b778265eb1e74e3d722a5" kindref="member">INVALID_PARAMETER_PAGE_SIZE</ref><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a99cf3ee82ff22078ac980e7359082bcb" kindref="member">INVALID_PARAMETER_SEARCH_OPTIONS</ref><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7acf59668ca7486b9799a87269db83db8b" kindref="member">INVALID_PARAMETER_SEARCH_CONDITIONS</ref><sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a6138ff733b7a9020e47b79874b18a472" kindref="member">INVALID_PARAMETER_SEARCH_SHAPES</ref><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a6a564621ce25b9fdeba02b8797bb9f17" kindref="member">INVALID_PARAMETER_FUZZY_LEVEL</ref><sp/>=<sp/>12,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a82bb9aaa2b74e43ebb5809c212b5aac7a7aed16c533c6fad94995c6f432213357" kindref="member">INVALID_COORDINATES_INPUT</ref><sp/>=<sp/>13,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#14<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="unionAddressDetails" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionAddressDetails" kindref="compound">AddressDetails</ref><sp/>{</highlight></codeline>
+<codeline lineno="133" refid="unionAddressDetails_1a0a82fab64270bbfd4f910806ecee9d94" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structStreetDetails" kindref="compound">StreetDetails</ref><sp/><ref refid="unionAddressDetails_1a0a82fab64270bbfd4f910806ecee9d94" kindref="member">streetDetails</ref>;</highlight></codeline>
+<codeline lineno="134" refid="unionAddressDetails_1a66f9a1a44e80141393ff0cc50eefb1ce" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structPlaceDetails" kindref="compound">PlaceDetails</ref><sp/><ref refid="unionAddressDetails_1a66f9a1a44e80141393ff0cc50eefb1ce" kindref="member">placeDetails</ref>;</highlight></codeline>
+<codeline lineno="135" refid="unionAddressDetails_1a02cf5a982f63b8ce8a9162c51be6a85c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structMapCodeDetails" kindref="compound">MapCodeDetails</ref><sp/><ref refid="unionAddressDetails_1a02cf5a982f63b8ce8a9162c51be6a85c" kindref="member">mapCodeDetails</ref>;</highlight></codeline>
+<codeline lineno="136" refid="unionAddressDetails_1af89da40f6d28a4e4ec6c8f3b582f22da" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structPoliticalDivisionDetails" kindref="compound">PoliticalDivisionDetails</ref><sp/><ref refid="unionAddressDetails_1af89da40f6d28a4e4ec6c8f3b582f22da" kindref="member">politicalDivisionDetails</ref>;</highlight></codeline>
+<codeline lineno="137" refid="unionAddressDetails_1ac4c701a0c210feb2890b0139a016215c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structCoordinatesDetails" kindref="compound">CoordinatesDetails</ref><sp/><ref refid="unionAddressDetails_1ac4c701a0c210feb2890b0139a016215c" kindref="member">coordinatesDetails</ref>;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#15<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="FreeTextSearch_8types_8h_1a63f998396879305f36dbdb64c7993a31" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref><sp/><ref refid="FreeTextSearch_8types_8h_1a63f998396879305f36dbdb64c7993a31" kindref="member">PageId</ref>;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#16<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="FreeTextSearch_8types_8h_1a75a58b7141b07fd078fed45a720983a3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;FtsString&gt;<sp/><ref refid="FreeTextSearch_8types_8h_1a75a58b7141b07fd078fed45a720983a3" kindref="member">FtsStringList</ref>;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#17<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="FreeTextSearch_8types_8h_1aef6c18c5074959cb121cd3ee67411901" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref><sp/><ref refid="FreeTextSearch_8types_8h_1aef6c18c5074959cb121cd3ee67411901" kindref="member">PageSize</ref>;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#18<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="FreeTextSearch_8types_8h_1a08c6e689d44630957220620d44469b1a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="FreeTextSearch_8types_8h_1a08c6e689d44630957220620d44469b1a" kindref="member">SearchOptions</ref>;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#19<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="structPOI" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structPOI" kindref="compound">POI</ref><sp/>{</highlight></codeline>
+<codeline lineno="158" refid="structPOI_1aeb5f11cbba5f7c7ad3d926057f3213b1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref><sp/><ref refid="structPOI_1aeb5f11cbba5f7c7ad3d926057f3213b1" kindref="member">locationHandle</ref>;</highlight></codeline>
+<codeline lineno="159" refid="structPOI_1a704d50f064f550ef9d4d207ed013a4d9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a9b220ef0e616dd6fb6884c96952e4ee3" kindref="member">POICategoryCode</ref><sp/><ref refid="structPOI_1a704d50f064f550ef9d4d207ed013a4d9" kindref="member">categoryCode</ref>;</highlight></codeline>
+<codeline lineno="160" refid="structPOI_1a931de754b360e1b6814dd33daae84e25" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a75a58b7141b07fd078fed45a720983a3" kindref="member">FtsStringList</ref><sp/><ref refid="structPOI_1a931de754b360e1b6814dd33daae84e25" kindref="member">brandNames</ref>;</highlight></codeline>
+<codeline lineno="161" refid="structPOI_1a2a7bff1613d9aed7c267c85b5d588761" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structPOI_1a2a7bff1613d9aed7c267c85b5d588761" kindref="member">poiName</ref>;</highlight></codeline>
+<codeline lineno="162" refid="structPOI_1a37f6e463d19f194008f341812c7f1da4" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structPOI_1a37f6e463d19f194008f341812c7f1da4" kindref="member">address</ref>;</highlight></codeline>
+<codeline lineno="163" refid="structPOI_1abc542581e7bf3b77283af60b6793bc3b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a75a58b7141b07fd078fed45a720983a3" kindref="member">FtsStringList</ref><sp/><ref refid="structPOI_1abc542581e7bf3b77283af60b6793bc3b" kindref="member">place</ref>;</highlight></codeline>
+<codeline lineno="164" refid="structPOI_1a37577830e7fb56e9278bf045d65bcdb7" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a75a58b7141b07fd078fed45a720983a3" kindref="member">FtsStringList</ref><sp/><ref refid="structPOI_1a37577830e7fb56e9278bf045d65bcdb7" kindref="member">postalCode</ref>;</highlight></codeline>
+<codeline lineno="165" refid="structPOI_1aba964d35a76c79d4eed98d721883ce98" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structPOI_1aba964d35a76c79d4eed98d721883ce98" kindref="member">mapCode</ref>;</highlight></codeline>
+<codeline lineno="166" refid="structPOI_1ac0a9be8b7f5aa1a76e0d2fc243aef4d1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structPOI_1ac0a9be8b7f5aa1a76e0d2fc243aef4d1" kindref="member">countryCode</ref>;</highlight></codeline>
+<codeline lineno="167" refid="structPOI_1a27a161cfd83b2f6240450261b4f100df" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structPOI_1a27a161cfd83b2f6240450261b4f100df" kindref="member">stateCode</ref>;</highlight></codeline>
+<codeline lineno="168" refid="structPOI_1a90b01155ee98acd15341f0e44025e90c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structPOI_1a90b01155ee98acd15341f0e44025e90c" kindref="member">telephone</ref>;</highlight></codeline>
+<codeline lineno="169" refid="structPOI_1ab3477130eac0ffbbebd6289dfec34a23" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref><sp/><ref refid="structPOI_1ab3477130eac0ffbbebd6289dfec34a23" kindref="member">coordinate</ref>;</highlight></codeline>
+<codeline lineno="170" refid="structPOI_1afb206b9357cfcd2a23c86bf2ef661080" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref><sp/><ref refid="structPOI_1afb206b9357cfcd2a23c86bf2ef661080" kindref="member">distance</ref>;</highlight></codeline>
+<codeline lineno="171" refid="structPOI_1a6b82429b3367f8f0396c60f7dbf12940" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1ada01a46f1c7d02c46be1bd5ff5be9bc9" kindref="member">Score</ref><sp/><ref refid="structPOI_1a6b82429b3367f8f0396c60f7dbf12940" kindref="member">score</ref>;</highlight></codeline>
+<codeline lineno="172" refid="structPOI_1a0294846a5f71fc2f9ce4d6be68d8e03c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="structPOI_1a0294846a5f71fc2f9ce4d6be68d8e03c" kindref="member">fuzzyMatch</ref>;</highlight></codeline>
+<codeline lineno="173" refid="structPOI_1a56ee77036713eab7fb0b9cc0454afa41" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="structPOI_1a56ee77036713eab7fb0b9cc0454afa41" kindref="member">hasParents</ref>;</highlight></codeline>
+<codeline lineno="174" refid="structPOI_1a85d083dddfaa1e1b75943064d6eeaaf8" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="structPOI_1a85d083dddfaa1e1b75943064d6eeaaf8" kindref="member">hasChildren</ref>;</highlight></codeline>
+<codeline lineno="175" refid="structPOI_1a266c015d6d1b5d5971b6629d95ea2cf4" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref><sp/><ref refid="structPOI_1a266c015d6d1b5d5971b6629d95ea2cf4" kindref="member">detourDistance</ref>;</highlight></codeline>
+<codeline lineno="176" refid="structPOI_1a0bcbf86321fd0ff606b11790af98a094" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref><sp/><ref refid="structPOI_1a0bcbf86321fd0ff606b11790af98a094" kindref="member">detourTime</ref>;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#20<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="structAddress" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structAddress" kindref="compound">Address</ref><sp/>{</highlight></codeline>
+<codeline lineno="182" refid="structAddress_1acdca655f14cef647630c129c3e281eaa" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a44a97eb1ef7603d46f22815f32e9abd4" kindref="member">LocationHandle</ref><sp/><ref refid="structAddress_1acdca655f14cef647630c129c3e281eaa" kindref="member">locationHandle</ref>;</highlight></codeline>
+<codeline lineno="183" refid="structAddress_1aac1c66f9ead47ca37037064e70062418" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structAddress_1aac1c66f9ead47ca37037064e70062418" kindref="member">countryCode</ref>;</highlight></codeline>
+<codeline lineno="184" refid="structAddress_1aa35024c92af96101e018fb1074e6d2c5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structAddress_1aa35024c92af96101e018fb1074e6d2c5" kindref="member">stateCode</ref>;</highlight></codeline>
+<codeline lineno="185" refid="structAddress_1a1b20086792d652895e5c4c78b8e92be5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a75a58b7141b07fd078fed45a720983a3" kindref="member">FtsStringList</ref><sp/><ref refid="structAddress_1a1b20086792d652895e5c4c78b8e92be5" kindref="member">places</ref>;</highlight></codeline>
+<codeline lineno="186" refid="structAddress_1aa42d83e2b16e3d7701558b2686e39d2d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a75a58b7141b07fd078fed45a720983a3" kindref="member">FtsStringList</ref><sp/><ref refid="structAddress_1aa42d83e2b16e3d7701558b2686e39d2d" kindref="member">postalCodes</ref>;</highlight></codeline>
+<codeline lineno="187" refid="structAddress_1a7695e15b0bf45b267ce0c4285d388286" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structAddress_1a7695e15b0bf45b267ce0c4285d388286" kindref="member">mapCode</ref>;</highlight></codeline>
+<codeline lineno="188" refid="structAddress_1af000fd0f7d5369b1814bcbb4dcc9ccc6" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="unionAddressDetails" kindref="compound">AddressDetails</ref><sp/><ref refid="structAddress_1af000fd0f7d5369b1814bcbb4dcc9ccc6" kindref="member">addressDetails</ref>;</highlight></codeline>
+<codeline lineno="189" refid="structAddress_1ab9f0fde48870aa88a0916fe97daad7ea" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structCoordinate2D" kindref="compound">Coordinate2D</ref><sp/><ref refid="structAddress_1ab9f0fde48870aa88a0916fe97daad7ea" kindref="member">coordinate</ref>;</highlight></codeline>
+<codeline lineno="190" refid="structAddress_1a00e81498afa5a25fec2015b239a7efd9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref><sp/><ref refid="structAddress_1a00e81498afa5a25fec2015b239a7efd9" kindref="member">distance</ref>;</highlight></codeline>
+<codeline lineno="191" refid="structAddress_1aad3711d5ad4189cbbfc96cdc2ce0c7f1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1ada01a46f1c7d02c46be1bd5ff5be9bc9" kindref="member">Score</ref><sp/><ref refid="structAddress_1aad3711d5ad4189cbbfc96cdc2ce0c7f1" kindref="member">score</ref>;</highlight></codeline>
+<codeline lineno="192" refid="structAddress_1a98bfde21c8b27b366706f0a921cbb336" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="structAddress_1a98bfde21c8b27b366706f0a921cbb336" kindref="member">fuzzyMatch</ref>;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#21<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175" kindref="member">SearchOption</ref><sp/>{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175a2664f03ac6b8bb9eee4287720e407db3" kindref="member">ADDRESS</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><ref refid="structPOI" kindref="compound">POI</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175af7fb54dcb044fb48b74206739b321feb" kindref="member">POI_SUGGESTION</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175afb1465ee6f42a909a805d5b9aac47852" kindref="member">NO_PLACES</ref><sp/>=<sp/>65536,</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175ab4e03287b286dde20c53fdaa9d591c9d" kindref="member">NO_STREETS</ref><sp/>=<sp/>131072,</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175ac392008c7727e836377bbf7f26104c8e" kindref="member">NO_POI_CATEGORY_ASSUMPTIONS</ref><sp/>=<sp/>262144,</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175a8ccadcaa45c4d41ebe1e62adbaaf6e8b" kindref="member">NO_POLITICAL_DIVISIONS</ref><sp/>=<sp/>524288,</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a376fa30c4128d7fa2be6308c9b441175a3b60410d403494b82346dc1b46112317" kindref="member">POI_INDICATE_LINKS</ref><sp/>=<sp/>1048576,</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#22<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="FreeTextSearch_8types_8h_1a19a083cad2a178e7f0258d2e306f52d6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a1d6ba23467c5f743eb2b594913650a61" kindref="member">Int8</ref><sp/><ref refid="FreeTextSearch_8types_8h_1a19a083cad2a178e7f0258d2e306f52d6" kindref="member">FuzzyLevel</ref>;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#23<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="FreeTextSearch_8types_8h_1a5616271fcf4c686bd069f323545ae3ba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;Address&gt;<sp/><ref refid="FreeTextSearch_8types_8h_1a5616271fcf4c686bd069f323545ae3ba" kindref="member">Addresses</ref>;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#24<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="FreeTextSearch_8types_8h_1a66442d58200418aff54497de9bbabd16" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;Shape&gt;<sp/><ref refid="FreeTextSearch_8types_8h_1a66442d58200418aff54497de9bbabd16" kindref="member">ShapeList</ref>;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#25<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="FreeTextSearch_8types_8h_1a3aa8afec7a2a1fe156f0df8313a703fb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;LocationHandle&gt;<sp/><ref refid="FreeTextSearch_8types_8h_1a3aa8afec7a2a1fe156f0df8313a703fb" kindref="member">LocationHandleList</ref>;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#26<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="structPOICategory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structPOICategory" kindref="compound">POICategory</ref><sp/>{</highlight></codeline>
+<codeline lineno="225" refid="structPOICategory_1ac6b465f67d4d34ea0ca5b3d01e8a4ed6" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a9b220ef0e616dd6fb6884c96952e4ee3" kindref="member">POICategoryCode</ref><sp/><ref refid="structPOICategory_1ac6b465f67d4d34ea0ca5b3d01e8a4ed6" kindref="member">categoryCode</ref>;</highlight></codeline>
+<codeline lineno="226" refid="structPOICategory_1abc7e97751536208b2fe970475d29c70f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structPOICategory_1abc7e97751536208b2fe970475d29c70f" kindref="member">categoryName</ref>;</highlight></codeline>
+<codeline lineno="227" refid="structPOICategory_1ad8d969b3dc9c78a59ad2ecc8491de000" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structPOICategory_1ad8d969b3dc9c78a59ad2ecc8491de000" kindref="member">matchedName</ref>;</highlight></codeline>
+<codeline lineno="228" refid="structPOICategory_1a21fb04046f60a4418bec9646e2333bf6" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1aff85ccc7d2151ee8d688586c2d398187" kindref="member">FtsString</ref><sp/><ref refid="structPOICategory_1a21fb04046f60a4418bec9646e2333bf6" kindref="member">searchTextSuggestion</ref>;</highlight></codeline>
+<codeline lineno="229" refid="structPOICategory_1af1c43e6a6904bcdf3514f1788ec75073" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1a5616271fcf4c686bd069f323545ae3ba" kindref="member">Addresses</ref><sp/><ref refid="structPOICategory_1af1c43e6a6904bcdf3514f1788ec75073" kindref="member">nearAddressSuggestions</ref>;</highlight></codeline>
+<codeline lineno="230" refid="structPOICategory_1a242b8ac82308d4a494701d8d4560e1b1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="FreeTextSearch_8types_8h_1ada01a46f1c7d02c46be1bd5ff5be9bc9" kindref="member">Score</ref><sp/><ref refid="structPOICategory_1a242b8ac82308d4a494701d8d4560e1b1" kindref="member">score</ref>;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#27<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="FreeTextSearch_8types_8h_1a2fc9255d67030464dbf41f661d62d74e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;POI&gt;<sp/><ref refid="FreeTextSearch_8types_8h_1a2fc9255d67030464dbf41f661d62d74e" kindref="member">POIs</ref>;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#28<sp/>from<sp/>FreeTextSearch<sp/>in<sp/>package</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="comment">//<sp/>org.genivi.navigation.freetextsearchservice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="FreeTextSearch_8types_8h_1a3cb86e4f606b13e3fbed4cf1add3bd32" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;POICategory&gt;<sp/><ref refid="FreeTextSearch_8types_8h_1a3cb86e4f606b13e3fbed4cf1add3bd32" kindref="member">POICategories</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="FreeTextSearch.types.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structLocale" kind="struct" language="C++" prot="public">
+    <compoundname>Locale</compoundname>
+    <includes refid="NavigationTypes_8types_8h" local="no">NavigationTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structLocale_1aa9271587034e283fb34580080199f016" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Locale::languageCode</definition>
+        <argsstring></argsstring>
+        <name>languageCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="46" column="1" bodyfile="NavigationTypes.types.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLocale_1aa6e157541713e3dec6a8589465412207" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Locale::countryCode</definition>
+        <argsstring></argsstring>
+        <name>countryCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="47" column="1" bodyfile="NavigationTypes.types.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLocale_1afeb70f5971ad34789edae5cda86d8bc5" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Locale::scriptCode</definition>
+        <argsstring></argsstring>
+        <name>scriptCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NavigationTypes.types.h" line="48" column="1" bodyfile="NavigationTypes.types.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NavigationTypes.types.h" line="45" column="1" bodyfile="NavigationTypes.types.h" bodystart="45" bodyend="49"/>
+    <listofallmembers>
+      <member refid="structLocale_1aa6e157541713e3dec6a8589465412207" prot="public" virt="non-virtual"><scope>Locale</scope><name>countryCode</name></member>
+      <member refid="structLocale_1aa9271587034e283fb34580080199f016" prot="public" virt="non-virtual"><scope>Locale</scope><name>languageCode</name></member>
+      <member refid="structLocale_1afeb70f5971ad34789edae5cda86d8bc5" prot="public" virt="non-virtual"><scope>Locale</scope><name>scriptCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

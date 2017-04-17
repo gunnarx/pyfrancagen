@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['name',['name',['../structCustomElement.html#a5d5d9f394f11da81770261ec01e3bbf1',1,'CustomElement::name()'],['../structCategorySortOption.html#add3867932d546e132c05879543cf1bb8',1,'CategorySortOption::name()'],['../structPoiDetails.html#ab8cb7948a15f3115438d1343303312a5',1,'PoiDetails::name()'],['../structCategoryAndName.html#a09986679670bd4bb78347700112951bc',1,'CategoryAndName::name()'],['../structPoiAddedDetails.html#a3cc3ee377dd31e9e11a42a3dad120b62',1,'PoiAddedDetails::name()'],['../structDetails.html#acc2a2efc349939c690ce60ea10113ebf',1,'Details::name()'],['../structOperator.html#a25ad4ce86a4f28e5b18021e063fdc5a9',1,'Operator::name()'],['../structCategoryAttribute.html#adfb910cbe1e6e4e7a8315a6a5c5dc7e2',1,'CategoryAttribute::name()'],['../structCategoryDetails.html#a1f858ba62b342a2466a345a07dbaf9eb',1,'CategoryDetails::name()'],['../structPoiCAMDetails.html#a0ea8ec1d49a50fa08a33250e7a52a30b',1,'PoiCAMDetails::name()']]],
+  ['nearaddresssuggestions',['nearAddressSuggestions',['../structPOICategory.html#af1c43e6a6904bcdf3514f1788ec75073',1,'POICategory']]],
+  ['number',['number',['../structWaypointStruct.html#a4a8bbeda4e00622ef3fa77b059fd9e6f',1,'WaypointStruct']]]
+];

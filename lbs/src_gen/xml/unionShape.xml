@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="unionShape" kind="union" language="C++" prot="public">
+    <compoundname>Shape</compoundname>
+    <includes refid="FreeTextSearch_8types_8h" local="no">FreeTextSearch.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionShape_1ac92b3a8db8c863d033c4b03e253e642d" prot="public" static="no" mutable="no">
+        <type><ref refid="structCircle" kindref="compound">Circle</ref></type>
+        <definition>Circle Shape::circle</definition>
+        <argsstring></argsstring>
+        <name>circle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="81" column="1" bodyfile="FreeTextSearch.types.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionShape_1a8ae59e175b9847002ad1f19493fcd9da" prot="public" static="no" mutable="no">
+        <type><ref refid="structRectangle" kindref="compound">Rectangle</ref></type>
+        <definition>Rectangle Shape::rectangle</definition>
+        <argsstring></argsstring>
+        <name>rectangle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="82" column="1" bodyfile="FreeTextSearch.types.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionShape_1a805c15f1a2fc4818c954bcba52bbd820" prot="public" static="no" mutable="no">
+        <type><ref refid="structRouteCorridor" kindref="compound">RouteCorridor</ref></type>
+        <definition>RouteCorridor Shape::routeCorridor</definition>
+        <argsstring></argsstring>
+        <name>routeCorridor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="83" column="1" bodyfile="FreeTextSearch.types.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="209">
+        <label>RouteCorridor</label>
+        <link refid="structRouteCorridor"/>
+      </node>
+      <node id="208">
+        <label>Coordinate2D</label>
+        <link refid="structCoordinate2D"/>
+      </node>
+      <node id="207">
+        <label>Rectangle</label>
+        <link refid="structRectangle"/>
+        <childnode refid="208" relation="usage">
+          <edgelabel>bottomRight</edgelabel>
+          <edgelabel>topLeft</edgelabel>
+        </childnode>
+      </node>
+      <node id="210">
+        <label>Circle</label>
+        <link refid="structCircle"/>
+        <childnode refid="208" relation="usage">
+          <edgelabel>center</edgelabel>
+        </childnode>
+      </node>
+      <node id="206">
+        <label>Shape</label>
+        <link refid="unionShape"/>
+        <childnode refid="207" relation="usage">
+          <edgelabel>rectangle</edgelabel>
+        </childnode>
+        <childnode refid="209" relation="usage">
+          <edgelabel>routeCorridor</edgelabel>
+        </childnode>
+        <childnode refid="210" relation="usage">
+          <edgelabel>circle</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="FreeTextSearch.types.h" line="80" column="1" bodyfile="FreeTextSearch.types.h" bodystart="80" bodyend="84"/>
+    <listofallmembers>
+      <member refid="unionShape_1ac92b3a8db8c863d033c4b03e253e642d" prot="public" virt="non-virtual"><scope>Shape</scope><name>circle</name></member>
+      <member refid="unionShape_1a8ae59e175b9847002ad1f19493fcd9da" prot="public" virt="non-virtual"><scope>Shape</scope><name>rectangle</name></member>
+      <member refid="unionShape_1a805c15f1a2fc4818c954bcba52bbd820" prot="public" virt="non-virtual"><scope>Shape</scope><name>routeCorridor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

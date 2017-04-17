@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structCategoryDetails" kind="struct" language="C++" prot="public">
+    <compoundname>CategoryDetails</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCategoryDetails_1a1251e0985804511551e3f9bfbdd47d4e" prot="public" static="no" mutable="no">
+        <type><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref></type>
+        <definition>CategoryID CategoryDetails::uniqueId</definition>
+        <argsstring></argsstring>
+        <name>uniqueId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="307" column="1" bodyfile="POIServiceTypes.types.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryDetails_1a898bc6021d271e27acb2a83f285e8221" prot="public" static="no" mutable="no">
+        <type><ref refid="POIServiceTypes_8types_8h_1a157631a2ef5aa2c9a71abb3d8a5722db" kindref="member">StandardCategory</ref></type>
+        <definition>StandardCategory CategoryDetails::standardCategoryId</definition>
+        <argsstring></argsstring>
+        <name>standardCategoryId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="308" column="1" bodyfile="POIServiceTypes.types.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryDetails_1af170c0d34b81f3761ff076e03e712c90" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref> &gt;</type>
+        <definition>std::vector&lt;CategoryID&gt; CategoryDetails::parentsId</definition>
+        <argsstring></argsstring>
+        <name>parentsId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="309" column="1" bodyfile="POIServiceTypes.types.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryDetails_1a973cc7fb16f2e0e1c1fbcf3d5cab02c3" prot="public" static="no" mutable="no">
+        <type><ref refid="unionIcon" kindref="compound">Icon</ref></type>
+        <definition>Icon CategoryDetails::icons</definition>
+        <argsstring></argsstring>
+        <name>icons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="310" column="1" bodyfile="POIServiceTypes.types.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryDetails_1a1f858ba62b342a2466a345a07dbaf9eb" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String CategoryDetails::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="311" column="1" bodyfile="POIServiceTypes.types.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryDetails_1aa8d17c59afb1a4e98a634405e9f118cb" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+        <definition>Boolean CategoryDetails::topLevel</definition>
+        <argsstring></argsstring>
+        <name>topLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="312" column="1" bodyfile="POIServiceTypes.types.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryDetails_1a84f0fa2316e491efb5bbe50b5acf6e53" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String CategoryDetails::description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="313" column="1" bodyfile="POIServiceTypes.types.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCategoryDetails_1aa506dffa08f24ba96c0e135a1f74c297" prot="public" static="no" mutable="no">
+        <type><ref refid="unionMedia" kindref="compound">Media</ref></type>
+        <definition>Media CategoryDetails::media</definition>
+        <argsstring></argsstring>
+        <name>media</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="314" column="1" bodyfile="POIServiceTypes.types.h" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="60">
+        <label>Icon</label>
+        <link refid="unionIcon"/>
+      </node>
+      <node id="59">
+        <label>Media</label>
+        <link refid="unionMedia"/>
+      </node>
+      <node id="58">
+        <label>CategoryDetails</label>
+        <link refid="structCategoryDetails"/>
+        <childnode refid="59" relation="usage">
+          <edgelabel>media</edgelabel>
+        </childnode>
+        <childnode refid="60" relation="usage">
+          <edgelabel>icons</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="POIServiceTypes.types.h" line="306" column="1" bodyfile="POIServiceTypes.types.h" bodystart="306" bodyend="315"/>
+    <listofallmembers>
+      <member refid="structCategoryDetails_1a84f0fa2316e491efb5bbe50b5acf6e53" prot="public" virt="non-virtual"><scope>CategoryDetails</scope><name>description</name></member>
+      <member refid="structCategoryDetails_1a973cc7fb16f2e0e1c1fbcf3d5cab02c3" prot="public" virt="non-virtual"><scope>CategoryDetails</scope><name>icons</name></member>
+      <member refid="structCategoryDetails_1aa506dffa08f24ba96c0e135a1f74c297" prot="public" virt="non-virtual"><scope>CategoryDetails</scope><name>media</name></member>
+      <member refid="structCategoryDetails_1a1f858ba62b342a2466a345a07dbaf9eb" prot="public" virt="non-virtual"><scope>CategoryDetails</scope><name>name</name></member>
+      <member refid="structCategoryDetails_1af170c0d34b81f3761ff076e03e712c90" prot="public" virt="non-virtual"><scope>CategoryDetails</scope><name>parentsId</name></member>
+      <member refid="structCategoryDetails_1a898bc6021d271e27acb2a83f285e8221" prot="public" virt="non-virtual"><scope>CategoryDetails</scope><name>standardCategoryId</name></member>
+      <member refid="structCategoryDetails_1aa8d17c59afb1a4e98a634405e9f118cb" prot="public" virt="non-virtual"><scope>CategoryDetails</scope><name>topLevel</name></member>
+      <member refid="structCategoryDetails_1a1251e0985804511551e3f9bfbdd47d4e" prot="public" virt="non-virtual"><scope>CategoryDetails</scope><name>uniqueId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

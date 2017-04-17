@@ -1,0 +1,635 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="franca__types_8h" kind="file" language="C++">
+    <compoundname>franca_types.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">map</includes>
+    <includes local="no">string</includes>
+    <includedby refid="CommonTypes_8types_8h" local="yes">CommonTypes.types.h</includedby>
+    <includedby refid="NavigationTypes_8types_8h" local="yes">NavigationTypes.types.h</includedby>
+    <includedby refid="Configuration_8types_8h" local="yes">Configuration.types.h</includedby>
+    <includedby refid="FreeTextSearch_8types_8h" local="yes">FreeTextSearch.types.h</includedby>
+    <includedby refid="NavigationCoreTypes_8types_8h" local="yes">NavigationCoreTypes.types.h</includedby>
+    <includedby refid="Guidance_8types_8h" local="yes">Guidance.types.h</includedby>
+    <includedby refid="LocationInput_8types_8h" local="yes">LocationInput.types.h</includedby>
+    <includedby refid="MapMatchedPosition_8types_8h" local="yes">MapMatchedPosition.types.h</includedby>
+    <includedby refid="MapViewerControl_8types_8h" local="yes">MapViewerControl.types.h</includedby>
+    <includedby refid="POIServiceTypes_8types_8h" local="yes">POIServiceTypes.types.h</includedby>
+    <includedby refid="POIConfiguration_8types_8h" local="yes">POIConfiguration.types.h</includedby>
+    <includedby refid="POIContentAccess_8types_8h" local="yes">POIContentAccess.types.h</includedby>
+    <includedby refid="POIContentAccessModule_8types_8h" local="yes">POIContentAccessModule.types.h</includedby>
+    <includedby refid="POISearch_8types_8h" local="yes">POISearch.types.h</includedby>
+    <includedby refid="Routing_8types_8h" local="yes">Routing.types.h</includedby>
+    <includedby refid="Session_8types_8h" local="yes">Session.types.h</includedby>
+    <incdepgraph>
+      <node id="79">
+        <label>stdint.h</label>
+      </node>
+      <node id="82">
+        <label>string</label>
+      </node>
+      <node id="81">
+        <label>map</label>
+      </node>
+      <node id="80">
+        <label>vector</label>
+      </node>
+      <node id="78">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="94">
+        <label>NavigationCoreTypes.types.h</label>
+        <link refid="NavigationCoreTypes_8types_8h"/>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>FreeTextSearch.h</label>
+        <link refid="FreeTextSearch_8h"/>
+        <childnode refid="89" relation="include">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>Configuration.h</label>
+        <link refid="Configuration_8h"/>
+        <childnode refid="86" relation="include">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>POIContentAccess.cpp</label>
+        <link refid="POIContentAccess_8cpp"/>
+      </node>
+      <node id="123">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="120" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>LocationInput.types.h</label>
+        <link refid="LocationInput_8types_8h"/>
+        <childnode refid="96" relation="include">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>Guidance.cpp</label>
+        <link refid="Guidance_8cpp"/>
+      </node>
+      <node id="97">
+        <label>LocationInput.cpp</label>
+        <link refid="LocationInput_8cpp"/>
+      </node>
+      <node id="106">
+        <label>MapViewerControl.types.h</label>
+        <link refid="MapViewerControl_8types_8h"/>
+        <childnode refid="104" relation="include">
+        </childnode>
+      </node>
+      <node id="121">
+        <label>Session.cpp</label>
+        <link refid="Session_8cpp"/>
+      </node>
+      <node id="107">
+        <label>POIConfiguration.h</label>
+        <link refid="POIConfiguration_8h"/>
+        <childnode refid="108" relation="include">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>POIServiceTypes.types.h</label>
+        <link refid="POIServiceTypes_8types_8h"/>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>POIContentAccessModule.types.h</label>
+        <link refid="POIContentAccessModule_8types_8h"/>
+        <childnode refid="115" relation="include">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="120" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>MapMatchedPosition.cpp</label>
+        <link refid="MapMatchedPosition_8cpp"/>
+      </node>
+      <node id="118">
+        <label>POISearch.h</label>
+        <link refid="POISearch_8h"/>
+        <childnode refid="119" relation="include">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>MapViewerControl.h</label>
+        <link refid="MapViewerControl_8h"/>
+        <childnode refid="105" relation="include">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>POIConfiguration.types.h</label>
+        <link refid="POIConfiguration_8types_8h"/>
+        <childnode refid="107" relation="include">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>FreeTextSearch.types.h</label>
+        <link refid="FreeTextSearch_8types_8h"/>
+        <childnode refid="88" relation="include">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>Routing.types.h</label>
+        <link refid="Routing_8types_8h"/>
+        <childnode refid="101" relation="include">
+        </childnode>
+      </node>
+      <node id="117">
+        <label>POISearch.types.h</label>
+        <link refid="POISearch_8types_8h"/>
+        <childnode refid="118" relation="include">
+        </childnode>
+      </node>
+      <node id="115">
+        <label>POIContentAccessModule.h</label>
+        <link refid="POIContentAccessModule_8h"/>
+        <childnode refid="116" relation="include">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>MapViewerControl.cpp</label>
+        <link refid="MapViewerControl_8cpp"/>
+      </node>
+      <node id="119">
+        <label>POISearch.cpp</label>
+        <link refid="POISearch_8cpp"/>
+      </node>
+      <node id="120">
+        <label>Session.h</label>
+        <link refid="Session_8h"/>
+        <childnode refid="121" relation="include">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>MapMatchedPosition.h</label>
+        <link refid="MapMatchedPosition_8h"/>
+        <childnode refid="100" relation="include">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>Configuration.types.h</label>
+        <link refid="Configuration_8types_8h"/>
+        <childnode refid="85" relation="include">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>FreeTextSearch.cpp</label>
+        <link refid="FreeTextSearch_8cpp"/>
+      </node>
+      <node id="93">
+        <label>Guidance.types.h</label>
+        <link refid="Guidance_8types_8h"/>
+        <childnode refid="91" relation="include">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>Guidance.h</label>
+        <link refid="Guidance_8h"/>
+        <childnode refid="92" relation="include">
+        </childnode>
+      </node>
+      <node id="111">
+        <label>POIContentAccess.types.h</label>
+        <link refid="POIContentAccess_8types_8h"/>
+        <childnode refid="112" relation="include">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>POIContentAccess.h</label>
+        <link refid="POIContentAccess_8h"/>
+        <childnode refid="113" relation="include">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>MapMatchedPosition.types.h</label>
+        <link refid="MapMatchedPosition_8types_8h"/>
+        <childnode refid="99" relation="include">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>POIContentAccessModule.cpp</label>
+        <link refid="POIContentAccessModule_8cpp"/>
+      </node>
+      <node id="102">
+        <label>Routing.cpp</label>
+        <link refid="Routing_8cpp"/>
+      </node>
+      <node id="86">
+        <label>Configuration.cpp</label>
+        <link refid="Configuration_8cpp"/>
+      </node>
+      <node id="122">
+        <label>Session.types.h</label>
+        <link refid="Session_8types_8h"/>
+        <childnode refid="120" relation="include">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>POIConfiguration.cpp</label>
+        <link refid="POIConfiguration_8cpp"/>
+      </node>
+      <node id="96">
+        <label>LocationInput.h</label>
+        <link refid="LocationInput_8h"/>
+        <childnode refid="97" relation="include">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>Routing.h</label>
+        <link refid="Routing_8h"/>
+        <childnode refid="102" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="franca__types_8h_1a1d6ba23467c5f743eb2b594913650a61" prot="public" static="no">
+        <type>int8_t</type>
+        <definition>typedef int8_t Int8</definition>
+        <argsstring></argsstring>
+        <name>Int8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="12" column="1" bodyfile="franca_types.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" prot="public" static="no">
+        <type>int16_t</type>
+        <definition>typedef int16_t Int16</definition>
+        <argsstring></argsstring>
+        <name>Int16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="13" column="1" bodyfile="franca_types.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" prot="public" static="no">
+        <type>int32_t</type>
+        <definition>typedef int32_t Int32</definition>
+        <argsstring></argsstring>
+        <name>Int32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="14" column="1" bodyfile="franca_types.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="franca__types_8h_1a2de3f49eadcae5078cd57134586ee25d" prot="public" static="no">
+        <type>int64_t</type>
+        <definition>typedef int64_t Int64</definition>
+        <argsstring></argsstring>
+        <name>Int64</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="15" column="1" bodyfile="franca_types.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" prot="public" static="no">
+        <type>uint8_t</type>
+        <definition>typedef uint8_t UInt8</definition>
+        <argsstring></argsstring>
+        <name>UInt8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="16" column="1" bodyfile="franca_types.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" prot="public" static="no">
+        <type>uint16_t</type>
+        <definition>typedef uint16_t UInt16</definition>
+        <argsstring></argsstring>
+        <name>UInt16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="17" column="1" bodyfile="franca_types.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" prot="public" static="no">
+        <type>uint32_t</type>
+        <definition>typedef uint32_t UInt32</definition>
+        <argsstring></argsstring>
+        <name>UInt32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="18" column="1" bodyfile="franca_types.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="franca__types_8h_1aa288382a207683aa38aca516f6edd66d" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t UInt64</definition>
+        <argsstring></argsstring>
+        <name>UInt64</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="19" column="1" bodyfile="franca_types.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" prot="public" static="no">
+        <type>bool</type>
+        <definition>typedef bool Boolean</definition>
+        <argsstring></argsstring>
+        <name>Boolean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="20" column="1" bodyfile="franca_types.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="franca__types_8h_1a07afd7094cb489cbd514c76e6f55d34f" prot="public" static="no">
+        <type>float</type>
+        <definition>typedef float Float</definition>
+        <argsstring></argsstring>
+        <name>Float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="21" column="1" bodyfile="franca_types.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" prot="public" static="no">
+        <type>double</type>
+        <definition>typedef double Double</definition>
+        <argsstring></argsstring>
+        <name>Double</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="22" column="1" bodyfile="franca_types.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" prot="public" static="no">
+        <type>std::string</type>
+        <definition>typedef std::string String</definition>
+        <argsstring></argsstring>
+        <name>String</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="23" column="1" bodyfile="franca_types.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="franca__types_8h_1a4d02373b2f2c0107ac705c8c375dfaf2" prot="public" static="no">
+        <type>std::vector&lt; char &gt;</type>
+        <definition>typedef std::vector&lt;char&gt; ByteBuffer</definition>
+        <argsstring></argsstring>
+        <name>ByteBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franca_types.h" line="24" column="1" bodyfile="franca_types.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>For<sp/>lazyness<sp/>sake,<sp/>here<sp/>are<sp/>the<sp/>built<sp/>in<sp/>Franca<sp/>types<sp/>typedef:ed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Of<sp/>course<sp/>in<sp/>a<sp/>better<sp/>future<sp/>version<sp/>code<sp/>generator<sp/>will<sp/>translate<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>native<sp/>C/C++<sp/>types<sp/>directly.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="franca__types_8h_1a1d6ba23467c5f743eb2b594913650a61" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int8_t<sp/><ref refid="franca__types_8h_1a1d6ba23467c5f743eb2b594913650a61" kindref="member">Int8</ref>;</highlight></codeline>
+<codeline lineno="13" refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int16_t<sp/><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref>;</highlight></codeline>
+<codeline lineno="14" refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref>;</highlight></codeline>
+<codeline lineno="15" refid="franca__types_8h_1a2de3f49eadcae5078cd57134586ee25d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int64_t<sp/><ref refid="franca__types_8h_1a2de3f49eadcae5078cd57134586ee25d" kindref="member">Int64</ref>;</highlight></codeline>
+<codeline lineno="16" refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref>;</highlight></codeline>
+<codeline lineno="17" refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint16_t<sp/><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref>;</highlight></codeline>
+<codeline lineno="18" refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref>;</highlight></codeline>
+<codeline lineno="19" refid="franca__types_8h_1aa288382a207683aa38aca516f6edd66d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="franca__types_8h_1aa288382a207683aa38aca516f6edd66d" kindref="member">UInt64</ref>;</highlight></codeline>
+<codeline lineno="20" refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref>;</highlight></codeline>
+<codeline lineno="21" refid="franca__types_8h_1a07afd7094cb489cbd514c76e6f55d34f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a07afd7094cb489cbd514c76e6f55d34f" kindref="member">Float</ref>;</highlight></codeline>
+<codeline lineno="22" refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref>;</highlight></codeline>
+<codeline lineno="23" refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref>;</highlight></codeline>
+<codeline lineno="24" refid="franca__types_8h_1a4d02373b2f2c0107ac705c8c375dfaf2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;char&gt;<sp/><ref refid="franca__types_8h_1a4d02373b2f2c0107ac705c8c375dfaf2" kindref="member">ByteBuffer</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="franca_types.h"/>
+  </compounddef>
+</doxygen>

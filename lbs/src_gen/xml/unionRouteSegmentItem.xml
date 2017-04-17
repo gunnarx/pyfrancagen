@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="unionRouteSegmentItem" kind="union" language="C++" prot="public">
+    <compoundname>RouteSegmentItem</compoundname>
+    <includes refid="Routing_8types_8h" local="no">Routing.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionRouteSegmentItem_1a2b1e63c31655873dbc2e794160f4338e" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a1f2c5f02159fb28428e23074cc04166d" kindref="member">Double</ref></type>
+        <definition>Double RouteSegmentItem::doubleValue</definition>
+        <argsstring></argsstring>
+        <name>doubleValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="157" column="1" bodyfile="Routing.types.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionRouteSegmentItem_1a18174efb33101f0e36a1a93dcaa512bf" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structIntermediatePoint" kindref="compound">IntermediatePoint</ref> &gt;</type>
+        <definition>std::vector&lt;IntermediatePoint&gt; RouteSegmentItem::intermediatePoints</definition>
+        <argsstring></argsstring>
+        <name>intermediatePoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="158" column="1" bodyfile="Routing.types.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionRouteSegmentItem_1acac20fd22b8a3b039015bfb2e34b2f59" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String RouteSegmentItem::stringValue</definition>
+        <argsstring></argsstring>
+        <name>stringValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="159" column="1" bodyfile="Routing.types.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionRouteSegmentItem_1ad4810f3dc3f8566aa8b339bfa5b24af6" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="franca__types_8h_1af09fb0962ef29a291e5f31a6e9b679e4" kindref="member">UInt8</ref> &gt;</type>
+        <definition>std::vector&lt;UInt8&gt; RouteSegmentItem::linkId</definition>
+        <argsstring></argsstring>
+        <name>linkId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="160" column="1" bodyfile="Routing.types.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionRouteSegmentItem_1ac2dfac8d3fce8a83ad0c2ecdc4bade4c" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+        <definition>Int32 RouteSegmentItem::int32Value</definition>
+        <argsstring></argsstring>
+        <name>int32Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="161" column="1" bodyfile="Routing.types.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionRouteSegmentItem_1acb395539ba6f29a3a7971aff746d0cf5" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref></type>
+        <definition>Int16 RouteSegmentItem::int16Value</definition>
+        <argsstring></argsstring>
+        <name>int16Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="162" column="1" bodyfile="Routing.types.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionRouteSegmentItem_1ab2cdf657ddf35b8d75d4ed61f7bb21e5" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>UInt32 RouteSegmentItem::uInt32Value</definition>
+        <argsstring></argsstring>
+        <name>uInt32Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="163" column="1" bodyfile="Routing.types.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionRouteSegmentItem_1afb24951b8900b058f192a1403c032e65" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 RouteSegmentItem::uInt16Value</definition>
+        <argsstring></argsstring>
+        <name>uInt16Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Routing.types.h" line="164" column="1" bodyfile="Routing.types.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Routing.types.h" line="156" column="1" bodyfile="Routing.types.h" bodystart="156" bodyend="165"/>
+    <listofallmembers>
+      <member refid="unionRouteSegmentItem_1a2b1e63c31655873dbc2e794160f4338e" prot="public" virt="non-virtual"><scope>RouteSegmentItem</scope><name>doubleValue</name></member>
+      <member refid="unionRouteSegmentItem_1acb395539ba6f29a3a7971aff746d0cf5" prot="public" virt="non-virtual"><scope>RouteSegmentItem</scope><name>int16Value</name></member>
+      <member refid="unionRouteSegmentItem_1ac2dfac8d3fce8a83ad0c2ecdc4bade4c" prot="public" virt="non-virtual"><scope>RouteSegmentItem</scope><name>int32Value</name></member>
+      <member refid="unionRouteSegmentItem_1a18174efb33101f0e36a1a93dcaa512bf" prot="public" virt="non-virtual"><scope>RouteSegmentItem</scope><name>intermediatePoints</name></member>
+      <member refid="unionRouteSegmentItem_1ad4810f3dc3f8566aa8b339bfa5b24af6" prot="public" virt="non-virtual"><scope>RouteSegmentItem</scope><name>linkId</name></member>
+      <member refid="unionRouteSegmentItem_1acac20fd22b8a3b039015bfb2e34b2f59" prot="public" virt="non-virtual"><scope>RouteSegmentItem</scope><name>stringValue</name></member>
+      <member refid="unionRouteSegmentItem_1afb24951b8900b058f192a1403c032e65" prot="public" virt="non-virtual"><scope>RouteSegmentItem</scope><name>uInt16Value</name></member>
+      <member refid="unionRouteSegmentItem_1ab2cdf657ddf35b8d75d4ed61f7bb21e5" prot="public" virt="non-virtual"><scope>RouteSegmentItem</scope><name>uInt32Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

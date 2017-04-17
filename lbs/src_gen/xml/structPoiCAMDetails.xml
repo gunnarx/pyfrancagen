@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structPoiCAMDetails" kind="struct" language="C++" prot="public">
+    <compoundname>PoiCAMDetails</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPoiCAMDetails_1a887524edf208b3137bd74d21e7cad20b" prot="public" static="no" mutable="no">
+        <type><ref refid="POIServiceTypes_8types_8h_1a400a3573b04df4d01d041cfd0bbad662" kindref="member">POI_ID</ref></type>
+        <definition>POI_ID PoiCAMDetails::sourceId</definition>
+        <argsstring></argsstring>
+        <name>sourceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="394" column="1" bodyfile="POIServiceTypes.types.h" bodystart="394" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPoiCAMDetails_1a0ea8ec1d49a50fa08a33250e7a52a30b" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String PoiCAMDetails::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="395" column="1" bodyfile="POIServiceTypes.types.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPoiCAMDetails_1a83ba24ee9fc634ea2fa31b3ce43eef0c" prot="public" static="no" mutable="no">
+        <type><ref refid="CommonTypes_8types_8h_1ae67b1e4df05aa8508b718f661a0b8359" kindref="member">CategoryID</ref></type>
+        <definition>CategoryID PoiCAMDetails::category</definition>
+        <argsstring></argsstring>
+        <name>category</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="396" column="1" bodyfile="POIServiceTypes.types.h" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPoiCAMDetails_1af9d1d43bcbc69f01639af60a005eac99" prot="public" static="no" mutable="no">
+        <type><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref></type>
+        <definition>Coordinate3D PoiCAMDetails::location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="397" column="1" bodyfile="POIServiceTypes.types.h" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPoiCAMDetails_1a2fff71de1928774df1bd6004d5fd6752" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 PoiCAMDetails::distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="398" column="1" bodyfile="POIServiceTypes.types.h" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPoiCAMDetails_1a797c8cf945f02a4d49fe50af1827ceba" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structPoiAttribute" kindref="compound">PoiAttribute</ref> &gt;</type>
+        <definition>std::vector&lt;PoiAttribute&gt; PoiCAMDetails::attributeList</definition>
+        <argsstring></argsstring>
+        <name>attributeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="399" column="1" bodyfile="POIServiceTypes.types.h" bodystart="399" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="149">
+        <label>Coordinate3D</label>
+        <link refid="structCoordinate3D"/>
+      </node>
+      <node id="148">
+        <label>PoiCAMDetails</label>
+        <link refid="structPoiCAMDetails"/>
+        <childnode refid="149" relation="usage">
+          <edgelabel>location</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="POIServiceTypes.types.h" line="393" column="1" bodyfile="POIServiceTypes.types.h" bodystart="393" bodyend="400"/>
+    <listofallmembers>
+      <member refid="structPoiCAMDetails_1a797c8cf945f02a4d49fe50af1827ceba" prot="public" virt="non-virtual"><scope>PoiCAMDetails</scope><name>attributeList</name></member>
+      <member refid="structPoiCAMDetails_1a83ba24ee9fc634ea2fa31b3ce43eef0c" prot="public" virt="non-virtual"><scope>PoiCAMDetails</scope><name>category</name></member>
+      <member refid="structPoiCAMDetails_1a2fff71de1928774df1bd6004d5fd6752" prot="public" virt="non-virtual"><scope>PoiCAMDetails</scope><name>distance</name></member>
+      <member refid="structPoiCAMDetails_1af9d1d43bcbc69f01639af60a005eac99" prot="public" virt="non-virtual"><scope>PoiCAMDetails</scope><name>location</name></member>
+      <member refid="structPoiCAMDetails_1a0ea8ec1d49a50fa08a33250e7a52a30b" prot="public" virt="non-virtual"><scope>PoiCAMDetails</scope><name>name</name></member>
+      <member refid="structPoiCAMDetails_1a887524edf208b3137bd74d21e7cad20b" prot="public" virt="non-virtual"><scope>PoiCAMDetails</scope><name>sourceId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

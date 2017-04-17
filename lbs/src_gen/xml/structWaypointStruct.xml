@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structWaypointStruct" kind="struct" language="C++" prot="public">
+    <compoundname>WaypointStruct</compoundname>
+    <includes refid="Guidance_8types_8h" local="no">Guidance.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structWaypointStruct_1a752a87be421f6df3a0aa4a1ad740c31b" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>UInt32 WaypointStruct::waypointOffset</definition>
+        <argsstring></argsstring>
+        <name>waypointOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="84" column="1" bodyfile="Guidance.types.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWaypointStruct_1a14806d52877c5214d39350de61fe1da3" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>UInt32 WaypointStruct::travelTime</definition>
+        <argsstring></argsstring>
+        <name>travelTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="85" column="1" bodyfile="Guidance.types.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWaypointStruct_1a418f14d3993dd69076873748149d4dd3" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref></type>
+        <definition>Int32 WaypointStruct::direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="86" column="1" bodyfile="Guidance.types.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWaypointStruct_1a5cbf471b8be21194fe7e448f980f8207" prot="public" static="no" mutable="no">
+        <type><ref refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00" kindref="member">Side</ref></type>
+        <definition>Side WaypointStruct::side</definition>
+        <argsstring></argsstring>
+        <name>side</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="87" column="1" bodyfile="Guidance.types.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWaypointStruct_1aa718dd0d37e2af53646044a7be86ce77" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref></type>
+        <definition>Int16 WaypointStruct::timeZone</definition>
+        <argsstring></argsstring>
+        <name>timeZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="88" column="1" bodyfile="Guidance.types.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWaypointStruct_1a96120306f467aea8b7e9655bee38cd64" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref></type>
+        <definition>Int16 WaypointStruct::daylightSavingTime</definition>
+        <argsstring></argsstring>
+        <name>daylightSavingTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="89" column="1" bodyfile="Guidance.types.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWaypointStruct_1acddb0541e334a9d626c4f729d98c9145" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref></type>
+        <definition>Boolean WaypointStruct::isDestination</definition>
+        <argsstring></argsstring>
+        <name>isDestination</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="90" column="1" bodyfile="Guidance.types.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWaypointStruct_1a4a8bbeda4e00622ef3fa77b059fd9e6f" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref></type>
+        <definition>UInt16 WaypointStruct::number</definition>
+        <argsstring></argsstring>
+        <name>number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="91" column="1" bodyfile="Guidance.types.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Guidance.types.h" line="83" column="1" bodyfile="Guidance.types.h" bodystart="83" bodyend="92"/>
+    <listofallmembers>
+      <member refid="structWaypointStruct_1a96120306f467aea8b7e9655bee38cd64" prot="public" virt="non-virtual"><scope>WaypointStruct</scope><name>daylightSavingTime</name></member>
+      <member refid="structWaypointStruct_1a418f14d3993dd69076873748149d4dd3" prot="public" virt="non-virtual"><scope>WaypointStruct</scope><name>direction</name></member>
+      <member refid="structWaypointStruct_1acddb0541e334a9d626c4f729d98c9145" prot="public" virt="non-virtual"><scope>WaypointStruct</scope><name>isDestination</name></member>
+      <member refid="structWaypointStruct_1a4a8bbeda4e00622ef3fa77b059fd9e6f" prot="public" virt="non-virtual"><scope>WaypointStruct</scope><name>number</name></member>
+      <member refid="structWaypointStruct_1a5cbf471b8be21194fe7e448f980f8207" prot="public" virt="non-virtual"><scope>WaypointStruct</scope><name>side</name></member>
+      <member refid="structWaypointStruct_1aa718dd0d37e2af53646044a7be86ce77" prot="public" virt="non-virtual"><scope>WaypointStruct</scope><name>timeZone</name></member>
+      <member refid="structWaypointStruct_1a14806d52877c5214d39350de61fe1da3" prot="public" virt="non-virtual"><scope>WaypointStruct</scope><name>travelTime</name></member>
+      <member refid="structWaypointStruct_1a752a87be421f6df3a0aa4a1ad740c31b" prot="public" virt="non-virtual"><scope>WaypointStruct</scope><name>waypointOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

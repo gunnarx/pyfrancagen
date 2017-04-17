@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structManeuver" kind="struct" language="C++" prot="public">
+    <compoundname>Maneuver</compoundname>
+    <includes refid="Guidance_8types_8h" local="no">Guidance.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structManeuver_1aa0ca14836db23cd7f8d2849934f0a9db" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structRoadShield" kindref="compound">RoadShield</ref> &gt;</type>
+        <definition>std::vector&lt;RoadShield&gt; Maneuver::roadShieldsAfterManeuver</definition>
+        <argsstring></argsstring>
+        <name>roadShieldsAfterManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="208" column="1" bodyfile="Guidance.types.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structManeuver_1a9631763d21e61ad0bf1dceee5393f4d9" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Maneuver::countryCodeAfterManeuver</definition>
+        <argsstring></argsstring>
+        <name>countryCodeAfterManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="209" column="1" bodyfile="Guidance.types.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structManeuver_1a8fc2c31e5aa9006de57899bb7582d5c7" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Maneuver::stateCodeAfterManeuver</definition>
+        <argsstring></argsstring>
+        <name>stateCodeAfterManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="210" column="1" bodyfile="Guidance.types.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structManeuver_1a80ccde4fd8479bc3024f3c38799f7037" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Maneuver::roadNumberAfterManeuver</definition>
+        <argsstring></argsstring>
+        <name>roadNumberAfterManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="211" column="1" bodyfile="Guidance.types.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structManeuver_1aacd9396dda5114d08b2dcbbacd5cdf03" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Maneuver::roadNameAfterManeuver</definition>
+        <argsstring></argsstring>
+        <name>roadNameAfterManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="212" column="1" bodyfile="Guidance.types.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structManeuver_1a310ba7c57d96a5b06543024dffc9642f" prot="public" static="no" mutable="no">
+        <type><ref refid="Guidance_8types_8h_1a23a70b01befdd4fae9e7b857b850e7f8" kindref="member">RoadProperty</ref></type>
+        <definition>RoadProperty Maneuver::roadPropertyAfterManeuver</definition>
+        <argsstring></argsstring>
+        <name>roadPropertyAfterManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="213" column="1" bodyfile="Guidance.types.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structManeuver_1a5d132266e3913c28a4795248e4444bb4" prot="public" static="no" mutable="no">
+        <type><ref refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00" kindref="member">Side</ref></type>
+        <definition>Side Maneuver::drivingSide</definition>
+        <argsstring></argsstring>
+        <name>drivingSide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="214" column="1" bodyfile="Guidance.types.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structManeuver_1afee7eb6940e0f7f848188bdaa8779eca" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref></type>
+        <definition>UInt32 Maneuver::offsetOfNextManeuver</definition>
+        <argsstring></argsstring>
+        <name>offsetOfNextManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="215" column="1" bodyfile="Guidance.types.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structManeuver_1a0b89aa2f0625d82a57d3d7a1ae9a939f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structManeuverItem" kindref="compound">ManeuverItem</ref> &gt;</type>
+        <definition>std::vector&lt;ManeuverItem&gt; Maneuver::items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="216" column="1" bodyfile="Guidance.types.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Guidance.types.h" line="207" column="1" bodyfile="Guidance.types.h" bodystart="207" bodyend="217"/>
+    <listofallmembers>
+      <member refid="structManeuver_1a9631763d21e61ad0bf1dceee5393f4d9" prot="public" virt="non-virtual"><scope>Maneuver</scope><name>countryCodeAfterManeuver</name></member>
+      <member refid="structManeuver_1a5d132266e3913c28a4795248e4444bb4" prot="public" virt="non-virtual"><scope>Maneuver</scope><name>drivingSide</name></member>
+      <member refid="structManeuver_1a0b89aa2f0625d82a57d3d7a1ae9a939f" prot="public" virt="non-virtual"><scope>Maneuver</scope><name>items</name></member>
+      <member refid="structManeuver_1afee7eb6940e0f7f848188bdaa8779eca" prot="public" virt="non-virtual"><scope>Maneuver</scope><name>offsetOfNextManeuver</name></member>
+      <member refid="structManeuver_1aacd9396dda5114d08b2dcbbacd5cdf03" prot="public" virt="non-virtual"><scope>Maneuver</scope><name>roadNameAfterManeuver</name></member>
+      <member refid="structManeuver_1a80ccde4fd8479bc3024f3c38799f7037" prot="public" virt="non-virtual"><scope>Maneuver</scope><name>roadNumberAfterManeuver</name></member>
+      <member refid="structManeuver_1a310ba7c57d96a5b06543024dffc9642f" prot="public" virt="non-virtual"><scope>Maneuver</scope><name>roadPropertyAfterManeuver</name></member>
+      <member refid="structManeuver_1aa0ca14836db23cd7f8d2849934f0a9db" prot="public" virt="non-virtual"><scope>Maneuver</scope><name>roadShieldsAfterManeuver</name></member>
+      <member refid="structManeuver_1a8fc2c31e5aa9006de57899bb7582d5c7" prot="public" virt="non-virtual"><scope>Maneuver</scope><name>stateCodeAfterManeuver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

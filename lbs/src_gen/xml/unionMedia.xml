@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="unionMedia" kind="union" language="C++" prot="public">
+    <compoundname>Media</compoundname>
+    <includes refid="POIServiceTypes_8types_8h" local="no">POIServiceTypes.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionMedia_1a99c6ed6cb6b3424b3993eaec913d9b8c" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="POIServiceTypes_8types_8h_1a4a374f421101678d2bcb3caf99f9f173" kindref="member">ResourceID</ref> &gt;</type>
+        <definition>std::vector&lt;ResourceID&gt; Media::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="49" column="1" bodyfile="POIServiceTypes.types.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionMedia_1a35cc50c602feafad22306d346083df12" prot="public" static="no" mutable="no">
+        <type><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref></type>
+        <definition>String Media::url</definition>
+        <argsstring></argsstring>
+        <name>url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="POIServiceTypes.types.h" line="50" column="1" bodyfile="POIServiceTypes.types.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="POIServiceTypes.types.h" line="48" column="1" bodyfile="POIServiceTypes.types.h" bodystart="48" bodyend="51"/>
+    <listofallmembers>
+      <member refid="unionMedia_1a99c6ed6cb6b3424b3993eaec913d9b8c" prot="public" virt="non-virtual"><scope>Media</scope><name>id</name></member>
+      <member refid="unionMedia_1a35cc50c602feafad22306d346083df12" prot="public" virt="non-virtual"><scope>Media</scope><name>url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

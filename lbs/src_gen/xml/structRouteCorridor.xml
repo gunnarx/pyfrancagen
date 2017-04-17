@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structRouteCorridor" kind="struct" language="C++" prot="public">
+    <compoundname>RouteCorridor</compoundname>
+    <includes refid="FreeTextSearch_8types_8h" local="no">FreeTextSearch.types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structRouteCorridor_1a9218cef792a2e7f9dcf03e8eb41926d9" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a6d5d8a697a6a1f86b583ef5322b4f0b5" kindref="member">Handle</ref></type>
+        <definition>Handle RouteCorridor::routeHandle</definition>
+        <argsstring></argsstring>
+        <name>routeHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="26" column="1" bodyfile="FreeTextSearch.types.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRouteCorridor_1a2d270a01b57bdf0df5cc9339fd80066c" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref></type>
+        <definition>DistanceInMeters RouteCorridor::startOffset</definition>
+        <argsstring></argsstring>
+        <name>startOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="27" column="1" bodyfile="FreeTextSearch.types.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRouteCorridor_1a2f05478f8d603559c2e50e607f732246" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref></type>
+        <definition>DistanceInMeters RouteCorridor::corridorWidth</definition>
+        <argsstring></argsstring>
+        <name>corridorWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="28" column="1" bodyfile="FreeTextSearch.types.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRouteCorridor_1aa3ca1ec3e686caa88fda5487bc10e540" prot="public" static="no" mutable="no">
+        <type><ref refid="NavigationTypes_8types_8h_1a8f5c0950455d180e62fb8b49ad97ccb3" kindref="member">DistanceInMeters</ref></type>
+        <definition>DistanceInMeters RouteCorridor::corridorLength</definition>
+        <argsstring></argsstring>
+        <name>corridorLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FreeTextSearch.types.h" line="29" column="1" bodyfile="FreeTextSearch.types.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FreeTextSearch.types.h" line="25" column="1" bodyfile="FreeTextSearch.types.h" bodystart="25" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structRouteCorridor_1aa3ca1ec3e686caa88fda5487bc10e540" prot="public" virt="non-virtual"><scope>RouteCorridor</scope><name>corridorLength</name></member>
+      <member refid="structRouteCorridor_1a2f05478f8d603559c2e50e607f732246" prot="public" virt="non-virtual"><scope>RouteCorridor</scope><name>corridorWidth</name></member>
+      <member refid="structRouteCorridor_1a9218cef792a2e7f9dcf03e8eb41926d9" prot="public" virt="non-virtual"><scope>RouteCorridor</scope><name>routeHandle</name></member>
+      <member refid="structRouteCorridor_1a2d270a01b57bdf0df5cc9339fd80066c" prot="public" virt="non-virtual"><scope>RouteCorridor</scope><name>startOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

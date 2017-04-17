@@ -1,0 +1,1037 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Guidance_8types_8h" kind="file" language="C++">
+    <compoundname>Guidance.types.h</compoundname>
+    <includes refid="CommonTypes_8types_8h" local="yes">CommonTypes.types.h</includes>
+    <includes refid="NavigationCoreTypes_8types_8h" local="yes">NavigationCoreTypes.types.h</includes>
+    <includes refid="NavigationTypes_8types_8h" local="yes">NavigationTypes.types.h</includes>
+    <includes refid="franca__types_8h" local="yes">franca_types.h</includes>
+    <includedby refid="Guidance_8h" local="yes">Guidance.h</includedby>
+    <incdepgraph>
+      <node id="188">
+        <label>NavigationCoreTypes.types.h</label>
+        <link refid="NavigationCoreTypes_8types_8h"/>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>NavigationTypes.types.h</label>
+        <link refid="NavigationTypes_8types_8h"/>
+        <childnode refid="183" relation="include">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>stdint.h</label>
+      </node>
+      <node id="187">
+        <label>string</label>
+      </node>
+      <node id="186">
+        <label>map</label>
+      </node>
+      <node id="182">
+        <label>CommonTypes.types.h</label>
+        <link refid="CommonTypes_8types_8h"/>
+        <childnode refid="183" relation="include">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>vector</label>
+      </node>
+      <node id="181">
+        <label>Guidance.types.h</label>
+        <link refid="Guidance_8types_8h"/>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>franca_types.h</label>
+        <link refid="franca__types_8h"/>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="192">
+        <label>Guidance.cpp</label>
+        <link refid="Guidance_8cpp"/>
+      </node>
+      <node id="190">
+        <label>Guidance.types.h</label>
+        <link refid="Guidance_8types_8h"/>
+        <childnode refid="191" relation="include">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>Guidance.h</label>
+        <link refid="Guidance_8h"/>
+        <childnode refid="192" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structWaypointStruct" prot="public">WaypointStruct</innerclass>
+    <innerclass refid="structLaneInfo" prot="public">LaneInfo</innerclass>
+    <innerclass refid="unionManeuverDataValue" prot="public">ManeuverDataValue</innerclass>
+    <innerclass refid="structManeuverItem" prot="public">ManeuverItem</innerclass>
+    <innerclass refid="structManeuver" prot="public">Maneuver</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33" prot="public" static="no">
+        <name>LaneType</name>
+        <enumvalue id="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33ae6d92a107bcb9507efca2a831048cc9f" prot="public">
+          <name>LANE_INFO_BITMASK_STRAIGHT</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33ad705cc5b0651487a5a2dbde8d138d2f5" prot="public">
+          <name>LANE_INFO_BITMASK_SLIGHTRIGHT</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33a735ef700448e37031dd79038090b2b8e" prot="public">
+          <name>LANE_INFO_BITMASK_RIGHT</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33a41f3e496656f29c200679f1614297847" prot="public">
+          <name>LANE_INFO_BITMASK_SHARPRIGHT</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33aab533411453426dae37e1e16cd565965" prot="public">
+          <name>LANE_INFO_BITMASK_RIGHTUTURN</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33a1d2264948ff6e6e2201cfd757eedad8d" prot="public">
+          <name>LANE_INFO_BITMASK_SLIGHTLEFT</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33a214f750a1de798e44b78b14c91152a16" prot="public">
+          <name>LANE_INFO_BITMASK_LEFT</name>
+          <initializer>= 64</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33a5fd0954f0712355312dfd00420dcdd0f" prot="public">
+          <name>LANE_INFO_BITMASK_SHARPLEFT</name>
+          <initializer>= 128</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33aa163a711363ba2860a8e7692508694b3" prot="public">
+          <name>LANE_INFO_BITMASK_LEFTUTURN</name>
+          <initializer>= 256</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="25" column="1" bodyfile="Guidance.types.h" bodystart="25" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00" prot="public" static="no">
+        <name>Side</name>
+        <enumvalue id="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00a684d325a7303f52e64011467ff5c5758" prot="public">
+          <name>LEFT</name>
+          <initializer>= 128</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00a21507b40c80068eda19865706fdc2403" prot="public">
+          <name>RIGHT</name>
+          <initializer>= 131</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00ad07995fa8f4a3a019d134fcbfca4669a" prot="public">
+          <name>NOT_AVAILABLE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="39" column="1" bodyfile="Guidance.types.h" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14d" prot="public" static="no">
+        <name>ManeuverType</name>
+        <enumvalue id="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14dafcc67c93388fd5cb2ebc8f1c8c7b96c5" prot="public">
+          <name>STRAIGHT_ON</name>
+          <initializer>= 112</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14dac38d71ccb456d48250ed9b99255384d2" prot="public">
+          <name>CROSSROAD</name>
+          <initializer>= 113</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14da8f465700d451120a934e8c150011ba22" prot="public">
+          <name>ROUNDABOUT</name>
+          <initializer>= 114</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14daea9da896638af0650b2152c304ee3f93" prot="public">
+          <name>HIGHWAY_ENTER</name>
+          <initializer>= 115</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14dab34f802b2c64b0a61e19da8db8453360" prot="public">
+          <name>HIGHWAY_EXIT</name>
+          <initializer>= 116</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14dacb6dc8f0f12282fad490ec08dabcc010" prot="public">
+          <name>FOLLOW_SPECIFIC_LANE</name>
+          <initializer>= 117</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14daadb0ea4a02d4ddc10a515e2c0b7ea200" prot="public">
+          <name>DESTINATION</name>
+          <initializer>= 118</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14da84fb4bfe2188c39fc1714bb1ddff27c9" prot="public">
+          <name>WAYPOINT</name>
+          <initializer>= 119</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14da2ac9e5790771f403f29325a77d9e4a2a" prot="public">
+          <name>TURN</name>
+          <initializer>= 120</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14dadf7f329c956eac17094b8c97179704a5" prot="public">
+          <name>BIFURCATION</name>
+          <initializer>= 121</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="47" column="1" bodyfile="Guidance.types.h" bodystart="47" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2" prot="public" static="no">
+        <name>ManeuverDirectionType</name>
+        <enumvalue id="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2a823d5f6b867f6d6adec93ad4999bae9f" prot="public">
+          <name>DIRECTION</name>
+          <initializer>= 576</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2a02eea6233d38ece02ee68e033a8181bc" prot="public">
+          <name>EXIT_NUMBER</name>
+          <initializer>= 577</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2ae14b6376b342e0c608535a94093db2c8" prot="public">
+          <name>ROAD_FORM</name>
+          <initializer>= 578</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2a107ccec9f5c6930e99170203a4ca4e77" prot="public">
+          <name>LANE_INFO</name>
+          <initializer>= 579</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="62" column="1" bodyfile="Guidance.types.h" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935c" prot="public" static="no">
+        <name>LaneDivider</name>
+        <enumvalue id="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935ca5e8d718b1a715642df38e0cc49f82635" prot="public">
+          <name>DIVIDER_UNDEFINED</name>
+          <initializer>= 592</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935cadd93e1e0c6cbb25c2b322a2365d19a24" prot="public">
+          <name>DIVIDER_INTERRUPTEDLONG</name>
+          <initializer>= 593</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935cac5dee9a2805e78e72022a1da3b5241aa" prot="public">
+          <name>DIVIDER_INTERRUPTEDSHORT</name>
+          <initializer>= 594</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935ca7129124ad0845d6f24f3d139bb4c5478" prot="public">
+          <name>DIVIDER_SOLIDSINGLE</name>
+          <initializer>= 595</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935ca87fac41bba47f7fa0bccc92bb561fc59" prot="public">
+          <name>DIVIDER_SOLIDDOUBLE</name>
+          <initializer>= 596</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935ca2098dedb3ca24f27d9010667d0e01050" prot="public">
+          <name>DIVIDER_SOLIDINTERRUPTED</name>
+          <initializer>= 597</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935ca2e8774e30f6d55c62046f6ff8cee1120" prot="public">
+          <name>DIVIDER_INTERRUPTEDSOLID</name>
+          <initializer>= 598</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="71" column="1" bodyfile="Guidance.types.h" bodystart="71" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131" prot="public" static="no">
+        <name>ManeuverDirection</name>
+        <enumvalue id="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131a8c5e50fab3748e9c53a6863b3dce1401" prot="public">
+          <name>STRAIGHT</name>
+          <initializer>= 127</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131a684d325a7303f52e64011467ff5c5758" prot="public">
+          <name>LEFT</name>
+          <initializer>= 128</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131ac0cc52d0e72318aedb23d7217cd84703" prot="public">
+          <name>SLIGHT_LEFT</name>
+          <initializer>= 129</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131a0fd6642f95319b2221b3d634a242cd78" prot="public">
+          <name>HARD_LEFT</name>
+          <initializer>= 130</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131a21507b40c80068eda19865706fdc2403" prot="public">
+          <name>RIGHT</name>
+          <initializer>= 131</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131a5f6742dd69a3927f88536d89829c3d7f" prot="public">
+          <name>SLIGHT_RIGHT</name>
+          <initializer>= 132</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131a14c5e82e125012b5823b3d07fdf79b2a" prot="public">
+          <name>HARD_RIGHT</name>
+          <initializer>= 133</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131aea1c070e292ce6ba9405c08b93f97013" prot="public">
+          <name>UTURN_RIGHT</name>
+          <initializer>= 134</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131a67f4319edeb93c11f683078fc92e6c61" prot="public">
+          <name>UTURN_LEFT</name>
+          <initializer>= 135</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="95" column="1" bodyfile="Guidance.types.h" bodystart="95" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1affb9b76c684f4d272a1ca0defae8e89d" prot="public" static="no">
+        <name>PromptMode</name>
+        <enumvalue id="Guidance_8types_8h_1affb9b76c684f4d272a1ca0defae8e89dab51120753a481b403484d9e0a19d8b34" prot="public">
+          <name>DISABLED_PROMPT</name>
+          <initializer>= 65</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1affb9b76c684f4d272a1ca0defae8e89da775d35d85739d0cb3acee0e60ef64660" prot="public">
+          <name>AUTOMATIC_PROMPT</name>
+          <initializer>= 66</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1affb9b76c684f4d272a1ca0defae8e89da40adb886d266ee48daedeebb91a8a5e4" prot="public">
+          <name>MANUAL_PROMPT</name>
+          <initializer>= 67</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="109" column="1" bodyfile="Guidance.types.h" bodystart="109" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5" prot="public" static="no">
+        <name>ManeuverPhase</name>
+        <enumvalue id="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5a603d3e49969654c3830aa0956881cb2c" prot="public">
+          <name>CRUISE</name>
+          <initializer>= 80</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5a727d0c8433012ed600ae3a090c53746a" prot="public">
+          <name>MANEUVER_APPEARED</name>
+          <initializer>= 81</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5aa99273b05acada5750ac098290a52c3e" prot="public">
+          <name>PRE_ADVICE</name>
+          <initializer>= 82</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5a39857ba0b3686569dd594da0cf1770c5" prot="public">
+          <name>ADVICE</name>
+          <initializer>= 83</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5a269f3d1562cbd15624e7d2c4b10122e3" prot="public">
+          <name>PASSED</name>
+          <initializer>= 84</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="117" column="1" bodyfile="Guidance.types.h" bodystart="117" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1a1b9ebe3321efe3f304d9a9bc3170d85e" prot="public" static="no">
+        <name>GuidanceStatus</name>
+        <enumvalue id="Guidance_8types_8h_1a1b9ebe3321efe3f304d9a9bc3170d85ea18ff74f43da410c5529f7d6fca84f115" prot="public">
+          <name>ACTIVE</name>
+          <initializer>= 96</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a1b9ebe3321efe3f304d9a9bc3170d85ea6b273343c454f9c53dcfc9c4ccf171d2" prot="public">
+          <name>INACTIVE</name>
+          <initializer>= 97</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="127" column="1" bodyfile="Guidance.types.h" bodystart="127" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1a23a70b01befdd4fae9e7b857b850e7f8" prot="public" static="no">
+        <name>RoadProperty</name>
+        <enumvalue id="Guidance_8types_8h_1a23a70b01befdd4fae9e7b857b850e7f8a5b39c8b553c821e7cddc6da64b5bd2ee" prot="public">
+          <name>DEFAULT</name>
+          <initializer>= 65534</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a23a70b01befdd4fae9e7b857b850e7f8a1637def534927125a5e2c75f84011f36" prot="public">
+          <name>TOLL_ROADS</name>
+          <initializer>= 369</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="134" column="1" bodyfile="Guidance.types.h" bodystart="134" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1acc9c0b6bfa11bc615816faebb986f2d7" prot="public" static="no">
+        <name>CalculationMode</name>
+        <enumvalue id="Guidance_8types_8h_1acc9c0b6bfa11bc615816faebb986f2d7ae9851ea31cf208d77318329dd5400663" prot="public">
+          <name>ALL_MANUAL</name>
+          <initializer>= 144</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1acc9c0b6bfa11bc615816faebb986f2d7ada7fd2ab92670c0c62711e5d87483780" prot="public">
+          <name>ALL_AUTOMATIC</name>
+          <initializer>= 145</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1acc9c0b6bfa11bc615816faebb986f2d7a12678823f557570f76657684cd3bfdfc" prot="public">
+          <name>TRAFFIC_MANUAL</name>
+          <initializer>= 146</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1acc9c0b6bfa11bc615816faebb986f2d7af17fe31a3181f276416dd0c61aa3d45c" prot="public">
+          <name>OFF_ROUTE_MANUAL</name>
+          <initializer>= 147</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="149" column="1" bodyfile="Guidance.types.h" bodystart="149" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1ab3e18155ee67f16a7360f7b3f529e1b8" prot="public" static="no">
+        <name>RoadForm</name>
+        <enumvalue id="Guidance_8types_8h_1ab3e18155ee67f16a7360f7b3f529e1b8afb8d82eeebc67fad2abb40a3a681dc33" prot="public">
+          <name>ROAD_REGULAR</name>
+          <initializer>= 561</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1ab3e18155ee67f16a7360f7b3f529e1b8a0de687694073fcec7104bf843dd856de" prot="public">
+          <name>ROAD_HIGHWAY_MOTORWAY</name>
+          <initializer>= 562</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1ab3e18155ee67f16a7360f7b3f529e1b8a7c89ba02c0dafae1c9a0ecc08edba05a" prot="public">
+          <name>ROAD_FERRY</name>
+          <initializer>= 563</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="158" column="1" bodyfile="Guidance.types.h" bodystart="158" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1a75d29f14a607cef5ab6e4f7641b78a24" prot="public" static="no">
+        <name>RouteChangedCause</name>
+        <enumvalue id="Guidance_8types_8h_1a75d29f14a607cef5ab6e4f7641b78a24a691e65bb9ef573bd1131ce265ff7b3d2" prot="public">
+          <name>TRAFFIC</name>
+          <initializer>= 528</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a75d29f14a607cef5ab6e4f7641b78a24a387b60732c91b06750496722751c9f8a" prot="public">
+          <name>OFF_ROUTE</name>
+          <initializer>= 529</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1a75d29f14a607cef5ab6e4f7641b78a24aa60a6a471c0681e5a49c4f5d00f6bc5a" prot="public">
+          <name>MANUAL</name>
+          <initializer>= 530</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="166" column="1" bodyfile="Guidance.types.h" bodystart="166" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="enum" id="Guidance_8types_8h_1aab348e1621268dee04259ee13ebf3230" prot="public" static="no">
+        <name>ManeuverDataAttribute</name>
+        <enumvalue id="Guidance_8types_8h_1aab348e1621268dee04259ee13ebf3230aaddeac40406177897b3fccba88558f1c" prot="public">
+          <name>LENGTH</name>
+          <initializer>= 608</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1aab348e1621268dee04259ee13ebf3230a823d5f6b867f6d6adec93ad4999bae9f" prot="public">
+          <name>DIRECTION</name>
+          <initializer>= 576</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1aab348e1621268dee04259ee13ebf3230a02eea6233d38ece02ee68e033a8181bc" prot="public">
+          <name>EXIT_NUMBER</name>
+          <initializer>= 577</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1aab348e1621268dee04259ee13ebf3230ae14b6376b342e0c608535a94093db2c8" prot="public">
+          <name>ROAD_FORM</name>
+          <initializer>= 578</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1aab348e1621268dee04259ee13ebf3230a107ccec9f5c6930e99170203a4ca4e77" prot="public">
+          <name>LANE_INFO</name>
+          <initializer>= 579</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Guidance_8types_8h_1aab348e1621268dee04259ee13ebf3230acc67df6b110431e6059d25c34d184ede" prot="public">
+          <name>COORDINATE</name>
+          <initializer>= 613</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="184" column="1" bodyfile="Guidance.types.h" bodystart="184" bodyend="192"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="Guidance_8types_8h_1adc1fe6b6c0b732ff4b08d928cc0e3430" prot="public" static="no">
+        <type>std::map&lt; <ref refid="Guidance_8types_8h_1aab348e1621268dee04259ee13ebf3230" kindref="member">ManeuverDataAttribute</ref>, <ref refid="unionManeuverDataValue" kindref="compound">ManeuverDataValue</ref> &gt;</type>
+        <definition>typedef std::map&lt;ManeuverDataAttribute, ManeuverDataValue&gt; ManeuverData</definition>
+        <argsstring></argsstring>
+        <name>ManeuverData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Guidance.types.h" line="195" column="1" bodyfile="Guidance.types.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>from<sp/>Franca<sp/>IDL<sp/>Interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2017-04-17<sp/>33:17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>MPL-2.0</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2014,<sp/>PCA<sp/>Peugeot<sp/>Citroen,<sp/>XS<sp/>Embedded<sp/>GmbH,<sp/>TomTom</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>International<sp/>B.V.,<sp/>Continental<sp/>Automotive<sp/>GmbH,<sp/>BMW<sp/>Car<sp/>IT<sp/>GmbH,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Alpine<sp/>Electronics<sp/>R&amp;D<sp/>Europe<sp/>GmbH,<sp/>AISIN<sp/>AW<sp/>CO.,<sp/>LTD.,<sp/><sp/>Neusoft</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Technology<sp/>Solutions<sp/>GmbH,<sp/>Jaguar<sp/>Land<sp/>Rover<sp/>Limited,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Visteon<sp/>Corporation,<sp/>Elektrobit<sp/>Automotive<sp/>GmbH</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>This<sp/>Source<sp/>Code<sp/>Form<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Mozilla<sp/>Public<sp/>License,<sp/>v.<sp/>2.0.<sp/>If<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>MPL<sp/>was<sp/>not<sp/>distributed<sp/>with</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>this<sp/>file,<sp/>you<sp/>can<sp/>obtain<sp/>one<sp/>at<sp/>http://mozilla.org/MPL/2.0/.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="CommonTypes_8types_8h" kindref="compound">CommonTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationCoreTypes_8types_8h" kindref="compound">NavigationCoreTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="NavigationTypes_8types_8h" kindref="compound">NavigationTypes.types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="franca__types_8h" kindref="compound">franca_types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#0<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33" kindref="member">LaneType</ref><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33ae6d92a107bcb9507efca2a831048cc9f" kindref="member">LANE_INFO_BITMASK_STRAIGHT</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33ad705cc5b0651487a5a2dbde8d138d2f5" kindref="member">LANE_INFO_BITMASK_SLIGHTRIGHT</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33a735ef700448e37031dd79038090b2b8e" kindref="member">LANE_INFO_BITMASK_RIGHT</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33a41f3e496656f29c200679f1614297847" kindref="member">LANE_INFO_BITMASK_SHARPRIGHT</ref><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33aab533411453426dae37e1e16cd565965" kindref="member">LANE_INFO_BITMASK_RIGHTUTURN</ref><sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33a1d2264948ff6e6e2201cfd757eedad8d" kindref="member">LANE_INFO_BITMASK_SLIGHTLEFT</ref><sp/>=<sp/>32,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33a214f750a1de798e44b78b14c91152a16" kindref="member">LANE_INFO_BITMASK_LEFT</ref><sp/>=<sp/>64,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33a5fd0954f0712355312dfd00420dcdd0f" kindref="member">LANE_INFO_BITMASK_SHARPLEFT</ref><sp/>=<sp/>128,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33aa163a711363ba2860a8e7692508694b3" kindref="member">LANE_INFO_BITMASK_LEFTUTURN</ref><sp/>=<sp/>256,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#1<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00" kindref="member">Side</ref><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00a684d325a7303f52e64011467ff5c5758" kindref="member">LEFT</ref><sp/>=<sp/>128,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00a21507b40c80068eda19865706fdc2403" kindref="member">RIGHT</ref><sp/>=<sp/>131,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00ad07995fa8f4a3a019d134fcbfca4669a" kindref="member">NOT_AVAILABLE</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#2<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14d" kindref="member">ManeuverType</ref><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14dafcc67c93388fd5cb2ebc8f1c8c7b96c5" kindref="member">STRAIGHT_ON</ref><sp/>=<sp/>112,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14dac38d71ccb456d48250ed9b99255384d2" kindref="member">CROSSROAD</ref><sp/>=<sp/>113,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14da8f465700d451120a934e8c150011ba22" kindref="member">ROUNDABOUT</ref><sp/>=<sp/>114,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14daea9da896638af0650b2152c304ee3f93" kindref="member">HIGHWAY_ENTER</ref><sp/>=<sp/>115,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14dab34f802b2c64b0a61e19da8db8453360" kindref="member">HIGHWAY_EXIT</ref><sp/>=<sp/>116,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14dacb6dc8f0f12282fad490ec08dabcc010" kindref="member">FOLLOW_SPECIFIC_LANE</ref><sp/>=<sp/>117,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14daadb0ea4a02d4ddc10a515e2c0b7ea200" kindref="member">DESTINATION</ref><sp/>=<sp/>118,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14da84fb4bfe2188c39fc1714bb1ddff27c9" kindref="member">WAYPOINT</ref><sp/>=<sp/>119,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14da2ac9e5790771f403f29325a77d9e4a2a" kindref="member">TURN</ref><sp/>=<sp/>120,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14dadf7f329c956eac17094b8c97179704a5" kindref="member">BIFURCATION</ref><sp/>=<sp/>121,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#3<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2" kindref="member">ManeuverDirectionType</ref><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2a823d5f6b867f6d6adec93ad4999bae9f" kindref="member">DIRECTION</ref><sp/>=<sp/>576,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2a02eea6233d38ece02ee68e033a8181bc" kindref="member">EXIT_NUMBER</ref><sp/>=<sp/>577,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2ae14b6376b342e0c608535a94093db2c8" kindref="member">ROAD_FORM</ref><sp/>=<sp/>578,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2a107ccec9f5c6930e99170203a4ca4e77" kindref="member">LANE_INFO</ref><sp/>=<sp/>579,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#4<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935c" kindref="member">LaneDivider</ref><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935ca5e8d718b1a715642df38e0cc49f82635" kindref="member">DIVIDER_UNDEFINED</ref><sp/>=<sp/>592,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935cadd93e1e0c6cbb25c2b322a2365d19a24" kindref="member">DIVIDER_INTERRUPTEDLONG</ref><sp/>=<sp/>593,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935cac5dee9a2805e78e72022a1da3b5241aa" kindref="member">DIVIDER_INTERRUPTEDSHORT</ref><sp/>=<sp/>594,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935ca7129124ad0845d6f24f3d139bb4c5478" kindref="member">DIVIDER_SOLIDSINGLE</ref><sp/>=<sp/>595,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935ca87fac41bba47f7fa0bccc92bb561fc59" kindref="member">DIVIDER_SOLIDDOUBLE</ref><sp/>=<sp/>596,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935ca2098dedb3ca24f27d9010667d0e01050" kindref="member">DIVIDER_SOLIDINTERRUPTED</ref><sp/>=<sp/>597,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935ca2e8774e30f6d55c62046f6ff8cee1120" kindref="member">DIVIDER_INTERRUPTEDSOLID</ref><sp/>=<sp/>598,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#5<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="structWaypointStruct" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structWaypointStruct" kindref="compound">WaypointStruct</ref><sp/>{</highlight></codeline>
+<codeline lineno="84" refid="structWaypointStruct_1a752a87be421f6df3a0aa4a1ad740c31b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="structWaypointStruct_1a752a87be421f6df3a0aa4a1ad740c31b" kindref="member">waypointOffset</ref>;</highlight></codeline>
+<codeline lineno="85" refid="structWaypointStruct_1a14806d52877c5214d39350de61fe1da3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="structWaypointStruct_1a14806d52877c5214d39350de61fe1da3" kindref="member">travelTime</ref>;</highlight></codeline>
+<codeline lineno="86" refid="structWaypointStruct_1a418f14d3993dd69076873748149d4dd3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a20b0c262d9ef5d263888e463dfa99638" kindref="member">Int32</ref><sp/><ref refid="structWaypointStruct_1a418f14d3993dd69076873748149d4dd3" kindref="member">direction</ref>;</highlight></codeline>
+<codeline lineno="87" refid="structWaypointStruct_1a5cbf471b8be21194fe7e448f980f8207" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00" kindref="member">Side</ref><sp/><ref refid="structWaypointStruct_1a5cbf471b8be21194fe7e448f980f8207" kindref="member">side</ref>;</highlight></codeline>
+<codeline lineno="88" refid="structWaypointStruct_1aa718dd0d37e2af53646044a7be86ce77" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref><sp/><ref refid="structWaypointStruct_1aa718dd0d37e2af53646044a7be86ce77" kindref="member">timeZone</ref>;</highlight></codeline>
+<codeline lineno="89" refid="structWaypointStruct_1a96120306f467aea8b7e9655bee38cd64" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a6d70d2452bc784cc9a499c567e4b5a77" kindref="member">Int16</ref><sp/><ref refid="structWaypointStruct_1a96120306f467aea8b7e9655bee38cd64" kindref="member">daylightSavingTime</ref>;</highlight></codeline>
+<codeline lineno="90" refid="structWaypointStruct_1acddb0541e334a9d626c4f729d98c9145" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a3790b6de8c45ebee9af548380c3fb8d2" kindref="member">Boolean</ref><sp/><ref refid="structWaypointStruct_1acddb0541e334a9d626c4f729d98c9145" kindref="member">isDestination</ref>;</highlight></codeline>
+<codeline lineno="91" refid="structWaypointStruct_1a4a8bbeda4e00622ef3fa77b059fd9e6f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref><sp/><ref refid="structWaypointStruct_1a4a8bbeda4e00622ef3fa77b059fd9e6f" kindref="member">number</ref>;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#6<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131" kindref="member">ManeuverDirection</ref><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131a8c5e50fab3748e9c53a6863b3dce1401" kindref="member">STRAIGHT</ref><sp/>=<sp/>127,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00a684d325a7303f52e64011467ff5c5758" kindref="member">LEFT</ref><sp/>=<sp/>128,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131ac0cc52d0e72318aedb23d7217cd84703" kindref="member">SLIGHT_LEFT</ref><sp/>=<sp/>129,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131a0fd6642f95319b2221b3d634a242cd78" kindref="member">HARD_LEFT</ref><sp/>=<sp/>130,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00a21507b40c80068eda19865706fdc2403" kindref="member">RIGHT</ref><sp/>=<sp/>131,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131a5f6742dd69a3927f88536d89829c3d7f" kindref="member">SLIGHT_RIGHT</ref><sp/>=<sp/>132,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131a14c5e82e125012b5823b3d07fdf79b2a" kindref="member">HARD_RIGHT</ref><sp/>=<sp/>133,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131aea1c070e292ce6ba9405c08b93f97013" kindref="member">UTURN_RIGHT</ref><sp/>=<sp/>134,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131a67f4319edeb93c11f683078fc92e6c61" kindref="member">UTURN_LEFT</ref><sp/>=<sp/>135,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#7<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="Guidance_8types_8h_1affb9b76c684f4d272a1ca0defae8e89d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1affb9b76c684f4d272a1ca0defae8e89d" kindref="member">PromptMode</ref><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1affb9b76c684f4d272a1ca0defae8e89dab51120753a481b403484d9e0a19d8b34" kindref="member">DISABLED_PROMPT</ref><sp/>=<sp/>65,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1affb9b76c684f4d272a1ca0defae8e89da775d35d85739d0cb3acee0e60ef64660" kindref="member">AUTOMATIC_PROMPT</ref><sp/>=<sp/>66,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1affb9b76c684f4d272a1ca0defae8e89da40adb886d266ee48daedeebb91a8a5e4" kindref="member">MANUAL_PROMPT</ref><sp/>=<sp/>67,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#8<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5" kindref="member">ManeuverPhase</ref><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5a603d3e49969654c3830aa0956881cb2c" kindref="member">CRUISE</ref><sp/>=<sp/>80,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5a727d0c8433012ed600ae3a090c53746a" kindref="member">MANEUVER_APPEARED</ref><sp/>=<sp/>81,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5aa99273b05acada5750ac098290a52c3e" kindref="member">PRE_ADVICE</ref><sp/>=<sp/>82,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5a39857ba0b3686569dd594da0cf1770c5" kindref="member">ADVICE</ref><sp/>=<sp/>83,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a47ef29e9a71af4fa7d7b77a69d987ab5a269f3d1562cbd15624e7d2c4b10122e3" kindref="member">PASSED</ref><sp/>=<sp/>84,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#9<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="Guidance_8types_8h_1a1b9ebe3321efe3f304d9a9bc3170d85e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1a1b9ebe3321efe3f304d9a9bc3170d85e" kindref="member">GuidanceStatus</ref><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b9ebe3321efe3f304d9a9bc3170d85ea18ff74f43da410c5529f7d6fca84f115" kindref="member">ACTIVE</ref><sp/>=<sp/>96,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b9ebe3321efe3f304d9a9bc3170d85ea6b273343c454f9c53dcfc9c4ccf171d2" kindref="member">INACTIVE</ref><sp/>=<sp/>97,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#10<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="Guidance_8types_8h_1a23a70b01befdd4fae9e7b857b850e7f8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1a23a70b01befdd4fae9e7b857b850e7f8" kindref="member">RoadProperty</ref><sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a23a70b01befdd4fae9e7b857b850e7f8a5b39c8b553c821e7cddc6da64b5bd2ee" kindref="member">DEFAULT</ref><sp/>=<sp/>65534,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a23a70b01befdd4fae9e7b857b850e7f8a1637def534927125a5e2c75f84011f36" kindref="member">TOLL_ROADS</ref><sp/>=<sp/>369,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#11<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="structLaneInfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structLaneInfo" kindref="compound">LaneInfo</ref><sp/>{</highlight></codeline>
+<codeline lineno="142" refid="structLaneInfo_1a7692bbaa8ca5d68fd8f14fd3ce34500a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="structLaneInfo_1a7692bbaa8ca5d68fd8f14fd3ce34500a" kindref="member">laneIndex</ref>;</highlight></codeline>
+<codeline lineno="143" refid="structLaneInfo_1a20928a33901c939f4250c0697d779317" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a4d02373b2f2c0107ac705c8c375dfaf2" kindref="member">ByteBuffer</ref><sp/><ref refid="structLaneInfo_1a20928a33901c939f4250c0697d779317" kindref="member">laneDirections</ref>;</highlight></codeline>
+<codeline lineno="144" refid="structLaneInfo_1aee551e33464a7037f3b7876a148fe70a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a2e5ecaab42b966e76a474f365da28e33" kindref="member">LaneType</ref><sp/><ref refid="structLaneInfo_1aee551e33464a7037f3b7876a148fe70a" kindref="member">directionToFollow</ref>;</highlight></codeline>
+<codeline lineno="145" refid="structLaneInfo_1ac923d16edf4bf14fb925d03a33ed991d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a4609e6f8f491068a6730852ce6cc935c" kindref="member">LaneDivider</ref><sp/><ref refid="structLaneInfo_1ac923d16edf4bf14fb925d03a33ed991d" kindref="member">divider</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#12<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="Guidance_8types_8h_1acc9c0b6bfa11bc615816faebb986f2d7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1acc9c0b6bfa11bc615816faebb986f2d7" kindref="member">CalculationMode</ref><sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1acc9c0b6bfa11bc615816faebb986f2d7ae9851ea31cf208d77318329dd5400663" kindref="member">ALL_MANUAL</ref><sp/>=<sp/>144,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1acc9c0b6bfa11bc615816faebb986f2d7ada7fd2ab92670c0c62711e5d87483780" kindref="member">ALL_AUTOMATIC</ref><sp/>=<sp/>145,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1acc9c0b6bfa11bc615816faebb986f2d7a12678823f557570f76657684cd3bfdfc" kindref="member">TRAFFIC_MANUAL</ref><sp/>=<sp/>146,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1acc9c0b6bfa11bc615816faebb986f2d7af17fe31a3181f276416dd0c61aa3d45c" kindref="member">OFF_ROUTE_MANUAL</ref><sp/>=<sp/>147,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#13<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="Guidance_8types_8h_1ab3e18155ee67f16a7360f7b3f529e1b8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1ab3e18155ee67f16a7360f7b3f529e1b8" kindref="member">RoadForm</ref><sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ab3e18155ee67f16a7360f7b3f529e1b8afb8d82eeebc67fad2abb40a3a681dc33" kindref="member">ROAD_REGULAR</ref><sp/>=<sp/>561,</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ab3e18155ee67f16a7360f7b3f529e1b8a0de687694073fcec7104bf843dd856de" kindref="member">ROAD_HIGHWAY_MOTORWAY</ref><sp/>=<sp/>562,</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ab3e18155ee67f16a7360f7b3f529e1b8a7c89ba02c0dafae1c9a0ecc08edba05a" kindref="member">ROAD_FERRY</ref><sp/>=<sp/>563,</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#14<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="Guidance_8types_8h_1a75d29f14a607cef5ab6e4f7641b78a24" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1a75d29f14a607cef5ab6e4f7641b78a24" kindref="member">RouteChangedCause</ref><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a75d29f14a607cef5ab6e4f7641b78a24a691e65bb9ef573bd1131ce265ff7b3d2" kindref="member">TRAFFIC</ref><sp/>=<sp/>528,</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a75d29f14a607cef5ab6e4f7641b78a24a387b60732c91b06750496722751c9f8a" kindref="member">OFF_ROUTE</ref><sp/>=<sp/>529,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a75d29f14a607cef5ab6e4f7641b78a24aa60a6a471c0681e5a49c4f5d00f6bc5a" kindref="member">MANUAL</ref><sp/>=<sp/>530,</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#15<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="unionManeuverDataValue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionManeuverDataValue" kindref="compound">ManeuverDataValue</ref><sp/>{</highlight></codeline>
+<codeline lineno="175" refid="unionManeuverDataValue_1ab80bcec68161ddb213628af6e64454a2" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a7062e55fb44616570556b5ab252e4131" kindref="member">ManeuverDirection</ref><sp/><ref refid="unionManeuverDataValue_1ab80bcec68161ddb213628af6e64454a2" kindref="member">enumValue</ref>;</highlight></codeline>
+<codeline lineno="176" refid="unionManeuverDataValue_1ac2d9bffe67d2e6af6b11864afc24063e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a8c7e64bfcbd67be1699ac1e4d2a8d6cd" kindref="member">UInt16</ref><sp/><ref refid="unionManeuverDataValue_1ac2d9bffe67d2e6af6b11864afc24063e" kindref="member">uint16Value</ref>;</highlight></codeline>
+<codeline lineno="177" refid="unionManeuverDataValue_1a14e441295c4f77e2000011ae1434a602" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="unionManeuverDataValue_1a14e441295c4f77e2000011ae1434a602" kindref="member">stringValue</ref>;</highlight></codeline>
+<codeline lineno="178" refid="unionManeuverDataValue_1aa75320c8c5a78d893ef494ba18659512" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ab3e18155ee67f16a7360f7b3f529e1b8" kindref="member">RoadForm</ref><sp/><ref refid="unionManeuverDataValue_1aa75320c8c5a78d893ef494ba18659512" kindref="member">roadFormValue</ref>;</highlight></codeline>
+<codeline lineno="179" refid="unionManeuverDataValue_1a7daf97b64603d3c3d9a4eb7a235d8585" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;LaneInfo&gt;<sp/><ref refid="unionManeuverDataValue_1a7daf97b64603d3c3d9a4eb7a235d8585" kindref="member">laneInfoValue</ref>;</highlight></codeline>
+<codeline lineno="180" refid="unionManeuverDataValue_1a78ac4ffa0fbb91dc8896658a28995e58" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structCoordinate3D" kindref="compound">Coordinate3D</ref><sp/><ref refid="unionManeuverDataValue_1a78ac4ffa0fbb91dc8896658a28995e58" kindref="member">coordinate3DValue</ref>;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#16<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="Guidance_8types_8h_1aab348e1621268dee04259ee13ebf3230" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Guidance_8types_8h_1aab348e1621268dee04259ee13ebf3230" kindref="member">ManeuverDataAttribute</ref><sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><ref refid="Configuration_8types_8h_1af4d1bb09d1c003f9d256c8aba6524087aaddeac40406177897b3fccba88558f1c" kindref="member">LENGTH</ref><sp/>=<sp/>608,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2a823d5f6b867f6d6adec93ad4999bae9f" kindref="member">DIRECTION</ref><sp/>=<sp/>576,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2a02eea6233d38ece02ee68e033a8181bc" kindref="member">EXIT_NUMBER</ref><sp/>=<sp/>577,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2ae14b6376b342e0c608535a94093db2c8" kindref="member">ROAD_FORM</ref><sp/>=<sp/>578,</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2a107ccec9f5c6930e99170203a4ca4e77" kindref="member">LANE_INFO</ref><sp/>=<sp/>579,</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1aab348e1621268dee04259ee13ebf3230acc67df6b110431e6059d25c34d184ede" kindref="member">COORDINATE</ref><sp/>=<sp/>613,</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#17<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="Guidance_8types_8h_1adc1fe6b6c0b732ff4b08d928cc0e3430" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;ManeuverDataAttribute,<sp/>ManeuverDataValue&gt;<sp/><ref refid="Guidance_8types_8h_1adc1fe6b6c0b732ff4b08d928cc0e3430" kindref="member">ManeuverData</ref>;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#18<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="structManeuverItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structManeuverItem" kindref="compound">ManeuverItem</ref><sp/>{</highlight></codeline>
+<codeline lineno="199" refid="structManeuverItem_1a0cf2a809937b505ef3a0980570f15cf3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="structManeuverItem_1a0cf2a809937b505ef3a0980570f15cf3" kindref="member">offsetOfManeuver</ref>;</highlight></codeline>
+<codeline lineno="200" refid="structManeuverItem_1a283e8464eb19c23945d53da65568d81b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="structManeuverItem_1a283e8464eb19c23945d53da65568d81b" kindref="member">travelTime</ref>;</highlight></codeline>
+<codeline lineno="201" refid="structManeuverItem_1aa6a5059c1377bb58907e6f8967101430" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1ae34dc4e7b655873b628235208b2958a2" kindref="member">ManeuverDirectionType</ref><sp/><ref refid="structManeuverItem_1aa6a5059c1377bb58907e6f8967101430" kindref="member">direction</ref>;</highlight></codeline>
+<codeline lineno="202" refid="structManeuverItem_1a3f6c9b4a2b63dcd2e61757a69ad796c1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a1b8e52e2ee8280749f5ece971615a14d" kindref="member">ManeuverType</ref><sp/><ref refid="structManeuverItem_1a3f6c9b4a2b63dcd2e61757a69ad796c1" kindref="member">maneuver</ref>;</highlight></codeline>
+<codeline lineno="203" refid="structManeuverItem_1af9d9f43a82bfbe12b4463b8799e70d64" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1adc1fe6b6c0b732ff4b08d928cc0e3430" kindref="member">ManeuverData</ref><sp/><ref refid="structManeuverItem_1af9d9f43a82bfbe12b4463b8799e70d64" kindref="member">maneuverData</ref>;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Typedef<sp/>#19<sp/>from<sp/>Guidance<sp/>in<sp/>package<sp/>org.genivi.navigation.navigationcore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="structManeuver" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structManeuver" kindref="compound">Maneuver</ref><sp/>{</highlight></codeline>
+<codeline lineno="208" refid="structManeuver_1aa0ca14836db23cd7f8d2849934f0a9db" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;RoadShield&gt;<sp/><ref refid="structManeuver_1aa0ca14836db23cd7f8d2849934f0a9db" kindref="member">roadShieldsAfterManeuver</ref>;</highlight></codeline>
+<codeline lineno="209" refid="structManeuver_1a9631763d21e61ad0bf1dceee5393f4d9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structManeuver_1a9631763d21e61ad0bf1dceee5393f4d9" kindref="member">countryCodeAfterManeuver</ref>;</highlight></codeline>
+<codeline lineno="210" refid="structManeuver_1a8fc2c31e5aa9006de57899bb7582d5c7" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structManeuver_1a8fc2c31e5aa9006de57899bb7582d5c7" kindref="member">stateCodeAfterManeuver</ref>;</highlight></codeline>
+<codeline lineno="211" refid="structManeuver_1a80ccde4fd8479bc3024f3c38799f7037" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structManeuver_1a80ccde4fd8479bc3024f3c38799f7037" kindref="member">roadNumberAfterManeuver</ref>;</highlight></codeline>
+<codeline lineno="212" refid="structManeuver_1aacd9396dda5114d08b2dcbbacd5cdf03" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1afbeda3fd1bdc8c37d01bdf9f5c8274ff" kindref="member">String</ref><sp/><ref refid="structManeuver_1aacd9396dda5114d08b2dcbbacd5cdf03" kindref="member">roadNameAfterManeuver</ref>;</highlight></codeline>
+<codeline lineno="213" refid="structManeuver_1a310ba7c57d96a5b06543024dffc9642f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a23a70b01befdd4fae9e7b857b850e7f8" kindref="member">RoadProperty</ref><sp/><ref refid="structManeuver_1a310ba7c57d96a5b06543024dffc9642f" kindref="member">roadPropertyAfterManeuver</ref>;</highlight></codeline>
+<codeline lineno="214" refid="structManeuver_1a5d132266e3913c28a4795248e4444bb4" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="Guidance_8types_8h_1a8c0137d7160ad71b6ed265c53c99ed00" kindref="member">Side</ref><sp/><ref refid="structManeuver_1a5d132266e3913c28a4795248e4444bb4" kindref="member">drivingSide</ref>;</highlight></codeline>
+<codeline lineno="215" refid="structManeuver_1afee7eb6940e0f7f848188bdaa8779eca" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="franca__types_8h_1a7e8aeec7b6541935dfc6f608cd5170ce" kindref="member">UInt32</ref><sp/><ref refid="structManeuver_1afee7eb6940e0f7f848188bdaa8779eca" kindref="member">offsetOfNextManeuver</ref>;</highlight></codeline>
+<codeline lineno="216" refid="structManeuver_1a0b89aa2f0625d82a57d3d7a1ae9a939f" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;ManeuverItem&gt;<sp/><ref refid="structManeuver_1a0b89aa2f0625d82a57d3d7a1ae9a939f" kindref="member">items</ref>;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Guidance.types.h"/>
+  </compounddef>
+</doxygen>
