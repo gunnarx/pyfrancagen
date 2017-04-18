@@ -213,7 +213,7 @@ def template_render_complex_types(package, item, imports):
     types = item.structs  # FIXME not needed
     result = ""
 
-    timestamp = time.strftime("%Y-%m-%d %M:%d")
+    timestamp = time.strftime("%Y-%m-%d, %H:%M:%d")
 
     # Store the type reference hierarchy
     for s in item.structs.values():
@@ -348,7 +348,7 @@ def reorder_types():
 # (.cpp)
 def template_render_plain_file(processor, filter, templatefile, suffix):
     tpl = env.get_template(templatefile)
-    ts = time.strftime("%Y-%m-%d %M:%d")
+    timestamp = time.strftime("%Y-%m-%d, %H:%M:%d")
 
     result = ""
     for p in processor.packages.values():
@@ -365,7 +365,7 @@ def template_render_plain_file(processor, filter, templatefile, suffix):
         if 'interfaces' in filter:
             for i in p.interfaces.values():
                 name = i.name    # This takes priority for the chosen file name
-                r  = tpl.render(item = i, name = name, timestamp = ts, render_type = render_type, boilerplate = "", imports = imports)
+                r  = tpl.render(item = i, name = name, timestamp = timestamp, render_type = render_type, boilerplate = "", imports = imports)
                 result += r
 
         if name != None and len(result) != 0:
