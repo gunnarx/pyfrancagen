@@ -39,6 +39,7 @@ $ cd src_gen
 $ doxygen
 $ firefox index.html
 ```
+** DOCS EXAMPLE CAN BE SEEN HERE ON THE [GITHUB PAGES](https://gunnarx.github.io/pyfrancagen)
 
 # BUGS
 - Boilerplate is generated twice, (only on some file types)
