@@ -103,7 +103,7 @@ def boilerplate_from_file():
 # ---------------------------------------------------------------
 
 # Here we use a combination of a Set for existence, and an array for ordered
-# storage. An OrderedDict / OrderdSet could be an alternative but swapping
+# storage. An OrderedDict / OrderedSet could be an alternative but swapping
 # elements seemed messier there than in a plain array.
 
 is_rendered = set()
@@ -136,7 +136,7 @@ def reset_rendered_types():
 def process_file(file):
 
     # Relative path includes seem to only work if we're in the right
-    # working dirctory also for the file:
+    # working directory also for the file:
     d = os.path.dirname(file)
     f = os.path.basename(file)
     os.chdir(d)
@@ -372,7 +372,7 @@ def template_render_plain_file(processor, filter, templatefile, suffix):
             write_result_file(boilerplate_from_file() + result, name, suffix)
 
 # This is used for headers that are expected to contain types.
-# the order that types are definend is critical.
+# the order that types are definened is critical.
 def render_typedef_file(processor, filter, suffix):
 
     result = ""
