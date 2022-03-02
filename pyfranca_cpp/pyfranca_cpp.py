@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # -*- coding: utf-8 -*-
 # vim: tw = 0
@@ -44,8 +44,8 @@ class MyLoader(BaseLoader):
             raise TemplateNotFound(template)
 
         mtime = os.path.getmtime(path)
-        with file(path) as f:
-            source = f.read().decode('utf-8')
+        with open(path, encoding='utf-8') as f:
+            source = f.read()
         return source, path, lambda: mtime == os.path.getmtime(path)
 
     def get_file_location(self, name):
@@ -79,7 +79,7 @@ env = Environment(
 # ---------------------------------------------------------------
 
 def log(*kwargs):
-    print ", ".join(kwargs)
+    print(", ".join(kwargs))
     pass
 
 def clang_format(file):
@@ -182,7 +182,7 @@ def write_result_file(result, name, suffix):
     # clean up result
     clang_format(outfile)
     clean(outfile)
-    print "Wrote file: {}".format(outfile)
+    print("Wrote file: {}".format(outfile))
 
 # ----- Rendering helpers -----
 # These functions take some of the logic out of the rendering templates which
@@ -290,7 +290,7 @@ def template_render_complex_types(package, item, imports):
 
     return fullresult
 
-def prepare_swap_types(): 
+def prepare_swap_types():
     # Preparation: store the location of types in rendered_types_ordered
     # for easy lookup
     for i, r in enumerate(rendered_types_ordered):

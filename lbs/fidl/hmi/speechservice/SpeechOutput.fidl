@@ -12,21 +12,21 @@ package org.genivi.hmi.speechoutputservice
 import org.genivi.CommonTypes.* from "../../CommonTypes.fidl"
 
 <** @description : SpeechOutput interface.
-    The GENIVI SpeechOutput interface allows client applications to access TTS functionality   
-**> 
+    The GENIVI SpeechOutput interface allows client applications to access TTS functionality
+**>
 interface SpeechOutput {
 	version {
 		major 1
 		minor 0
 	}
-	
+
 	<**	@description : This method returns the API version implemented by the SpeechOutput.**>
 	method getVersion {
 		out {
 			<** @description: .**>
-			Version ^version				
-		}	
-	}	
+			Version ^version
+		}
+	}
 
 	<** @description : Max length of a single prompt part. **>
 	const UInt32 MAX_CHUNK_LENGTH = 1024
@@ -39,13 +39,13 @@ interface SpeechOutput {
 
 	<** @description : String containing the name of the last reached marker. **>
 	typedef Marker is String
-	
+
 	<** @description : Max length of a single prompt part. **>
 	enumeration Limits
 	{
 		MAX_CHUNK_LENGTH = 1024
 	}
-	
+
 	<** @description : Connection status, will be notified. **>
 	enumeration ConnectionStatus
 	{
@@ -58,8 +58,8 @@ interface SpeechOutput {
 		CS_TERMINATED	/* client is disconnected */
 		CS_MAX			/* max value shall be error checked */
 	}
-	
-	<** @description : Connection type, used from openPrompter(). 
+
+	<** @description : Connection type, used from openPrompter().
 	Defines the Audio connection that should be used for the prompter application.
 	The enum values will be mapped to an existing product connection id. **>
 	enumeration ConnectionType
@@ -71,7 +71,7 @@ interface SpeechOutput {
 		CT_GEN_LOW		/* reserved for connections of generic application with low priority */
 		CT_MAX			/* max value shall be error checked */
 	}
-	
+
 	<** @description : Processing type, used from openPrompter(). Sets text normalization mode and active prompt database of the TTS engine for the given context **>
 	enumeration PreProcessingType
 	{
@@ -81,7 +81,7 @@ interface SpeechOutput {
 		PPT_READER		/* activates preprocessing rules for Reader context */
 		PPT_MAX			/* max value shall be error checked */
 	}
-	
+
 	<** @description : Queue status, will be notified. **>
 	enumeration QueueStatus
 	{
@@ -91,7 +91,7 @@ interface SpeechOutput {
 		QS_LOW_FILL		/* the chunk was added, and there is enough memory for more chunks available */
 		QS_MAX			/* max value shall be error checked */
 	}
-	
+
 	<** @description : TTS status, will be notified. **>
 	enumeration TtsStatus
 	{
@@ -117,9 +117,9 @@ interface SpeechOutput {
 		}
 	}
 
-	<** @description : The prompter must be opened to trigger the playback of the provided prompt. 
+	<** @description : The prompter must be opened to trigger the playback of the provided prompt.
 	The prompt length must not exceed the length of a PromptChunk buffer.
-	Synthesizes the provided text or if using the escape sequence of the engine supplier a wave file in a supported sampling rate is provided, the system will back back also wave files. 
+	Synthesizes the provided text or if using the escape sequence of the engine supplier a wave file in a supported sampling rate is provided, the system will back back also wave files.
 	The text will be normalized using the context identifier provided to openprompter. This applies to matching prerecorded files as well as the synthesis of number and words that are matched to a lexical dictionary.
 	The synthesize will start if the prompter is idle, if the prompter is already playing the playback will be delayed until all previously added text chunks are played back. For every text chunk provided a notification will be send. **>
     method addTextChunk {
@@ -142,11 +142,11 @@ interface SpeechOutput {
     }
 
 	// *** notification methods
-	
+
 	/**
 	 * The notify status messages will be send to signal the status as feedback on control of prompting functionalities.
 	 */
-	
+
 	<** @description : Notifies the connection status **>
     broadcast notifyConnectionStatus selective {
     	out {
@@ -164,7 +164,7 @@ interface SpeechOutput {
 			Marker marker
 		}
 	}
-	
+
 	<** @description : Notifies the queue status. **>
 	broadcast notifyQueueStatus selective {
 		out {
@@ -173,7 +173,7 @@ interface SpeechOutput {
 		}
 	}
 
-	<** @description : Notifies the TTS engine status. 
+	<** @description : Notifies the TTS engine status.
         \return : TtsStatus TTS status information **>
 
 	broadcast notifyTTSStatus selective {
