@@ -7,24 +7,25 @@
 package org.genivi.navigation.poiservice
 
 import org.genivi.CommonTypes.* from "../../CommonTypes.fidl"
+import org.genivi.navigation.NavigationTypes.* from "../NavigationTypes.fidl"
 import org.genivi.navigation.poiservice.POIServiceTypes.* from "POIServiceTypes.fidl"
 
 
 <** @description : This interface offers a set of common methods for Content Access Modules (CAM). The CAM provide and update POI and categories information from remote sources to the POIService modules.**>
 interface POIContentAccess {
 	version {
-		major 2 
+		major 2
 		minor 0
 	}
-    <** @description : Register to the POI provider module 
+    <** @description : Register to the POI provider module
         When the CAM registers, it provides a name and then get a unique id. This id must be used everytime the CAM communicates with the POI service component.
-        After the registration is done, the CAM can start to update POI categories and POI attributes as well as registers POI categories to search for.**>	
+        After the registration is done, the CAM can start to update POI categories and POI attributes as well as registers POI categories to search for.**>
 	method registerContentAccessModule {
 		in {
 			<** @description : The name of the CAM.**>
-			String moduleName				
+			String moduleName
 		}
-		
+
 		out {
 			<** @description : Content access module unique id as known by the POI service component.**>
 			ContentAccessModuleID camId
@@ -35,7 +36,7 @@ interface POIContentAccess {
 	method unRegisterContentAccessModule {
 		in {
 			<** @description : Content access module unique id as known by the POI service component.**>
-			ContentAccessModuleID camId				
+			ContentAccessModuleID camId
 		}
 	}
 	<**	@description : Register to the POI provider module the categories you can search for POI.
@@ -43,12 +44,12 @@ interface POIContentAccess {
 	method registerPoiCategories {
 		in {
 			<** @description : Content access module unique id as known by the POI service component.**>
-			ContentAccessModuleID camId		
+			ContentAccessModuleID camId
 			<**	@description : array[unique_id].
 			List of POI categories to register.
 			unique_id = Unique category id.
 			**>
-			CategoryID[] poiCategories		
+			CategoryID[] poiCategories
 		}
 	}
 	<**	@description : Update categories in the POI service component. It could be a predifined or a customed one.
@@ -57,9 +58,9 @@ interface POIContentAccess {
 	method updateCategories {
 		in {
 			<** @description : Content access module unique id as known by the POI service component.**>
-			ContentAccessModuleID camId		
+			ContentAccessModuleID camId
 			<**	@description : array[unique_id, attributes, sortOptions].**>
-			CAMCategoryUpdate[] poiCategories		
+			CAMCategoryUpdate[] poiCategories
 		}
 	}
 	<**	@description : Add new categories to the POI service component.
@@ -67,16 +68,16 @@ interface POIContentAccess {
 	method addCategories {
 		in {
 			<** @description : Content access module unique id as known by the POI service component.**>
-			ContentAccessModuleID camId		
+			ContentAccessModuleID camId
 			<**	@description : List of details for all the POI categories.**>
 			CAMCategory[] poiCategories
-		}	
+		}
 		out {
-			<**	
+			<**
 			@description : array of unique POI categories as registered by the POI service component.
 			Note: A POI category is a unique ID
 			**>
-			CategoryID[] poiCategoriesId			
+			CategoryID[] poiCategoriesId
 		}
 	}
 	<**	@description : Remove categories from the POI service component. It could be a predifined or a customed one.
@@ -84,10 +85,10 @@ interface POIContentAccess {
 	method removeCategories {
 		in {
 			<** @description : Content access module unique id as known by the POI service component.**>
-			ContentAccessModuleID camId		
+			ContentAccessModuleID camId
 			<**	@description : array[unique_id].
 			List of POI categories to remove.**>
-			CategoryID[] poiCategories		
+			CategoryID[] poiCategories
 		}
 	}
 }
