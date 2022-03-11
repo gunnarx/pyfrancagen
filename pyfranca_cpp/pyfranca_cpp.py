@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# (C) 2017 Gunnar Andersson
+# SPDX-License-Identifier: MPL-2.0
 
 # -*- coding: utf-8 -*-
 # vim: tw = 0
