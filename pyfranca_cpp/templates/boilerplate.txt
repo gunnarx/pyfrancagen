@@ -1,6 +1,0 @@
-/*
- * (C) 2017 TBD
- * License information
- * etc.
- *
- */

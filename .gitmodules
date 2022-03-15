@@ -4,3 +4,6 @@
 [submodule "jinja"]
 	path = jinja
 	url = https://github.com/pallets/jinja
+[submodule "pyfranca_cpp"]
+	path = pyfranca_cpp
+	url = https://github.com/Rosi2143/pyfranca_cpp.git
